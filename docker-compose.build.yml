@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
       # args:
       #   CA_CERT_URL: https://your-internal-ca/ca.crt
+      #   VITE_GA_ID: G-XXXXXXXXXX
     image: learn-dutch:latest
     container_name: learn-dutch-dev
     ports:

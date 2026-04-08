@@ -159,6 +159,45 @@ export default function App() {
           </button>
         ))}
       </div>
+
+      <div style={{
+        marginTop: "56px",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "16px",
+      }}>
+        <a
+          href="https://tfindley.co.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontSize: "11px",
+            color: "#4a4a4a",
+            letterSpacing: "2px",
+            textDecoration: "none",
+            textTransform: "uppercase",
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.color = "#f0e6c8"}
+          onMouseLeave={(e) => e.currentTarget.style.color = "#4a4a4a"}
+        >
+          tfindley.co.uk
+        </a>
+        <a
+          href="https://ko-fi.com/tfindley"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Support me on Ko-fi"
+        >
+          <img
+            src="https://ko-fi.com/img/githubbutton_sm.svg"
+            alt="Support me on Ko-fi"
+            style={{ height: "32px", opacity: 0.7, transition: "opacity 0.15s" }}
+            onMouseEnter={(e) => e.currentTarget.style.opacity = "1"}
+            onMouseLeave={(e) => e.currentTarget.style.opacity = "0.7"}
+          />
+        </a>
+      </div>
     </div>
   );
 }

@@ -91,6 +91,7 @@ jobs:
           REPO_NAME:        ${{ github.event.repository.name }}
           COMMIT_SHA:       ${{ github.sha }}
           CA_CERT_URL:      ${{ secrets.CA_CERT_URL }}
+          VITE_GA_ID:       ${{ secrets.VITE_GA_ID }}
         run: |
           set -eu
 
@@ -102,7 +103,10 @@ jobs:
 
           BUILD_ARGS=""
           if [ -n "${CA_CERT_URL:-}" ]; then
-            BUILD_ARGS="--build-arg CA_CERT_URL=${CA_CERT_URL}"
+            BUILD_ARGS="$BUILD_ARGS --build-arg CA_CERT_URL=${CA_CERT_URL}"
+          fi
+          if [ -n "${VITE_GA_ID:-}" ]; then
+            BUILD_ARGS="$BUILD_ARGS --build-arg VITE_GA_ID=${VITE_GA_ID}"
           fi
 
           # shellcheck disable=SC2086

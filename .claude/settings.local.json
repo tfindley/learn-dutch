@@ -5,7 +5,16 @@
       "Bash(git ls-remote:*)",
       "Bash(ssh -p 3022 git@code.findley.pm info)",
       "Bash(git -C /c/Users/tfind/Podman ls-files)",
-      "Read(//c/Users/tfind/Podman//**)"
+      "Read(//c/Users/tfind/Podman//**)",
+      "Bash(python3 -c ':*)",
+      "Bash(node -e ':*)",
+      "Bash(powershell -Command ':*)",
+      "Bash(tea pr:*)",
+      "Bash(git -C /c/Users/tfind/Podman/learn-dutch log origin/main..HEAD --oneline)",
+      "Bash(git -C /c/Users/tfind/Podman/learn-dutch status --short)",
+      "Bash(git -C /c/Users/tfind/Podman/learn-dutch diff origin/main..HEAD)",
+      "Read(//c/Users/tfind/Podman/**)",
+      "Bash(xargs grep:*)"
     ]
   }
 }

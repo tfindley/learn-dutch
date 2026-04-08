@@ -67,3 +67,4 @@ Required secrets (Repository → Settings → Actions → Secrets):
 Optional:
 
 - `CA_CERT_URL` — URL to a PEM CA bundle, passed as a Docker build arg
+- `VITE_GA_ID` — Google Analytics 4 Measurement ID (e.g. `G-XXXXXXXXXX`). When set, GA is injected at build time. Omit to disable analytics entirely.

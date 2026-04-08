@@ -17,8 +17,13 @@
 FROM node:20-alpine AS build
 
 ARG CA_CERT_URL=""
+ARG VITE_GA_ID=""
 
 WORKDIR /app
+
+# Expose VITE_GA_ID to the Vite build. VITE_* vars must be in the environment
+# (not just ARGs) for Vite to embed them in the compiled output.
+ENV VITE_GA_ID=$VITE_GA_ID
 
 # Install internal CA certificate before any npm traffic (optional).
 RUN if [ -n "${CA_CERT_URL}" ]; then \
