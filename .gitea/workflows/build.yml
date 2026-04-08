@@ -128,13 +128,13 @@ jobs:
 
           docker run -d --rm --name learn-dutch-test "${IMAGE}"
 
-          # Retrieve the container's bridge IP address.
-          CONTAINER_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' learn-dutch-test)
-          echo "Container IP: ${CONTAINER_IP}"
+          # The act_runner is itself a container and cannot reach the Docker
+          # bridge network where the test container lives. Use `docker exec`
+          # to run wget *inside* the test container — no network routing needed.
 
           # Poll /healthz for up to 15 seconds.
           i=0
-          until wget -qO- "http://${CONTAINER_IP}/healthz" 2>/dev/null | grep -q "ok"; do
+          until docker exec learn-dutch-test wget -qO- http://localhost/healthz 2>/dev/null | grep -q "ok"; do
             i=$((i + 1))
             [ $i -lt 15 ] || { echo "Container did not start in time"; docker stop learn-dutch-test; exit 1; }
             sleep 1
@@ -142,7 +142,7 @@ jobs:
           echo "Health check: OK"
 
           # Verify index.html is served.
-          wget -qO- "http://${CONTAINER_IP}/" | grep -q "<!DOCTYPE html" \
+          docker exec learn-dutch-test wget -qO- http://localhost/ | grep -q "<!DOCTYPE html" \
             || { echo "index.html not served"; docker stop learn-dutch-test; exit 1; }
           echo "index.html: OK"
 
