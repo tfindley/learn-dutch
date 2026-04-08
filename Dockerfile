@@ -45,6 +45,9 @@ RUN npm run build
 # ---------------------------------------------------------------------------
 FROM nginx:1.27-alpine AS serve
 
+# Upgrade all Alpine packages to pick up current security patches.
+RUN apk upgrade --no-cache
+
 LABEL maintainer="tfind"
 LABEL description="Learn Dutch — Belgian Dutch vocabulary and grammar reference"
 
