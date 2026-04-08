@@ -1,0 +1,11 @@
+services:
+  learn-dutch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # args:
+      #   CA_CERT_URL: https://your-internal-ca/ca.crt
+    image: learn-dutch:latest
+    container_name: learn-dutch-dev
+    ports:
+      - "8080:80"

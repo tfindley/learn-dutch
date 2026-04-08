@@ -1,0 +1,6 @@
+services:
+  learn-dutch:
+    image: code.findley.pm/artifacts/learn-dutch:latest
+    container_name: learn-dutch
+    ports:
+      - "8080:80"
