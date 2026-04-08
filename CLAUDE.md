@@ -4,17 +4,66 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-This is a "learn Dutch" project. Currently there are two files:
+Belgian Dutch learning app — two standalone React modules served as a static site from an nginx container.
 
-- dutch-100-words.jsx
-- dutch-grammer.jsx
+- `dutch-100-words.jsx` — vocabulary flashcard app (`DutchTutor` component). Updated periodically with new words/categories.
+- `dutch-grammar.jsx` — grammar rules and quiz app (`DutchGrammar` component). Updated periodically with new lessons.
+- `src/App.jsx` — landing page that renders a module picker and conditionally mounts the chosen component.
 
-We need to create a docker container to host the static content rendered by the .jsx files.
+## Development
 
-It should be executed by a Gitea runner (refer to previous gitea runner commands) to build a container. the container repo will be my gitea server.
+```bash
+npm install
+npm run dev        # dev server at http://localhost:5173
+npm run build      # production build → dist/
+npm run preview    # preview the built dist/
+```
 
-When run, the artifact should have a basic front end to choose which of the two sites to visit, then display the site that the user selects. the two sites are the two .jsx files (content) that are provided. These will get updated periodically and the container will need to be automatically rebuilt.
+## Docker
 
-### CI/CD
+```bash
+# Build
+docker build -t learn-dutch .
 
-Built by Gitea Actions on a `docker`-labelled runner. Pipeline: build → test → push. Follows the same pattern as the `ansible` container repo. Required secrets: `CI_REGISTRY_HOST`, `CI_REGISTRY_USER`, `CI_REGISTRY_TOKEN`. Optional: `CA_CERT_URL`.
+# Run
+docker run --rm -p 8080:80 learn-dutch
+# open http://localhost:8080
+```
+
+Pass `--build-arg CA_CERT_URL=<url>` if your npm traffic goes through a proxy with an internal CA.
+
+## Architecture
+
+```text
+index.html          Vite entry point
+vite.config.js      Vite config (React plugin only)
+src/
+  main.jsx          React 18 root
+  App.jsx           Landing page — imports both JSX modules, switches on state
+dutch-100-words.jsx Content module (root-level, imported by App.jsx)
+dutch-grammar.jsx   Content module (root-level, imported by App.jsx)
+nginx.conf          nginx config for the serve stage (includes /healthz endpoint)
+Dockerfile          Multi-stage: node:20-alpine build → nginx:1.27-alpine serve
+```
+
+The two `.jsx` content files live at the repo root (not under `src/`) so they are easy to find and update. `App.jsx` imports them with `../dutch-100-words` etc.
+
+## CI/CD
+
+Built by Gitea Actions on a `docker`-labelled runner. Pipeline: build → test → push.
+
+Workflow: [.gitea/workflows/build.yml](.gitea/workflows/build.yml)
+
+- Triggers on push to `main`, version tags (`v*`), or manual dispatch. Skips on `.md`-only changes.
+- Test step starts the built container and polls `/healthz` before verifying `index.html` is served.
+- Pushes `sha-<12char>` and `:latest` tags; also pushes `:<version>` on version tag pushes.
+
+Required secrets (Repository → Settings → Actions → Secrets):
+
+- `CI_REGISTRY_HOST` — registry hostname (e.g. `code.findley.pm`)
+- `CI_REGISTRY_USER` — registry username
+- `CI_REGISTRY_TOKEN` — registry password / personal access token
+
+Optional:
+
+- `CA_CERT_URL` — URL to a PEM CA bundle, passed as a Docker build arg

@@ -1,0 +1,174 @@
+# =============================================================================
+# CI/CD — Build, test, and push container image
+# =============================================================================
+#
+# OVERVIEW
+# --------
+# Single-arch build targeting the x86_64 `docker` runner.
+# Pipeline: build image → test it → push to Gitea registry.
+# Running tests before pushing ensures a broken image is never published.
+#
+# RUNNER
+# ------
+#   docker  — x86_64 Linux runner (gitea/act_runner, Alpine-based)
+#
+# SECRETS (set in Repository → Settings → Actions → Secrets)
+# -------
+# Required:
+#   CI_REGISTRY_HOST   — Registry hostname (e.g. code.findley.pm)
+#   CI_REGISTRY_USER   — Registry username
+#   CI_REGISTRY_TOKEN  — Registry password / personal access token
+#
+# Optional:
+#   CA_CERT_URL  — URL to an internal CA certificate bundle. Passed to
+#                  `docker build` so the Node build stage can fetch npm
+#                  packages through an internal proxy with a private CA.
+# =============================================================================
+
+name: Build Container Image
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+    paths-ignore:
+      - "*.md"
+  workflow_dispatch:
+
+jobs:
+
+  # ===========================================================================
+  # JOB: build-test-push
+  # ===========================================================================
+  build-test-push:
+
+    runs-on:
+      - docker
+
+    steps:
+
+      # Install tools required by subsequent steps.
+      # nodejs  — required by the actions/checkout JavaScript action
+      # docker-cli — the `docker` command (client only, no daemon)
+      - name: Install prerequisites
+        shell: sh
+        run: |
+          set -eu
+          apk add --no-cache git nodejs docker-cli
+
+      - name: Checkout
+        uses: https://github.com/actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Log in to registry
+        env:
+          CI_REGISTRY_HOST:  ${{ secrets.CI_REGISTRY_HOST }}
+          CI_REGISTRY_USER:  ${{ secrets.CI_REGISTRY_USER }}
+          CI_REGISTRY_TOKEN: ${{ secrets.CI_REGISTRY_TOKEN }}
+        run: |
+          set -eu
+          [ -n "${CI_REGISTRY_HOST:-}" ] || { echo "CI_REGISTRY_HOST missing"; exit 1; }
+          echo "$CI_REGISTRY_TOKEN" | docker login "$CI_REGISTRY_HOST" \
+            -u "$CI_REGISTRY_USER" --password-stdin
+
+      # -----------------------------------------------------------------------
+      # BUILD
+      # -----------------------------------------------------------------------
+      - name: Build image
+        shell: sh
+        env:
+          CI_REGISTRY_HOST: ${{ secrets.CI_REGISTRY_HOST }}
+          REPO_OWNER:       ${{ github.repository_owner }}
+          REPO_NAME:        ${{ github.event.repository.name }}
+          COMMIT_SHA:       ${{ github.sha }}
+          CA_CERT_URL:      ${{ secrets.CA_CERT_URL }}
+        run: |
+          set -eu
+
+          IMAGE_BASE=$(printf "%s/%s/%s" "$CI_REGISTRY_HOST" "$REPO_OWNER" "$REPO_NAME" \
+            | tr '[:upper:]' '[:lower:]')
+
+          SHA_SHORT=$(echo "$COMMIT_SHA" | cut -c1-12)
+          SHA_TAG="${IMAGE_BASE}:sha-${SHA_SHORT}"
+
+          BUILD_ARGS=""
+          if [ -n "${CA_CERT_URL:-}" ]; then
+            BUILD_ARGS="--build-arg CA_CERT_URL=${CA_CERT_URL}"
+          fi
+
+          # shellcheck disable=SC2086
+          docker build \
+            -t "${SHA_TAG}" \
+            --load \
+            ${BUILD_ARGS} \
+            --label "org.opencontainers.image.source=${GITHUB_SERVER_URL:-}/${GITHUB_REPOSITORY:-}" \
+            --label "org.opencontainers.image.revision=${COMMIT_SHA}" \
+            --label "org.opencontainers.image.created=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            .
+
+          echo "${SHA_TAG}" > /tmp/image_tag
+          echo "${IMAGE_BASE}" > /tmp/image_base
+
+      # -----------------------------------------------------------------------
+      # TEST
+      # -----------------------------------------------------------------------
+      # Start the container and verify nginx serves the app correctly.
+      # Using the /healthz endpoint to avoid parsing HTML.
+      # `docker run -d` returns immediately; we poll until the container
+      # is ready rather than sleeping a fixed duration.
+      - name: Test — nginx serves app
+        shell: sh
+        run: |
+          set -eu
+          IMAGE=$(cat /tmp/image_tag)
+          echo "Testing image: ${IMAGE}"
+
+          docker run -d --rm --name learn-dutch-test -p 18080:80 "${IMAGE}"
+
+          # Poll /healthz for up to 10 seconds.
+          i=0
+          until wget -qO- http://localhost:18080/healthz 2>/dev/null | grep -q "ok"; do
+            i=$((i + 1))
+            [ $i -lt 10 ] || { echo "Container did not start in time"; docker stop learn-dutch-test; exit 1; }
+            sleep 1
+          done
+          echo "Health check: OK"
+
+          # Verify index.html is served and contains expected content.
+          wget -qO- http://localhost:18080/ | grep -q "<!DOCTYPE html" \
+            || { echo "index.html not served"; docker stop learn-dutch-test; exit 1; }
+          echo "index.html: OK"
+
+          docker stop learn-dutch-test
+
+      # -----------------------------------------------------------------------
+      # PUSH
+      # -----------------------------------------------------------------------
+      # Push the sha-specific tag and update :latest.
+      # On a version tag push, also publish the version tag.
+      - name: Push image
+        shell: sh
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          set -eu
+          SHA_TAG=$(cat /tmp/image_tag)
+          IMAGE_BASE=$(cat /tmp/image_base)
+
+          docker push "${SHA_TAG}"
+          echo "Pushed: ${SHA_TAG}"
+
+          docker tag "${SHA_TAG}" "${IMAGE_BASE}:latest"
+          docker push "${IMAGE_BASE}:latest"
+          echo "Pushed: ${IMAGE_BASE}:latest"
+
+          REF="${GITHUB_REF:-}"
+          if echo "$REF" | grep -q '^refs/tags/v'; then
+            VERSION="${REF#refs/tags/}"
+            docker tag "${SHA_TAG}" "${IMAGE_BASE}:${VERSION}"
+            docker push "${IMAGE_BASE}:${VERSION}"
+            echo "Pushed: ${IMAGE_BASE}:${VERSION}"
+          fi

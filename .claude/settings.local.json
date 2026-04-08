@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(gh pr:*)"
+      "Bash(gh pr:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(ssh -p 3022 git@code.findley.pm info)",
+      "Bash(git -C /c/Users/tfind/Podman ls-files)",
+      "Read(//c/Users/tfind/Podman//**)"
     ]
   }
 }
