@@ -1,0 +1,9 @@
+# Enforce Unix line endings for all text files, regardless of OS.
+* text=auto eol=lf
+
+# Explicitly mark binary files to prevent line-ending conversion.
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
