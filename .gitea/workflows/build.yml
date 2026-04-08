@@ -115,10 +115,10 @@ jobs:
       # -----------------------------------------------------------------------
       # TEST
       # -----------------------------------------------------------------------
-      # Start the container and verify nginx serves the app correctly.
-      # Using the /healthz endpoint to avoid parsing HTML.
-      # `docker run -d` returns immediately; we poll until the container
-      # is ready rather than sleeping a fixed duration.
+      # The act_runner is itself a container. Port-publishing (-p host:container)
+      # exposes ports on the *host*, not inside the runner — so localhost:<port>
+      # won't reach the test container. Instead we start the container without
+      # port-publishing and connect directly to its bridge IP on port 80.
       - name: Test — nginx serves app
         shell: sh
         run: |
@@ -126,19 +126,23 @@ jobs:
           IMAGE=$(cat /tmp/image_tag)
           echo "Testing image: ${IMAGE}"
 
-          docker run -d --rm --name learn-dutch-test -p 18080:80 "${IMAGE}"
+          docker run -d --rm --name learn-dutch-test "${IMAGE}"
 
-          # Poll /healthz for up to 10 seconds.
+          # Retrieve the container's bridge IP address.
+          CONTAINER_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' learn-dutch-test)
+          echo "Container IP: ${CONTAINER_IP}"
+
+          # Poll /healthz for up to 15 seconds.
           i=0
-          until wget -qO- http://localhost:18080/healthz 2>/dev/null | grep -q "ok"; do
+          until wget -qO- "http://${CONTAINER_IP}/healthz" 2>/dev/null | grep -q "ok"; do
             i=$((i + 1))
-            [ $i -lt 10 ] || { echo "Container did not start in time"; docker stop learn-dutch-test; exit 1; }
+            [ $i -lt 15 ] || { echo "Container did not start in time"; docker stop learn-dutch-test; exit 1; }
             sleep 1
           done
           echo "Health check: OK"
 
-          # Verify index.html is served and contains expected content.
-          wget -qO- http://localhost:18080/ | grep -q "<!DOCTYPE html" \
+          # Verify index.html is served.
+          wget -qO- "http://${CONTAINER_IP}/" | grep -q "<!DOCTYPE html" \
             || { echo "index.html not served"; docker stop learn-dutch-test; exit 1; }
           echo "index.html: OK"
 
