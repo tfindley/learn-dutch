@@ -56,7 +56,7 @@ jobs:
         shell: sh
         run: |
           set -eu
-          apk add --no-cache git nodejs docker-cli
+          apk add --no-cache git nodejs docker-cli docker-cli-buildx
 
       - name: Checkout
         uses: https://github.com/actions/checkout@v4
