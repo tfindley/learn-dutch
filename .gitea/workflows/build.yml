@@ -35,6 +35,12 @@ on:
       - "v*"
     paths-ignore:
       - "*.md"
+  # Rebuild every Monday at 03:00 UTC.
+  # Even with no code changes, `apk upgrade --no-cache` in the Dockerfile
+  # means each rebuild picks up the latest Alpine security patches — keeping
+  # the published image fresh without any manual intervention.
+  schedule:
+    - cron: '0 3 * * 1'
   workflow_dispatch:
 
 jobs:
