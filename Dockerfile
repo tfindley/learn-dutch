@@ -37,10 +37,9 @@ COPY package.json package-lock.json* ./
 RUN npm ci --prefer-offline 2>/dev/null || npm install
 
 # Copy source.
-# dutch-100-words.jsx and dutch-grammar.jsx live at the repo root
-# and are imported directly by src/App.jsx.
+# Content modules live at the repo root and are imported directly by src/App.jsx.
 COPY index.html vite.config.js ./
-COPY dutch-100-words.jsx dutch-grammar.jsx ./
+COPY dutch-100-words.jsx dutch-grammar.jsx dutch-tests.jsx ./
 COPY src/ ./src/
 
 RUN npm run build
