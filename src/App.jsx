@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DutchTutor from "../dutch-100-words";
 import DutchGrammar from "../dutch-grammar";
+import DutchTests from "../dutch-tests";
 
 const SITES = [
   {
@@ -18,6 +19,14 @@ const SITES = [
     accent: "#2ecc71",
     bg: "#0d200d",
     border: "#1a3a1a",
+  },
+  {
+    id: "tests",
+    title: "Tests",
+    subtitle: "Practice quizzes & marathon sessions",
+    accent: "#7c6fcd",
+    bg: "#0e0d1a",
+    border: "#1e1c3a",
   },
 ];
 
@@ -38,6 +47,15 @@ export default function App() {
       <div>
         <BackButton onClick={() => setActive(null)} color="#2ecc71" />
         <DutchGrammar />
+      </div>
+    );
+  }
+
+  if (active === "tests") {
+    return (
+      <div>
+        <BackButton onClick={() => setActive(null)} color="#7c6fcd" />
+        <DutchTests />
       </div>
     );
   }
@@ -167,22 +185,47 @@ export default function App() {
         alignItems: "center",
         gap: "16px",
       }}>
-        <a
-          href="https://tfindley.co.uk"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            fontSize: "11px",
-            color: "#4a4a4a",
-            letterSpacing: "2px",
-            textDecoration: "none",
-            textTransform: "uppercase",
-          }}
-          onMouseEnter={(e) => e.currentTarget.style.color = "#f0e6c8"}
-          onMouseLeave={(e) => e.currentTarget.style.color = "#4a4a4a"}
-        >
-          tfindley.co.uk
-        </a>
+        <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
+          <a
+            href="https://tfindley.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontSize: "11px",
+              color: "#4a4a4a",
+              letterSpacing: "2px",
+              textDecoration: "none",
+              textTransform: "uppercase",
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.color = "#f0e6c8"}
+            onMouseLeave={(e) => e.currentTarget.style.color = "#4a4a4a"}
+          >
+            tfindley.co.uk
+          </a>
+          <a
+            href="https://github.com/tfindley/learn-dutch"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="View source on GitHub"
+            style={{
+              fontSize: "11px",
+              color: "#4a4a4a",
+              letterSpacing: "2px",
+              textDecoration: "none",
+              textTransform: "uppercase",
+              display: "flex",
+              alignItems: "center",
+              gap: "6px",
+            }}
+            onMouseEnter={(e) => e.currentTarget.style.color = "#f0e6c8"}
+            onMouseLeave={(e) => e.currentTarget.style.color = "#4a4a4a"}
+          >
+            <svg height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
         <a
           href="https://ko-fi.com/tfindley"
           target="_blank"

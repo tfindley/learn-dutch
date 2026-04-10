@@ -1,0 +1,88 @@
+# =============================================================================
+# CI — Build and test container image
+# =============================================================================
+#
+# OVERVIEW
+# --------
+# Builds the Docker image and runs the test suite on every push to main and
+# on pull requests. Does not push to a registry — the Gitea instance handles
+# publishing to the private container registry.
+#
+# SECRETS
+# -------
+# Optional:
+#   VITE_GA_ID  — Google Analytics 4 Measurement ID (e.g. G-XXXXXXXXXX).
+#                 Set in Repository → Settings → Secrets and variables → Actions.
+#                 Omit to build without analytics.
+# =============================================================================
+
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+    paths-ignore:
+      - "*.md"
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "*.md"
+  workflow_dispatch:
+
+jobs:
+
+  build-and-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # -----------------------------------------------------------------------
+      # BUILD
+      # -----------------------------------------------------------------------
+      - name: Build image
+        env:
+          VITE_GA_ID: ${{ secrets.VITE_GA_ID }}
+        run: |
+          set -eu
+
+          BUILD_ARGS=""
+          if [ -n "${VITE_GA_ID:-}" ]; then
+            BUILD_ARGS="--build-arg VITE_GA_ID=${VITE_GA_ID}"
+          fi
+
+          # shellcheck disable=SC2086
+          docker build \
+            -t learn-dutch:ci \
+            ${BUILD_ARGS} \
+            --label "org.opencontainers.image.revision=${GITHUB_SHA}" \
+            --label "org.opencontainers.image.created=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            .
+
+      # -----------------------------------------------------------------------
+      # TEST
+      # -----------------------------------------------------------------------
+      - name: Test — nginx config
+        run: |
+          docker run --rm learn-dutch:ci nginx -t
+          echo "nginx config: OK"
+
+      - name: Test — static assets
+        run: |
+          docker run --rm learn-dutch:ci ls /usr/share/nginx/html/index.html
+          echo "index.html: OK"
+
+          docker run --rm learn-dutch:ci sh -c '
+            ls /usr/share/nginx/html/assets/*.js | head -1 | grep -q "." \
+              || { echo "No JS assets found"; exit 1; }
+            echo "JS assets: OK"
+          '
