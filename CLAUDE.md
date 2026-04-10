@@ -59,7 +59,7 @@ Two CI pipelines run in parallel.
 **GitHub Actions** ([.github/workflows/build.yml](.github/workflows/build.yml)) — `ubuntu-latest` runner:
 
 - Triggers on push to `main`, version tags (`v*`), PRs, or manual dispatch. Skips `.md`-only changes.
-- Builds the Docker image and runs the test suite. Does not push to a registry.
+- Pushes to `ghcr.io/tfindley/learn-dutch` using the built-in `GITHUB_TOKEN` — no extra secrets needed. PRs run build + test only (no push).
 - Optional secret: `VITE_GA_ID`
 
 **Gitea Actions** ([.gitea/workflows/build.yml](.gitea/workflows/build.yml)) — `docker`-labelled runner:
@@ -69,7 +69,7 @@ Two CI pipelines run in parallel.
 
 Required secrets (Gitea — Repository → Settings → Actions → Secrets):
 
-- `CI_REGISTRY_HOST` — registry hostname (e.g. `code.findley.pm`)
+- `CI_REGISTRY_HOST` — registry hostname
 - `CI_REGISTRY_USER` — registry username
 - `CI_REGISTRY_TOKEN` — registry password / personal access token
 

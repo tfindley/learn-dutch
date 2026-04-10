@@ -15,7 +15,7 @@
 # SECRETS (set in Repository → Settings → Actions → Secrets)
 # -------
 # Required:
-#   CI_REGISTRY_HOST   — Registry hostname (e.g. code.findley.pm)
+#   CI_REGISTRY_HOST   — Registry hostname
 #   CI_REGISTRY_USER   — Registry username
 #   CI_REGISTRY_TOKEN  — Registry password / personal access token
 #

@@ -1,12 +1,17 @@
 # =============================================================================
-# CI — Build and test container image
+# CI/CD — Build, test, and push container image to GitHub Container Registry
 # =============================================================================
 #
 # OVERVIEW
 # --------
-# Builds the Docker image and runs the test suite on every push to main and
-# on pull requests. Does not push to a registry — the Gitea instance handles
-# publishing to the private container registry.
+# Builds the Docker image, runs the test suite, then pushes to ghcr.io on
+# pushes to main and version tags. Pull requests run build + test only (no push).
+#
+# REGISTRY
+# --------
+# Images are pushed to ghcr.io/tfindley/learn-dutch.
+# Authentication uses the built-in GITHUB_TOKEN — no extra secrets needed.
+# The `packages: write` permission below grants push access to the registry.
 #
 # SECRETS
 # -------
@@ -33,9 +38,13 @@ on:
       - "*.md"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
 
-  build-and-test:
+  build-test-push:
 
     runs-on: ubuntu-latest
 
@@ -46,14 +55,30 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Log in to GitHub Container Registry
+        # Only log in when we're going to push (not on PRs).
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
       # -----------------------------------------------------------------------
       # BUILD
       # -----------------------------------------------------------------------
       - name: Build image
         env:
-          VITE_GA_ID: ${{ secrets.VITE_GA_ID }}
+          VITE_GA_ID:  ${{ secrets.VITE_GA_ID }}
+          COMMIT_SHA:  ${{ github.sha }}
+          REPO_OWNER:  ${{ github.repository_owner }}
+          REPO_NAME:   ${{ github.event.repository.name }}
         run: |
           set -eu
+
+          IMAGE_BASE="ghcr.io/$(echo "${REPO_OWNER}/${REPO_NAME}" | tr '[:upper:]' '[:lower:]')"
+          SHA_SHORT=$(echo "$COMMIT_SHA" | cut -c1-12)
+          SHA_TAG="${IMAGE_BASE}:sha-${SHA_SHORT}"
 
           BUILD_ARGS=""
           if [ -n "${VITE_GA_ID:-}" ]; then
@@ -62,27 +87,59 @@ jobs:
 
           # shellcheck disable=SC2086
           docker build \
-            -t learn-dutch:ci \
+            -t "${SHA_TAG}" \
             ${BUILD_ARGS} \
-            --label "org.opencontainers.image.revision=${GITHUB_SHA}" \
+            --label "org.opencontainers.image.source=https://github.com/${REPO_OWNER}/${REPO_NAME}" \
+            --label "org.opencontainers.image.revision=${COMMIT_SHA}" \
             --label "org.opencontainers.image.created=$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
             .
+
+          echo "${SHA_TAG}" > /tmp/image_tag
+          echo "${IMAGE_BASE}" > /tmp/image_base
 
       # -----------------------------------------------------------------------
       # TEST
       # -----------------------------------------------------------------------
       - name: Test — nginx config
         run: |
-          docker run --rm learn-dutch:ci nginx -t
+          docker run --rm "$(cat /tmp/image_tag)" nginx -t
           echo "nginx config: OK"
 
       - name: Test — static assets
         run: |
-          docker run --rm learn-dutch:ci ls /usr/share/nginx/html/index.html
+          docker run --rm "$(cat /tmp/image_tag)" ls /usr/share/nginx/html/index.html
           echo "index.html: OK"
 
-          docker run --rm learn-dutch:ci sh -c '
+          docker run --rm "$(cat /tmp/image_tag)" sh -c '
             ls /usr/share/nginx/html/assets/*.js | head -1 | grep -q "." \
               || { echo "No JS assets found"; exit 1; }
             echo "JS assets: OK"
           '
+
+      # -----------------------------------------------------------------------
+      # PUSH
+      # -----------------------------------------------------------------------
+      # Only push on main branch pushes and version tags — not on PRs.
+      - name: Push image
+        if: github.event_name != 'pull_request'
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          set -eu
+          SHA_TAG=$(cat /tmp/image_tag)
+          IMAGE_BASE=$(cat /tmp/image_base)
+
+          docker push "${SHA_TAG}"
+          echo "Pushed: ${SHA_TAG}"
+
+          docker tag "${SHA_TAG}" "${IMAGE_BASE}:latest"
+          docker push "${IMAGE_BASE}:latest"
+          echo "Pushed: ${IMAGE_BASE}:latest"
+
+          REF="${GITHUB_REF:-}"
+          if echo "$REF" | grep -q '^refs/tags/v'; then
+            VERSION="${REF#refs/tags/}"
+            docker tag "${SHA_TAG}" "${IMAGE_BASE}:${VERSION}"
+            docker push "${IMAGE_BASE}:${VERSION}"
+            echo "Pushed: ${IMAGE_BASE}:${VERSION}"
+          fi
