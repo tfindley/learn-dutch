@@ -4,12 +4,15 @@ A self-hosted Belgian Dutch learning app — three interactive modules served as
 
 [![Build and Test](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml/badge.svg)](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml)
 
+## Disclaimer
+This tool was written collaboratively with AI: Claude Code - Claude Sonnet 4.6. [CLAUDE.md](CLAUDE.md) is included for reference.
+
 ## Modules
 
 | Module | Description |
 | --- | --- |
 | **100 Words** | Essential vocabulary with phonetics and flip-card practice |
-| **Grammar** | Rules, patterns, and interactive quizzes across multiple leerpaden |
+| **Grammar** | Rules, patterns, and conversations across multiple leerpaden |
 | **Tests** | Practice quizzes and marathon sessions to test recall |
 
 All content is focused on **Belgian Dutch** — pronunciation, vocabulary, and usage specific to Belgium rather than the Netherlands.

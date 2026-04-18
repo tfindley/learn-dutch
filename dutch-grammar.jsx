@@ -1131,67 +1131,126 @@ const RULES = [
     tag: "LEERPAD 4C",
     title: "Ga je mee winkelen? — Are you coming shopping?",
     difficulty: "easy",
-    shortcut: "Fruit and veg follow the same de/het rules as all nouns — most are de-words. Plural forms follow the spelling rules you already know.",
-    explanation: "Leerpad 4C brings the shopping invitation into the food world. You learn fruit and vegetable vocabulary, how to talk about buying them, and quantities. A good test of whether your plural spelling rules and de/het knowledge are sticking.",
+    shortcut: "Learn the supermarket categories first — they tell you where to find everything. Then containers, then paying.",
+    explanation: "Leerpad 4C covers a full supermarket trip: the product categories, what's in each aisle, how to describe quantities with the right container word, making a shopping list, and paying — including the very Belgian question 'Betaalt u gepast?'",
     patterns: [
-      { rule: "Fruit — de-words (singular → plural)", examples: [
-        "de sinaasappel [dee sin-aas-AP-pul] → de sinaasappels — orange / oranges",
-        "de appel → de appels — apple / apples",
-        "de peer → de peren — pear / pears ← long ee stays long: pe-ren",
-        "de kers → de kersen — cherry / cherries",
-        "de aardbei [duh AART-bay] → de aardbeien — strawberry / strawberries",
-        "de banaan → de bananen — banana / bananas ← long aa stays long: ba-na-nen",
-        "de druif [duh drowf] → de druiven — grape / grapes ← f → v rule!",
-        "de ananas → de ananassen — pineapple / pineapples",
-        "de watermeloen → de watermeloenen — watermelon / watermelons",
+      { rule: "De winkelafdeling — shop categories", examples: [
+        "de groenten [duh KHROO-tun] — vegetables",
+        "het fruit [huht frowt] — fruit",
+        "de bakkerij [duh bak-kuh-RAY] — bakery",
+        "het vlees [huht vlays] — meat",
+        "de vis [duh fis] — fish",
+        "de zuivel [duh ZOW-vul] — dairy",
+        "de dranken [duh DRANK-un] — drinks",
+        "de niet-voeding [duh NEET-foo-ding] — non-food (toiletries, cleaning, etc.)",
       ]},
-      { rule: "Groenten — vegetables (also de-words)", examples: [
-        "de wortel [duh VOR-tul] → de wortels — carrot / carrots",
-        "de aardappel [duh AART-ap-pul] → de aardappels — potato / potatoes",
-        "de tomaat [duh toh-MAAT] → de tomaten — tomato / tomatoes ← long aa stays long: to-ma-ten",
-        "↳ 'aardappel' = earth apple! aard = earth, appel = apple",
+      { rule: "Groenten — vegetables", examples: [
+        "de wortel / wortelen — carrot / carrots",
+        "de aardappel / aardappels — potato / potatoes (aard = earth, appel = apple)",
+        "de broccoli — broccoli (same in Dutch, no plural change)",
+        "de bloemkool — cauliflower (bloem = flower, kool = cabbage)",
+        "de champignon / champignons [sham-pin-YON] — mushroom / mushrooms",
+        "de aubergine [oh-ber-ZHEEN] — aubergine / eggplant",
+        "de tomaat / tomaten — tomato / tomatoes ⚠ botanically a fruit, sold with vegetables!",
+        "de look [duh look] — garlic ← Belgian Dutch! ('knoflook' in NL Dutch)",
       ]},
-      { rule: "Useful shopping phrases for the market", examples: [
-        "Heeft u ___? / Hebt u ___? (Do you have ___?) ← formal, to a shopkeeper",
-        "Mag ik ___ kilo ___? (May I have ___ kilo of ___?)",
-        "Een kilo sinaasappels, alsjeblieft. (A kilo of oranges, please.)",
-        "Een tros bananen, alsjeblieft. (A bunch of bananas, please.)",
-        "Een tros druiven, alsjeblieft. (A bunch of grapes, please.)",
-        "Hoe-veel kosten de aardbeien? (How much do the strawberries cost?)",
-        "Ze zijn te duur! / Dat is een koopje! (Too expensive! / That's a bargain!)",
+      { rule: "Fruit", examples: [
+        "de sinaasappel / sinaasappels — orange / oranges",
+        "de banaan / bananen — banana / bananas",
+        "de aardbei / aardbeien — strawberry / strawberries",
+        "de kers / kersen — cherry / cherries",
+        "de citroen / citroenen — lemon / lemons",
+        "de kiwi / kiwis — kiwi / kiwis",
+        "de druif / druiven — grape / grapes ← f→v rule",
+        "de noot / noten — nut / nuts · het nootje / nootjes — small nut (diminutive)",
       ]},
-      { rule: "De tros — bunch (bananas and grapes)", examples: [
-        "de tros [duh tros] — the bunch / cluster",
-        "een tros bananen — a bunch of bananas",
-        "een tros druiven — a bunch of grapes",
-        "↳ Use 'tros' specifically for things that grow in clusters",
+      { rule: "Bakkerij, zuivel & vlees", examples: [
+        "het brood — bread (het-word!)",
+        "de croissant [duh krwa-SANT] — croissant",
+        "de taart — cake / tart",
+        "de koekjes — cookies / biscuits (already diminutive plural)",
+        "het ei / eieren — egg / eggs ← het-word! (het ei, not de ei)",
+        "de melk — milk",
+        "de boter — butter",
+        "de kaas — cheese",
+        "de yoghurt — yoghurt",
+        "de room — cream",
+        "de ham — ham",
+        "de chocolade — chocolate (uncountable as a substance; een reep chocolade = a bar of chocolate)",
       ]},
-      { rule: "Ga je mee winkelen? — linking back to LP3C", examples: [
-        "Ga je mee winkelen? (Are you coming shopping?)",
-        "Ga je mee naar de markt? (Are you coming to the market?)",
-        "Ga je mee naar de supermarkt? (Are you coming to the supermarket?)",
-        "Ik moet nog boodschappen doen. (I still have to do the grocery shopping.)",
+      { rule: "Vis & dranken", examples: [
+        "de zalm — salmon",
+        "de tonijn — tuna",
+        "de mossel / mosselen — mussel / mussels ← not 'mossels'!",
+        "het bier / bieren — beer / beers",
+        "de wijn — wine",
+        "het fruitsap — fruit juice (het-word)",
+        "de confituur [duh kon-fee-TUUR] — jam ← Belgian Dutch! ('jam' or 'marmelade' in NL)",
+      ]},
+      { rule: "Niet-voeding — non-food", examples: [
+        "de tandpasta — toothpaste",
+        "de zeep — soap",
+        "de shampoo — shampoo",
+        "het waspoeder — washing powder (het-word)",
+        "het afwasmiddel — dish soap / washing-up liquid (het-word)",
+      ]},
+      { rule: "Verpakking — container / packaging words", examples: [
+        "een reep / repen — a bar (chocolate, etc.): een reep chocolade",
+        "een sneetje / sneetjes — a slice (bread, ham): een sneetje brood",
+        "een stuk / stukken — a piece: een stuk kaas",
+        "een blik / blikken — a tin/can: een blik tomaten, een blik tonijn",
+        "een doos / dozen — a box: een doos koekjes",
+        "een pakje — a small pack: een pakje boter",
+        "een pak / pakken — a pack/carton: een pak melk, een pak waspoeder",
+        "een brik / brikken — a carton (drink): een brik fruitsap",
+        "een pot / potten — a jar: een pot confituur",
+        "een potje / potjes — a small jar (diminutive): een potje yoghurt",
+        "een fles / flessen — a bottle: een fles wijn, een fles shampoo",
+        "een zak / zakken — a bag/sack: een zak aardappels",
+        "een bak / bakken — a tray/crate: een bak aardbeien",
+        "een tros — a bunch (bananas, grapes): een tros bananen",
+        "een bos — a bunch (herbs, flowers): een bos peterselie",
+      ]},
+      { rule: "De boodschappenlijst — the shopping list", examples: [
+        "de boodschappenlijst [duh BOHT-skhap-pun-layst] — the shopping list",
         "Wat staat er op de boodschappenlijst? (What is on the shopping list?)",
+        "Ik moet ___ hebben. (I need to have ___.)",
+        "Vergeet de ___ niet! (Don't forget the ___!)",
+        "Heb je de boodschappenlijst? (Do you have the shopping list?)",
+        "In the shop: de winkelwagen [duh VIN-kul-vah-khun] — the shopping trolley",
+        "de mand [duh mant] — the (shopping) basket",
+      ]},
+      { rule: "Betalen — paying at the till", examples: [
+        "Betaalt u gepast? (Are you paying exact change?) ← the classic Belgian till question",
+        "'gepast betalen' = to pay the exact amount (no change needed)",
+        "Ja, ik betaal gepast. (Yes, I'm paying exact change.)",
+        "Nee, ik heb geen gepast. (No, I don't have exact change.)",
+        "contant betalen — to pay cash",
+        "met de pinpas / bankkaart betalen — to pay by card",
+        "de pinpas [duh PIN-pas] — the debit card",
+        "het wisselgeld [huht VIS-sul-khelt] — the change (money back)",
+        "Uw wisselgeld. (Your change.) ← what the cashier says",
       ]},
     ],
-    memory: "🧠 Most fruit and veg = de-words. For plurals, apply the rules you know: druif → druiven (f→v), tomaat → tomaten (long aa open syllable), banaan → bananen (same), peer → peren (same).",
+    memory: "🧠 Container words are the key to natural shopping Dutch. 'Een pak melk' (carton), 'een fles wijn' (bottle), 'een blik tonijn' (tin), 'een reep chocolade' (bar). Get those right and you sound native at the till.",
     examples: [
-      { nl: "Ga je mee winkelen naar de markt?", en: "Are you coming shopping to the market?" },
-      { nl: "Een kilo aardappels en een tros bananen, alsjeblieft.", en: "A kilo of potatoes and a bunch of bananas, please." },
-      { nl: "Hoeveel kosten de aardbeien?", en: "How much do the strawberries cost?" },
-      { nl: "De druiven zijn te duur. Ik neem liever een appel.", en: "The grapes are too expensive. I'd rather take an apple." },
-      { nl: "Ik moet nog boodschappen doen in de supermarkt.", en: "I still have to do the grocery shopping at the supermarket." },
+      { nl: "Wat staat er op de boodschappenlijst?", en: "What is on the shopping list?" },
+      { nl: "Een pak melk, een pot confituur en een blik tonijn.", en: "A carton of milk, a jar of jam and a tin of tuna." },
+      { nl: "Betaalt u gepast?", en: "Are you paying exact change?" },
+      { nl: "Nee, ik betaal met de pinpas.", en: "No, I'm paying by card." },
+      { nl: "De tomaat zit bij de groenten, maar het is eigenlijk een fruit.", en: "The tomato is with the vegetables, but it is actually a fruit." },
+      { nl: "Uw wisselgeld: twee euro vijftig.", en: "Your change: two euros fifty." },
     ],
     practice: [
-      { role: "A", dutch: "Ga je mee winkelen?", english: "Are you coming shopping?" },
-      { role: "B", dutch: "Ja, graag! Naar de markt of naar de supermarkt?", english: "Yes please! To the market or to the supermarket?" },
-      { role: "A", dutch: "Naar de markt. Ik wil fruit kopen.", english: "To the market. I want to buy fruit." },
-      { role: "B", dutch: "Goed idee! Wat staat er op de boodschappenlijst?", english: "Good idea! What is on the shopping list?" },
-      { role: "A", dutch: "Aardbeien, bananen en een tros druiven.", english: "Strawberries, bananas and a bunch of grapes." },
-      { role: "B", dutch: "En groenten? Aardappels en wortels?", english: "And vegetables? Potatoes and carrots?" },
-      { role: "A", dutch: "Ja! Hoeveel kosten de tomaten?", english: "Yes! How much do the tomatoes cost?" },
-      { role: "B", dutch: "Twee euro per kilo. Dat is een koopje!", english: "Two euro per kilo. That's a bargain!" },
-      { role: "A", dutch: "Mag ik een kilo tomaten, alsjeblieft?", english: "May I have a kilo of tomatoes, please?" },
+      { role: "A", dutch: "Ga je mee winkelen? Ik moet boodschappen doen.", english: "Are you coming shopping? I need to do the groceries." },
+      { role: "B", dutch: "Ja, graag! Wat staat er op de boodschappenlijst?", english: "Yes please! What is on the shopping list?" },
+      { role: "A", dutch: "Een pak melk, een pot confituur, een blik tonijn en brood.", english: "A carton of milk, a jar of jam, a tin of tuna and bread." },
+      { role: "B", dutch: "En fruit? Een tros bananen?", english: "And fruit? A bunch of bananas?" },
+      { role: "A", dutch: "Goed idee! En een zak aardappels voor vanavond.", english: "Good idea! And a bag of potatoes for tonight." },
+      { role: "A", dutch: "Betaalt u gepast?", english: "Are you paying exact change?" },
+      { role: "B", dutch: "Nee, ik betaal met de pinpas. / Ja, ik betaal gepast.", english: "No, I'm paying by card. / Yes, I'm paying exact change." },
+      { role: "A", dutch: "Uw wisselgeld: één euro twintig.", english: "Your change: one euro twenty." },
+      { role: "B", dutch: "Dank u wel!", english: "Thank you!" },
     ],
   },
   {
@@ -2129,6 +2188,216 @@ export default function DutchGrammar() {
         <span>{rule?.tag}</span>
         <span style={{ marginLeft: "auto" }}>🇧🇪 BELGISCH NEDERLANDS</span>
       </div>
+    </div>
+  );
+}
+
+function QuizView({ rule, quizIndex, quizSelected, quizSubmitted, quizScore, quizCompleted,
+                    setQuizIndex, setQuizSelected, setQuizSubmitted, setQuizScore, setQuizCompleted }) {
+  const total = rule.questions.length;
+
+  const handleSelect = (idx) => {
+    if (!quizSubmitted) setQuizSelected(idx);
+  };
+
+  const handleCheck = () => {
+    if (quizSelected === null) return;
+    setQuizSubmitted(true);
+    if (quizSelected === rule.questions[quizIndex].answer) setQuizScore(s => s + 1);
+  };
+
+  const handleNext = () => {
+    if (quizIndex + 1 >= total) {
+      setQuizCompleted(true);
+    } else {
+      setQuizIndex(i => i + 1);
+      setQuizSelected(null);
+      setQuizSubmitted(false);
+    }
+  };
+
+  const handleRetake = () => {
+    setQuizIndex(0); setQuizSelected(null);
+    setQuizSubmitted(false); setQuizScore(0); setQuizCompleted(false);
+  };
+
+  const LABELS = ["A", "B", "C", "D"];
+
+  if (quizCompleted) {
+    const pct = Math.round((quizScore / total) * 100);
+    const grade = pct >= 90 ? "🏆 Uitstekend!" : pct >= 70 ? "✅ Goed gedaan!" : pct >= 50 ? "📖 Bijna!" : "💪 Blijf oefenen!";
+    const gradeEn = pct >= 90 ? "Excellent!" : pct >= 70 ? "Well done!" : pct >= 50 ? "Almost there!" : "Keep practising!";
+    return (
+      <div style={{ maxWidth: "520px", margin: "40px auto", textAlign: "center" }}>
+        <div style={{ fontSize: "11px", color: "#e74c3c", letterSpacing: "3px", marginBottom: "24px" }}>{rule.tag}</div>
+        <div style={{ fontSize: "48px", marginBottom: "12px" }}>{pct >= 70 ? "🎉" : "📚"}</div>
+        <div style={{ fontSize: "32px", color: "#7aff7a", fontWeight: "bold", marginBottom: "8px" }}>
+          {quizScore} / {total}
+        </div>
+        <div style={{ fontSize: "20px", color: "#c8ffc8", marginBottom: "4px" }}>{pct}%</div>
+        <div style={{ fontSize: "16px", color: "#7aff7a", marginBottom: "32px" }}>{grade} {gradeEn}</div>
+        <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
+          <button
+            onClick={handleRetake}
+            style={{
+              background: "#0d200d", border: "1px solid #2ecc71", color: "#2ecc71",
+              padding: "12px 28px", cursor: "pointer", fontFamily: "inherit",
+              fontSize: "13px", letterSpacing: "1px", borderRadius: "2px",
+            }}
+          >
+            ↺ OPNIEUW / RETAKE
+          </button>
+        </div>
+        <div style={{ marginTop: "32px", padding: "16px", background: "#0d140d", border: "1px solid #1a3a1a", borderRadius: "2px" }}>
+          <div style={{ fontSize: "10px", color: "#2a5a2a", letterSpacing: "2px", marginBottom: "10px" }}>QUESTION REVIEW</div>
+          {rule.questions.map((q, i) => (
+            <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: "10px", padding: "6px 0", borderBottom: "1px solid #0d1a0d" }}>
+              <span style={{ fontSize: "12px", color: "#3a5a3a", minWidth: "16px" }}>{i + 1}.</span>
+              <span style={{ fontSize: "11px", color: "#5a8a5a", flex: 1, lineHeight: 1.5 }}>{q.q}</span>
+              <span style={{ fontSize: "11px", color: "#2ecc71", minWidth: "60px", textAlign: "right" }}>
+                {q.options[q.answer].length > 20 ? q.options[q.answer].slice(0, 18) + "…" : q.options[q.answer]}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  const q = rule.questions[quizIndex];
+  const progress = ((quizIndex) / total) * 100;
+
+  return (
+    <div style={{ maxWidth: "600px" }}>
+      {/* Header */}
+      <div style={{ marginBottom: "24px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
+          <span style={{ fontSize: "10px", color: "#e74c3c", letterSpacing: "2px" }}>{rule.tag}</span>
+          <span style={{ fontSize: "11px", color: "#3a5a3a" }}>
+            {quizIndex + 1} / {total}
+            {quizScore > 0 && <span style={{ color: "#2ecc71", marginLeft: "10px" }}>✓ {quizScore}</span>}
+          </span>
+        </div>
+        {/* Progress bar */}
+        <div style={{ height: "3px", background: "#1a2a1a", borderRadius: "2px", overflow: "hidden" }}>
+          <div style={{
+            height: "100%",
+            width: `${progress}%`,
+            background: "#2ecc71",
+            transition: "width 0.3s ease",
+          }} />
+        </div>
+      </div>
+
+      {/* Question */}
+      <div style={{
+        background: "#0d140d",
+        border: "1px solid #1a4a1a",
+        borderLeft: "4px solid #e74c3c",
+        padding: "20px",
+        marginBottom: "20px",
+        borderRadius: "2px",
+        fontSize: "15px",
+        color: "#c8ffc8",
+        lineHeight: 1.6,
+      }}>
+        {q.q}
+      </div>
+
+      {/* Options */}
+      <div style={{ display: "flex", flexDirection: "column", gap: "8px", marginBottom: "20px" }}>
+        {q.options.map((opt, i) => {
+          let bg = "transparent";
+          let border = "1px solid #1a3a1a";
+          let color = "#7aff7a";
+          let labelBg = "#0d200d";
+          let labelColor = "#2ecc71";
+          if (quizSubmitted) {
+            if (i === q.answer) {
+              bg = "#0d300d"; border = "1px solid #2ecc71"; color = "#2ecc71";
+              labelBg = "#2ecc71"; labelColor = "#0a0e0a";
+            } else if (i === quizSelected && i !== q.answer) {
+              bg = "#300d0d"; border = "1px solid #e74c3c"; color = "#e74c3c";
+              labelBg = "#e74c3c"; labelColor = "#0a0e0a";
+            } else {
+              color = "#2a4a2a"; border = "1px solid #111811";
+            }
+          } else if (i === quizSelected) {
+            bg = "#0d200d"; border = "1px solid #7aff7a";
+          }
+          return (
+            <button
+              key={i}
+              onClick={() => handleSelect(i)}
+              style={{
+                display: "flex", alignItems: "center", gap: "12px",
+                background: bg, border, borderRadius: "2px",
+                padding: "12px 16px", cursor: quizSubmitted ? "default" : "pointer",
+                fontFamily: "inherit", textAlign: "left", color, fontSize: "13px",
+                transition: "all 0.15s ease",
+              }}
+            >
+              <span style={{
+                minWidth: "22px", height: "22px", borderRadius: "50%",
+                background: labelBg, color: labelColor,
+                display: "flex", alignItems: "center", justifyContent: "center",
+                fontSize: "10px", fontWeight: "bold", flexShrink: 0,
+                border: `1px solid ${quizSubmitted && i === q.answer ? "#2ecc71" : quizSubmitted && i === quizSelected ? "#e74c3c" : "#1a4a1a"}`,
+              }}>
+                {LABELS[i]}
+              </span>
+              {opt}
+              {quizSubmitted && i === q.answer && <span style={{ marginLeft: "auto", fontSize: "14px" }}>✓</span>}
+              {quizSubmitted && i === quizSelected && i !== q.answer && <span style={{ marginLeft: "auto", fontSize: "14px" }}>✗</span>}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Check button */}
+      {!quizSubmitted && (
+        <button
+          onClick={handleCheck}
+          disabled={quizSelected === null}
+          style={{
+            background: quizSelected !== null ? "#0d200d" : "transparent",
+            border: `1px solid ${quizSelected !== null ? "#2ecc71" : "#1a3a1a"}`,
+            color: quizSelected !== null ? "#2ecc71" : "#2a4a2a",
+            padding: "10px 24px", cursor: quizSelected !== null ? "pointer" : "default",
+            fontFamily: "inherit", fontSize: "12px", letterSpacing: "2px", borderRadius: "2px",
+          }}
+        >
+          CHECK ANSWER
+        </button>
+      )}
+
+      {/* Explanation + Next */}
+      {quizSubmitted && (
+        <div>
+          <div style={{
+            background: quizSelected === q.answer ? "#0d200d" : "#1a0d0d",
+            border: `1px solid ${quizSelected === q.answer ? "#2ecc71" : "#e74c3c"}`,
+            borderLeft: `4px solid ${quizSelected === q.answer ? "#2ecc71" : "#e74c3c"}`,
+            padding: "14px 16px", marginBottom: "16px", borderRadius: "2px",
+          }}>
+            <div style={{ fontSize: "9px", letterSpacing: "2px", marginBottom: "6px",
+              color: quizSelected === q.answer ? "#2ecc71" : "#e74c3c" }}>
+              {quizSelected === q.answer ? "✓ CORRECT" : "✗ NOT QUITE"}
+            </div>
+            <div style={{ fontSize: "13px", color: "#a0c8a0", lineHeight: 1.6 }}>{q.explanation}</div>
+          </div>
+          <button
+            onClick={handleNext}
+            style={{
+              background: "#0d200d", border: "1px solid #2ecc71", color: "#2ecc71",
+              padding: "10px 24px", cursor: "pointer", fontFamily: "inherit",
+              fontSize: "12px", letterSpacing: "2px", borderRadius: "2px",
+            }}
+          >
+            {quizIndex + 1 >= total ? "SEE RESULTS →" : "NEXT →"}
+          </button>
+        </div>
+      )}
     </div>
   );
 }
