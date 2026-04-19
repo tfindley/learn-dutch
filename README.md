@@ -4,7 +4,7 @@
 
 A self-hosted Belgian Dutch learning app — three interactive modules served as a static site from an nginx container.
 
-![alt text](assets/screenshot_front.png)
+![alt text](docs/assets/screenshot_front.png)
 
 
 ## Disclaimer
