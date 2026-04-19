@@ -1,0 +1,84 @@
+{
+  "id": "numwords",
+  "order": 8,
+  "title": {
+    "nl": "Getallen (extra)",
+    "en": "Numbers (extra)"
+  },
+  "emoji": "🔣",
+  "color": "#2e4057",
+  "words": [
+    {
+      "nl": "ongeveer",
+      "phonetic": "on-khuh-FAYR",
+      "en": "approximately",
+      "tip": "'Ongeveer tien minuten' = about ten minutes. Very common in everyday speech."
+    },
+    {
+      "nl": "precies",
+      "phonetic": "pruh-SEES",
+      "en": "precisely / exactly",
+      "tip": "Also used as a reaction: 'Precies!' = Exactly! / That's right!"
+    },
+    {
+      "nl": "gemiddeld",
+      "phonetic": "khuh-MID-dult",
+      "en": "average / on average",
+      "tip": "Soft 'g'. 'Gemiddeld genomen' = on average."
+    },
+    {
+      "nl": "stijgend",
+      "phonetic": "STAY-khunt",
+      "en": "ascending / rising",
+      "tip": "From 'stijgen' (to rise). 'Stijgende lijn' = ascending line. Opposite: dalend."
+    },
+    {
+      "nl": "dalend",
+      "phonetic": "DAH-lunt",
+      "en": "descending / falling",
+      "tip": "From 'dalen' (to descend). 'Dalende trend' = falling trend. Opposite: stijgend."
+    },
+    {
+      "nl": "het cijfer",
+      "phonetic": "huht SAY-fur",
+      "en": "the digit / figure / grade",
+      "tip": "Also means a school grade. 'Een goed cijfer' = a good mark."
+    },
+    {
+      "nl": "het telefoonnummer",
+      "phonetic": "huht tay-luh-FOHN-num-ur",
+      "en": "the phone number",
+      "tip": "A great example of Dutch compound stacking. Telefoon + nummer, no spaces."
+    },
+    {
+      "nl": "het getal",
+      "phonetic": "huht khuh-TAL",
+      "en": "the number (mathematical)",
+      "tip": "Soft 'g'. 'Getal' = a number as a concept (vs. 'nummer' = a label/identifier)."
+    },
+    {
+      "nl": "het nummer",
+      "phonetic": "huht NUM-ur",
+      "en": "the number (identifier)",
+      "tip": "Used for phone numbers, house numbers, seat numbers — things with labels."
+    },
+    {
+      "nl": "de helft",
+      "phonetic": "duh helft",
+      "en": "the half",
+      "tip": "'De helft van tien is vijf' = Half of ten is five."
+    },
+    {
+      "nl": "het kwart",
+      "phonetic": "huht kvart",
+      "en": "the quarter",
+      "tip": "Een kwart = one quarter. Also used in telling time: 'kwart over drie'."
+    },
+    {
+      "nl": "dubbel",
+      "phonetic": "DUB-ul",
+      "en": "double",
+      "tip": "'Dubbel zoveel' = twice as much."
+    }
+  ]
+}

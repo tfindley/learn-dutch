@@ -1,0 +1,168 @@
+{
+  "id": "weather",
+  "order": 11,
+  "title": {
+    "nl": "Weer & Seizoenen",
+    "en": "Weather & Seasons"
+  },
+  "emoji": "🌤️",
+  "color": "#2471a3",
+  "words": [
+    {
+      "nl": "de lente",
+      "phonetic": "duh LEN-tuh",
+      "en": "Spring",
+      "tip": "Lente = Spring. Mild and wet in Belgium."
+    },
+    {
+      "nl": "de zomer",
+      "phonetic": "duh ZOH-mer",
+      "en": "Summer",
+      "tip": "Long 'oh'. Belgium summers are warm but short!"
+    },
+    {
+      "nl": "de herfst",
+      "phonetic": "duh herfst",
+      "en": "Autumn / Fall",
+      "tip": "The 'rf' cluster — say it clearly. Herfst = harvest time."
+    },
+    {
+      "nl": "de winter",
+      "phonetic": "duh VIN-ter",
+      "en": "Winter",
+      "tip": "'w' → soft 'v'. Koude winter = cold winter."
+    },
+    {
+      "nl": "het is warm",
+      "phonetic": "huht is varm",
+      "en": "It is warm",
+      "tip": "'w' → 'v'. The standard weather phrase."
+    },
+    {
+      "nl": "het is koud",
+      "phonetic": "huht is kowt",
+      "en": "It is cold",
+      "tip": "Final 'd' → 't'. 'Ik heb koud' = I am cold (Belgian Dutch!)."
+    },
+    {
+      "nl": "de regen",
+      "phonetic": "duh RAY-khun",
+      "en": "the rain",
+      "tip": "Soft 'g'. Het regent = it is raining."
+    },
+    {
+      "nl": "de sneeuw",
+      "phonetic": "duh snayw",
+      "en": "the snow",
+      "tip": "'eeuw' = 'ayw' sound. Het sneeuwt = it is snowing."
+    },
+    {
+      "nl": "de wind",
+      "phonetic": "duh vint",
+      "en": "the wind",
+      "tip": "Final 'd' → 't'. Het waait = it is windy."
+    },
+    {
+      "nl": "het waait",
+      "phonetic": "huht vayt",
+      "en": "it is windy / blowing",
+      "tip": "From 'waaien' [WAY-yun]. The verb used for wind action."
+    },
+    {
+      "nl": "het regent",
+      "phonetic": "huht RAY-khunt",
+      "en": "it is raining",
+      "tip": "Soft 'g'. Het + 3rd person verb = standard weather pattern."
+    },
+    {
+      "nl": "het vriest",
+      "phonetic": "huht freest",
+      "en": "it is freezing",
+      "tip": "From 'vriezen'. Irregular — vriezen → vriest. No soft 'g' here."
+    },
+    {
+      "nl": "het hagelt",
+      "phonetic": "huht HAH-khult",
+      "en": "it is hailing",
+      "tip": "Soft 'g'. From 'hagelen'. Hail is called 'de hagel'."
+    },
+    {
+      "nl": "het bliksemt",
+      "phonetic": "huht BLIK-suhmt",
+      "en": "it is lightning",
+      "tip": "From 'bliksemen'. 'De bliksem' = the lightning (noun)."
+    },
+    {
+      "nl": "de zon schijnt",
+      "phonetic": "duh zon skhayntt",
+      "en": "the sun is shining",
+      "tip": "Unlike other weather, 'de zon' is the subject — not 'het'. 'Schijnen' = to shine."
+    },
+    {
+      "nl": "het is bewolkt",
+      "phonetic": "huht is buh-VOLKT",
+      "en": "it is cloudy",
+      "tip": "From 'wolk' (cloud). 'Het is bewolkt' = overcast/cloudy sky."
+    },
+    {
+      "nl": "het is zonnig",
+      "phonetic": "huht is ZON-ikh",
+      "en": "it is sunny",
+      "tip": "Adjective from 'zon' (sun). Soft 'g' at end."
+    },
+    {
+      "nl": "de bloem",
+      "phonetic": "duh bloom",
+      "en": "the flower",
+      "tip": "'oe' = long 'oo'. De bloemen = the flowers."
+    },
+    {
+      "nl": "de boom",
+      "phonetic": "duh bohm",
+      "en": "the tree",
+      "tip": "Long 'oh'. De bomen = the trees."
+    },
+    {
+      "nl": "de zee",
+      "phonetic": "duh zay",
+      "en": "the sea",
+      "tip": "Aan zee = at the seaside. De Noordzee = the North Sea."
+    },
+    {
+      "nl": "de kust",
+      "phonetic": "duh kust",
+      "en": "the coast",
+      "tip": "De Belgische kust = the Belgian coast."
+    },
+    {
+      "nl": "de grens",
+      "phonetic": "duh khrens",
+      "en": "the border",
+      "tip": "Soft 'g'. Aan de grens = at the border. De grens met Frankrijk."
+    },
+    {
+      "nl": "het noorden",
+      "phonetic": "huht NOH-dun",
+      "en": "the north",
+      "tip": "In het noorden van België. Noordelijk = northern."
+    },
+    {
+      "nl": "het zuiden",
+      "phonetic": "huht ZOW-dun",
+      "en": "the south",
+      "tip": "In het zuiden. Zuidelijk = southern."
+    },
+    {
+      "nl": "het oosten",
+      "phonetic": "huht OHS-tun",
+      "en": "the east",
+      "tip": "Oostelijk = eastern. Oost-België = East Belgium."
+    },
+    {
+      "nl": "het westen",
+      "phonetic": "huht VES-tun",
+      "en": "the west",
+      "tip": "Westelijk = western. 'w' → 'v' sound."
+    }
+  ]
+}

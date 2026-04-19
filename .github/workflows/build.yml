@@ -80,9 +80,16 @@ jobs:
           SHA_SHORT=$(echo "$COMMIT_SHA" | cut -c1-12)
           SHA_TAG="${IMAGE_BASE}:sha-${SHA_SHORT}"
 
-          BUILD_ARGS=""
+          REF="${GITHUB_REF:-}"
+          if echo "$REF" | grep -q '^refs/tags/v'; then
+            APP_VERSION="${REF#refs/tags/}"
+          else
+            APP_VERSION="sha-${SHA_SHORT}"
+          fi
+
+          BUILD_ARGS="--build-arg APP_VERSION=${APP_VERSION}"
           if [ -n "${VITE_GA_ID:-}" ]; then
-            BUILD_ARGS="--build-arg VITE_GA_ID=${VITE_GA_ID}"
+            BUILD_ARGS="$BUILD_ARGS --build-arg VITE_GA_ID=${VITE_GA_ID}"
           fi
 
           # shellcheck disable=SC2086

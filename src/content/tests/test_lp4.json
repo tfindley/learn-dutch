@@ -1,0 +1,99 @@
+{
+  "id": "test_lp4",
+  "title": "Weer, Winkels & Fruit",
+  "subtitle": "Leerpad 4 · Weather, Shops & Food",
+  "leerpad": "4",
+  "difficulty": "easy",
+  "emoji": "🌤️",
+  "questions": [
+    {
+      "q": "How do you say 'It is raining' in Dutch?",
+      "options": [
+        "Het is regen.",
+        "De regen valt.",
+        "Het regent.",
+        "Het is regenachtig."
+      ],
+      "answer": 2,
+      "explanation": "Weather actions use 'het + verb': het regent, het sneeuwt, het waait, het vriest. 'De zon schijnt' is different — the sun is the subject."
+    },
+    {
+      "q": "'De zon schijnt' — why is the subject 'de zon' and not 'het'?",
+      "options": [
+        "'Schijnen' is irregular",
+        "'De zon' is the actual subject doing the shining",
+        "It is a mistake — it should be 'het schijnt'",
+        "Only in Belgian Dutch"
+      ],
+      "answer": 1,
+      "explanation": "Most weather verbs use 'het' as a dummy subject. But 'de zon schijnt' uses the sun (de zon) as the real subject."
+    },
+    {
+      "q": "What does 'bewolkt' mean?",
+      "options": [
+        "windy",
+        "freezing",
+        "cloudy",
+        "foggy"
+      ],
+      "answer": 2,
+      "explanation": "'Bewolkt' = cloudy. From 'wolk' (cloud). Other states: zonnig (sunny), mistig (foggy)."
+    },
+    {
+      "q": "What is the Dutch word for 'the checkout' (in a shop)?",
+      "options": [
+        "de boodschappen",
+        "de kassa",
+        "de winkel",
+        "de boodschappentas"
+      ],
+      "answer": 1,
+      "explanation": "'De kassa' = the checkout / till. 'Ik betaal aan de kassa.' 'De boodschappen' = the groceries."
+    },
+    {
+      "q": "'Ik wacht op de trein' — what does 'op' mean here?",
+      "options": [
+        "on (physically on top of)",
+        "for",
+        "at",
+        "until"
+      ],
+      "answer": 1,
+      "explanation": "'Wachten op' = to wait FOR. English speakers often expect 'voor' here, but Dutch uses 'op'."
+    },
+    {
+      "q": "What is the plural of 'druif'?",
+      "options": [
+        "druifs",
+        "druiven",
+        "druyven",
+        "druifen"
+      ],
+      "answer": 1,
+      "explanation": "'druif → druiven' follows the f→v voicing rule before -en. Same pattern: brief→brieven, wolf→wolven."
+    },
+    {
+      "q": "How do you say 'a bunch of bananas'?",
+      "options": [
+        "een kilo bananen",
+        "een tros bananen",
+        "een pak bananen",
+        "een bos bananen"
+      ],
+      "answer": 1,
+      "explanation": "'Een tros bananen' = a bunch of bananas. 'Tros' is used for things that grow in clusters — also 'een tros druiven'."
+    },
+    {
+      "q": "'Op welk spoor vertrekt de trein?' — what does 'spoor' mean?",
+      "options": [
+        "time",
+        "direction",
+        "(railway) platform / track",
+        "ticket"
+      ],
+      "answer": 2,
+      "explanation": "'Het spoor' = the railway track / platform. 'De trein vertrekt op spoor 7' = the train departs from platform 7."
+    }
+  ],
+  "order": 9
+}

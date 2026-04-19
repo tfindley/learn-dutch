@@ -1,19 +1,42 @@
 # Learn Dutch (Belgian)
 
-A self-hosted Belgian Dutch learning app — three interactive modules served as a static site from an nginx container.
-
 [![Build and Test](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml/badge.svg)](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml)
 
+A self-hosted Belgian Dutch learning app — three interactive modules served as a static site from an nginx container.
+
+![alt text](assets/screenshot_front.png)
+
+
 ## Disclaimer
-This tool was written collaboratively with AI: Claude Code - Claude Sonnet 4.6. [CLAUDE.md](CLAUDE.md) is included for reference.
 
-## Modules
+This tool was written collaboratively with AI: Claude Code - Claude Opus 4.7. [CLAUDE.md](CLAUDE.md) is included for reference.
 
-| Module | Description |
-| --- | --- |
-| **100 Words** | Essential vocabulary with phonetics and flip-card practice |
-| **Grammar** | Rules, patterns, and conversations across multiple leerpaden |
-| **Tests** | Practice quizzes and marathon sessions to test recall |
+## Navigation
+
+```text
+🇧🇪 LEER NL
+├── Woordjes                    /woordjes
+│   └── [category]              /woordjes/:categoryId
+├── Leerpaden                   /leerpaden
+│   ├── Leerpad 1               /leerpaden/1
+│   │   ├── 1A — rules          /leerpaden/1/:ruleId
+│   │   └── 1B — rules          /leerpaden/1/:ruleId
+│   ├── Leerpad 2               /leerpaden/2
+│   │   ├── 2A — rules
+│   │   └── 2B — rules
+│   ├── Leerpad 3               /leerpaden/3
+│   │   ├── 3A – 3C — rules
+│   └── Leerpad 4               /leerpaden/4
+│       ├── 4A – 4C — rules
+├── Grammar                     /grammar
+│   ├── Reference               /grammar/reference
+│   │   └── [rule]              /grammar/reference/:ruleId
+│   └── Uitspraak               /grammar/uitspraak
+│       └── [rule]              /grammar/uitspraak/:ruleId
+├── Tests                       /tests
+│   └── [test / marathon]       /tests/:testId → /tests/:testId/results
+└── Changelog                   /changelog
+```
 
 All content is focused on **Belgian Dutch** — pronunciation, vocabulary, and usage specific to Belgium rather than the Netherlands.
 
@@ -53,13 +76,19 @@ docker compose up
 
 ## Contributing
 
-The three content files at the repo root are the main things to update:
+Content lives in individual JSON files under `src/content/` — adding a new file is automatically picked up at build time:
 
-- `dutch-100-words.jsx` — add words to the `CATEGORIES` array
-- `dutch-grammar.jsx` — add rules to the `RULES` array
-- `dutch-tests.jsx` — add tests to the `TESTS` array
+| Content | Directory | One file per… |
+| --- | --- | --- |
+| Vocabulary | `src/content/woordjes/` | category (e.g. `greetings.json`) |
+| Leerpad sections | `src/content/leerpaden/` | section (e.g. `1a.json`, `2b.json`) |
+| Grammar rules | `src/content/grammar/` | rule (e.g. `articles.json`) |
+| Uitspraak rules | `src/content/uitspraak/` | rule (e.g. `pron_vowels.json`) |
+| Tests | `src/content/tests/` | test (e.g. `test_opening.json`) |
 
-The app shell (`src/`) rarely needs changing.
+Files prefixed with `_` (e.g. `_groups.json`, `_tips.json`) are index/metadata files, not individual content items.
+
+The page components in `src/pages/` and shared components in `src/components/` rarely need changing unless you're modifying the UI.
 
 ## Support
 

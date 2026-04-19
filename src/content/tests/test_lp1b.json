@@ -1,0 +1,99 @@
+{
+  "id": "test_lp1b",
+  "title": "Wat is jouw beroep?",
+  "subtitle": "Leerpad 1B · Professions",
+  "leerpad": "1B",
+  "difficulty": "easy",
+  "emoji": "💼",
+  "questions": [
+    {
+      "q": "What does 'Wat is jouw beroep?' mean?",
+      "options": [
+        "Where do you work?",
+        "What is your profession?",
+        "Are you married?",
+        "Do you have children?"
+      ],
+      "answer": 1,
+      "explanation": "'beroep' = profession/job. 'jouw' = your (informal). You can also ask 'Wat doe jij voor werk?'"
+    },
+    {
+      "q": "How do you say 'I work at school'?",
+      "options": [
+        "Ik werk bij school.",
+        "Ik werk aan school.",
+        "Ik werk op school.",
+        "Ik werk in school."
+      ],
+      "answer": 2,
+      "explanation": "'op school' is the fixed expression. Hospitals use 'in': 'in het ziekenhuis'. Companies use 'bij': 'bij [bedrijf]'."
+    },
+    {
+      "q": "'Ik ben met pensioen' means:",
+      "options": [
+        "I am unemployed",
+        "I am on holiday",
+        "I work part-time",
+        "I am retired"
+      ],
+      "answer": 3,
+      "explanation": "'met pensioen' = retired (literally 'with pension'). 'Ik ben werkloos' = I am unemployed."
+    },
+    {
+      "q": "Which means 'single' (not in a relationship)?",
+      "options": [
+        "getrouwd",
+        "verloofd",
+        "gescheiden",
+        "alleenstaand"
+      ],
+      "answer": 3,
+      "explanation": "'alleenstaand' = alone-standing = single. Literally describes someone 'standing alone'."
+    },
+    {
+      "q": "'Mijn vrouw is lerares' — what does the -es ending tell you?",
+      "options": [
+        "She is retired",
+        "She teaches languages",
+        "She is a female teacher",
+        "She works part-time"
+      ],
+      "answer": 2,
+      "explanation": "'-es' is a feminine suffix. 'lerares' = female teacher. 'leraar' = male teacher."
+    },
+    {
+      "q": "'Ik ben gescheiden' means:",
+      "options": [
+        "I am married",
+        "I am engaged",
+        "I am single",
+        "I am divorced"
+      ],
+      "answer": 3,
+      "explanation": "'gescheiden' = divorced. From 'scheiden' (to separate). Soft 'g' at the start."
+    },
+    {
+      "q": "Which is correct for 'I work as an electrician'?",
+      "options": [
+        "Ik doe elektricien.",
+        "Ik werk als elektricien.",
+        "Ik ga elektricien.",
+        "Ik ben als elektricien."
+      ],
+      "answer": 1,
+      "explanation": "'Ik werk als [beroep]' = I work as a [profession]. You can also say 'Ik ben elektricien'."
+    },
+    {
+      "q": "How do you ask about someone's partner's job?",
+      "options": [
+        "Wat doet jouw partner?",
+        "Wie is jouw partner?",
+        "Waar woont jouw partner?",
+        "Hoeveel verdient jouw partner?"
+      ],
+      "answer": 0,
+      "explanation": "'Wat doet jouw partner?' = 'What does your partner do?' Using 'doen' for profession questions is very natural."
+    }
+  ],
+  "order": 3
+}

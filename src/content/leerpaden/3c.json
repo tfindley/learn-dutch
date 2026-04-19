@@ -1,0 +1,886 @@
+{
+  "id": "3C",
+  "group": "3",
+  "order": 7,
+  "description": {
+    "en": "Plans and preferences — expressing what you like, inviting people, making appointments, and politely accepting or declining."
+  },
+  "rules": [
+    {
+      "id": "graag",
+      "order": 1,
+      "tag": "LEERPAD 3C · GRAAG",
+      "title": {
+        "nl": "graag",
+        "en": "Expressing What You Like Doing"
+      },
+      "difficulty": "easy",
+      "shortcut": "Put 'graag' after the verb. For 'not graag', add 'niet' before 'graag'. That's it.",
+      "explanation": "'Graag' means 'gladly / with pleasure'. In everyday Belgian Dutch it's how you say you like doing something. Unlike English, there's no separate 'to like' verb — you just slot 'graag' into the sentence.",
+      "patterns": [
+        {
+          "rule": "Structure: [subject] + [verb] + graag (+ rest)",
+          "examples": [
+            "Ik wandel graag. (I like walking.)",
+            "Ik zwem graag. (I like swimming.)",
+            "Ik speel graag op de computer. (I like playing on the computer.)",
+            "Ik neem graag foto's van de natuur. (I like taking photos of nature.)"
+          ]
+        },
+        {
+          "rule": "With 'gaan' + infinitive: Ik ga graag + [infinitive]",
+          "examples": [
+            "Ik ga graag wandelen. (I like going for walks.)",
+            "Ik ga graag skiën in de bergen. (I like skiing in the mountains.)",
+            "Ik ga graag frietjes eten. (I like going to eat fries.)"
+          ]
+        },
+        {
+          "rule": "Negation: niet graag = don't like doing",
+          "examples": [
+            "Ik eet niet graag scampi. (I don't like eating shrimp.)",
+            "Ik heb niet graag koud. (I don't like being cold.) ← very Belgian!",
+            "Ik sta niet graag vroeg op. (I don't like getting up early.) ← opstaan = to get up"
+          ]
+        },
+        {
+          "rule": "1st person — ik + verb stem (no ending)",
+          "examples": [
+            "Ik wandel graag.",
+            "Ik zwem graag.",
+            "Ik game graag."
+          ]
+        },
+        {
+          "rule": "2nd person — je/jij + verb stem + t",
+          "examples": [
+            "Je wandelt graag.",
+            "Je zwemt graag.",
+            "Zwem je graag? (inversion drops the -t!)"
+          ]
+        },
+        {
+          "rule": "3rd person — hij/ze/zij/de jongen + verb stem + t",
+          "examples": [
+            "Hij zwemt graag.",
+            "Ze wandelt graag.",
+            "De jongen speelt graag buiten."
+          ]
+        },
+        {
+          "rule": "Plurals — wij/jullie/zij + infinitive form",
+          "examples": [
+            "We zwemmen graag. (We like swimming.)",
+            "Jullie wandelen graag. (You all like walking.) ← jullie = you plural, NOT they",
+            "Zij fietsen graag. (They like cycling.) ← zij = they (3rd person plural)"
+          ]
+        },
+        {
+          "rule": "Yes/No questions — Ga je graag...? / ...je graag...?",
+          "examples": [
+            "Flip the subject and verb, graag stays in its normal position:",
+            "Ga je graag wandelen? (Do you like going for walks?)",
+            "Ga je graag fietsen? (Do you like cycling?)",
+            "Ga je graag met de fiets? (Do you like going by bike?)",
+            "Ga je graag met de trein? (Do you like going by train?)",
+            "Ga je graag met de ferry? (Do you like going by ferry?)",
+            "Zwem je graag? (Do you like swimming?) ← inversion drops the -t",
+            "Wandel je graag in de natuur? (Do you like walking in nature?)",
+            "Ga je graag skiën in de bergen? (Do you like skiing in the mountains?)",
+            "Gaat hij graag mee? (Does he like coming along?)",
+            "↳ Answer: Ja, ik ga graag met de ferry. / Nee, ik ga niet graag met de ferry."
+          ]
+        }
+      ],
+      "memory": "🧠 Conjugation: ik = stem | jij/hij/zij = stem+t | wij/jullie/zij = -en form. NOTE: 'jij' after verb (inversion) drops the -t: 'Zwem jij graag?' not 'Zwemt jij'.",
+      "examples": [
+        {
+          "nl": "Ik zwem graag. / Je zwemt graag. / Hij zwemt graag.",
+          "en": "I / You / He like(s) swimming."
+        },
+        {
+          "nl": "We zwemmen graag. / Jullie zwemmen graag.",
+          "en": "We / You all like swimming."
+        },
+        {
+          "nl": "Ik ga graag skiën. / Ik eet niet graag scampi.",
+          "en": "I like skiing. / I don't like eating shrimp."
+        },
+        {
+          "nl": "Ga je graag met de ferry?",
+          "en": "Do you like going by ferry?"
+        },
+        {
+          "nl": "Ja, ik ga graag met de ferry. / Nee, ik ga niet graag met de ferry.",
+          "en": "Yes, I like going by ferry. / No, I don't like going by ferry."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wat doe je graag?",
+          "en": "What do you like to do?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ___ graag. / Ik ga graag ___. En jij?",
+          "en": "I like ___ing. / I like going ___. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik ga graag ___.",
+          "en": "I like going ___."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je graag wandelen?",
+          "en": "Do you like going for walks?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ga graag wandelen. / Nee, ik ga niet graag wandelen.",
+          "en": "Yes, I like going for walks. / No, I don't like going for walks."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je graag met de trein?",
+          "en": "Do you like going by train?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ga graag met de trein. / Nee, ik ga liever met de auto.",
+          "en": "Yes, I like going by train. / No, I prefer going by car."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je graag met de ferry?",
+          "en": "Do you like going by ferry?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ga graag met de ferry! / Nee, ik ga niet graag met de ferry.",
+          "en": "Yes, I like going by ferry! / No, I don't like going by ferry."
+        },
+        {
+          "role": "A",
+          "nl": "Zwem je graag?",
+          "en": "Do you like swimming?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik zwem graag. / Nee, ik zwem niet graag.",
+          "en": "Yes, I like swimming. / No, I don't like swimming."
+        },
+        {
+          "role": "A",
+          "nl": "Wat doe je niet graag?",
+          "en": "What don't you like doing?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ___ niet graag. Maar ik ___ graag.",
+          "en": "I don't like ___ing. But I like ___ing."
+        }
+      ]
+    },
+    {
+      "id": "gajemee",
+      "order": 2,
+      "tag": "LEERPAD 3C · GA JE MEE",
+      "title": {
+        "nl": "Ga je mee...?",
+        "en": "Inviting Someone Along"
+      },
+      "difficulty": "easy",
+      "shortcut": "'Ga je mee' = 'Are you coming with me/us to...'. Add an activity or destination after it.",
+      "explanation": "'Gaan' (to go) + 'mee' (along/with) is THE standard Belgian Dutch way to invite someone. 'Mee' is a separable verb prefix — it sits at the end in questions. You'll use this every single day.",
+      "patterns": [
+        {
+          "rule": "Ga je mee + [infinitive]? — activity invitation",
+          "examples": [
+            "Ga je mee fietsen? (Coming cycling?)",
+            "Ga je mee zwemmen? (Coming swimming?)",
+            "Ga je mee wandelen? (Coming for a walk?)",
+            "Ga je mee iets drinken? (Coming for a drink?)"
+          ]
+        },
+        {
+          "rule": "Ga je mee naar + [place]? — destination invitation",
+          "examples": [
+            "Ga je mee naar het museum? (Coming to the museum?)",
+            "Ga je mee naar het verjaardagsfeest? (Coming to the birthday party?)",
+            "Ga je mee naar de markt? (Coming to the market?)"
+          ]
+        },
+        {
+          "rule": "Ga je mee + [food/drink]?",
+          "examples": [
+            "Ga je mee frietjes eten? (Coming for fries?)",
+            "Ga je mee iets drinken? (Coming for a drink?)",
+            "Ga je mee een pintje drinken? (Coming for a beer?)",
+            "Ga je mee uit eten naar het restaurant? (Coming out to eat?)"
+          ]
+        },
+        {
+          "rule": "Other persons",
+          "examples": [
+            "Gaat u mee? (formal)",
+            "Gaan jullie mee naar het feest? (Are you all coming to the party?)",
+            "Gaan we mee? (Are we going along?)"
+          ]
+        },
+        {
+          "rule": "Naar + article (de/het) for specific places vs naar alone for cities/countries",
+          "examples": [
+            "Specific venues take their article after 'naar':",
+            "  Ga je mee naar DE cinema? (de cinema = de-word)",
+            "  Ga je mee naar DE zoo? (de zoo = de-word)",
+            "  Ga je mee naar HET museum? (het museum = het-word)",
+            "  Ga je mee naar HET café? (het café = het-word)",
+            "  Ga je mee naar DE markt? (de markt = de-word)",
+            "  Ga je mee naar HET strand? (het strand = het-word)",
+            "Cities, countries, and regions use 'naar' with NO article:",
+            "  Ga je mee naar Brugge? (no article — city)",
+            "  Ga je mee naar België? (no article — country)",
+            "  Ga je mee naar Brussel? (no article — city)",
+            "  Ga je mee naar het noorden? (direction/region can take het — the north)",
+            "↳ Quick rule: if it has a de/het in front normally, keep it. City/country names → no article."
+          ]
+        }
+      ],
+      "memory": "🧠 'Ga je mee' = minimal syntax, maximum effect. Activity or place just appends like an argument: ga_je_mee(fietsen) ✓",
+      "examples": [
+        {
+          "nl": "Ga je mee fietsen?",
+          "en": "Are you coming cycling?"
+        },
+        {
+          "nl": "Ga je mee naar het verjaardagsfeest?",
+          "en": "Are you coming to the birthday party?"
+        },
+        {
+          "nl": "Ga je mee frietjes eten?",
+          "en": "Coming for fries?"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ga je mee fietsen?",
+          "en": "Are you coming cycling?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, graag! / Nee, ik heb geen tijd.",
+          "en": "Yes please! / No, I have no time."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je mee naar het museum?",
+          "en": "Are you coming to the museum?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, met plezier! / Nee, ik ben te moe.",
+          "en": "Yes, with pleasure! / No, I'm too tired."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je mee iets drinken na de les?",
+          "en": "Coming for a drink after the lesson?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, goed idee! / Nee, ik moet naar huis.",
+          "en": "Yes, good idea! / No, I have to go home."
+        },
+        {
+          "role": "A",
+          "nl": "Gaan jullie mee naar het verjaardagsfeest?",
+          "en": "Are you all coming to the birthday party?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, wij gaan mee! / Nee, wij kunnen niet.",
+          "en": "Yes, we're coming! / No, we can't."
+        }
+      ]
+    },
+    {
+      "id": "afspreken",
+      "order": 3,
+      "tag": "LEERPAD 3C · AFSPREKEN",
+      "title": {
+        "nl": "Afspreken",
+        "en": "Making Appointments"
+      },
+      "difficulty": "easy",
+      "shortcut": "'Wanneer spreken we af?' + 'Past dat?' — ask when, name your time, check it works. Three moves and you have a plan.",
+      "explanation": "'Afspreken' means to make an arrangement or appointment with someone. It's a separable verb: 'ik spreek af', 'we spreken af'. You'll use this constantly — arranging when to meet, where to meet, and confirming it suits both people.",
+      "patterns": [
+        {
+          "rule": "Afspreken — the verb",
+          "examples": [
+            "'Afspreken' = to make an arrangement / to agree to meet",
+            "Separable: af- flies to the end in main clauses",
+            "ik spreek af · jij spreekt af · hij/zij spreekt af",
+            "wij/jullie/zij spreken af",
+            "Wanneer spreken we af? (When do we make arrangements?)",
+            "Laten we afspreken! (Let's make a plan!)",
+            "We spreken af om drie uur. (We arrange to meet at three o'clock.)"
+          ]
+        },
+        {
+          "rule": "Wanneer? — When do we meet?",
+          "examples": [
+            "Wanneer spreken we af? (When do we arrange to meet?)",
+            "Morgen — tomorrow",
+            "Overmorgen — the day after tomorrow",
+            "Volgende week — next week",
+            "'s ochtends — in the morning",
+            "'s middags — in the afternoon",
+            "'s avonds — in the evening",
+            "Vroeg — early · Laat — late",
+            "Om 10 uur — at 10 o'clock",
+            "Om half drie — at 2:30",
+            "Rond twee uur — around two o'clock ('rond' = approximately)"
+          ]
+        },
+        {
+          "rule": "Past dat? — Does that suit you?",
+          "examples": [
+            "Past dat? (Does that suit / work for you?)",
+            "Past dat voor jou? (Does that work for you?) ← slightly more explicit",
+            "Ja, dat past! (Yes, that works!)",
+            "Nee, dat past niet. (No, that doesn't work.)",
+            "Dat past me goed. (That suits me well.)",
+            "Dat past me niet zo goed. (That doesn't suit me that well.)",
+            "Past het ook om ___? (Does ___ also work?)"
+          ]
+        },
+        {
+          "rule": "Waar? — Where do we meet?",
+          "examples": [
+            "Waar spreken we af? (Where do we arrange to meet?)",
+            "In het café — in the café",
+            "In het park — in the park",
+            "Aan de ingang — at the entrance",
+            "Bij de bushalte — by the bus stop",
+            "Bij de ingang van het museum — at the entrance of the museum",
+            "Aan de kassa — at the ticket desk/checkout",
+            "Thuis bij mij — at my place",
+            "Op het station — at the station"
+          ]
+        },
+        {
+          "rule": "Confirming the plan — Putting it all together",
+          "examples": [
+            "Goed, we spreken af morgen om 10 uur aan de ingang. (Good, we'll meet tomorrow at 10 at the entrance.)",
+            "Tot dan! (See you then!)",
+            "Tot morgen! (See you tomorrow!)",
+            "Tot volgende week! (See you next week!)",
+            "Ik zie je morgen! (I'll see you tomorrow!)",
+            "Vergeet het niet! (Don't forget!)"
+          ]
+        },
+        {
+          "rule": "Changing or cancelling a plan",
+          "examples": [
+            "Ik kan morgen toch niet. (I actually can't tomorrow after all.)",
+            "Kunnen we het verzetten? (Can we reschedule it?)",
+            "Kunnen we een andere dag afspreken? (Can we arrange another day?)",
+            "Kan het ook om ___? (Can it also be at ___?)",
+            "Ik moet het afzeggen. (I have to cancel it.)",
+            "Sorry, ik ben te laat! (Sorry, I'm running late!)"
+          ]
+        }
+      ],
+      "memory": "🧠 'Afspreken' is separable — 'ik spreek af', not 'ik afspreeek'. The full formula: Wanneer? [time] + Waar? [place] + Past dat? [confirm]. Then close with 'Tot dan!'",
+      "examples": [
+        {
+          "nl": "Wanneer spreken we af?",
+          "en": "When do we arrange to meet?"
+        },
+        {
+          "nl": "Morgen 's ochtends om tien uur? Past dat?",
+          "en": "Tomorrow morning at ten? Does that suit you?"
+        },
+        {
+          "nl": "Ja, dat past! Waar spreken we af?",
+          "en": "Yes, that works! Where do we meet?"
+        },
+        {
+          "nl": "Aan de ingang van het café.",
+          "en": "At the entrance of the café."
+        },
+        {
+          "nl": "Goed, tot morgen dan! Vergeet het niet!",
+          "en": "Good, see you tomorrow then! Don't forget!"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ga je mee naar het museum?",
+          "en": "Are you coming to the museum?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, graag! Wanneer spreken we af?",
+          "en": "Yes please! When do we arrange to meet?"
+        },
+        {
+          "role": "A",
+          "nl": "Morgen 's ochtends? Past dat?",
+          "en": "Tomorrow morning? Does that suit you?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, dat past! Om hoe laat?",
+          "en": "Yes, that works! At what time?"
+        },
+        {
+          "role": "A",
+          "nl": "Om tien uur. Past dat?",
+          "en": "At ten o'clock. Does that work?"
+        },
+        {
+          "role": "B",
+          "nl": "Dat past me goed! Waar spreken we af?",
+          "en": "That suits me well! Where do we meet?"
+        },
+        {
+          "role": "A",
+          "nl": "Aan de ingang van het museum.",
+          "en": "At the entrance of the museum."
+        },
+        {
+          "role": "B",
+          "nl": "Goed! Tot morgen dan!",
+          "en": "Great! See you tomorrow then!"
+        },
+        {
+          "role": "A",
+          "nl": "Tot morgen! Vergeet het niet!",
+          "en": "See you tomorrow! Don't forget!"
+        },
+        {
+          "role": "A",
+          "nl": "Ik kan morgen toch niet. Kunnen we het verzetten?",
+          "en": "I actually can't tomorrow. Can we reschedule?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, geen probleem. Kan het ook overmorgen?",
+          "en": "Yes, no problem. Can it also be the day after tomorrow?"
+        },
+        {
+          "role": "A",
+          "nl": "Overmorgen 's middags past me goed.",
+          "en": "The day after tomorrow in the afternoon suits me well."
+        }
+      ]
+    },
+    {
+      "id": "watdoejegraag",
+      "order": 4,
+      "tag": "LEERPAD 3C · WAT DOE JE GRAAG",
+      "title": {
+        "nl": "Wat doe je graag?",
+        "en": "What Do You Like to Do?"
+      },
+      "difficulty": "easy",
+      "shortcut": "'Wat doe je graag?' is THE question your teacher will ask. Know it cold and have 3–4 answers ready.",
+      "explanation": "'Wat doe je graag?' combines 'doen' (to do) + 'graag' (gladly). It's your teacher's go-to question for conversation practice. You need to answer naturally, ask it back, and link likes with dislikes.",
+      "patterns": [
+        {
+          "rule": "The question — all persons",
+          "examples": [
+            "Wat doe je graag? (What do you like to do?) ← most common",
+            "Wat doe jij graag? (What do YOU like to do?) ← emphasized",
+            "Wat doet hij / zij graag? (What does he / she like to do?)",
+            "Wat doen jullie graag? (What do you all like to do?)",
+            "Wat doet u graag? (What do you like to do?) ← formal"
+          ]
+        },
+        {
+          "rule": "Conjugation of 'doen' — watch the inversion!",
+          "examples": [
+            "ik doe → Wat doe ik graag?",
+            "jij/je doet → Wat doe je graag? (inversion drops -t!)",
+            "hij/zij doet → Wat doet hij/zij graag?",
+            "wij/jullie/zij doen → Wat doen wij/jullie/zij graag?"
+          ]
+        },
+        {
+          "rule": "Specific follow-up questions",
+          "examples": [
+            "Wat doe je graag in het weekend? (at the weekend?)",
+            "Wat doe je graag in de zomer / winter? (in summer / winter?)",
+            "Doe je graag sport? (Do you like sport?) ← yes/no",
+            "Ga je graag naar het museum? (Do you like going to the museum?)"
+          ]
+        },
+        {
+          "rule": "Linking likes and dislikes",
+          "examples": [
+            "Ik wandel graag, maar ik zwem niet graag.",
+            "Ik ga graag fietsen en ik ga ook graag skiën.",
+            "Ik kook graag, maar ik doe niet graag de afwas."
+          ]
+        }
+      ],
+      "memory": "🧠 Have your personal answer ready as a reflex: 'Ik [verb] graag' + 'maar ik [verb] niet graag'. One sentence shows graag, mais, and negation all at once.",
+      "examples": [
+        {
+          "nl": "Wat doe je graag?",
+          "en": "What do you like to do?"
+        },
+        {
+          "nl": "Ik ga graag wandelen en fietsen.",
+          "en": "I like going walking and cycling."
+        },
+        {
+          "nl": "Ik kook graag, maar ik eet niet graag scampi.",
+          "en": "I like cooking, but I don't like eating shrimp."
+        },
+        {
+          "nl": "Wat doet zij graag in het weekend?",
+          "en": "What does she like to do at the weekend?"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wat doe je graag?",
+          "en": "What do you like to do?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ___ graag. En jij?",
+          "en": "I like ___ing. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik ga graag ___.",
+          "en": "I like going ___."
+        },
+        {
+          "role": "A",
+          "nl": "Wat doe je graag in het weekend?",
+          "en": "What do you like to do at the weekend?"
+        },
+        {
+          "role": "B",
+          "nl": "In het weekend ___ ik graag.",
+          "en": "At the weekend I like ___ing."
+        },
+        {
+          "role": "A",
+          "nl": "Wat doe je niet graag?",
+          "en": "What don't you like doing?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ___ niet graag. Maar ik ___ graag.",
+          "en": "I don't like ___ing. But I like ___ing."
+        },
+        {
+          "role": "A",
+          "nl": "Doe je graag sport?",
+          "en": "Do you like sport?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik sport graag. / Nee, ik sport niet graag.",
+          "en": "Yes, I like sport. / No, I don't like sport."
+        }
+      ]
+    },
+    {
+      "id": "metmee",
+      "order": 5,
+      "tag": "LEERPAD 3C · ADVANCED",
+      "title": {
+        "nl": "Ga je met X mee?",
+        "en": "Going With Someone Specific"
+      },
+      "difficulty": "medium",
+      "shortcut": "Wrap the companion: ga [je] + met [X] + mee. Verb follows the subject, not the companion.",
+      "explanation": "'Ga je mee?' asks if someone is coming. 'Ga je met mij mee?' specifies who they're coming WITH. The verb conjugates based on the subject, and the companion always goes inside 'met...mee'.",
+      "patterns": [
+        {
+          "rule": "met mij / met me — with me",
+          "examples": [
+            "Ga je met mij mee wandelen? (Are you coming walking with me?)",
+            "Ga je met mij mee naar het feest? (Are you coming to the party with me?)",
+            "↳ Reply: Ja, ik ga met jou mee! (Yes, I'm coming with you!) ← reply uses jou, not mij"
+          ]
+        },
+        {
+          "rule": "met jou / met je — with you",
+          "examples": [
+            "Ik ga graag met jou mee fietsen. (I'd love to go cycling with you.)",
+            "Zij gaat met jou mee naar het museum. (She's going to the museum with you.)",
+            "↳ mij = stressed/formal · me = unstressed · same rule applies to jou/je"
+          ]
+        },
+        {
+          "rule": "met hem — with him",
+          "examples": [
+            "Ga je met hem mee zwemmen? (Are you going swimming with him?)",
+            "Ja, ik ga met hem mee. (Yes, I'm going with him.)",
+            "Ze gaat niet met hem mee. (She's not going with him.)"
+          ]
+        },
+        {
+          "rule": "met haar — with her",
+          "examples": [
+            "Ga je met haar mee naar de markt? (Are you going to the market with her?)",
+            "Ja, ik ga met haar mee. (Yes, I'm going with her.)",
+            "Hij wil niet met haar mee. (He doesn't want to go with her.)"
+          ]
+        },
+        {
+          "rule": "met ons — with us",
+          "examples": [
+            "Ga je met ons mee naar het restaurant? (Coming to the restaurant with us?)",
+            "Ja, ik ga graag met jullie mee! (Yes, I'd love to come with you all!) ← reply: jullie, not ons",
+            "↳ Important: you say 'met ons' when inviting, but the reply uses 'met jullie'"
+          ]
+        },
+        {
+          "rule": "met jullie — with you (plural)",
+          "examples": [
+            "Ik ga met jullie mee als jullie willen. (I'll come with you all if you want.)",
+            "Wij gaan met jullie mee naar het strand. (We're going to the beach with you all.)"
+          ]
+        },
+        {
+          "rule": "met hen / met hun — with them",
+          "examples": [
+            "Ga je met hen mee naar het feest? (Are you going to the party with them?)",
+            "Ja, ik ga met hen mee. (Yes, I'm going with them.)",
+            "↳ Use 'hen' after prepositions like 'met'. 'hun' is also heard in spoken Belgian Dutch."
+          ]
+        },
+        {
+          "rule": "ermee — with it (replaces a thing, never a person)",
+          "examples": [
+            "Ik ga ermee mee. (I'm going along with it.)",
+            "↳ 'mee' appears TWICE: er-mee = with it · gaan mee = go along. Both are needed!",
+            "Ga je ermee mee? (Are you going along with it?)",
+            "Ze gaat er niet mee mee. (She's not going along with it.)",
+            "Ga je ermee mee of ga je met de bus mee? (Are you going with it or are you going with the bus?)",
+            "↳ 'ermee' replaces a thing already mentioned (e.g. the car). 'met de bus' names the thing directly."
+          ]
+        },
+        {
+          "rule": "Subject = ik/jij: ga + met [X] + mee",
+          "examples": [
+            "Ga je met mij mee fietsen? (Are you coming cycling with me?)",
+            "Ik ga met jou mee wandelen. (I'm going walking with you.)",
+            "Ga je met ons mee naar het museum? (Coming to the museum with us?)"
+          ]
+        },
+        {
+          "rule": "Subject = hij/zij: gaat + met [X] + mee",
+          "examples": [
+            "Gaat ze met mij mee? (Is she coming with me?)",
+            "Ze gaat met jou mee zwemmen. (She's going swimming with you.)",
+            "Ze gaat met onze groep mee. (She's going with our group.)"
+          ]
+        },
+        {
+          "rule": "Subject = wij/jullie/zij: gaan + met [X] + mee",
+          "examples": [
+            "Gaan jullie met mij mee fietsen? (Are you all coming cycling with me?)",
+            "Wij gaan met jullie mee naar het strand. (We're going to the beach with you.)"
+          ]
+        },
+        {
+          "rule": "ons vs. onze — common confusion",
+          "examples": [
+            "'met ons' = with us (pronoun after preposition)",
+            "'onze groep' = our group (possessive before de-word)",
+            "'ons huis' = our house (possessive before het-word)"
+          ]
+        }
+      ],
+      "memory": "🧠 ga [je] + met [X] + mee — the companion is always sandwiched between 'met' and 'mee'. Subject drives the verb form.",
+      "examples": [
+        {
+          "nl": "Ga je met mij mee wandelen?",
+          "en": "Are you coming walking with me?"
+        },
+        {
+          "nl": "Ik ga met jou mee naar het museum.",
+          "en": "I'm going to the museum with you."
+        },
+        {
+          "nl": "Gaat ze met ons mee fietsen?",
+          "en": "Is she coming cycling with us?"
+        },
+        {
+          "nl": "Ze gaat met onze groep mee.",
+          "en": "She's going with our group."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ga je met mij mee wandelen?",
+          "en": "Are you coming walking with me?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ga met jou mee! / Nee, ik kan niet.",
+          "en": "Yes, I'll come with you! / No, I can't."
+        },
+        {
+          "role": "A",
+          "nl": "Ga je met ons mee naar het feest?",
+          "en": "Are you coming to the party with us?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ga met jullie mee! / Nee, helaas niet.",
+          "en": "Yes, I'll come with you all! / No, unfortunately not."
+        },
+        {
+          "role": "A",
+          "nl": "Gaat ze met hen mee naar het museum?",
+          "en": "Is she going to the museum with them?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ze gaat met hen mee. / Nee, ze gaat niet mee.",
+          "en": "Yes, she's going with them. / No, she's not going."
+        }
+      ]
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "tag": "LEERPAD 3C · ANSWERS",
+      "title": {
+        "nl": "Accepting & Declining",
+        "en": "Ja, graag! / Ik heb geen zin."
+      },
+      "difficulty": "easy",
+      "shortcut": "Ja, graag! = default accept. For no: give a reason + soften it. Never a bare 'nee'.",
+      "explanation": "Belgians are socially warm — a bare 'nee' without an excuse sounds rude. Learn a few go-to reasons and always pair a refusal with a softener. This alone will make you sound much more natural.",
+      "patterns": [
+        {
+          "rule": "✅ Accepting warmly",
+          "examples": [
+            "Ja, graag! (Yes please! / I'd love to!) ← most common",
+            "Ja, zeker! (Yes, definitely!)",
+            "Ja, goed idee! (Yes, good idea!)",
+            "Natuurlijk! (Of course!)",
+            "Met plezier! (With pleasure!)",
+            "Dat lijkt me leuk! (That sounds fun!)",
+            "Ja, ik kom! (Yes, I'm coming!)"
+          ]
+        },
+        {
+          "rule": "❌ Declining — time & energy",
+          "examples": [
+            "Ik heb geen tijd. (I have no time.)",
+            "Ik ben te moe. (I'm too tired.)",
+            "Ik ben moe. (I'm tired.)",
+            "Ik ben niet klaar. (I'm not ready / done yet.)"
+          ]
+        },
+        {
+          "rule": "❌ Declining — mood & health",
+          "examples": [
+            "Ik heb geen zin. (I don't feel like it.)",
+            "Ik heb er geen zin in. (I'm not in the mood for it.)",
+            "Ik voel me niet goed. (I don't feel well.)",
+            "Ik heb hoofdpijn. (I have a headache.)",
+            "Ik ben ziek. (I'm sick.)"
+          ]
+        },
+        {
+          "rule": "❌ Declining — obligations",
+          "examples": [
+            "Ik moet werken. (I have to work.)",
+            "Ik moet vroeg opstaan. (I have to get up early.)",
+            "Ik heb al plannen. (I already have plans.)",
+            "Ik moet voor de kinderen zorgen. (I have to look after the kids.)",
+            "Ik moet naar huis. (I have to go home.)"
+          ]
+        },
+        {
+          "rule": "🔄 Always soften a refusal — very Belgian!",
+          "examples": [
+            "Misschien een andere keer? (Maybe another time?)",
+            "Een andere keer misschien! (Another time maybe!)",
+            "Volgende keer! (Next time!)",
+            "Jammer, maar ik kan niet. (Pity, but I can't.)",
+            "Spijtig genoeg kan ik niet. (Unfortunately I can't.)",
+            "Kan het ook morgen / volgende week? (Can it be tomorrow / next week?)"
+          ]
+        }
+      ],
+      "memory": "🧠 Refusal formula: [reason] + [softener]. Like a HTTP 503 with a Retry-After header — always give them something to work with.",
+      "examples": [
+        {
+          "nl": "Ja, graag! Hoe laat?",
+          "en": "Yes please! What time?"
+        },
+        {
+          "nl": "Ik heb geen zin. Een andere keer misschien?",
+          "en": "I don't feel like it. Maybe another time?"
+        },
+        {
+          "nl": "Ik moet werken, maar volgende keer!",
+          "en": "I have to work, but next time!"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ga je mee fietsen?",
+          "en": "Are you coming cycling?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, graag! Hoe laat? / Nee, ik heb geen tijd. Volgende keer!",
+          "en": "Yes please! What time? / No, I have no time. Next time!"
+        },
+        {
+          "role": "A",
+          "nl": "Ga je mee iets drinken na de les?",
+          "en": "Coming for a drink after the lesson?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, met plezier! / Nee, ik ben te moe. Jammer!",
+          "en": "Yes, with pleasure! / No, I'm too tired. What a pity!"
+        },
+        {
+          "role": "A",
+          "nl": "Ga je mee naar het verjaardagsfeest?",
+          "en": "Are you coming to the birthday party?"
+        },
+        {
+          "role": "B",
+          "nl": "Dat lijkt me leuk! / Ik heb geen zin. Misschien een andere keer?",
+          "en": "That sounds fun! / I don't feel like it. Maybe another time?"
+        },
+        {
+          "role": "A",
+          "nl": "Ga je mee naar het museum?",
+          "en": "Are you coming to the museum?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik heb hoofdpijn. Kan het ook volgende week?",
+          "en": "I have a headache. Can it be next week?"
+        }
+      ]
+    }
+  ]
+}

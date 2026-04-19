@@ -1,0 +1,102 @@
+{
+  "id": "months",
+  "order": 9,
+  "title": {
+    "nl": "Maanden",
+    "en": "Months"
+  },
+  "emoji": "📅",
+  "color": "#1a6b3c",
+  "words": [
+    {
+      "nl": "januari",
+      "phonetic": "yah-new-AH-ree",
+      "en": "January",
+      "tip": "Starts with 'y' sound. De maanden (the months) are all de-words."
+    },
+    {
+      "nl": "februari",
+      "phonetic": "fay-brew-AH-ree",
+      "en": "February",
+      "tip": "The 'r' before 'u' can be tricky — take it slowly."
+    },
+    {
+      "nl": "maart",
+      "phonetic": "maart",
+      "en": "March",
+      "tip": "Long 'aa'. Rhymes with 'cart'."
+    },
+    {
+      "nl": "april",
+      "phonetic": "ah-PRIL",
+      "en": "April",
+      "tip": "Same as English, stress on second syllable."
+    },
+    {
+      "nl": "mei",
+      "phonetic": "may",
+      "en": "May",
+      "tip": "'ei' = 'eye' sound. Very short word."
+    },
+    {
+      "nl": "juni",
+      "phonetic": "YEW-nee",
+      "en": "June",
+      "tip": "'j' = 'y' sound always in Dutch."
+    },
+    {
+      "nl": "juli",
+      "phonetic": "YEW-lee",
+      "en": "July",
+      "tip": "'j' = 'y'. Similar to German 'Juli'."
+    },
+    {
+      "nl": "augustus",
+      "phonetic": "ow-KHUS-tus",
+      "en": "August",
+      "tip": "Soft 'g'. 'ow' as in 'cow'."
+    },
+    {
+      "nl": "september",
+      "phonetic": "sep-TEM-ber",
+      "en": "September",
+      "tip": "Same as English. Stress on 2nd syllable."
+    },
+    {
+      "nl": "oktober",
+      "phonetic": "ok-TOH-ber",
+      "en": "October",
+      "tip": "Long 'oh'. Stress on 2nd syllable."
+    },
+    {
+      "nl": "november",
+      "phonetic": "noh-VEM-ber",
+      "en": "November",
+      "tip": "'v' may be pronounced as 'f' in Belgian Dutch."
+    },
+    {
+      "nl": "december",
+      "phonetic": "day-SEM-ber",
+      "en": "December",
+      "tip": "First 'e' is long: 'day'. Stress on 2nd syllable."
+    },
+    {
+      "nl": "de maand",
+      "phonetic": "duh maant",
+      "en": "the month",
+      "tip": "Final 'd' → 't' in pronunciation. Plural: de maanden."
+    },
+    {
+      "nl": "het jaar",
+      "phonetic": "huht yaar",
+      "en": "the year",
+      "tip": "'j' = 'y'. In welk jaar? = In which year?"
+    },
+    {
+      "nl": "Ik verjaar op...",
+      "phonetic": "ick fur-YAAR op",
+      "en": "My birthday is on...",
+      "tip": "'Ik verjaar op 5 maart' = My birthday is on March 5th. 'Verjaren' = to have a birthday."
+    }
+  ]
+}

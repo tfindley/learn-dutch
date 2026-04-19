@@ -1,0 +1,77 @@
+{
+  "id": "test_om_op_in",
+  "title": "Om · Op · In",
+  "subtitle": "Leerpad 3A · Time Prepositions",
+  "leerpad": "3A",
+  "difficulty": "easy",
+  "emoji": "📅",
+  "questions": [
+    {
+      "q": "Which preposition goes with a clock time?",
+      "options": [
+        "in",
+        "op",
+        "om",
+        "aan"
+      ],
+      "answer": 2,
+      "explanation": "'Om' is always used with clock times: 'om 9 uur', 'om half drie'. Memory trick: Om = O'clock — both start with O."
+    },
+    {
+      "q": "How do you say 'on Tuesday'?",
+      "options": [
+        "in dinsdag",
+        "om dinsdag",
+        "op dinsdag",
+        "aan dinsdag"
+      ],
+      "answer": 2,
+      "explanation": "'Op' is used for specific days, dates, and named occasions."
+    },
+    {
+      "q": "How do you say 'in summer'?",
+      "options": [
+        "op de zomer",
+        "om de zomer",
+        "aan de zomer",
+        "in de zomer"
+      ],
+      "answer": 3,
+      "explanation": "'In' is used for periods — seasons, months, years, holidays."
+    },
+    {
+      "q": "Which is correct: 'The lesson is ___ Tuesday ___ 9 o'clock'?",
+      "options": [
+        "in dinsdag om 9 uur",
+        "op dinsdag om 9 uur",
+        "op dinsdag in 9 uur",
+        "om dinsdag op 9 uur"
+      ],
+      "answer": 1,
+      "explanation": "Op + specific day, om + clock time. 'De les is op dinsdag om 9 uur.'"
+    },
+    {
+      "q": "'In het weekend' — why 'in' and not 'op'?",
+      "options": [
+        "'het weekend' is a het-word",
+        "The weekend is a period, not a single point",
+        "'op weekend' doesn't exist",
+        "Weekend always uses 'in' as an exception"
+      ],
+      "answer": 1,
+      "explanation": "'In' is for periods. The weekend is a stretch of time, not a single calendar point. Compare: 'op zaterdag' vs 'in het weekend'."
+    },
+    {
+      "q": "How do you say 'I was born in 1985'?",
+      "options": [
+        "Ik ben geboren op 1985.",
+        "Ik ben geboren om 1985.",
+        "Ik ben geboren in 1985.",
+        "Ik ben geboren aan 1985."
+      ],
+      "answer": 2,
+      "explanation": "Years always use 'in': 'in 1985', 'in 2021'. Think of a year as a container you were born inside."
+    }
+  ],
+  "order": 6
+}

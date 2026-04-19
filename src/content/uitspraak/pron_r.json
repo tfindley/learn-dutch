@@ -1,0 +1,109 @@
+{
+  "kind": "uitspraak",
+  "id": "pron_r",
+  "order": 3,
+  "tag": "UITSPRAAK · VOWELS + R",
+  "title": {
+    "nl": "Vowels Before R",
+    "en": "How R Changes the Sound"
+  },
+  "difficulty": "medium",
+  "shortcut": "The Belgian R is uvular (back of throat). Unstressed -er endings reduce to a soft 'uh'. Vowel + r combinations have their own fixed sounds.",
+  "explanation": "In Belgian Dutch the 'r' is produced at the back of the throat (uvular), not with the tongue tip. This is softer than the French R but more present than English. When vowels appear before R, they form fixed combinations that are worth learning as whole sounds.",
+  "patterns": [
+    {
+      "rule": "The Belgian R — how to produce it",
+      "examples": [
+        "Position: back of throat, like gargling very gently",
+        "Softer than French R, more noticeable than English R",
+        "In Belgian Dutch: gentler and less guttural than Dutch Netherlands R",
+        "Practice word: 'rood' [roht] — the r is at the back, not the tongue tip"
+      ]
+    },
+    {
+      "rule": "-aar — long aa + r",
+      "examples": [
+        "jaar [yaar] (year) · maar [maar] (but) · haar [haar] (her/hair)",
+        "naar [naar] (to/towards) · paar [paar] (pair/couple) · waar [vaar] (where/true)"
+      ]
+    },
+    {
+      "rule": "-eer — long ee + r",
+      "examples": [
+        "meer [mayr] (more/lake) · beer [bayr] (bear/beer) · peer [payr] (pear)",
+        "keer [kayr] (time/turn) · leer [layr] (leather/learn) · weer [vayr] (weather/again)"
+      ]
+    },
+    {
+      "rule": "-ier — long ie + r",
+      "examples": [
+        "bier [beer] (beer) · hier [heer] (here) · vier [feer] (four)",
+        "dier [deer] (animal) · papier [pah-peer] (paper)"
+      ]
+    },
+    {
+      "rule": "-oor — long oo + r",
+      "examples": [
+        "voor [fohr] (for/before) · door [dohr] (through/door) · oor [ohr] (ear)",
+        "groot [khroht] — note: oo before t, not r here",
+        "floor [flohr] · boor [bohr] (drill)"
+      ]
+    },
+    {
+      "rule": "-er (unstressed suffix) — reduced to schwa",
+      "examples": [
+        "When -er ends a word and is unstressed, it reduces to a soft 'uh':",
+        "kamer [KAH-muh] (room) · water [VAH-tuh] (water) · dokter [DOK-tuh] (doctor)",
+        "lekker [LEK-uh] (nice/tasty) · beter [BAY-tuh] (better)",
+        "⚠ Don't pronounce the 'r' strongly here — it's nearly silent in natural speech"
+      ]
+    }
+  ],
+  "memory": "🧠 The unstressed -er ending is the most important to get right — it's everywhere. Reduce it to 'uh'. For the vowel+r combinations, learn them as fixed sounds: -aar/-eer/-ier/-oor are each one distinct sound.",
+  "examples": [
+    {
+      "nl": "kamer / dokter / lekker",
+      "en": "[KAH-muh] / [DOK-tuh] / [LEK-uh] — -er reduces to soft 'uh'"
+    },
+    {
+      "nl": "jaar / meer / bier / voor",
+      "en": "-aar / -eer / -ier / -oor — fixed vowel+R combinations"
+    },
+    {
+      "nl": "rood / regen / Roeselare",
+      "en": "R at start: back-of-throat, not tongue tip"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Hoe spreek je 'kamer' uit?",
+      "en": "How do you pronounce 'kamer'?"
+    },
+    {
+      "role": "B",
+      "nl": "[KAH-muh] — de -er is zacht, bijna stil",
+      "en": "[KAH-muh] — the -er is soft, almost silent"
+    },
+    {
+      "role": "A",
+      "nl": "En 'lekker'?",
+      "en": "And 'lekker'?"
+    },
+    {
+      "role": "B",
+      "nl": "[LEK-uh] — zelfde patroon. Geen harde R.",
+      "en": "[LEK-uh] — same pattern. No hard R."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe klinkt 'jaar'?",
+      "en": "How does 'jaar' sound?"
+    },
+    {
+      "role": "B",
+      "nl": "[yaar] — lange aa + zachte R achterin de keel",
+      "en": "[yaar] — long aa + soft R at back of throat"
+    }
+  ]
+}

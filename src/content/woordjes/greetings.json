@@ -1,0 +1,96 @@
+{
+  "id": "greetings",
+  "order": 1,
+  "title": {
+    "nl": "Begroetingen",
+    "en": "Greetings"
+  },
+  "emoji": "👋",
+  "color": "#c8a84b",
+  "words": [
+    {
+      "nl": "Hallo",
+      "phonetic": "hah-LOH",
+      "en": "Hello",
+      "tip": "Universal, works any time of day."
+    },
+    {
+      "nl": "Dag",
+      "phonetic": "dahkh",
+      "en": "Hi / Bye",
+      "tip": "Soft 'g'. Used for both hello AND goodbye."
+    },
+    {
+      "nl": "Welkom",
+      "phonetic": "VEL-kom",
+      "en": "Welcome",
+      "tip": "Welkom in België! = Welcome to Belgium!"
+    },
+    {
+      "nl": "Goedemorgen",
+      "phonetic": "khoo-duh-MOR-khun",
+      "en": "Good morning",
+      "tip": "Until about noon. Often shortened to 'morgen'."
+    },
+    {
+      "nl": "Goedemiddag",
+      "phonetic": "khoo-duh-MID-dahkh",
+      "en": "Good afternoon",
+      "tip": "Noon to ~6pm."
+    },
+    {
+      "nl": "Goedenavond",
+      "phonetic": "khoo-duh-NAH-font",
+      "en": "Good evening",
+      "tip": "From ~6pm onwards."
+    },
+    {
+      "nl": "Goedenacht",
+      "phonetic": "khoo-duh-NAKHT",
+      "en": "Good night",
+      "tip": "Only when parting for the night."
+    },
+    {
+      "nl": "Tot ziens",
+      "phonetic": "tot ZEENS",
+      "en": "Goodbye",
+      "tip": "Literally 'until seen'."
+    },
+    {
+      "nl": "Doei",
+      "phonetic": "DOO-ee",
+      "en": "Bye (informal)",
+      "tip": "Very casual, among friends."
+    },
+    {
+      "nl": "Aangenaam",
+      "phonetic": "aan-khuh-NAAM",
+      "en": "Pleased to meet you",
+      "tip": "Lit. 'pleasant'. Said when introduced. Often: 'Aangenaam kennis te maken.'"
+    },
+    {
+      "nl": "Groeten",
+      "phonetic": "KHROO-tun",
+      "en": "Greetings",
+      "tip": "Formal. Also used in letters/emails: 'Met vriendelijke groeten' = Kind regards."
+    },
+    {
+      "nl": "Groetjes",
+      "phonetic": "KHROOT-yuhs",
+      "en": "Greetings / Cheers (warm)",
+      "tip": "The -je diminutive makes it warmer and more casual. Used at end of messages."
+    },
+    {
+      "nl": "Hoe gaat het?",
+      "phonetic": "hoo khaat huht",
+      "en": "How are you?",
+      "tip": "Standard greeting. Reply: 'Goed, dank je!' or 'Het gaat wel.'"
+    },
+    {
+      "nl": "Het gaat wel",
+      "phonetic": "huht khaat vel",
+      "en": "It's okay / Not bad",
+      "tip": "Very Belgian answer — modest, never too enthusiastic!"
+    }
+  ]
+}

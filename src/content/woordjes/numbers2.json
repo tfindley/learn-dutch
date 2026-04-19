@@ -1,0 +1,174 @@
+{
+  "id": "numbers2",
+  "order": 7,
+  "title": {
+    "nl": "Getallen 20+",
+    "en": "Numbers 20+"
+  },
+  "emoji": "💯",
+  "color": "#4a235a",
+  "words": [
+    {
+      "nl": "dertig",
+      "phonetic": "DER-tikh",
+      "en": "30 — thirty",
+      "tip": "Pattern: -tig suffix for all tens. Soft 'g'."
+    },
+    {
+      "nl": "veertig",
+      "phonetic": "FAYR-tikh",
+      "en": "40 — forty",
+      "tip": "Vier → veer- in compounds."
+    },
+    {
+      "nl": "vijftig",
+      "phonetic": "FAYF-tikh",
+      "en": "50 — fifty",
+      "tip": "Vijf + tig."
+    },
+    {
+      "nl": "zestig",
+      "phonetic": "ZES-tikh",
+      "en": "60 — sixty",
+      "tip": "Zes + tig."
+    },
+    {
+      "nl": "zeventig",
+      "phonetic": "ZAY-fun-tikh",
+      "en": "70 — seventy",
+      "tip": "Zeven + tig."
+    },
+    {
+      "nl": "tachtig",
+      "phonetic": "TAKH-tikh",
+      "en": "80 — eighty",
+      "tip": "Irregular! Not 'achtig'. Must memorise."
+    },
+    {
+      "nl": "vijfentachtig",
+      "phonetic": "fayf-un-TAKH-tikh",
+      "en": "85 — eighty-five",
+      "tip": "Units BEFORE tens + 'en': vijf(5)+en+tachtig(80). Dutch counts backwards!"
+    },
+    {
+      "nl": "achtentachtig",
+      "phonetic": "akh-tun-TAKH-tikh",
+      "en": "88 — eighty-eight",
+      "tip": "acht(8)+en+tachtig(80). Pattern: [units]+en+[tens]."
+    },
+    {
+      "nl": "negentig",
+      "phonetic": "NAY-khun-tikh",
+      "en": "90 — ninety",
+      "tip": "Negen + tig."
+    },
+    {
+      "nl": "negenennegentig",
+      "phonetic": "NAY-khun-un-NAY-khun-tikh",
+      "en": "99 — ninety-nine",
+      "tip": "negen+en+negentig. Yes, it's a mouthful!"
+    },
+    {
+      "nl": "honderd",
+      "phonetic": "HON-dert",
+      "en": "100 — one hundred",
+      "tip": "No 'één' before it: just 'honderd', not 'één honderd'."
+    },
+    {
+      "nl": "honderd één",
+      "phonetic": "HON-dert ayn",
+      "en": "101",
+      "tip": "Honderd + één. 'En' is optional: 'honderd en één' also correct."
+    },
+    {
+      "nl": "honderd twee",
+      "phonetic": "HON-dert tvay",
+      "en": "102",
+      "tip": "Simply honderd + the number."
+    },
+    {
+      "nl": "honderd drie",
+      "phonetic": "HON-dert dree",
+      "en": "103",
+      "tip": "Honderd + drie."
+    },
+    {
+      "nl": "honderd tien",
+      "phonetic": "HON-dert teen",
+      "en": "110",
+      "tip": "Honderd + tien."
+    },
+    {
+      "nl": "honderd elf",
+      "phonetic": "HON-dert elf",
+      "en": "111",
+      "tip": "Honderd + elf."
+    },
+    {
+      "nl": "honderd twaalf",
+      "phonetic": "HON-dert tvaalff",
+      "en": "112",
+      "tip": "Honderd + twaalf. 🚑 Emergency number in Belgium!"
+    },
+    {
+      "nl": "tweehonderd",
+      "phonetic": "TVAY-hon-dert",
+      "en": "200",
+      "tip": "Twee+honderd. No spaces in writing."
+    },
+    {
+      "nl": "driehonderd",
+      "phonetic": "DREE-hon-dert",
+      "en": "300",
+      "tip": "Drie+honderd."
+    },
+    {
+      "nl": "vijfhonderd",
+      "phonetic": "FAYF-hon-dert",
+      "en": "500",
+      "tip": "Vijf+honderd."
+    },
+    {
+      "nl": "achthonderd",
+      "phonetic": "AKHT-hon-dert",
+      "en": "800",
+      "tip": "Acht+honderd."
+    },
+    {
+      "nl": "achthonderd achtentachtig",
+      "phonetic": "AKHT-hon-dert akh-tun-TAKH-tikh",
+      "en": "888",
+      "tip": "achthonderd(800) + achtentachtig(88). Stack the patterns!"
+    },
+    {
+      "nl": "duizend",
+      "phonetic": "DOW-zunt",
+      "en": "1000 — one thousand",
+      "tip": "'ui' vowel. No 'één' before: just 'duizend'."
+    },
+    {
+      "nl": "elfhonderd",
+      "phonetic": "ELF-hon-dert",
+      "en": "1100",
+      "tip": "In Belgian Dutch, 1100 is often said as 'elfhonderd' (eleven hundred), not 'duizend honderd'."
+    },
+    {
+      "nl": "duizend tweehonderd vierendertig",
+      "phonetic": "DOW-zunt TVAY-hon-dert FEER-un-DER-tikh",
+      "en": "1234",
+      "tip": "34 = vierendertig (vier+en+dertig). Full number: duizend + tweehonderd + vierendertig."
+    },
+    {
+      "nl": "tweeduizend",
+      "phonetic": "TVAY-dow-zunt",
+      "en": "2000",
+      "tip": "Twee+duizend. The pattern scales."
+    },
+    {
+      "nl": "tweeëntwintigduizend tweehonderd tweeëntwintig",
+      "phonetic": "tvay-un-TVIN-tikh-dow-zunt TVAY-hon-dert tvay-un-TVIN-tikh",
+      "en": "22,222",
+      "tip": "22=tweeëntwintig (twee+en+twintig). The ë shows the 'e' is separate. Yes, this is one sentence in Dutch!"
+    }
+  ]
+}

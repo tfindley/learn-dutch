@@ -1,0 +1,167 @@
+{
+  "kind": "uitspraak",
+  "id": "spelling_plural",
+  "order": 5,
+  "tag": "SPELLING · PLURALS",
+  "title": {
+    "nl": "Singular → Plural",
+    "en": "The Spelling Rules"
+  },
+  "difficulty": "medium",
+  "shortcut": "The sound never changes — only the spelling adjusts. Short stays short, long stays long.",
+  "explanation": "Dutch plural spelling follows directly from the open/closed syllable rule. The goal is always to preserve the original vowel sound. A short vowel needs a closed syllable (doubled consonant). A long vowel needs an open syllable (drop one vowel letter). The sound is your guide — if it sounds right, the spelling is probably right.",
+  "patterns": [
+    {
+      "rule": "Rule 1 — Short vowel (1 vowel + 1 consonant): double the consonant + -en",
+      "examples": [
+        "Why: adding -en would create an open syllable → vowel would go long → sounds wrong",
+        "Solution: double the consonant to keep the syllable CLOSED and vowel SHORT",
+        "bom → bom+m+en → bommen [short o stays short]",
+        "man → man+n+en → mannen [short a stays short]",
+        "bot → bot+t+en → botten [short o stays short]",
+        "bed → bed+d+en → bedden [short e stays short]"
+      ]
+    },
+    {
+      "rule": "Rule 2 — Long vowel (2 vowels + 1 consonant): drop one vowel + -en",
+      "examples": [
+        "Why: the open syllable (bo-men) automatically makes the vowel long — no need for two letters",
+        "Solution: drop one vowel — the spelling simplifies, but the SOUND stays LONG",
+        "boom → bo+men → bomen [long o STAYS long — open syllable bo-]",
+        "maan → ma+nen → manen [long a STAYS long — open syllable ma-]",
+        "been → be+nen → benen [long ee STAYS long — open syllable be-]",
+        "boot → bo+ten → boten [long o STAYS long — open syllable bo-]",
+        "⚠ Common mistake: thinking 'bomen' has a short o because there's only one 'o'. It doesn't!"
+      ]
+    },
+    {
+      "rule": "Rule 3 — Vowel + consonant cluster (2+ consonants): just add -en",
+      "examples": [
+        "No changes needed — the cluster already keeps the syllable closed",
+        "boek → boeken (oe + k = cluster)",
+        "fiets → fietsen (ie + ts = cluster)",
+        "hond → honden (on + d) — note: final d is kept in plural",
+        "stoel → stoelen (oe + l)"
+      ]
+    },
+    {
+      "rule": "Rule 4 — f → v before -en (voicing)",
+      "examples": [
+        "In Dutch, 'f' at the end of a word becomes 'v' before a vowel suffix",
+        "brief → brieven (f → v)",
+        "wolf → wolven (f → v)",
+        "dief → dieven (f → v)",
+        "roof → roven (f → v)"
+      ]
+    },
+    {
+      "rule": "Rule 5 — s → z before -en (voicing)",
+      "examples": [
+        "Similarly, final 's' voices to 'z' before -en",
+        "vaas → vazen (s → z)",
+        "huis → huizen (s → z)",
+        "roos → rozen (s → z)",
+        "muis → muizen (s → z — mouse/mice!)"
+      ]
+    },
+    {
+      "rule": "Rule 6 — Words ending -el, -er, -em, -en → add -s (not -en)",
+      "examples": [
+        "tafel → tafels (table/tables)",
+        "kamer → kamers (room/rooms)",
+        "oven → ovens",
+        "bezem → bezems (broom/brooms)",
+        "Also: -aar, -eur, -ier, -or endings → add -s: dokter → dokters, chauffeur → chauffeurs"
+      ]
+    },
+    {
+      "rule": "Rule 7 — Diminutives (-je) → add -s",
+      "examples": [
+        "huisje → huisjes",
+        "biertje → biertjes",
+        "koffietje → koffietjes",
+        "meisje → meisjes"
+      ]
+    },
+    {
+      "rule": "Rule 8 — Foreign/international words → add -'s",
+      "examples": [
+        "Used when word ends in: a, e, i, o, u, y",
+        "auto → auto's · foto → foto's · café → café's",
+        "taxi → taxi's · menu → menu's",
+        "The apostrophe prevents confusion (autos would look like it has a long 'o')"
+      ]
+    }
+  ],
+  "memory": "🧠 Say the plural out loud first. If the vowel sounds short → you need a doubled consonant. If it sounds long → open syllable does the work. Your ear is the spelling guide.",
+  "examples": [
+    {
+      "nl": "man → mannen / maan → manen",
+      "en": "short a stays short / long a stays long — hear the difference!"
+    },
+    {
+      "nl": "bot → botten / boot → boten",
+      "en": "short o / long o — same principle"
+    },
+    {
+      "nl": "brief → brieven / vaas → vazen",
+      "en": "f→v / s→z voicing rules"
+    },
+    {
+      "nl": "tafel → tafels / auto → auto's",
+      "en": "-el→-s / foreign word→-'s"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Meervoud van 'bom'?",
+      "en": "Plural of 'bom'?"
+    },
+    {
+      "role": "B",
+      "nl": "bommen — korte o, dus dubbele m: bom+m+en",
+      "en": "bommen — short o, so double m"
+    },
+    {
+      "role": "A",
+      "nl": "Meervoud van 'boom'?",
+      "en": "Plural of 'boom'?"
+    },
+    {
+      "role": "B",
+      "nl": "bomen — lange o blijft lang in open lettergreep: bo-men",
+      "en": "bomen — long o stays long in open syllable: bo-men"
+    },
+    {
+      "role": "A",
+      "nl": "Meervoud van 'brief'?",
+      "en": "Plural of 'brief'?"
+    },
+    {
+      "role": "B",
+      "nl": "brieven — f wordt v voor -en",
+      "en": "brieven — f becomes v before -en"
+    },
+    {
+      "role": "A",
+      "nl": "Meervoud van 'vaas'?",
+      "en": "Plural of 'vaas'?"
+    },
+    {
+      "role": "B",
+      "nl": "vazen — s wordt z voor -en",
+      "en": "vazen — s becomes z before -en"
+    },
+    {
+      "role": "A",
+      "nl": "Meervoud van 'auto'?",
+      "en": "Plural of 'auto'?"
+    },
+    {
+      "role": "B",
+      "nl": "auto's — buitenlands woord dat eindigt op klinker",
+      "en": "auto's — foreign word ending in vowel"
+    }
+  ]
+}

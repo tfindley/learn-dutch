@@ -1,0 +1,116 @@
+{
+  "kind": "grammar",
+  "id": "articles",
+  "order": 1,
+  "tag": "GRAMMAR · ARTICLES",
+  "title": {
+    "nl": "de vs. het",
+    "en": "The #1 Headache"
+  },
+  "difficulty": "hard",
+  "shortcut": "Default to 'de'. You'll be right ~75% of the time.",
+  "explanation": "Every Dutch noun is either a 'de-word' or a 'het-word'. There's no perfect logic — but there ARE patterns.",
+  "patterns": [
+    {
+      "rule": "ALL plurals → de",
+      "examples": [
+        "de huizen (houses)",
+        "de mensen (people)",
+        "de kinderen (children)"
+      ]
+    },
+    {
+      "rule": "People & professions → de",
+      "examples": [
+        "de man",
+        "de vrouw",
+        "de dokter",
+        "de leraar"
+      ]
+    },
+    {
+      "rule": "Most words ending -ing, -heid, -schap → de",
+      "examples": [
+        "de vergadering",
+        "de vrijheid",
+        "de vriendschap"
+      ]
+    },
+    {
+      "rule": "Diminutives (-je, -tje) → ALWAYS het",
+      "examples": [
+        "het huisje",
+        "het meisje",
+        "het biertje ✓"
+      ]
+    },
+    {
+      "rule": "Words for young creatures → het",
+      "examples": [
+        "het kind",
+        "het kuiken",
+        "het lam"
+      ]
+    },
+    {
+      "rule": "Languages & sports → het",
+      "examples": [
+        "het Nederlands",
+        "het voetbal"
+      ]
+    }
+  ],
+  "memory": "🧠 Think of it like Linux file permissions — learn the exceptions, default to the safe value (de).",
+  "examples": [
+    {
+      "nl": "de auto / het huis",
+      "en": "the car / the house"
+    },
+    {
+      "nl": "een auto / een huis",
+      "en": "a car / a house (indefinite = always 'een')"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "De of het? → 'huis'",
+      "en": "De or het? → 'house'"
+    },
+    {
+      "role": "B",
+      "nl": "het huis ✓ (het-word)",
+      "en": "the house"
+    },
+    {
+      "role": "A",
+      "nl": "De of het? → 'auto'",
+      "en": "De or het? → 'car'"
+    },
+    {
+      "role": "B",
+      "nl": "de auto ✓ (de-word)",
+      "en": "the car"
+    },
+    {
+      "role": "A",
+      "nl": "De of het? → 'biertje'",
+      "en": "De or het? → 'beer (diminutive)'"
+    },
+    {
+      "role": "B",
+      "nl": "het biertje ✓ (ALL diminutives = het)",
+      "en": "the beer"
+    },
+    {
+      "role": "A",
+      "nl": "De of het? → 'kinderen'",
+      "en": "De or het? → 'children'"
+    },
+    {
+      "role": "B",
+      "nl": "de kinderen ✓ (ALL plurals = de)",
+      "en": "the children"
+    }
+  ]
+}

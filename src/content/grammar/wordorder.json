@@ -1,0 +1,76 @@
+{
+  "kind": "grammar",
+  "id": "wordorder",
+  "order": 2,
+  "tag": "GRAMMAR · WORD ORDER",
+  "title": {
+    "nl": "SOV",
+    "en": "Verb Goes Last (in subclauses)"
+  },
+  "difficulty": "medium",
+  "shortcut": "Main clause = SVO like English. Subclause = verb kicks to the END.",
+  "explanation": "Dutch is SVO in main clauses but SOV in subordinate clauses. This trips everyone up.",
+  "patterns": [
+    {
+      "rule": "Main clause: Subject → Verb → Object",
+      "examples": [
+        "Ik drink koffie.",
+        "Hij werkt thuis."
+      ]
+    },
+    {
+      "rule": "Yes/No question: flip S and V",
+      "examples": [
+        "Drink jij koffie?",
+        "Werkt hij thuis?"
+      ]
+    },
+    {
+      "rule": "Subclause (omdat, dat, als...): verb goes LAST",
+      "examples": [
+        "...omdat ik koffie drink.",
+        "...dat hij thuis werkt."
+      ]
+    },
+    {
+      "rule": "Two verbs in subclause: infinitive comes last",
+      "examples": [
+        "...omdat ik koffie wil drinken.",
+        "...dat hij niet kan werken."
+      ]
+    }
+  ],
+  "memory": "🧠 Subclause = function call — you stack verbs at the end like arguments: subject + [modal] + [infinitive].",
+  "examples": [
+    {
+      "nl": "Ik ga naar huis omdat ik moe ben.",
+      "en": "I'm going home because I'm tired."
+    },
+    {
+      "nl": "Hij zegt dat hij niet kan komen.",
+      "en": "He says that he can't come."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Waarom ga je naar huis?",
+      "en": "Why are you going home?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik ga naar huis omdat ik moe ben.",
+      "en": "I'm going home because I'm tired."
+    },
+    {
+      "role": "A",
+      "nl": "Waarom leer je Nederlands?",
+      "en": "Why are you learning Dutch?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik leer Nederlands omdat ik in België woon.",
+      "en": "I'm learning Dutch because I live in Belgium."
+    }
+  ]
+}

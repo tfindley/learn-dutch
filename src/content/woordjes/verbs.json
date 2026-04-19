@@ -1,0 +1,132 @@
+{
+  "id": "verbs",
+  "order": 4,
+  "title": {
+    "nl": "Werkwoorden",
+    "en": "Core Verbs"
+  },
+  "emoji": "⚡",
+  "color": "#1a5276",
+  "words": [
+    {
+      "nl": "zijn",
+      "phonetic": "zayn",
+      "en": "to be",
+      "tip": "Irregular: ik ben, jij bent, hij is, wij zijn."
+    },
+    {
+      "nl": "hebben",
+      "phonetic": "HEH-bun",
+      "en": "to have",
+      "tip": "Final -n dropped in speech: 'hebbe'. Ik heb, jij hebt."
+    },
+    {
+      "nl": "doen",
+      "phonetic": "doon",
+      "en": "to do / make",
+      "tip": "'oe' = long 'oo'. Ik doe, jij doet."
+    },
+    {
+      "nl": "gaan",
+      "phonetic": "khaan",
+      "en": "to go",
+      "tip": "Ik ga, jij gaat, wij gaan."
+    },
+    {
+      "nl": "komen",
+      "phonetic": "KOH-mun",
+      "en": "to come",
+      "tip": "Ik kom, jij komt."
+    },
+    {
+      "nl": "zien",
+      "phonetic": "zeen",
+      "en": "to see",
+      "tip": "'ie' = long 'ee'. Ik zie, jij ziet."
+    },
+    {
+      "nl": "weten",
+      "phonetic": "VAY-tun",
+      "en": "to know (a fact)",
+      "tip": "For knowing facts. 'Kennen' = to know a person."
+    },
+    {
+      "nl": "willen",
+      "phonetic": "VIL-un",
+      "en": "to want",
+      "tip": "Ik wil, jij wilt. Modal verb — infinitive follows."
+    },
+    {
+      "nl": "kunnen",
+      "phonetic": "KUN-un",
+      "en": "can / to be able",
+      "tip": "Ik kan, jij kunt/kan."
+    },
+    {
+      "nl": "moeten",
+      "phonetic": "MOO-tun",
+      "en": "must / have to",
+      "tip": "Ik moet — no -t added for any person."
+    },
+    {
+      "nl": "mogen",
+      "phonetic": "MOH-khun",
+      "en": "may / to be allowed",
+      "tip": "Ik mag, jij mag. 'Mag ik?' = May I?"
+    },
+    {
+      "nl": "zeggen",
+      "phonetic": "ZEK-khun",
+      "en": "to say",
+      "tip": "Ik zeg, jij zegt."
+    },
+    {
+      "nl": "denken",
+      "phonetic": "DEN-kun",
+      "en": "to think",
+      "tip": "Ik denk dat... = I think that..."
+    },
+    {
+      "nl": "maken",
+      "phonetic": "MAH-kun",
+      "en": "to make",
+      "tip": "Very versatile verb."
+    },
+    {
+      "nl": "werken",
+      "phonetic": "VER-kun",
+      "en": "to work",
+      "tip": "Ik werk, jij werkt. Op het werk = at work."
+    },
+    {
+      "nl": "spreken",
+      "phonetic": "SPRAY-kun",
+      "en": "to speak",
+      "tip": "Ik spreek Nederlands. 'sp' = sharp 's'+'p'."
+    },
+    {
+      "nl": "wonen",
+      "phonetic": "VOH-nun",
+      "en": "to live (reside)",
+      "tip": "Ik woon in Roeselare. Not 'leven' (to be alive)."
+    },
+    {
+      "nl": "herhalen",
+      "phonetic": "her-HAH-lun",
+      "en": "to repeat",
+      "tip": "Separable? No. Ik herhaal, jij herhaalt. 'Kan je dat herhalen?' = Can you repeat that?"
+    },
+    {
+      "nl": "betekenen",
+      "phonetic": "buh-TAY-kun-un",
+      "en": "to mean",
+      "tip": "Wat betekent dit? = What does this mean? Betekent (present) / betekend (past participle)."
+    },
+    {
+      "nl": "vragen",
+      "phonetic": "FRAH-khun",
+      "en": "to ask",
+      "tip": "'v' → 'f' at start, soft 'g'. Ik vraag, jij vraagt."
+    }
+  ]
+}

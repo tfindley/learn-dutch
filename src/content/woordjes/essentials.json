@@ -1,0 +1,84 @@
+{
+  "id": "essentials",
+  "order": 16,
+  "title": {
+    "nl": "Basiszinnen",
+    "en": "Essentials"
+  },
+  "emoji": "✅",
+  "color": "#c8a84b",
+  "words": [
+    {
+      "nl": "ja",
+      "phonetic": "yah",
+      "en": "yes",
+      "tip": "Short and clear."
+    },
+    {
+      "nl": "nee",
+      "phonetic": "nay",
+      "en": "no",
+      "tip": "Long 'ee' sound."
+    },
+    {
+      "nl": "alsjeblieft",
+      "phonetic": "als-yuh-BLEEFT",
+      "en": "please / here you go",
+      "tip": "Also used when handing something over. Formal: 'alstublieft'."
+    },
+    {
+      "nl": "dank je (wel)",
+      "phonetic": "dank yuh vel",
+      "en": "thank you (informal)",
+      "tip": "Add 'wel' for emphasis. Reply: 'Graag gedaan' = You're welcome."
+    },
+    {
+      "nl": "dank u wel",
+      "phonetic": "dank ew vel",
+      "en": "thank you (formal)",
+      "tip": "Use 'u' form with strangers and elders."
+    },
+    {
+      "nl": "sorry",
+      "phonetic": "SO-ree",
+      "en": "sorry / excuse me",
+      "tip": "Same as English. Used widely for bumping into people too."
+    },
+    {
+      "nl": "graag",
+      "phonetic": "khraakh",
+      "en": "gladly / please",
+      "tip": "Ja, graag = Yes, please. Quintessentially Belgian. Graag gedaan = You're welcome."
+    },
+    {
+      "nl": "niet",
+      "phonetic": "neet",
+      "en": "not",
+      "tip": "Negation. 'Ik wil niet' = I don't want to."
+    },
+    {
+      "nl": "geen",
+      "phonetic": "khayn",
+      "en": "no (before nouns)",
+      "tip": "'Ik heb geen tijd' = I have no time. Replaces 'een' in negation."
+    },
+    {
+      "nl": "met plezier",
+      "phonetic": "met pluh-ZEER",
+      "en": "with pleasure",
+      "tip": "Used to accept requests warmly. 'Ja, met plezier!' = Yes, with pleasure!"
+    },
+    {
+      "nl": "Ja, dat gaat",
+      "phonetic": "yah dat khaat",
+      "en": "Yes, that works / that's fine",
+      "tip": "Very Belgian expression for agreeing to something. Soft 'g' in 'gaat'."
+    },
+    {
+      "nl": "Natuurlijk",
+      "phonetic": "nah-TUUR-luk",
+      "en": "of course / naturally",
+      "tip": "Strong agreement. 'Natuurlijk!' = Of course!"
+    }
+  ]
+}

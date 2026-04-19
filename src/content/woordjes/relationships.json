@@ -1,0 +1,48 @@
+{
+  "id": "relationships",
+  "order": 18,
+  "title": {
+    "nl": "Relaties",
+    "en": "Relationships"
+  },
+  "emoji": "💑",
+  "color": "#c0392b",
+  "words": [
+    {
+      "nl": "getrouwd",
+      "phonetic": "khuh-TROWT",
+      "en": "married",
+      "tip": "Soft 'g'. 'Ik ben getrouwd' = I'm married. 'trouwen' = to marry."
+    },
+    {
+      "nl": "verloofd",
+      "phonetic": "fur-LOHFT",
+      "en": "engaged",
+      "tip": "'Wij zijn verloofd' = We are engaged. From 'verloven'."
+    },
+    {
+      "nl": "gescheiden",
+      "phonetic": "khuh-SKHAYD-un",
+      "en": "divorced",
+      "tip": "Soft 'g'. From 'scheiden' (to separate). 'ij' = 'eye'."
+    },
+    {
+      "nl": "alleenstaand",
+      "phonetic": "ah-LAYN-staant",
+      "en": "single",
+      "tip": "Alleen (alone) + staand (standing). Literally 'standing alone'. Very descriptive!"
+    },
+    {
+      "nl": "samenwonend",
+      "phonetic": "SAH-mun-voh-nunt",
+      "en": "cohabiting / living together",
+      "tip": "Samen (together) + wonend (living). Common in Belgium before or instead of marriage."
+    },
+    {
+      "nl": "weduwe / weduwnaar",
+      "phonetic": "VAY-dew-uh / VAY-dew-naar",
+      "en": "widow / widower",
+      "tip": "'weduwe' = female, 'weduwnaar' = male. Long 'uu'."
+    }
+  ]
+}

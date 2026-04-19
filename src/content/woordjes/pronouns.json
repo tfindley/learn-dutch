@@ -1,0 +1,60 @@
+{
+  "id": "pronouns",
+  "order": 2,
+  "title": {
+    "nl": "Voornaamwoorden",
+    "en": "Pronouns"
+  },
+  "emoji": "🙋",
+  "color": "#b03a2e",
+  "words": [
+    {
+      "nl": "ik",
+      "phonetic": "ick",
+      "en": "I",
+      "tip": "Never capitalized mid-sentence (unlike English 'I')."
+    },
+    {
+      "nl": "jij / je",
+      "phonetic": "yay / yuh",
+      "en": "you (informal)",
+      "tip": "'jij' is stressed, 'je' is unstressed. After verb: drop the -t: 'Ga je mee?' not 'Gaat je'."
+    },
+    {
+      "nl": "hij",
+      "phonetic": "hay",
+      "en": "he",
+      "tip": "'ij' = 'eye' sound."
+    },
+    {
+      "nl": "zij / ze",
+      "phonetic": "zay / zuh",
+      "en": "she / they",
+      "tip": "Dual meaning — context clarifies. 'ze' is unstressed."
+    },
+    {
+      "nl": "het",
+      "phonetic": "huht",
+      "en": "it",
+      "tip": "Also the neuter article ('het huis' = the house)."
+    },
+    {
+      "nl": "wij / we",
+      "phonetic": "vay / wuh",
+      "en": "we",
+      "tip": "'wij' is the emphasized form."
+    },
+    {
+      "nl": "jullie",
+      "phonetic": "YUL-ee",
+      "en": "you (plural)",
+      "tip": "Use when addressing a group of people."
+    },
+    {
+      "nl": "u",
+      "phonetic": "ew",
+      "en": "you (formal)",
+      "tip": "For strangers, elders, professional settings. Always polite in Belgium."
+    }
+  ]
+}

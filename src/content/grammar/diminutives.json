@@ -1,0 +1,76 @@
+{
+  "kind": "grammar",
+  "id": "diminutives",
+  "order": 8,
+  "tag": "GRAMMAR · DIMINUTIVES",
+  "title": {
+    "nl": "The -je Suffix",
+    "en": "Belgians Use It Constantly"
+  },
+  "difficulty": "easy",
+  "shortcut": "Add -je to almost any noun. It softens requests and makes speech friendlier.",
+  "explanation": "Diminutives aren't just for small things — they soften requests and make you sound naturally Belgian.",
+  "patterns": [
+    {
+      "rule": "Basic: add -je",
+      "examples": [
+        "huis → huisje",
+        "bier → biertje",
+        "koffie → koffietje"
+      ]
+    },
+    {
+      "rule": "After n,l,r,ng,um: add -etje",
+      "examples": [
+        "baan → baantje",
+        "bal → balletje"
+      ]
+    },
+    {
+      "rule": "Diminutives are ALWAYS het-words",
+      "examples": [
+        "het biertje, het koffietje, het huisje"
+      ]
+    },
+    {
+      "rule": "Used to soften requests",
+      "examples": [
+        "Een koffietje, alsjeblieft.",
+        "Nog een pintje?"
+      ]
+    }
+  ],
+  "memory": "🧠 -je = sudo --polite. Doesn't change the command, just makes it friendlier.",
+  "examples": [
+    {
+      "nl": "Een biertje, graag!",
+      "en": "A beer, please!"
+    },
+    {
+      "nl": "Wacht even een momentje.",
+      "en": "Just wait a moment."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wil jij een koffie of een thee?",
+      "en": "Do you want a coffee or a tea?"
+    },
+    {
+      "role": "B",
+      "nl": "Een koffietje, alsjeblieft!",
+      "en": "A coffee, please!"
+    },
+    {
+      "role": "A",
+      "nl": "Nog een pintje?",
+      "en": "Another beer?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, graag! / Nee, dank je.",
+      "en": "Yes please! / No thank you."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "test_uitspraak",
+  "title": "Uitspraak",
+  "subtitle": "Pronunciation Rules",
+  "leerpad": "Uitspraak",
+  "difficulty": "medium",
+  "emoji": "🔊",
+  "questions": [
+    {
+      "q": "How does 'IJ' sound in Belgian Dutch?",
+      "options": [
+        "Like English 'ee' (as in see)",
+        "Like English 'eye'",
+        "Like French 'eu'",
+        "Like English 'oy'"
+      ],
+      "answer": 1,
+      "explanation": "'IJ' and 'EI' both sound like English 'eye'. Examples: zijn [zayn], tijd [tayd], klein [klayn]. IJ and EI are pronounced identically."
+    },
+    {
+      "q": "'boom' vs 'bomen' — is the 'o' sound different?",
+      "options": [
+        "Yes — 'boom' is long, 'bomen' is short",
+        "No — both have a long 'o' sound",
+        "Yes — 'bomen' has a short 'o'",
+        "It depends on the region"
+      ],
+      "answer": 1,
+      "explanation": "The sound is IDENTICAL. 'Boom' uses 'oo' in a closed syllable. 'Bomen' uses one 'o' in an open syllable (bo-men) — also long. Spelling changes, not sound."
+    },
+    {
+      "q": "How do you pronounce 'kamer' in natural Belgian Dutch?",
+      "options": [
+        "[KAH-mehr] — full R at the end",
+        "[KAH-muh] — R reduces to soft 'uh'",
+        "[kah-MER] — stress on second syllable",
+        "[KAY-muh] — long aa sound"
+      ],
+      "answer": 1,
+      "explanation": "Unstressed -er endings reduce to a schwa ('uh'). The R is nearly silent. 'kamer' = [KAH-muh], 'water' = [VAH-tuh], 'lekker' = [LEK-uh]."
+    },
+    {
+      "q": "What is the 'schwa'?",
+      "options": [
+        "The Dutch word for 'ch' sound",
+        "The neutral 'uh' sound that replaces unstressed 'e'",
+        "The soft Belgian g sound",
+        "A silent letter in Dutch"
+      ],
+      "answer": 1,
+      "explanation": "The schwa [ə] is the neutral 'uh' sound. Every unstressed 'e' in Dutch becomes a schwa — 'de' = [duh], 'goedemorgen' = [khoo-duh-MOR-khun]."
+    },
+    {
+      "q": "How do you pronounce the Belgian 'g' in 'goed'?",
+      "options": [
+        "Like English 'g' in 'go'",
+        "Like French 'g' in 'garage' (zh)",
+        "A soft, breathy rasp at the back of the throat",
+        "Silent — the g is not pronounced"
+      ],
+      "answer": 2,
+      "explanation": "The Belgian 'g' is a soft, gentle rasp at the back of the throat — like fogging a mirror. Much softer than Dutch Netherlands."
+    },
+    {
+      "q": "'bom' vs 'bommen' — what does doubling the 'm' signal?",
+      "options": [
+        "The word has changed meaning",
+        "The vowel is long in the plural",
+        "The vowel stays short — doubling prevents the open syllable from making it long",
+        "It is a spelling error"
+      ],
+      "answer": 2,
+      "explanation": "Without doubling, 'bomen' reads as long o. 'Bommen' keeps the syllable closed (bom-men), preserving the short 'o'. Spelling protects the sound."
+    }
+  ],
+  "order": 8
+}
