@@ -1,0 +1,198 @@
+{
+  "id": "supermarkt",
+  "order": 25,
+  "title": {
+    "nl": "Supermarkt",
+    "en": "Supermarkt"
+  },
+  "emoji": "🧀",
+  "color": "#6c3483",
+  "words": [
+    {
+      "nl": "de groenten",
+      "phonetic": "duh KHROO-tun",
+      "en": "vegetables (category)",
+      "tip": "Soft 'g'. The vegetable aisle. Singular: de groente."
+    },
+    {
+      "nl": "het fruit",
+      "phonetic": "huht frowt",
+      "en": "fruit (category)",
+      "tip": "'ui' vowel. Het fruit = fruit as a category. Individual fruits mostly take 'de'."
+    },
+    {
+      "nl": "de bakkerij",
+      "phonetic": "duh bak-kuh-RAY",
+      "en": "the bakery",
+      "tip": "Long 'ay' at end. Found in most Belgian supermarkets — fresh bread daily."
+    },
+    {
+      "nl": "het vlees",
+      "phonetic": "huht vlays",
+      "en": "meat",
+      "tip": "het-word. 'Ik eet geen vlees' = I don't eat meat."
+    },
+    {
+      "nl": "de vis",
+      "phonetic": "duh fis",
+      "en": "fish",
+      "tip": "Short 'i'. 'De visafdeling' = the fish counter."
+    },
+    {
+      "nl": "de zuivel",
+      "phonetic": "duh ZOW-vul",
+      "en": "dairy",
+      "tip": "'ui' vowel. The dairy section: milk, cheese, yoghurt, butter."
+    },
+    {
+      "nl": "de dranken",
+      "phonetic": "duh DRANK-un",
+      "en": "drinks",
+      "tip": "Plural of 'de drank'. The drinks aisle."
+    },
+    {
+      "nl": "de niet-voeding",
+      "phonetic": "duh NEET-foo-ding",
+      "en": "non-food",
+      "tip": "Niet (not) + voeding (food). Toiletries, cleaning products, etc."
+    },
+    {
+      "nl": "het brood",
+      "phonetic": "huht broht",
+      "en": "the bread",
+      "tip": "het-word! Long 'oo'. 'Een sneetje brood' = a slice of bread."
+    },
+    {
+      "nl": "de melk",
+      "phonetic": "duh melk",
+      "en": "the milk",
+      "tip": "'Een pak melk' = a carton of milk. Very common purchase!"
+    },
+    {
+      "nl": "de kaas",
+      "phonetic": "duh kaas",
+      "en": "the cheese",
+      "tip": "Long 'aa'. Belgium is famous for its cheese. 'Een stuk kaas' = a piece of cheese."
+    },
+    {
+      "nl": "het ei / de eieren",
+      "phonetic": "huht ay / duh AY-yuh-run",
+      "en": "the egg / the eggs",
+      "tip": "het ei (singular) → de eieren (plural). Common mistake: never 'de ei'!"
+    },
+    {
+      "nl": "de boter",
+      "phonetic": "duh BOH-tur",
+      "en": "the butter",
+      "tip": "'Een pakje boter' = a pack of butter. -er ending reduces to schwa: [BOH-tuh]."
+    },
+    {
+      "nl": "de yoghurt",
+      "phonetic": "duh YOH-khurt",
+      "en": "the yoghurt",
+      "tip": "Soft 'g'. 'Een potje yoghurt' = a small pot of yoghurt."
+    },
+    {
+      "nl": "de room",
+      "phonetic": "duh rohm",
+      "en": "the cream",
+      "tip": "Long 'oo'. Not to be confused with 'de look' (garlic)! 'Slagroom' = whipped cream."
+    },
+    {
+      "nl": "de ham",
+      "phonetic": "duh ham",
+      "en": "the ham",
+      "tip": "Short 'a'. 'Een sneetje ham' = a slice of ham."
+    },
+    {
+      "nl": "de zalm",
+      "phonetic": "duh zalm",
+      "en": "the salmon",
+      "tip": "Short 'a'. 'Een stuk zalm' = a piece of salmon."
+    },
+    {
+      "nl": "de tonijn",
+      "phonetic": "duh toh-NAYN",
+      "en": "the tuna",
+      "tip": "'ij' = 'eye' sound. 'Een blik tonijn' = a tin of tuna."
+    },
+    {
+      "nl": "de mossel / mosselen",
+      "phonetic": "duh MOS-sul / MOS-suh-lun",
+      "en": "the mussel / mussels",
+      "tip": "Classic Belgian dish! Mosselen met frietjes. Note: 'mosselen' not 'mossels'."
+    },
+    {
+      "nl": "het bier / bieren",
+      "phonetic": "huht beer / BEE-run",
+      "en": "the beer / beers",
+      "tip": "het-word. Belgium has 1500+ beers. 'Een fles bier' = a bottle of beer."
+    },
+    {
+      "nl": "de wijn",
+      "phonetic": "duh vayn",
+      "en": "the wine",
+      "tip": "'ij' = 'eye'. 'Een fles wijn' = a bottle of wine."
+    },
+    {
+      "nl": "het fruitsap",
+      "phonetic": "huht FROWT-sap",
+      "en": "the fruit juice",
+      "tip": "het-word. 'Een brik fruitsap' = a carton of fruit juice."
+    },
+    {
+      "nl": "de chocolade",
+      "phonetic": "duh shoh-koh-LAH-duh",
+      "en": "the chocolate",
+      "tip": "Uncountable as a substance. 'Een reep chocolade' = a bar of chocolate."
+    },
+    {
+      "nl": "de confituur",
+      "phonetic": "duh kon-fee-TUUR",
+      "en": "the jam",
+      "tip": "Belgian Dutch! NL Dutch uses 'jam'. 'Een pot confituur' = a jar of jam."
+    },
+    {
+      "nl": "de look",
+      "phonetic": "duh look",
+      "en": "the garlic",
+      "tip": "Belgian Dutch for garlic! NL Dutch: 'knoflook'. 'Een teentje look' = a clove of garlic."
+    },
+    {
+      "nl": "de koekjes",
+      "phonetic": "duh KOOK-yuhs",
+      "en": "the cookies / biscuits",
+      "tip": "Diminutive plural of 'koek'. 'Een doos koekjes' = a box of biscuits."
+    },
+    {
+      "nl": "de tandpasta",
+      "phonetic": "duh TANT-pas-tah",
+      "en": "the toothpaste",
+      "tip": "Tand (tooth) + pasta. 'Een tube tandpasta' = a tube of toothpaste."
+    },
+    {
+      "nl": "de zeep",
+      "phonetic": "duh zayp",
+      "en": "the soap",
+      "tip": "Long 'ee'. 'Een stuk zeep' = a bar of soap."
+    },
+    {
+      "nl": "de shampoo",
+      "phonetic": "duh sham-POO",
+      "en": "the shampoo",
+      "tip": "English loanword. 'Een fles shampoo' = a bottle of shampoo."
+    },
+    {
+      "nl": "het waspoeder",
+      "phonetic": "huht VAS-poo-dur",
+      "en": "the washing powder",
+      "tip": "het-word. Wassen (to wash) + poeder (powder). 'Een pak waspoeder' = a pack of washing powder."
+    },
+    {
+      "nl": "het afwasmiddel",
+      "phonetic": "huht AF-vas-mid-ul",
+      "en": "the dish soap",
+      "tip": "het-word. Afwassen (to wash up) + middel (product). 'Een fles afwasmiddel'."
+    }
+  ]
+}

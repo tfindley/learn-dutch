@@ -1,0 +1,138 @@
+{
+  "id": "1B",
+  "group": "1",
+  "order": 2,
+  "description": {
+    "en": "Professions — talking about what you and others do for work."
+  },
+  "rules": [
+    {
+      "id": "lp1b",
+      "order": 1,
+      "tag": "LEERPAD 1B",
+      "title": {
+        "nl": "Wat is jouw beroep?",
+        "en": "What is your profession?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Ik ben [beroep]. / Ik werk als [beroep] bij/in/op [place]. Two structures, both useful.",
+      "explanation": "After introductions, the teacher moves to profession and personal situation. You need to say what you do, where you work, and your relationship status. Short, factual answers work perfectly here.",
+      "patterns": [
+        {
+          "rule": "Asking and stating your profession",
+          "examples": [
+            "Wat is jouw beroep? (What is your profession?)",
+            "Wat doe jij voor werk? (What do you do for work?)",
+            "Ik ben [beroep]. (I am a [profession].)",
+            "Ik werk als [beroep]. (I work as a [profession].)",
+            "Ik werk bij [bedrijf]. (I work at [company].)",
+            "Ik werk in een ziekenhuis / op school / op kantoor. (I work in a hospital / at school / in an office.)"
+          ]
+        },
+        {
+          "rule": "Special work situations",
+          "examples": [
+            "Ik ben werkloos. (I am unemployed.)",
+            "Ik ben met pensioen. (I am retired.)",
+            "Ik ben huisvrouw / huisman. (I am a housewife / househusband.)",
+            "Ik studeer. / Ik ben student. (I am studying. / I am a student.)",
+            "Ik werk voltijds / deeltijds. (I work full-time / part-time.)"
+          ]
+        },
+        {
+          "rule": "Relationship status — Ben jij...?",
+          "examples": [
+            "Ben jij getrouwd? (Are you married?)",
+            "Ja, ik ben getrouwd. / Nee, ik ben niet getrouwd.",
+            "Ik ben alleenstaand. (I am single.)",
+            "Ik ben gescheiden. (I am divorced.)",
+            "Ik ben verloofd. (I am engaged.)",
+            "Ik woon samen met mijn partner. (I live together with my partner.)"
+          ]
+        },
+        {
+          "rule": "Asking about a partner's profession",
+          "examples": [
+            "Wat doet jouw partner? (What does your partner do?)",
+            "Mijn man / vrouw / partner is [beroep]. (My husband / wife / partner is a [profession].)",
+            "Hij / Zij werkt als [beroep]. (He / She works as a [profession].)"
+          ]
+        }
+      ],
+      "memory": "🧠 Three questions, three answers: Wat ben je? → Ik ben ___. Waar werk je? → Ik werk ___. Ben je getrouwd? → Ik ben ___. Have all three ready before the lesson.",
+      "examples": [
+        {
+          "nl": "Wat is jouw beroep?",
+          "en": "What is your profession?"
+        },
+        {
+          "nl": "Ik ben elektricien. Ik werk bij [bedrijf].",
+          "en": "I am an electrician. I work at [company]."
+        },
+        {
+          "nl": "Wat doet jouw partner?",
+          "en": "What does your partner do?"
+        },
+        {
+          "nl": "Mijn vrouw is lerares. Ze werkt op school.",
+          "en": "My wife is a teacher. She works at school."
+        },
+        {
+          "nl": "Ben jij getrouwd?",
+          "en": "Are you married?"
+        },
+        {
+          "nl": "Ja, ik ben getrouwd. Wij wonen in Roeselare.",
+          "en": "Yes, I am married. We live in Roeselare."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wat is jouw beroep?",
+          "en": "What is your profession?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ben ___. En jij?",
+          "en": "I am a ___. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik ben ___. Ik werk bij / in / op ___.",
+          "en": "I am a ___. I work at / in ___."
+        },
+        {
+          "role": "A",
+          "nl": "Waar werk jij?",
+          "en": "Where do you work?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik werk in / bij / op ___.",
+          "en": "I work in / at ___."
+        },
+        {
+          "role": "A",
+          "nl": "Ben jij getrouwd?",
+          "en": "Are you married?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik ben getrouwd. / Nee, ik ben alleenstaand. / Nee, ik ben gescheiden.",
+          "en": "Yes, I am married. / No, I am single. / No, I am divorced."
+        },
+        {
+          "role": "A",
+          "nl": "Wat doet jouw partner?",
+          "en": "What does your partner do?"
+        },
+        {
+          "role": "B",
+          "nl": "Mijn man / vrouw / partner is ___. Hij / Zij werkt ___.",
+          "en": "My husband / wife / partner is ___. He / She works ___."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "transport",
+  "order": 19,
+  "title": {
+    "nl": "Vervoer",
+    "en": "Transport"
+  },
+  "emoji": "🚌",
+  "color": "#1a6b4a",
+  "words": [
+    {
+      "nl": "het vliegtuig",
+      "phonetic": "huht FLEEKH-towkh",
+      "en": "the aeroplane",
+      "tip": "Vlieg (fly) + tuig (craft). Soft 'g' twice. 'ui' vowel."
+    },
+    {
+      "nl": "de trein",
+      "phonetic": "duh trayn",
+      "en": "the train",
+      "tip": "'ei' = 'eye'. 'Met de trein' = by train."
+    },
+    {
+      "nl": "de bus",
+      "phonetic": "duh bus",
+      "en": "the bus",
+      "tip": "Short 'u'. 'Met de bus' = by bus."
+    },
+    {
+      "nl": "de tram",
+      "phonetic": "duh tram",
+      "en": "the tram",
+      "tip": "Belgium has an extensive tram network along the coast!"
+    },
+    {
+      "nl": "de bushalte",
+      "phonetic": "duh BUS-hal-tuh",
+      "en": "the bus stop",
+      "tip": "Bus + halte (stop/halt). 'Waar is de bushalte?' = Where is the bus stop?"
+    },
+    {
+      "nl": "de fiets",
+      "phonetic": "duh feets",
+      "en": "the bicycle",
+      "tip": "'ie' = long 'ee'. Belgium is very cycling-friendly!"
+    },
+    {
+      "nl": "de auto",
+      "phonetic": "duh OW-toh",
+      "en": "the car",
+      "tip": "'au' = 'ow'. 'Met de auto' = by car."
+    },
+    {
+      "nl": "het station",
+      "phonetic": "huht stah-SEEOHN",
+      "en": "the (train) station",
+      "tip": "French-origin. 'Waar is het station?' = Where is the station?"
+    }
+  ]
+}

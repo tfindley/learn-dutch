@@ -1,0 +1,102 @@
+{
+  "id": "containers",
+  "order": 26,
+  "title": {
+    "nl": "Hoeveelheden",
+    "en": "Containers"
+  },
+  "emoji": "📦",
+  "color": "#784212",
+  "words": [
+    {
+      "nl": "een reep / repen",
+      "phonetic": "ayn rayp / RAY-pun",
+      "en": "a bar / bars",
+      "tip": "For chocolate and similar. 'Een reep chocolade' = a bar of chocolate."
+    },
+    {
+      "nl": "een sneetje / sneetjes",
+      "phonetic": "ayn SNAYT-yuh / SNAYT-yuhs",
+      "en": "a slice / slices",
+      "tip": "Diminutive of 'snee'. Thin slices: bread, ham, cheese. 'Een sneetje brood'."
+    },
+    {
+      "nl": "een stuk / stukken",
+      "phonetic": "ayn stuk / STUK-kun",
+      "en": "a piece / pieces",
+      "tip": "General word for a chunk or piece. 'Een stuk kaas' = a piece of cheese."
+    },
+    {
+      "nl": "een blik / blikken",
+      "phonetic": "ayn blik / BLIK-kun",
+      "en": "a tin/can / tins",
+      "tip": "Metal container. 'Een blik tonijn' = a tin of tuna. 'Een blik tomaten'."
+    },
+    {
+      "nl": "een doos / dozen",
+      "phonetic": "ayn dohs / DOH-zun",
+      "en": "a box / boxes",
+      "tip": "Long 'oo'. Plural: dozen (like English dozen!). 'Een doos koekjes' = a box of biscuits."
+    },
+    {
+      "nl": "een pakje",
+      "phonetic": "ayn PAK-yuh",
+      "en": "a small pack",
+      "tip": "Diminutive of pak. 'Een pakje boter' = a small pack of butter."
+    },
+    {
+      "nl": "een pak / pakken",
+      "phonetic": "ayn pak / PAK-kun",
+      "en": "a pack / packs",
+      "tip": "Larger pack. 'Een pak melk' = a carton of milk. 'Een pak waspoeder' = a pack of washing powder."
+    },
+    {
+      "nl": "een brik / brikken",
+      "phonetic": "ayn brik / BRIK-kun",
+      "en": "a carton / cartons",
+      "tip": "A drink carton (Tetra Pak type). 'Een brik fruitsap' = a carton of juice."
+    },
+    {
+      "nl": "een pot / potten",
+      "phonetic": "ayn pot / POT-tun",
+      "en": "a jar / jars",
+      "tip": "Short 'o'. 'Een pot confituur' = a jar of jam. 'Een pot pindakaas' = a jar of peanut butter."
+    },
+    {
+      "nl": "een potje / potjes",
+      "phonetic": "ayn POT-yuh / POT-yuhs",
+      "en": "a small jar / small jars",
+      "tip": "Diminutive of pot. 'Een potje yoghurt' = a small pot of yoghurt."
+    },
+    {
+      "nl": "een fles / flessen",
+      "phonetic": "ayn fles / FLES-sun",
+      "en": "a bottle / bottles",
+      "tip": "Short 'e'. 'Een fles wijn' = a bottle of wine. 'Een fles shampoo'."
+    },
+    {
+      "nl": "een zak / zakken",
+      "phonetic": "ayn zak / ZAK-kun",
+      "en": "a bag / bags",
+      "tip": "Short 'a'. 'Een zak aardappels' = a bag of potatoes. 'Een zak chips' = a bag of crisps."
+    },
+    {
+      "nl": "een bak / bakken",
+      "phonetic": "ayn bak / BAK-kun",
+      "en": "a tray/punnet / trays",
+      "tip": "Short 'a'. Used for soft fruit. 'Een bak aardbeien' = a punnet of strawberries."
+    },
+    {
+      "nl": "een tros",
+      "phonetic": "ayn tros",
+      "en": "a bunch (on vine)",
+      "tip": "For things that grow in clusters: 'een tros bananen', 'een tros druiven'."
+    },
+    {
+      "nl": "een bos / bossen",
+      "phonetic": "ayn bos / BOS-sun",
+      "en": "a bunch (tied)",
+      "tip": "For herbs, flowers: 'een bos peterselie' = a bunch of parsley. Different from 'tros'."
+    }
+  ]
+}

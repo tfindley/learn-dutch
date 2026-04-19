@@ -1,0 +1,126 @@
+{
+  "id": "fruit_veg",
+  "order": 27,
+  "title": {
+    "nl": "Fruit & Groenten",
+    "en": "Fruit & Veg"
+  },
+  "emoji": "🍎",
+  "color": "#27ae60",
+  "words": [
+    {
+      "nl": "de sinaasappel",
+      "phonetic": "duh sin-aas-AP-pul",
+      "en": "the orange",
+      "tip": "Sinaas (from China) + appel. Lit. 'China apple'! Plural: de sinaasappels."
+    },
+    {
+      "nl": "de appel",
+      "phonetic": "duh AP-pul",
+      "en": "the apple",
+      "tip": "Short 'a'. Plural: de appels."
+    },
+    {
+      "nl": "de peer",
+      "phonetic": "duh payr",
+      "en": "the pear",
+      "tip": "Long 'ee'. Plural: de peren — open syllable keeps it long: pe-ren."
+    },
+    {
+      "nl": "de kers",
+      "phonetic": "duh kers",
+      "en": "the cherry",
+      "tip": "Short 'e'. Plural: de kersen."
+    },
+    {
+      "nl": "de aardbei",
+      "phonetic": "duh AART-bay",
+      "en": "the strawberry",
+      "tip": "Aard (earth) + bei (berry). Plural: de aardbeien. 'Een bak aardbeien' = a punnet."
+    },
+    {
+      "nl": "de banaan",
+      "phonetic": "duh bah-NAAN",
+      "en": "the banana",
+      "tip": "Long 'aa'. Plural: de bananen. 'Een tros bananen' = a bunch of bananas."
+    },
+    {
+      "nl": "de citroen",
+      "phonetic": "duh sit-ROON",
+      "en": "the lemon",
+      "tip": "'oe' = long 'oo'. Plural: de citroenen."
+    },
+    {
+      "nl": "de kiwi",
+      "phonetic": "duh KEE-wee",
+      "en": "the kiwi",
+      "tip": "Plural: de kiwis — foreign word ending in vowel takes -'s? No — kiwi takes -s directly."
+    },
+    {
+      "nl": "de druif",
+      "phonetic": "duh drowf",
+      "en": "the grape",
+      "tip": "'ui' vowel. Plural: de druiven — f→v rule! 'Een tros druiven' = a bunch of grapes."
+    },
+    {
+      "nl": "de noot",
+      "phonetic": "duh noht",
+      "en": "the nut",
+      "tip": "Long 'oo'. Plural: de noten. Diminutive: het nootje / nootjes."
+    },
+    {
+      "nl": "de wortel",
+      "phonetic": "duh VOR-tul",
+      "en": "the carrot",
+      "tip": "'w' → 'v'. Plural: de wortelen (also wortels)."
+    },
+    {
+      "nl": "de aardappel",
+      "phonetic": "duh AART-ap-pul",
+      "en": "the potato",
+      "tip": "Aard (earth) + appel. Lit. 'earth apple'! Plural: de aardappels."
+    },
+    {
+      "nl": "de tomaat",
+      "phonetic": "duh toh-MAAT",
+      "en": "the tomato",
+      "tip": "Botanically a fruit — sold with vegetables in the shop! Plural: de tomaten."
+    },
+    {
+      "nl": "de broccoli",
+      "phonetic": "duh BROK-koh-lee",
+      "en": "the broccoli",
+      "tip": "No plural change. Italian origin. 'Een stuk broccoli' or just 'broccoli'."
+    },
+    {
+      "nl": "de bloemkool",
+      "phonetic": "duh BLOOM-kohl",
+      "en": "the cauliflower",
+      "tip": "Bloem (flower) + kool (cabbage). Note spelling: bloemkool, not bloomkool."
+    },
+    {
+      "nl": "de champignon",
+      "phonetic": "duh sham-pin-YON",
+      "en": "the mushroom",
+      "tip": "French origin, French pronunciation: [sham-pin-YON]. Plural: de champignons."
+    },
+    {
+      "nl": "de aubergine",
+      "phonetic": "duh oh-ber-ZHEEN",
+      "en": "the aubergine",
+      "tip": "French origin. 'zh' = like 's' in 'measure'. Plural: de aubergines."
+    },
+    {
+      "nl": "de look",
+      "phonetic": "duh look",
+      "en": "the garlic",
+      "tip": "Belgian Dutch! NL Dutch uses 'knoflook'. 'Een teentje look' = a clove of garlic."
+    },
+    {
+      "nl": "de mossel",
+      "phonetic": "duh MOS-sul",
+      "en": "the mussel",
+      "tip": "Plural: de mosselen (not 'mossels'!). Mosselen met frietjes = the Belgian classic."
+    }
+  ]
+}

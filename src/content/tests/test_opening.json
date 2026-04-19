@@ -1,0 +1,77 @@
+{
+  "id": "test_opening",
+  "title": "Hoe gaat het?",
+  "subtitle": "Opening & Greetings",
+  "leerpad": "Opening",
+  "difficulty": "easy",
+  "emoji": "👋",
+  "questions": [
+    {
+      "q": "Someone greets you with 'Hoe gaat het?' What is the most natural Belgian reply?",
+      "options": [
+        "Tot ziens!",
+        "Goed, dank je! En met jou?",
+        "Aangenaam!",
+        "Prettige dag!"
+      ],
+      "answer": 1,
+      "explanation": "'Goed, dank je! En met jou?' is the standard 3-part Belgian ritual: answer + thank + ask back. Always asking back is important — skipping it can feel abrupt."
+    },
+    {
+      "q": "'Gaat wel.' — what does this mean?",
+      "options": [
+        "It's going very well!",
+        "Not good at all.",
+        "Getting by / alright.",
+        "I have no idea what you mean."
+      ],
+      "answer": 2,
+      "explanation": "'Gaat wel' is the quintessential Belgian modest answer — not over-enthusiastic, not negative. Belgians rarely say 'heel goed!' unprompted."
+    },
+    {
+      "q": "When do you use 'Goedemiddag'?",
+      "options": [
+        "In the morning until noon",
+        "From noon to roughly 6pm",
+        "From 6pm onwards",
+        "Only at formal events"
+      ],
+      "answer": 1,
+      "explanation": "'Goedemiddag' = good afternoon, used from roughly noon to 6pm. 'Goedemorgen' = morning. 'Goedenavond' = evening (from ~6pm)."
+    },
+    {
+      "q": "Which is the most casual goodbye in Belgian Dutch?",
+      "options": [
+        "Tot ziens!",
+        "Goedenacht!",
+        "Doei!",
+        "Aangenaam!"
+      ],
+      "answer": 2,
+      "explanation": "'Doei!' is the most casual — used among friends and in relaxed situations. 'Tot ziens' is also perfectly acceptable and very common — it's neutral rather than formal, so you'll hear it everywhere. 'Goedenacht' is only for parting at bedtime. 'Aangenaam' is for first meetings, not goodbyes."
+    },
+    {
+      "q": "'Alles goed met de familie?' is an example of:",
+      "options": [
+        "A formal business greeting",
+        "A casual Belgian smalltalk opener",
+        "A way to say goodbye",
+        "A question about someone's health"
+      ],
+      "answer": 1,
+      "explanation": "This is classic Belgian warm smalltalk — asking about family as a social nicety. Belgians are relationship-oriented and this kind of opener is very natural."
+    },
+    {
+      "q": "You've just replied 'Goed, dank je!' to a greeting. What should you always add?",
+      "options": [
+        "Tot ziens!",
+        "En met jou?",
+        "Aangenaam!",
+        "Prettige dag!"
+      ],
+      "answer": 1,
+      "explanation": "Always ask it back — 'En met jou?' (And with you?) is an expected part of the Belgian greeting ritual. Skipping it can feel abrupt or self-centred. In formal situations: 'En met u?'"
+    }
+  ],
+  "order": 1
+}

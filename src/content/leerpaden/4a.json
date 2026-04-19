@@ -1,0 +1,156 @@
+{
+  "id": "4A",
+  "group": "4",
+  "order": 8,
+  "description": {
+    "en": "Weather — describing and asking about the weather in Belgian Dutch."
+  },
+  "rules": [
+    {
+      "id": "lp4a",
+      "order": 1,
+      "tag": "LEERPAD 4A",
+      "title": {
+        "nl": "Welk weer is het?",
+        "en": "What is the weather like?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Het + 3rd person verb: het regent / het sneeuwt / het waait / het vriest. Or: Het is + adjective: het is bewolkt / warm / koud.",
+      "explanation": "Weather is one of the most common Belgian conversation topics — Belgians talk about it constantly! You need two structures: 'het + verb' for weather actions, and 'het is + adjective' for states. You also learn compass directions and weather-related places.",
+      "patterns": [
+        {
+          "rule": "Het + weather verb — what the weather is DOING",
+          "examples": [
+            "Het regent. (It is raining.) ← from 'regenen'",
+            "Het sneeuwt. (It is snowing.) ← from 'sneeuwen'",
+            "Het waait. (It is windy / the wind is blowing.) ← from 'waaien' [WAY-yun]",
+            "Het hagelt. (It is hailing.) ← from 'hagelen'",
+            "Het vriest. (It is freezing.) ← from 'vriezen'. Irregular: vriezen → vriest",
+            "Het bliksemt. (It is lightning.) ← from 'bliksemen'",
+            "De zon schijnt. (The sun is shining.) ← subject is 'de zon', not 'het'"
+          ]
+        },
+        {
+          "rule": "Het is + adjective — what the weather IS like",
+          "examples": [
+            "Het is warm. (It is warm.)",
+            "Het is koud. (It is cold.)",
+            "Het is bewolkt. (It is cloudy.) ← [buh-VOLKT]",
+            "Het is zonnig. (It is sunny.)",
+            "Het is mistig. (It is foggy.)",
+            "Het is winderig. (It is windy.) ← alternative to 'het waait'",
+            "Het is nat. (It is wet.)"
+          ]
+        },
+        {
+          "rule": "Questions about the weather",
+          "examples": [
+            "Welk weer is het? (What is the weather like?) ← the LP4A key question",
+            "Hoe is het weer? (How is the weather?) ← very common alternative",
+            "Wat is de weersvoorspelling? (What is the weather forecast?)",
+            "Is het warm buiten? (Is it warm outside?)",
+            "Regent het? (Is it raining?)"
+          ]
+        },
+        {
+          "rule": "Het kompas — compass directions",
+          "examples": [
+            "het noorden [HON-duh-run] — the north",
+            "het zuiden [ZOW-dun] — the south",
+            "het oosten [OHS-tun] — the east",
+            "het westen [VES-tun] — the west",
+            "noordelijk — northern · zuidelijk — southern",
+            "oostelijk — eastern · westelijk — western",
+            "In het noorden van België regent het. (In the north of Belgium it is raining.)"
+          ]
+        },
+        {
+          "rule": "Weather-related places and words",
+          "examples": [
+            "de grens [duh khrens] — the border",
+            "de kust [duh kust] — the coast (already known!)",
+            "de vakantie [duh fah-KANT-see] — the holiday / vacation",
+            "Op vakantie gaan = to go on holiday",
+            "Aan de kust is het winderig. (At the coast it is windy.)",
+            "Aan de grens met Frankrijk... (At the border with France...)"
+          ]
+        }
+      ],
+      "memory": "🧠 Two patterns: action → Het + verb (het regent, het waait). State → Het is + adjective (het is bewolkt). Exception: de zon schijnt — the sun has its own subject.",
+      "examples": [
+        {
+          "nl": "Welk weer is het vandaag?",
+          "en": "What is the weather like today?"
+        },
+        {
+          "nl": "Het regent en het is koud.",
+          "en": "It is raining and it is cold."
+        },
+        {
+          "nl": "In het westen waait het hard.",
+          "en": "In the west it is blowing hard."
+        },
+        {
+          "nl": "De zon schijnt aan de kust.",
+          "en": "The sun is shining at the coast."
+        },
+        {
+          "nl": "Het vriest vannacht.",
+          "en": "It is freezing tonight."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Welk weer is het?",
+          "en": "What is the weather like?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is ___. / Het ___t. / De zon schijnt.",
+          "en": "It is ___. / It is ___ing. / The sun is shining."
+        },
+        {
+          "role": "A",
+          "nl": "Regent het vandaag?",
+          "en": "Is it raining today?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, het regent. / Nee, de zon schijnt!",
+          "en": "Yes, it is raining. / No, the sun is shining!"
+        },
+        {
+          "role": "A",
+          "nl": "Hoe is het weer in het noorden?",
+          "en": "How is the weather in the north?"
+        },
+        {
+          "role": "B",
+          "nl": "In het noorden is het bewolkt en koud.",
+          "en": "In the north it is cloudy and cold."
+        },
+        {
+          "role": "A",
+          "nl": "Is het warm aan de kust?",
+          "en": "Is it warm at the coast?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, de zon schijnt en het is warm! / Nee, het waait hard.",
+          "en": "Yes, the sun is shining and it is warm! / No, it is blowing hard."
+        },
+        {
+          "role": "A",
+          "nl": "Gaan jullie op vakantie naar de kust?",
+          "en": "Are you going on holiday to the coast?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja! Als het niet regent... (If it doesn't rain...)",
+          "en": "Yes! If it doesn't rain..."
+        }
+      ]
+    }
+  ]
+}

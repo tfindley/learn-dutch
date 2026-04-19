@@ -2,7 +2,7 @@
 # Learn Dutch — Static React App
 # =============================================================================
 # Multi-stage build:
-#   Stage 1 (build)  — Node + Vite compiles JSX → static assets in /dist
+#   Stage 1 (build)  — Node + Vite + Tailwind compiles React → static assets in /dist
 #   Stage 2 (serve)  — nginx serves the static assets
 #
 # Usage:
@@ -18,12 +18,14 @@ FROM node:20-alpine AS build
 
 ARG CA_CERT_URL=""
 ARG VITE_GA_ID=""
+ARG APP_VERSION="dev"
 
 WORKDIR /app
 
-# Expose VITE_GA_ID to the Vite build. VITE_* vars must be in the environment
-# (not just ARGs) for Vite to embed them in the compiled output.
+# Expose VITE_* vars to the Vite build — must be in the environment (not just
+# ARGs) for Vite to embed them in the compiled output.
 ENV VITE_GA_ID=$VITE_GA_ID
+ENV VITE_APP_VERSION=$APP_VERSION
 
 # Install internal CA certificate before any npm traffic (optional).
 RUN if [ -n "${CA_CERT_URL}" ]; then \
@@ -37,9 +39,7 @@ COPY package.json package-lock.json* ./
 RUN npm ci --prefer-offline 2>/dev/null || npm install
 
 # Copy source.
-# Content modules live at the repo root and are imported directly by src/App.jsx.
-COPY index.html vite.config.js ./
-COPY dutch-100-words.jsx dutch-grammar.jsx dutch-tests.jsx ./
+COPY index.html vite.config.js tailwind.config.js postcss.config.js ./
 COPY src/ ./src/
 
 RUN npm run build

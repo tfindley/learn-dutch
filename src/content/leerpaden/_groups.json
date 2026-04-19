@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "order": 1,
+      "title": {
+        "en": "Leerpad 1"
+      },
+      "description": {
+        "en": "First steps — the essential building blocks of Dutch: greetings, introductions, telling people about yourself, and asking basic questions."
+      }
+    },
+    {
+      "id": "2",
+      "order": 2,
+      "title": {
+        "en": "Leerpad 2"
+      },
+      "description": {
+        "en": "People and numbers — talking about family, relationships, and handling everyday transactions with confidence."
+      }
+    },
+    {
+      "id": "3",
+      "order": 3,
+      "title": {
+        "en": "Leerpad 3"
+      },
+      "description": {
+        "en": "Time and social life — telling the time, daily routines, making plans, and the social language of Belgian Dutch."
+      }
+    },
+    {
+      "id": "4",
+      "order": 4,
+      "title": {
+        "en": "Leerpad 4"
+      },
+      "description": {
+        "en": "Real-world Dutch — weather, schedules, and shopping trips, with the grammar needed for more complex everyday situations."
+      }
+    }
+  ]
+}

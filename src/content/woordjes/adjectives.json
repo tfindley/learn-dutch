@@ -1,0 +1,114 @@
+{
+  "id": "adjectives",
+  "order": 12,
+  "title": {
+    "nl": "Bijvoeglijke naamwoorden",
+    "en": "Adjectives"
+  },
+  "emoji": "🎨",
+  "color": "#1a5276",
+  "words": [
+    {
+      "nl": "goed",
+      "phonetic": "khoot",
+      "en": "good",
+      "tip": "Soft 'g', final 'd' → 't'. Predicate: 'het is goed' (no -e)."
+    },
+    {
+      "nl": "slecht",
+      "phonetic": "slekht",
+      "en": "bad",
+      "tip": "'ch' = soft guttural."
+    },
+    {
+      "nl": "groot",
+      "phonetic": "khroht",
+      "en": "big / great",
+      "tip": "'oo' = long 'oh'."
+    },
+    {
+      "nl": "klein",
+      "phonetic": "klayn",
+      "en": "small",
+      "tip": "'ei' = 'eye' sound."
+    },
+    {
+      "nl": "nieuw",
+      "phonetic": "neew",
+      "en": "new",
+      "tip": "'ieuw' glides from 'ee' to 'w'."
+    },
+    {
+      "nl": "oud",
+      "phonetic": "owt",
+      "en": "old",
+      "tip": "'ou' = 'ow', final 'd' → 't'."
+    },
+    {
+      "nl": "mooi",
+      "phonetic": "moy",
+      "en": "beautiful / nice",
+      "tip": "Very versatile compliment word."
+    },
+    {
+      "nl": "lekker",
+      "phonetic": "LEK-ur",
+      "en": "tasty / nice / good",
+      "tip": "Quintessentially Belgian! Used for food, weather, feelings."
+    },
+    {
+      "nl": "leuk",
+      "phonetic": "löök",
+      "en": "fun / nice / cool",
+      "tip": "'eu' = French-style rounded vowel. 'Dat is leuk!' = That's fun/nice!"
+    },
+    {
+      "nl": "veel",
+      "phonetic": "fayl",
+      "en": "much / many",
+      "tip": "Veel mensen = many people."
+    },
+    {
+      "nl": "weinig",
+      "phonetic": "VAY-nikh",
+      "en": "few / little",
+      "tip": "Opposite of veel."
+    },
+    {
+      "nl": "belangrijk",
+      "phonetic": "buh-LANG-rayk",
+      "en": "important",
+      "tip": "'ij' = 'eye'. 'Dat is belangrijk' = That is important."
+    },
+    {
+      "nl": "fout",
+      "phonetic": "fowt",
+      "en": "wrong / incorrect",
+      "tip": "'ou' = 'ow'. 'Fout!' = Wrong! Used in exercises."
+    },
+    {
+      "nl": "juist",
+      "phonetic": "yowst",
+      "en": "correct / right / just",
+      "tip": "'ui' vowel. 'Juist!' = Correct! Opposite of fout."
+    },
+    {
+      "nl": "moe",
+      "phonetic": "moo",
+      "en": "tired",
+      "tip": "'oe' = 'oo'. 'Ik ben moe' = I am tired."
+    },
+    {
+      "nl": "klaar",
+      "phonetic": "klaar",
+      "en": "ready / done / clear",
+      "tip": "Long 'aa'. 'Ben je klaar?' = Are you ready/done?"
+    },
+    {
+      "nl": "ziek",
+      "phonetic": "zeek",
+      "en": "sick / ill",
+      "tip": "Long 'ie'. 'Ik ben ziek' = I am sick."
+    }
+  ]
+}

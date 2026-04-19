@@ -1,0 +1,99 @@
+{
+  "id": "test_lp3c",
+  "title": "Graag, Ga je mee & Antwoorden",
+  "subtitle": "Leerpad 3C · Likes, Invitations & Replies",
+  "leerpad": "3C",
+  "difficulty": "easy",
+  "emoji": "🚴",
+  "questions": [
+    {
+      "q": "'Ik wandel graag' — where does 'graag' go?",
+      "options": [
+        "Before the subject: 'Graag ik wandel.'",
+        "Before the verb: 'Ik graag wandel.'",
+        "After the verb: 'Ik wandel graag.'",
+        "At the end with negation only"
+      ],
+      "answer": 2,
+      "explanation": "Structure: [subject] + [verb] + graag. For negation: 'Ik wandel niet graag.' The 'niet' goes before 'graag'."
+    },
+    {
+      "q": "'Je zwemt graag' — what happens in the yes/no question form?",
+      "options": [
+        "Je zwemt graag? (no change)",
+        "Zwem je graag? (-t drops in inversion)",
+        "Graag zwem je? (graag moves first)",
+        "Zwemt graag je? (subject moves last)"
+      ],
+      "answer": 1,
+      "explanation": "Inversion rule: when 'je/jij' comes AFTER the verb, the -t drops. 'zwem je' not 'zwemt je'."
+    },
+    {
+      "q": "How do you say 'She likes cycling'?",
+      "options": [
+        "Zij fiets graag.",
+        "Zij fietsen graag.",
+        "Zij fietst graag.",
+        "Zij niet fietst graag."
+      ],
+      "answer": 2,
+      "explanation": "3rd person singular = verb stem + t. 'fietsen' → stem 'fiets' + t = 'fietst'. Zij fietst graag."
+    },
+    {
+      "q": "'Ga je mee fietsen?' — what does 'mee' add here?",
+      "options": [
+        "It makes it a question",
+        "It means 'also'",
+        "It means 'along/with' — you're inviting them to join",
+        "It is the separable verb prefix meaning 'away'"
+      ],
+      "answer": 2,
+      "explanation": "'meegaan' (to go along) is a separable verb. 'mee' flies to the end in main clauses."
+    },
+    {
+      "q": "What is the most natural way to accept an invitation in Belgian Dutch?",
+      "options": [
+        "Nee, dank je.",
+        "Ja, dat is goed.",
+        "Ja, graag!",
+        "Ja, ik wil."
+      ],
+      "answer": 2,
+      "explanation": "'Ja, graag!' is the most natural and versatile acceptance. It literally means 'Yes, gladly!' Very Belgian!"
+    },
+    {
+      "q": "'Ik heb geen zin' — when would you use this?",
+      "options": [
+        "When you are too tired",
+        "When you have no time",
+        "When you don't feel like it",
+        "When you are sick"
+      ],
+      "answer": 2,
+      "explanation": "'geen zin hebben' = to not feel like it / to not be in the mood."
+    },
+    {
+      "q": "You're declining an invitation. Which response sounds most Belgian?",
+      "options": [
+        "Nee.",
+        "Ik kan niet.",
+        "Ik heb geen tijd. Volgende keer!",
+        "Ik wil niet komen."
+      ],
+      "answer": 2,
+      "explanation": "Belgians always soften a refusal: reason + softener ('Volgende keer!' / 'Misschien een andere keer?'). A bare 'nee' sounds rude."
+    },
+    {
+      "q": "'Ga je met mij mee wandelen?' — what does 'mij' add?",
+      "options": [
+        "It makes the sentence past tense",
+        "It specifies you're going WITH a particular person (me)",
+        "It makes it more formal",
+        "It changes the verb from 'gaan' to 'meegaan'"
+      ],
+      "answer": 1,
+      "explanation": "'Ga je mee?' = Are you coming? 'Ga je met mij mee?' = Are you coming WITH ME? 'met + pronoun + mee' sandwiches the companion."
+    }
+  ],
+  "order": 7
+}

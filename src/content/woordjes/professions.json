@@ -1,0 +1,114 @@
+{
+  "id": "professions",
+  "order": 17,
+  "title": {
+    "nl": "Beroepen",
+    "en": "Professions"
+  },
+  "emoji": "💼",
+  "color": "#b7950b",
+  "words": [
+    {
+      "nl": "het beroep",
+      "phonetic": "huht buh-ROOP",
+      "en": "the profession",
+      "tip": "Long 'oo'. 'Wat is uw beroep?' = What is your profession?"
+    },
+    {
+      "nl": "de garagist",
+      "phonetic": "duh khah-rah-ZHIST",
+      "en": "the mechanic",
+      "tip": "French-origin word. 'zh' = like 's' in 'measure'."
+    },
+    {
+      "nl": "de student",
+      "phonetic": "duh stew-DENT",
+      "en": "the student",
+      "tip": "Same as English. Stress on 2nd syllable."
+    },
+    {
+      "nl": "de verkoper / verkoopster",
+      "phonetic": "fur-KOH-pur / fur-KOHP-ster",
+      "en": "salesman / saleswoman",
+      "tip": "-er = male, -ster = female. Pattern used in many professions."
+    },
+    {
+      "nl": "de bediende",
+      "phonetic": "duh buh-DEEN-duh",
+      "en": "the employee / clerk",
+      "tip": "White-collar worker. 'bediend' = served/employed."
+    },
+    {
+      "nl": "de chauffeur",
+      "phonetic": "duh shoh-FÖR",
+      "en": "the driver / chauffeur",
+      "tip": "French origin. 'ch' = 'sh' sound here."
+    },
+    {
+      "nl": "de dokter",
+      "phonetic": "duh DOK-ter",
+      "en": "the doctor",
+      "tip": "Werkt in een ziekenhuis (works in a hospital)."
+    },
+    {
+      "nl": "de verpleegster / verpleger",
+      "phonetic": "fur-PLAYGH-ster / fur-PLAY-kher",
+      "en": "nurse (f) / nurse (m)",
+      "tip": "Werken in een ziekenhuis. Soft 'g'."
+    },
+    {
+      "nl": "de advocaat",
+      "phonetic": "duh ahd-foh-KAAT",
+      "en": "the lawyer",
+      "tip": "Long 'aa' at end. 'v' → 'f'. Also means avocado — context needed!"
+    },
+    {
+      "nl": "de elektricien",
+      "phonetic": "duh ay-lek-tree-SEEN",
+      "en": "the electrician",
+      "tip": "French-style ending '-ien' = '-see-en'."
+    },
+    {
+      "nl": "de arbeider",
+      "phonetic": "duh AR-bay-der",
+      "en": "the worker / labourer",
+      "tip": "Blue-collar worker. 'Fabrieksarbeider' = factory worker."
+    },
+    {
+      "nl": "de leraar / lerares",
+      "phonetic": "duh LAY-raar / lay-RAH-res",
+      "en": "teacher (m) / teacher (f)",
+      "tip": "Werkt op de school. -es = feminine ending."
+    },
+    {
+      "nl": "de lasser",
+      "phonetic": "duh LAS-ser",
+      "en": "the welder",
+      "tip": "From 'lassen' (to weld). Doubled 's' = short vowel."
+    },
+    {
+      "nl": "de schrijnwerker",
+      "phonetic": "duh SKRAYN-ver-ker",
+      "en": "the carpenter / joiner",
+      "tip": "Schrijn (cabinet/shrine) + werker (worker). Works with wood (hout)."
+    },
+    {
+      "nl": "de huisvrouw",
+      "phonetic": "duh HOWSS-frow",
+      "en": "the housewife",
+      "tip": "Huis (house) + vrouw (woman). 'ui' vowel."
+    },
+    {
+      "nl": "werkloos",
+      "phonetic": "VERK-lohs",
+      "en": "unemployed",
+      "tip": "Werk (work) + loos (without). 'Ik ben werkloos' = I'm unemployed."
+    },
+    {
+      "nl": "met pensioen",
+      "phonetic": "met pen-SEEOON",
+      "en": "retired (with pension)",
+      "tip": "'Ik ben met pensioen' = I'm retired. French-origin 'pensioen'."
+    }
+  ]
+}

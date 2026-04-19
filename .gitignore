@@ -2,3 +2,5 @@
 node_modules/
 dist/
 vuln-report-*.json
+obsolete/
+NUL

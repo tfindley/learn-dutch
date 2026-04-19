@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent-words: #c8a84b;
+    --accent-grammar: #2ecc71;
+    --accent-tests: #7c6fcd;
+    --diff-easy: #2ecc71;
+    --diff-medium: #e67e22;
+    --diff-hard: #e74c3c;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-amber-200 dark:bg-amber-800;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 transition-colors;
+  }
+
+  .nav-link-active {
+    @apply text-gray-900 dark:text-gray-100;
+  }
+
+  .card {
+    @apply rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-gray-900 text-white hover:bg-gray-700 dark:bg-gray-100 dark:text-gray-900 dark:hover:bg-gray-300;
+  }
+
+  .btn-ghost {
+    @apply btn hover:bg-gray-100 dark:hover:bg-gray-800;
+  }
+
+  .difficulty-easy {
+    color: var(--diff-easy);
+  }
+  .difficulty-medium {
+    color: var(--diff-medium);
+  }
+  .difficulty-hard {
+    color: var(--diff-hard);
+  }
+
+  .bg-difficulty-easy {
+    background-color: color-mix(in srgb, var(--diff-easy) 15%, transparent);
+    color: var(--diff-easy);
+  }
+  .bg-difficulty-medium {
+    background-color: color-mix(in srgb, var(--diff-medium) 15%, transparent);
+    color: var(--diff-medium);
+  }
+  .bg-difficulty-hard {
+    background-color: color-mix(in srgb, var(--diff-hard) 15%, transparent);
+    color: var(--diff-hard);
+  }
+}

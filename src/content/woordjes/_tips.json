@@ -1,0 +1,44 @@
+{
+  "pronunciationTips": [
+    {
+      "sound": "g / ch",
+      "rule": "In Belgian Dutch, much softer than Dutch NL — like a gentle rasp at the back of the throat, almost a breathy 'h'. e.g. goed ≈ 'khoot' (soft)."
+    },
+    {
+      "sound": "ij / ei",
+      "rule": "Sounds like English 'eye'. e.g. zijn ≈ 'zayn', tijd ≈ 'tayd'."
+    },
+    {
+      "sound": "ui",
+      "rule": "Tricky! Round your lips for 'oo', then say 'ee'. e.g. huis ≈ 'howss' (but rounder)."
+    },
+    {
+      "sound": "oe",
+      "rule": "Like English 'oo' in 'food'. e.g. doen ≈ 'doon', goed ≈ 'khoot'."
+    },
+    {
+      "sound": "eu",
+      "rule": "Like French 'eu' or German 'ö'. Lips rounded, tongue forward. e.g. neus ≈ 'nöss'."
+    },
+    {
+      "sound": "aa / ee / oo",
+      "rule": "Long vowels — held slightly longer. aa='ah', ee='ay', oo='oh'."
+    },
+    {
+      "sound": "w",
+      "rule": "Softer than English 'w' — almost between 'v' and 'w'. e.g. wij ≈ 'vay'."
+    },
+    {
+      "sound": "v",
+      "rule": "In Belgian Dutch often pronounced as 'f' at the start of words. e.g. van ≈ 'fan'."
+    },
+    {
+      "sound": "r",
+      "rule": "Rolled slightly at the back of throat (uvular). Softer than Spanish but more pronounced than English."
+    },
+    {
+      "sound": "n (final)",
+      "rule": "Final -n in words like 'maken' is often dropped in spoken Belgian Dutch: 'make' is how it sounds."
+    }
+  ]
+}

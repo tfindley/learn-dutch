@@ -1,0 +1,115 @@
+{
+  "kind": "uitspraak",
+  "id": "pron_vowels",
+  "order": 1,
+  "tag": "UITSPRAAK · VOWELS",
+  "title": {
+    "nl": "Short vs Long Vowels",
+    "en": "A·E·O·I"
+  },
+  "difficulty": "medium",
+  "shortcut": "One vowel in a closed syllable = SHORT. Two vowels or open syllable = LONG. The sound never changes — only the spelling.",
+  "explanation": "Dutch vowel length is completely systematic. A single vowel in a closed syllable (ending in a consonant) is short. A double vowel signals long, and a single vowel in an open syllable (ending in a vowel sound) is also long. This rule underpins both pronunciation AND plural spelling.",
+  "patterns": [
+    {
+      "rule": "The open vs closed syllable rule — the foundation",
+      "examples": [
+        "CLOSED syllable (vowel + consonant, no more vowel): SHORT sound",
+        "  bom [short o] · man [short a] · bed [short e] · vis [short i]",
+        "OPEN syllable (ends in a vowel sound): LONG sound",
+        "  bo-men [long o] · ma-nen [long a] · be-nen [long e]",
+        "DOUBLE vowel spelling = LONG sound",
+        "  boom [long oo] · maan [long aa] · been [long ee]",
+        "Key insight: boom and bomen have the SAME long 'o' sound — only the spelling changes!"
+      ]
+    },
+    {
+      "rule": "A (short) vs AA (long)",
+      "examples": [
+        "a (short): man [man], bad [bat], kat [kat], land [lant]",
+        "aa (long): maan [maan], naam [naam], staat [staat], taal [taal]",
+        "Open syllable: ma-nen [long a] — same sound as maan despite one 'a'"
+      ]
+    },
+    {
+      "rule": "E (short) vs EE (long)",
+      "examples": [
+        "e (short, stressed): bed [bet], mes [mes], les [les], set [set]",
+        "e (unstressed): becomes a SCHWA — like 'uh'. de, een, je, me, even, morgen",
+        "ee (long): been [bayn], week [vayk], meer [mayr], beer [bayr]",
+        "Open syllable: be-nen [long e] — same sound as been"
+      ]
+    },
+    {
+      "rule": "O (short) vs OO (long)",
+      "examples": [
+        "o (short): bom [bom], bot [bot], rok [rok], god [khot]",
+        "oo (long): boom [bohm], boot [boht], rood [roht], groot [khroht]",
+        "Open syllable: bo-men [long o] — same sound as boom"
+      ]
+    },
+    {
+      "rule": "I (short) vs IE (long)",
+      "examples": [
+        "i (short): dit [dit], vis [fis], lip [lip], kin [kin]",
+        "ie (long): bier [beer], hier [heer], niet [neet], brief [breef]",
+        "Note: Dutch uses 'ie' for the long ee sound (no double 'ii')"
+      ]
+    }
+  ],
+  "memory": "🧠 Think of a pipe: single vowel in a closed syllable = narrow pipe = short sound. Double vowel or open syllable = wide pipe = long sound. The sound never changes — only the spelling adjusts to signal it.",
+  "examples": [
+    {
+      "nl": "man / maan",
+      "en": "short a / long aa — one letter difference, two sounds"
+    },
+    {
+      "nl": "bom / boom",
+      "en": "short o / long oo"
+    },
+    {
+      "nl": "bed / been",
+      "en": "short e / long ee"
+    },
+    {
+      "nl": "boom / bomen",
+      "en": "long oo / long o — same sound, simplified spelling"
+    },
+    {
+      "nl": "bom / bommen",
+      "en": "short o / short o — doubled m keeps it short"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Lang of kort? → 'man'",
+      "en": "Long or short? → 'man'"
+    },
+    {
+      "role": "B",
+      "nl": "Kort — één klinker in een gesloten lettergreep. [man]",
+      "en": "Short — one vowel in a closed syllable."
+    },
+    {
+      "role": "A",
+      "nl": "Lang of kort? → 'maan'",
+      "en": "Long or short? → 'maan'"
+    },
+    {
+      "role": "B",
+      "nl": "Lang — dubbele klinker. [maan]",
+      "en": "Long — double vowel."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe klinkt de 'o' in 'bomen'?",
+      "en": "How does the 'o' sound in 'bomen'?"
+    },
+    {
+      "role": "B",
+      "nl": "Lang — net als 'boom'. Open lettergreep: bo-men.",
+      "en": "Long — same as 'boom'. Open syllable: bo-men."
+    }
+  ]
+}

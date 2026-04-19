@@ -1,0 +1,136 @@
+{
+  "id": "2A",
+  "group": "2",
+  "order": 3,
+  "description": {
+    "en": "Family — talking about relatives and children using possessives and family vocabulary."
+  },
+  "rules": [
+    {
+      "id": "lp2a",
+      "order": 1,
+      "tag": "LEERPAD 2A",
+      "title": {
+        "nl": "Hoeveel kinderen heb jij?",
+        "en": "How many children do you have?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Ik heb [number] kinderen. / Ik heb geen kinderen. — Know your number + a follow-up about their ages.",
+      "explanation": "Lesson 2A introduces 'hebben' (to have) in a personal context. You talk about children, family, and possessions. The key is combining numbers with 'hebben' and being able to say ages.",
+      "patterns": [
+        {
+          "rule": "Hebben — to have (conjugation)",
+          "examples": [
+            "ik heb (I have)",
+            "jij / je hebt (you have) — but: heb jij? in questions (drops the -t)",
+            "hij / zij / ze heeft (he / she has)",
+            "wij / we hebben (we have)",
+            "jullie hebben (you all have)",
+            "zij / ze hebben (they have)"
+          ]
+        },
+        {
+          "rule": "Hoeveel kinderen heb jij?",
+          "examples": [
+            "Ik heb één kind. (I have one child.)",
+            "Ik heb twee / drie / vier kinderen. (I have 2/3/4 children.)",
+            "Ik heb geen kinderen. (I have no children.)",
+            "Wij hebben drie kinderen samen. (We have three children together.)"
+          ]
+        },
+        {
+          "rule": "Ages — Hoe oud zijn jouw kinderen?",
+          "examples": [
+            "Hoe oud zijn jouw kinderen? (How old are your children?)",
+            "Mijn oudste is ___ jaar. (My oldest is ___ years old.)",
+            "Mijn jongste is ___ jaar. (My youngest is ___ years old.)",
+            "Ik heb een dochter van ___ en een zoon van ___. (I have a daughter of ___ and a son of ___.) "
+          ]
+        },
+        {
+          "rule": "Broader family — heb jij...?",
+          "examples": [
+            "Heb jij broers of zussen? (Do you have brothers or sisters?)",
+            "Ik heb één broer en twee zussen. (I have one brother and two sisters.)",
+            "Ik heb geen broers of zussen. Ik ben enig kind. (I have no siblings. I'm an only child.)",
+            "Heb jij een hond / kat? (Do you have a dog / cat?)"
+          ]
+        }
+      ],
+      "memory": "🧠 'hebben' is your Swiss army knife verb. Ik heb [number] [noun]. Swap the noun and you can talk about anything you possess.",
+      "examples": [
+        {
+          "nl": "Hoeveel kinderen heb jij?",
+          "en": "How many children do you have?"
+        },
+        {
+          "nl": "Ik heb twee kinderen — een zoon en een dochter.",
+          "en": "I have two children — a son and a daughter."
+        },
+        {
+          "nl": "Hoe oud zijn jouw kinderen?",
+          "en": "How old are your children?"
+        },
+        {
+          "nl": "Mijn oudste is twaalf jaar en mijn jongste is acht jaar.",
+          "en": "My oldest is twelve and my youngest is eight."
+        },
+        {
+          "nl": "Heb jij broers of zussen?",
+          "en": "Do you have brothers or sisters?"
+        },
+        {
+          "nl": "Ik heb één zus. Zij woont in Gent.",
+          "en": "I have one sister. She lives in Ghent."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoeveel kinderen heb jij?",
+          "en": "How many children do you have?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik heb ___ kinderen. / Ik heb geen kinderen. En jij?",
+          "en": "I have ___ children. / I have no children. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik heb ___.",
+          "en": "I have ___."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe oud zijn jouw kinderen?",
+          "en": "How old are your children?"
+        },
+        {
+          "role": "B",
+          "nl": "Mijn oudste is ___ jaar en mijn jongste is ___ jaar.",
+          "en": "My oldest is ___ and my youngest is ___."
+        },
+        {
+          "role": "A",
+          "nl": "Heb jij een zoon of een dochter?",
+          "en": "Do you have a son or a daughter?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik heb een ___ van ___ jaar en een ___ van ___ jaar.",
+          "en": "I have a ___ of ___ and a ___ of ___."
+        },
+        {
+          "role": "A",
+          "nl": "Heb jij broers of zussen?",
+          "en": "Do you have brothers or sisters?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik heb ___. / Nee, ik heb geen broers of zussen. Ik ben enig kind.",
+          "en": "Yes, I have ___. / No, I have no siblings. I'm an only child."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "places",
+  "order": 20,
+  "title": {
+    "nl": "Plaatsen & Evenementen",
+    "en": "Places & Events"
+  },
+  "emoji": "🎉",
+  "color": "#8e44ad",
+  "words": [
+    {
+      "nl": "het feest",
+      "phonetic": "huht fayst",
+      "en": "the party / celebration",
+      "tip": "'ee' = long 'ay'. 'Feestje!' = Party! (diminutive makes it festive)."
+    },
+    {
+      "nl": "de verjaardag",
+      "phonetic": "duh fur-YAAR-dahkh",
+      "en": "the birthday",
+      "tip": "Soft 'g' at end. 'Gelukkige verjaardag!' = Happy birthday! 'Ik verjaar op 5 mei' = My birthday is May 5th."
+    },
+    {
+      "nl": "de geboorte",
+      "phonetic": "duh khuh-BOHR-tuh",
+      "en": "the birth",
+      "tip": "Soft 'g'. 'Bij de geboorte' = at birth. Related: 'de geboortedag' = birthday (lit. birth day)."
+    },
+    {
+      "nl": "de babyborrel",
+      "phonetic": "duh BAY-bee-bor-ul",
+      "en": "post-birth drinks party",
+      "tip": "Uniquely Belgian/Dutch! A casual drinks gathering held AFTER the baby is born, to welcome the newborn. Not a pre-birth gift party — that's an English/American tradition."
+    },
+    {
+      "nl": "het trouwfeest",
+      "phonetic": "huht TROW-fayst",
+      "en": "the wedding party",
+      "tip": "Trouwen (to marry) + feest (party). 'Het trouwfeest was super leuk!'"
+    },
+    {
+      "nl": "de zoo",
+      "phonetic": "duh zoh",
+      "en": "the zoo",
+      "tip": "Long 'oh'. 'Naar de zoo gaan' = going to the zoo."
+    },
+    {
+      "nl": "de cinema",
+      "phonetic": "duh SEE-nuh-mah",
+      "en": "the cinema",
+      "tip": "Also 'de bioscoop'. 'Naar de cinema gaan' = going to the cinema."
+    },
+    {
+      "nl": "het café",
+      "phonetic": "huht kah-FAY",
+      "en": "the café / pub",
+      "tip": "Stress on second syllable. In Belgium, cafés are often brown-pub style."
+    },
+    {
+      "nl": "het museum",
+      "phonetic": "huht mew-ZAY-um",
+      "en": "the museum",
+      "tip": "Stress on 2nd syllable. Belgium has world-class museums!"
+    },
+    {
+      "nl": "het restaurant",
+      "phonetic": "huht res-toh-RANT",
+      "en": "the restaurant",
+      "tip": "French origin. 'Uit eten gaan naar het restaurant' = going out to eat."
+    },
+    {
+      "nl": "de markt",
+      "phonetic": "duh markt",
+      "en": "the market",
+      "tip": "'De Grote Markt' is the main square in most Belgian cities."
+    },
+    {
+      "nl": "de school",
+      "phonetic": "duh skhohl",
+      "en": "the school",
+      "tip": "Soft 'sch' = 'skh'. 'Op school' = at school."
+    },
+    {
+      "nl": "het ziekenhuis",
+      "phonetic": "huht ZEEK-un-howss",
+      "en": "the hospital",
+      "tip": "Ziek (sick) + huis (house). 'ui' vowel."
+    }
+  ]
+}

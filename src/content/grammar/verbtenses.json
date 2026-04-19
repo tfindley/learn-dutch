@@ -1,0 +1,87 @@
+{
+  "kind": "grammar",
+  "id": "verbtenses",
+  "order": 5,
+  "tag": "GRAMMAR · PAST TENSE",
+  "title": {
+    "nl": "Past Tense",
+    "en": "Only 2 You Really Need"
+  },
+  "difficulty": "medium",
+  "shortcut": "For speaking: use 'hebben/zijn + past participle'. Forget the simple past for now.",
+  "explanation": "In spoken Belgian Dutch, people almost always use the perfect tense. Learn that first.",
+  "patterns": [
+    {
+      "rule": "Perfect = hebben/zijn + ge-[verb stem]-d/t",
+      "examples": [
+        "Ik heb gewerkt.",
+        "Ik heb gegeten."
+      ]
+    },
+    {
+      "rule": "'t kofschip rule — stem + t if last letter in: t,k,f,s,ch,p",
+      "examples": [
+        "werken → gewerkt",
+        "maken → gemaakt"
+      ]
+    },
+    {
+      "rule": "All other verbs → stem + d",
+      "examples": [
+        "leven → geleefd",
+        "reizen → gereisd"
+      ]
+    },
+    {
+      "rule": "Movement + state verbs use ZIJN",
+      "examples": [
+        "Ik ben gegaan.",
+        "Ik ben gevallen.",
+        "Ik ben geweest."
+      ]
+    },
+    {
+      "rule": "Top irregular past participles",
+      "examples": [
+        "zijn→geweest",
+        "hebben→gehad",
+        "gaan→gegaan",
+        "komen→gekomen",
+        "zien→gezien"
+      ]
+    }
+  ],
+  "memory": "🧠 Three mnemonics for the same rule — pick whichever sticks: '**t kofschip**' (Dutch), '**'t fokschaap**' (Dutch alternative), or '**soft ketchup**' (English — easiest to pronounce). All contain the same letters: t, k, f, s, ch, p. If the verb stem ends in one of those, the past participle gets -t. Everything else gets -d.",
+  "examples": [
+    {
+      "nl": "Ik heb gisteren gewerkt.",
+      "en": "I worked yesterday."
+    },
+    {
+      "nl": "Ze zijn naar Brussel gegaan.",
+      "en": "They went to Brussels."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat heb jij gisteren gedaan?",
+      "en": "What did you do yesterday?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik heb gewerkt. / Ik ben naar ___ gegaan.",
+      "en": "I worked. / I went to ___."
+    },
+    {
+      "role": "A",
+      "nl": "Ben jij al in Brussel geweest?",
+      "en": "Have you already been to Brussels?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, ik ben er geweest. / Nee, nog niet.",
+      "en": "Yes, I've been there. / No, not yet."
+    }
+  ]
+}
