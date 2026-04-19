@@ -1,8 +1,11 @@
 # Learn Dutch (Belgian)
 
+[![Build and Test](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml/badge.svg)](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml)
+
 A self-hosted Belgian Dutch learning app — three interactive modules served as a static site from an nginx container.
 
-[![Build and Test](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml/badge.svg)](https://github.com/tfindley/learn-dutch/actions/workflows/build.yml)
+![alt text](assets/screenshot_front.png)
+
 
 ## Disclaimer
 
