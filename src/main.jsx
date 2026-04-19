@@ -1,6 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { ThemeProvider } from "./providers/ThemeProvider";
+import { LanguageProvider } from "./providers/LanguageProvider";
 import App from "./App";
+import "./index.css";
 
 if (import.meta.env.VITE_GA_ID) {
   const s = document.createElement("script");
@@ -16,6 +19,10 @@ if (import.meta.env.VITE_GA_ID) {
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <ThemeProvider>
+      <LanguageProvider>
+        <App />
+      </LanguageProvider>
+    </ThemeProvider>
   </StrictMode>
 );

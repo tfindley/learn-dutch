@@ -1,0 +1,311 @@
+{
+  "id": "1A",
+  "group": "1",
+  "order": 1,
+  "description": {
+    "en": "Starting conversations — how to greet people, ask how they are, and talk about where you are from."
+  },
+  "rules": [
+    {
+      "id": "hoegaathet",
+      "order": 1,
+      "tag": "LEERPAD 1A · OPENING",
+      "title": {
+        "nl": "Hoe gaat het?",
+        "en": "Starting a Conversation"
+      },
+      "difficulty": "easy",
+      "shortcut": "Hoe gaat het? → Goed, dank je. En met jou? — Three seconds, sounds native. Always ask it back.",
+      "explanation": "Before you introduce yourself, you need to open the conversation. Belgian Dutch has a set of warm, predictable openers that follow a fixed social ritual. Learn these as frozen phrases rather than individual words — they're said the same way every time.",
+      "patterns": [
+        {
+          "rule": "Greeting someone — the openers",
+          "examples": [
+            "Hallo! (Hello!) — universal, any time of day",
+            "Dag! (Hi! / Bye!) — casual, works for both greeting and leaving",
+            "Goedemorgen! (Good morning!) — until about noon",
+            "Goedemiddag! (Good afternoon!) — noon to ~6pm",
+            "Goedenavond! (Good evening!) — from ~6pm",
+            "Hoe gaat het? (How are you?) — follows the greeting naturally",
+            "Hoe gaat het met jou? (How are you doing?) ← slightly more personal"
+          ]
+        },
+        {
+          "rule": "Answering — Goed, dank je. En met jou?",
+          "examples": [
+            "Goed, dank je! (Good, thank you!) ← the standard reply",
+            "Heel goed, dank je! (Very good, thank you!)",
+            "Het gaat wel. (It's okay / not bad.) ← very Belgian — modest, never over-enthusiastic",
+            "Niet zo goed. (Not so good.) ← honest answer if things aren't great",
+            "Gaat wel. (Getting by / alright.) ← the most Belgian answer of all",
+            "En met jou? (And with you?) ← always ask it back!",
+            "En met u? (And with you?) ← formal version"
+          ]
+        },
+        {
+          "rule": "The social ritual — don't skip steps",
+          "examples": [
+            "A: Hallo! Hoe gaat het?",
+            "B: Goed, dank je! En met jou?",
+            "A: Ook goed, dank je!",
+            "↳ This exchange is expected. Skipping 'En met jou?' can feel abrupt.",
+            "↳ Belgians are warm — always ask back, even if briefly."
+          ]
+        },
+        {
+          "rule": "After the greeting — transitioning to introductions",
+          "examples": [
+            "Ik ben [naam]. (I am [name].) ← simplest self-introduction",
+            "Mijn naam is [naam]. (My name is [name].)",
+            "En jij? Hoe heet jij? (And you? What's your name?)",
+            "Aangenaam! (Pleased to meet you!)",
+            "Aangenaam kennis te maken. (Pleased to make your acquaintance. — formal)"
+          ]
+        },
+        {
+          "rule": "Polite smalltalk fillers — very Belgian",
+          "examples": [
+            "Alles goed? (Everything good?) ← casual version of Hoe gaat het?",
+            "Alles goed met de familie? (Everything good with the family?)",
+            "Wat een weer, hè? (What weather, eh?) ← Belgians love talking about weather!",
+            "Het is koud vandaag, hè? (It's cold today, isn't it?)",
+            "Druk gehad? (Been busy?) ← common opener at work"
+          ]
+        },
+        {
+          "rule": "Taking leave — ending the conversation",
+          "examples": [
+            "Tot ziens! (Goodbye! — 'until we see each other')",
+            "Doei! (Bye! — very casual)",
+            "Tot later! (See you later!)",
+            "Tot morgen! (See you tomorrow!)",
+            "Tot volgende week! (See you next week!)",
+            "Prettige dag! (Have a nice day!)",
+            "Prettig weekend! (Have a nice weekend!)"
+          ]
+        }
+      ],
+      "memory": "🧠 The Belgian greeting ritual is a 3-step handshake: [greet] → Hoe gaat het? → Goed, dank je. En met jou? Memorise it as one block, not individual words.",
+      "examples": [
+        {
+          "nl": "Hallo! Hoe gaat het?",
+          "en": "Hello! How are you?"
+        },
+        {
+          "nl": "Goed, dank je! En met jou?",
+          "en": "Good, thank you! And with you?"
+        },
+        {
+          "nl": "Ook goed! Ik ben [naam]. En jij?",
+          "en": "Also good! I am [name]. And you?"
+        },
+        {
+          "nl": "Aangenaam! Mijn naam is [naam].",
+          "en": "Pleased to meet you! My name is [name]."
+        },
+        {
+          "nl": "Tot ziens! Prettige dag!",
+          "en": "Goodbye! Have a nice day!"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Goedemorgen!",
+          "en": "Good morning!"
+        },
+        {
+          "role": "B",
+          "nl": "Goedemorgen! Hoe gaat het?",
+          "en": "Good morning! How are you?"
+        },
+        {
+          "role": "A",
+          "nl": "Goed, dank je! En met jou?",
+          "en": "Good, thank you! And with you?"
+        },
+        {
+          "role": "B",
+          "nl": "Ook goed, dank je!",
+          "en": "Also good, thank you!"
+        },
+        {
+          "role": "A",
+          "nl": "Ik ben ___. En jij? Hoe heet jij?",
+          "en": "I am ___. And you? What's your name?"
+        },
+        {
+          "role": "B",
+          "nl": "Mijn naam is ___. Aangenaam!",
+          "en": "My name is ___. Pleased to meet you!"
+        },
+        {
+          "role": "A",
+          "nl": "Aangenaam!",
+          "en": "Pleased to meet you!"
+        },
+        {
+          "role": "A",
+          "nl": "Alles goed?",
+          "en": "Everything good?"
+        },
+        {
+          "role": "B",
+          "nl": "Gaat wel! / Heel goed! / Niet zo goed vandaag.",
+          "en": "Getting by! / Very good! / Not so good today."
+        },
+        {
+          "role": "A",
+          "nl": "Tot ziens! Prettige dag!",
+          "en": "Goodbye! Have a nice day!"
+        },
+        {
+          "role": "B",
+          "nl": "Tot ziens! Jij ook!",
+          "en": "Goodbye! You too!"
+        }
+      ]
+    },
+    {
+      "id": "lp1a",
+      "order": 2,
+      "tag": "LEERPAD 1A",
+      "title": {
+        "nl": "Uit welk land kom jij?",
+        "en": "Where are you from?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Ik kom uit [land]. Ik woon in [stad]. Ik spreek [taal]. — Three sentences that introduce you completely.",
+      "explanation": "The first lesson is always about introducing yourself. You need to say where you're from, where you live, what language you speak, and your name. These are the questions your teacher will ask on day one.",
+      "patterns": [
+        {
+          "rule": "Naam — Name",
+          "examples": [
+            "Hoe heet jij? / Wat is jouw naam? (What is your name?)",
+            "Ik heet [naam]. (My name is [name].)",
+            "Mijn naam is [naam]. (My name is [name].)",
+            "Aangenaam! (Pleased to meet you!)",
+            "Aangenaam kennis te maken. (Pleased to make your acquaintance. — formal)"
+          ]
+        },
+        {
+          "rule": "Land — Country",
+          "examples": [
+            "Uit welk land kom jij? / Waar kom jij vandaan? (Where are you from?)",
+            "Ik kom uit België / Nederland / Engeland / Duitsland / Frankrijk.",
+            "Ik kom uit [land]. En jij? (I'm from [country]. And you?)",
+            "Ik ben Belg / Belgisch. (I am Belgian.) ← nationality"
+          ]
+        },
+        {
+          "rule": "Wonen — Living",
+          "examples": [
+            "Waar woon jij? (Where do you live?)",
+            "Ik woon in Roeselare / Brussel / Gent / Antwerpen.",
+            "Ik woon in [stad], in [land]. (I live in [city], in [country].)"
+          ]
+        },
+        {
+          "rule": "Taal — Language",
+          "examples": [
+            "Welke taal spreek jij? (What language do you speak?)",
+            "Welke taal spreek jij thuis? (What language do you speak at home?)",
+            "Ik spreek Nederlands / Engels / Frans / Duits / Spaans.",
+            "Ik spreek een beetje Nederlands. (I speak a little Dutch.)",
+            "Ik leer Nederlands. (I am learning Dutch.)"
+          ]
+        },
+        {
+          "rule": "Key verbs: komen / wonen / spreken / heten",
+          "examples": [
+            "komen: ik kom, jij komt, hij/zij komt, wij komen",
+            "wonen: ik woon, jij woont, hij/zij woont, wij wonen",
+            "spreken: ik spreek, jij spreekt, hij/zij spreekt, wij spreken",
+            "heten: ik heet, jij heet, hij/zij heet, wij heten"
+          ]
+        }
+      ],
+      "memory": "🧠 Three verbs, three facts: kom (country) → woon (city) → spreek (language). Fire them in that order and you've introduced yourself completely.",
+      "examples": [
+        {
+          "nl": "Hoe heet jij?",
+          "en": "What is your name?"
+        },
+        {
+          "nl": "Ik heet [naam]. Ik kom uit België en ik woon in Roeselare.",
+          "en": "My name is [name]. I'm from Belgium and I live in Roeselare."
+        },
+        {
+          "nl": "Welke taal spreek jij thuis?",
+          "en": "What language do you speak at home?"
+        },
+        {
+          "nl": "Ik spreek Nederlands en een beetje Engels.",
+          "en": "I speak Dutch and a little English."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoe heet jij?",
+          "en": "What is your name?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik heet ___. En jij?",
+          "en": "My name is ___. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik heet ___. Aangenaam!",
+          "en": "My name is ___. Pleased to meet you!"
+        },
+        {
+          "role": "B",
+          "nl": "Aangenaam!",
+          "en": "Pleased to meet you!"
+        },
+        {
+          "role": "A",
+          "nl": "Uit welk land kom jij?",
+          "en": "What country are you from?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik kom uit ___. En jij?",
+          "en": "I'm from ___. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik kom ook uit ___. / Ik kom uit ___.",
+          "en": "I'm also from ___. / I'm from ___."
+        },
+        {
+          "role": "A",
+          "nl": "Waar woon jij?",
+          "en": "Where do you live?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik woon in ___. En jij?",
+          "en": "I live in ___. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik woon in ___.",
+          "en": "I live in ___."
+        },
+        {
+          "role": "A",
+          "nl": "Welke taal spreek jij thuis?",
+          "en": "What language do you speak at home?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik spreek ___ thuis.",
+          "en": "I speak ___ at home."
+        }
+      ]
+    }
+  ]
+}

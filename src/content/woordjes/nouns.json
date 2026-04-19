@@ -1,0 +1,102 @@
+{
+  "id": "nouns",
+  "order": 15,
+  "title": {
+    "nl": "Naamwoorden",
+    "en": "Key Nouns"
+  },
+  "emoji": "📦",
+  "color": "#5d6d7e",
+  "words": [
+    {
+      "nl": "de taal",
+      "phonetic": "duh taal",
+      "en": "the language",
+      "tip": "Long 'aa'. Welke taal spreek je? = What language do you speak?"
+    },
+    {
+      "nl": "het land",
+      "phonetic": "huht lant",
+      "en": "the country / land",
+      "tip": "Final 'd' → 't'. Uit welk land kom je? = What country are you from?"
+    },
+    {
+      "nl": "het huis",
+      "phonetic": "huht howss",
+      "en": "the house / home",
+      "tip": "'ui' vowel — the tricky one! Naar huis = home (direction)."
+    },
+    {
+      "nl": "de woonkamer",
+      "phonetic": "duh VOHN-kah-mer",
+      "en": "the living room",
+      "tip": "Wonen (to live) + kamer (room). Compound nouns stack in Dutch."
+    },
+    {
+      "nl": "het werk",
+      "phonetic": "huht verk",
+      "en": "the work / job",
+      "tip": "Op het werk = at work. 'werk' also means it works."
+    },
+    {
+      "nl": "het begin",
+      "phonetic": "huht buh-KHIN",
+      "en": "the beginning",
+      "tip": "Soft 'g'. In het begin = in the beginning."
+    },
+    {
+      "nl": "de volgorde",
+      "phonetic": "duh FOL-khor-duh",
+      "en": "the order / sequence",
+      "tip": "Vol (full) + orde (order). 'In de juiste volgorde' = in the right order."
+    },
+    {
+      "nl": "het formulier",
+      "phonetic": "huht for-mew-LEER",
+      "en": "the form (document)",
+      "tip": "French origin. 'Een formulier invullen' = to fill in a form."
+    },
+    {
+      "nl": "het potlood",
+      "phonetic": "huht POT-loht",
+      "en": "the pencil",
+      "tip": "Lit. 'pot lead'. Final 'd' → 't'."
+    },
+    {
+      "nl": "de pen",
+      "phonetic": "duh pen",
+      "en": "the pen",
+      "tip": "Short 'e'. Same as English."
+    },
+    {
+      "nl": "het water",
+      "phonetic": "huht VAH-tur",
+      "en": "the water",
+      "tip": "Een glas water, alsjeblieft!"
+    },
+    {
+      "nl": "het eten",
+      "phonetic": "huht AY-tun",
+      "en": "the food / eating",
+      "tip": "Both noun (food) and infinitive (to eat)."
+    },
+    {
+      "nl": "de uitgang",
+      "phonetic": "duh OWT-khang",
+      "en": "the exit",
+      "tip": "Uit (out) + gang (corridor/way). Compound word."
+    },
+    {
+      "nl": "de schilderijen",
+      "phonetic": "duh skhil-duh-RAY-yun",
+      "en": "the paintings",
+      "tip": "Plural of 'het schilderij'. Soft 'g' at start."
+    },
+    {
+      "nl": "de uitnodiging",
+      "phonetic": "duh owt-NOH-dih-khink",
+      "en": "the invitation",
+      "tip": "Uitnodigen (to invite) + -ing. 'Een uitnodiging sturen' = to send an invitation."
+    }
+  ]
+}

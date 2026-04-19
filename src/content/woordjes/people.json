@@ -1,0 +1,72 @@
+{
+  "id": "people",
+  "order": 3,
+  "title": {
+    "nl": "Mensen",
+    "en": "People"
+  },
+  "emoji": "👨‍👩‍👧",
+  "color": "#884ea0",
+  "words": [
+    {
+      "nl": "de man",
+      "phonetic": "duh man",
+      "en": "the man",
+      "tip": "Plural: de mannen."
+    },
+    {
+      "nl": "de vrouw",
+      "phonetic": "duh frow",
+      "en": "the woman / wife",
+      "tip": "Context tells you which. 'Mijn vrouw' = my wife."
+    },
+    {
+      "nl": "het kind",
+      "phonetic": "huht kint",
+      "en": "the child",
+      "tip": "Final 'd' → 't'. Plural: de kinderen."
+    },
+    {
+      "nl": "de kinderen",
+      "phonetic": "duh KIN-duh-run",
+      "en": "the children",
+      "tip": "Irregular plural — must memorise."
+    },
+    {
+      "nl": "het meisje",
+      "phonetic": "huht MAY-shuh",
+      "en": "the girl",
+      "tip": "Diminutive of 'meid' → always het-word."
+    },
+    {
+      "nl": "de jongen",
+      "phonetic": "duh YONG-un",
+      "en": "the boy",
+      "tip": "Plural: de jongens."
+    },
+    {
+      "nl": "de vriend",
+      "phonetic": "duh freent",
+      "en": "the friend / boyfriend",
+      "tip": "'Mijn vriend' can mean boyfriend. 'Een vriend' = a (male) friend."
+    },
+    {
+      "nl": "de vriendin",
+      "phonetic": "duh freen-DIN",
+      "en": "the female friend / girlfriend",
+      "tip": "'Mijn vriendin' can mean girlfriend."
+    },
+    {
+      "nl": "de familie",
+      "phonetic": "duh fah-MEE-lee",
+      "en": "the family",
+      "tip": "'ie' at end = long 'ee'."
+    },
+    {
+      "nl": "de mensen",
+      "phonetic": "duh MEN-sun",
+      "en": "the people",
+      "tip": "Plural of 'mens' (person/human)."
+    }
+  ]
+}

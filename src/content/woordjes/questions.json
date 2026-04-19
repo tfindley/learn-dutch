@@ -1,0 +1,72 @@
+{
+  "id": "questions",
+  "order": 5,
+  "title": {
+    "nl": "Vragen",
+    "en": "Questions"
+  },
+  "emoji": "❓",
+  "color": "#117a65",
+  "words": [
+    {
+      "nl": "wat",
+      "phonetic": "vat",
+      "en": "what",
+      "tip": "'w' sounds close to 'v' in Belgian Dutch."
+    },
+    {
+      "nl": "wie",
+      "phonetic": "vee",
+      "en": "who",
+      "tip": "'ie' = long 'ee'."
+    },
+    {
+      "nl": "waar",
+      "phonetic": "vaar",
+      "en": "where",
+      "tip": "Waar is...? = Where is...?"
+    },
+    {
+      "nl": "wanneer",
+      "phonetic": "vah-NAYR",
+      "en": "when",
+      "tip": "Double vowel = long sound."
+    },
+    {
+      "nl": "waarom",
+      "phonetic": "VAH-rom",
+      "en": "why",
+      "tip": "Literally 'where-around'."
+    },
+    {
+      "nl": "hoe",
+      "phonetic": "hoo",
+      "en": "how",
+      "tip": "Hoe gaat het? = How are you?"
+    },
+    {
+      "nl": "welk / welke",
+      "phonetic": "velk / VEL-kuh",
+      "en": "which",
+      "tip": "'welk' for het-words, 'welke' for de-words."
+    },
+    {
+      "nl": "hoeveel",
+      "phonetic": "hoo-FAYL",
+      "en": "how much / how many",
+      "tip": "Hoeveel kost dat? = How much does that cost?"
+    },
+    {
+      "nl": "Wat zeg je?",
+      "phonetic": "vat zekh yuh",
+      "en": "What did you say? / Pardon?",
+      "tip": "Casual way to ask someone to repeat. More polite: 'Kan je dat herhalen?'"
+    },
+    {
+      "nl": "Zeg eens",
+      "phonetic": "zekh ayns",
+      "en": "Tell me / Say, ...",
+      "tip": "Conversation opener. 'Zeg eens, wat vind jij?' = Tell me, what do you think?"
+    }
+  ]
+}

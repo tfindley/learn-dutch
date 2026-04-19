@@ -1,0 +1,82 @@
+{
+  "kind": "grammar",
+  "id": "modal",
+  "order": 6,
+  "tag": "GRAMMAR · MODALS",
+  "title": {
+    "nl": "The Power 5 Modal Verbs",
+    "en": "The Power 5 Modal Verbs"
+  },
+  "difficulty": "easy",
+  "shortcut": "Modal + infinitive at end. No 'te'. No conjugation on the infinitive.",
+  "explanation": "Modals are your workhorses. Learn their conjugations and you can express almost anything.",
+  "patterns": [
+    {
+      "rule": "kunnen (can)",
+      "examples": [
+        "Ik kan, jij kunt/kan, hij kan, wij kunnen"
+      ]
+    },
+    {
+      "rule": "willen (want to)",
+      "examples": [
+        "Ik wil, jij wilt/wil, hij wil, wij willen"
+      ]
+    },
+    {
+      "rule": "moeten (must / have to)",
+      "examples": [
+        "Ik moet, jij moet, hij moet, wij moeten"
+      ]
+    },
+    {
+      "rule": "mogen (may / allowed to)",
+      "examples": [
+        "Ik mag, jij mag, hij mag, wij mogen"
+      ]
+    },
+    {
+      "rule": "zullen (will / shall)",
+      "examples": [
+        "Ik zal, jij zal/zult, hij zal, wij zullen"
+      ]
+    }
+  ],
+  "memory": "🧠 Modal verbs = pipes in bash. Modal sets the mode, infinitive is the command: ik wil | werken.",
+  "examples": [
+    {
+      "nl": "Ik kan Nederlands spreken.",
+      "en": "I can speak Dutch."
+    },
+    {
+      "nl": "Je moet dat niet doen.",
+      "en": "You mustn't do that."
+    },
+    {
+      "nl": "Mag ik even storen?",
+      "en": "May I disturb you for a moment?"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Kan jij goed koken?",
+      "en": "Can you cook well?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, ik kan goed koken. / Nee, ik kan niet goed koken.",
+      "en": "Yes, I can cook well. / No, I can't cook well."
+    },
+    {
+      "role": "A",
+      "nl": "Mag ik even de deur opendoen?",
+      "en": "May I open the door for a moment?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, natuurlijk! / Nee, liever niet.",
+      "en": "Yes, of course! / No, I'd rather not."
+    }
+  ]
+}

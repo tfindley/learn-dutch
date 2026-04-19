@@ -1,0 +1,75 @@
+{
+  "kind": "grammar",
+  "id": "erword",
+  "order": 9,
+  "tag": "GRAMMAR · ER",
+  "title": {
+    "nl": "The Word 'er'",
+    "en": "Small but Everywhere"
+  },
+  "difficulty": "hard",
+  "shortcut": "Start with 'er is/zijn'. For the rest, learn by ear.",
+  "explanation": "'er' has 4 uses. Start with 'er is/zijn' and 'er + preposition' — those cover most cases.",
+  "patterns": [
+    {
+      "rule": "er is / er zijn = there is / there are",
+      "examples": [
+        "Er is een probleem.",
+        "Er zijn veel mensen."
+      ]
+    },
+    {
+      "rule": "er + preposition replaces 'it' for things",
+      "examples": [
+        "Ik denk eraan. (I think about it.)",
+        "Hij wacht erop. (He's waiting for it.)"
+      ]
+    },
+    {
+      "rule": "er = 'there' (location)",
+      "examples": [
+        "Ik ben er geweest. (I've been there.)",
+        "Ga er naartoe."
+      ]
+    },
+    {
+      "rule": "er + number = partitive",
+      "examples": [
+        "Ik heb er drie. (I have three of them.)"
+      ]
+    }
+  ],
+  "memory": "🧠 'er is/zijn' is your go-to. For the rest, notice it when you hear it — pattern recognition beats rote learning.",
+  "examples": [
+    {
+      "nl": "Er is geen probleem.",
+      "en": "There's no problem."
+    },
+    {
+      "nl": "Ik heb er geen tijd voor.",
+      "en": "I have no time for it."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Is er een probleem?",
+      "en": "Is there a problem?"
+    },
+    {
+      "role": "B",
+      "nl": "Nee, er is geen probleem. / Ja, er is een probleem.",
+      "en": "No, there's no problem. / Yes, there is a problem."
+    },
+    {
+      "role": "A",
+      "nl": "Zijn er veel mensen op het feest?",
+      "en": "Are there many people at the party?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, er zijn veel mensen. / Nee, er zijn niet veel mensen.",
+      "en": "Yes, there are many people. / No, there aren't many people."
+    }
+  ]
+}

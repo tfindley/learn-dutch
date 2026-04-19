@@ -4,12 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Belgian Dutch learning app — three standalone React modules served as a static site from an nginx container.
+Belgian Dutch learning app — three content sections served as a static React SPA from an nginx container.
 
-- `dutch-100-words.jsx` — vocabulary flashcard app (`DutchTutor` component). Updated periodically with new words/categories.
-- `dutch-grammar.jsx` — grammar rules and quiz app (`DutchGrammar` component). Updated periodically with new lessons.
-- `dutch-tests.jsx` — practice quizzes and marathon sessions (`DutchTests` component). Updated periodically with new tests.
-- `src/App.jsx` — landing page that renders a module picker and conditionally mounts the chosen component.
+Content is stored in JSON files under `src/content/` and rendered by page components under `src/pages/`.
 
 ## Development
 
@@ -36,19 +33,116 @@ Pass `--build-arg CA_CERT_URL=<url>` if your npm traffic goes through a proxy wi
 ## Architecture
 
 ```text
-index.html          Vite entry point
-vite.config.js      Vite config (React plugin only)
+index.html                    Vite entry point
+vite.config.js                Vite config (React plugin)
+tailwind.config.js            Tailwind CSS config (darkMode: "class")
+postcss.config.js             PostCSS config (Tailwind + autoprefixer)
+nginx.conf                    nginx config for the serve stage (includes /healthz)
+Dockerfile                    Multi-stage: node:20-alpine build → nginx:1.27-alpine serve
+
 src/
-  main.jsx          React 18 root + optional GA injection
-  App.jsx           Landing page — imports all JSX modules, switches on state
-dutch-100-words.jsx Content module (root-level, imported by App.jsx)
-dutch-grammar.jsx   Content module (root-level, imported by App.jsx)
-dutch-tests.jsx     Content module (root-level, imported by App.jsx)
-nginx.conf          nginx config for the serve stage (includes /healthz endpoint)
-Dockerfile          Multi-stage: node:20-alpine build → nginx:1.27-alpine serve
+  main.jsx                    React 18 root + providers + optional GA injection
+  index.css                   Tailwind directives + CSS variables
+  App.jsx                     React Router route table + ScrollToTop
+
+  providers/
+    ThemeProvider.jsx         dark/light/system theme, persisted to localStorage
+    LanguageProvider.jsx      global English-toggle, persisted to localStorage
+
+  lib/
+    content.js                import.meta.glob loaders + lookup helpers (leerpadTree, categories, tests…)
+    i18n.js                   t(field, lang) — resolves plain strings or { nl, en } objects
+    useLocalStorage.js        Hook for localStorage-backed state
+
+  components/
+    TopNav.jsx                Pinned top nav: Leerpaden dropdown, Grammar dropdown, EN/theme toggles
+    MobileDrawer.jsx          Full-height mobile drawer (Leerpaden + Grammar sections)
+    DifficultyBadge.jsx       Easy / Medium / Hard badge
+    RuleListItem.jsx          Shared rule link row with difficulty border
+    PatternBlock.jsx          Collapsible pattern + examples block (used by both rule pages)
+    PracticeConversation.jsx  Chat-style practice dialogue (respects showEnglish)
+    EnglishText.jsx           Renders children only when showEnglish is true
+
+  pages/
+    Landing.jsx               Home — three pillar cards + links
+    Changelog.jsx             Version history
+    NotFound.jsx              404 fallback
+
+    woordjes/
+      Index.jsx               Category grid + search (uses cat.title.nl / cat.title.en)
+      Category.jsx            Flip-card word list + pronunciation guide
+
+    leerpaden/
+      Index.jsx               Two-level index: Leerpad 1–4 → sections A/B/C with descriptions
+      Group.jsx               Single leerpad group (e.g. Leerpad 2) with its sections
+      Rule.jsx                Single leerpad rule page (patterns, examples, practice, test link)
+
+    grammar/
+      Layout.jsx              Secondary tab bar (Grammar Reference | Uitspraak)
+      Reference.jsx           Topic-based grammar reference index
+      Uitspraak.jsx           Pronunciation & spelling rules index
+      Rule.jsx                Single grammar/uitspraak rule page
+
+    tests/
+      Index.jsx               Test cards grouped by leerpad + Marathon card
+      Quiz.jsx                4-option MCQ with immediate feedback
+      Results.jsx             Score summary + full answer review
+
+  content/                    ← Edit these to add/update content
+    leerpaden/
+      _groups.json            { groups: [{id, order, title, description}] }
+      1a.json … 4c.json       { id, group, order, description, rules[] }
+    grammar/
+      articles.json …         Individual grammar reference rules
+    uitspraak/
+      pron_vowels.json …      Individual pronunciation rules
+    woordjes/
+      _tips.json              { pronunciationTips[] }
+      greetings.json …        { id, order, title:{nl,en}, emoji, color, words[] }
+    tests/
+      test_opening.json …     Individual test files
+
+obsolete/                     Former monolithic JSX/JSON content (superseded by split files)
 ```
 
-The `.jsx` content files live at the repo root (not under `src/`) so they are easy to find and update. `App.jsx` imports them with `../dutch-100-words` etc.
+## Routing
+
+```text
+/                        Landing
+/woordjes                Category index
+/woordjes/:categoryId    Single category (flip cards)
+/leerpaden               Two-level leerpad index (groups 1–4 → sections A/B/C)
+/leerpaden/:groupId      Single leerpad group (e.g. /leerpaden/2)
+/leerpaden/:groupId/:id  Single leerpad rule
+/grammar                 → redirects to /grammar/reference
+/grammar/reference       Grammar reference list
+/grammar/reference/:id   Single reference rule
+/grammar/uitspraak       Pronunciation list
+/grammar/uitspraak/:id   Single pronunciation rule
+/tests                   Test index + Marathon
+/tests/:testId           Quiz
+/tests/:testId/results   Results
+/changelog               Version history
+```
+
+## Adding content
+
+Content uses `import.meta.glob` — adding a new JSON file to the right directory is all that's needed; no code changes required.
+
+- **Words** — add a file to `src/content/woordjes/`. Schema: `{ id, order, title:{nl,en}, emoji, color, words:[{nl, phonetic, en, tip}] }`.
+- **Leerpad section** — add a file to `src/content/leerpaden/` (e.g. `4d.json`). Schema: `{ id, group, order, description:{en}, rules:[...] }`. Add the group to `_groups.json` if needed.
+- **Grammar rule** — add a file to `src/content/grammar/`. Schema: `{ id, kind:"grammar", order, tag, title:{nl,en}, difficulty, shortcut, explanation, patterns, memory, examples, practice }`.
+- **Uitspraak rule** — add a file to `src/content/uitspraak/`. Same schema with `kind:"uitspraak"`.
+- **Test** — add a file to `src/content/tests/`. Schema: `{ id, order, title, subtitle, leerpad, difficulty, emoji, questions:[{q, options[4], answer(0-3), explanation}] }`.
+
+### Multi-language fields
+
+Bilingual fields use `{ nl: "...", en: "..." }` objects. The `t(field, lang)` helper in `src/lib/i18n.js` resolves both plain strings (legacy) and language-code objects. Adding a French translation would mean adding `fr` keys and passing `lang:'fr'`.
+
+## Providers
+
+- `ThemeProvider` — wraps the app; exposes `{ resolvedTheme, toggle }` via `useTheme()`. Reads `localStorage.theme` first, falls back to `prefers-color-scheme`.
+- `LanguageProvider` — exposes `{ showEnglish, toggle }` via `useLanguage()`. Controls English text visibility across all modules.
 
 ## CI/CD
 

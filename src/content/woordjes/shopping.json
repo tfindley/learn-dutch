@@ -1,0 +1,114 @@
+{
+  "id": "shopping",
+  "order": 24,
+  "title": {
+    "nl": "Winkelen",
+    "en": "Shopping"
+  },
+  "emoji": "🛒",
+  "color": "#1a6b4a",
+  "words": [
+    {
+      "nl": "de winkel",
+      "phonetic": "duh VIN-kul",
+      "en": "the shop",
+      "tip": "Plural: de winkels. 'Winkelen gaan' = to go shopping."
+    },
+    {
+      "nl": "de supermarkt",
+      "phonetic": "duh SOO-per-markt",
+      "en": "the supermarket",
+      "tip": "'Ik doe mijn boodschappen in de supermarkt.'"
+    },
+    {
+      "nl": "de markt",
+      "phonetic": "duh markt",
+      "en": "the market",
+      "tip": "'De Grote Markt' = the main square. 'Naar de markt gaan' = to go to the market."
+    },
+    {
+      "nl": "de winkelwagen",
+      "phonetic": "duh VIN-kul-vah-khun",
+      "en": "the shopping trolley",
+      "tip": "Winkel (shop) + wagen (cart). 'Heb je een winkelwagen nodig?' = Do you need a trolley?"
+    },
+    {
+      "nl": "de mand",
+      "phonetic": "duh mant",
+      "en": "the (shopping) basket",
+      "tip": "Small basket for a few items. 'Ik neem gewoon een mand.' = I'll just take a basket."
+    },
+    {
+      "nl": "de boodschappen",
+      "phonetic": "duh BOHT-skhap-pun",
+      "en": "the groceries",
+      "tip": "Always plural. 'Boodschappen doen' = to do the grocery shopping."
+    },
+    {
+      "nl": "de boodschappentas",
+      "phonetic": "duh BOHT-skhap-pun-tas",
+      "en": "the grocery bag",
+      "tip": "'Heb je een boodschappentas mee?' = Did you bring a bag?"
+    },
+    {
+      "nl": "de boodschappenlijst",
+      "phonetic": "duh BOHT-skhap-pun-layst",
+      "en": "the shopping list",
+      "tip": "'Wat staat er op de boodschappenlijst?' = What is on the shopping list?"
+    },
+    {
+      "nl": "de kassa",
+      "phonetic": "duh KAS-sah",
+      "en": "the checkout / till",
+      "tip": "'Ik betaal aan de kassa.' 'Betaalt u gepast?' is the classic cashier question."
+    },
+    {
+      "nl": "betalen",
+      "phonetic": "buh-TAH-lun",
+      "en": "to pay",
+      "tip": "Ik betaal, jij betaalt. 'Hoe wil je betalen?' = How do you want to pay?"
+    },
+    {
+      "nl": "gepast betalen",
+      "phonetic": "khuh-PAST buh-TAH-lun",
+      "en": "to pay exact change",
+      "tip": "'Betaalt u gepast?' = Are you paying exact change? Very common at Belgian tills."
+    },
+    {
+      "nl": "contant",
+      "phonetic": "kon-TANT",
+      "en": "cash",
+      "tip": "'Contant betalen' = to pay cash. Alternative: 'cash betalen'."
+    },
+    {
+      "nl": "de pinpas",
+      "phonetic": "duh PIN-pas",
+      "en": "the debit card",
+      "tip": "Also called 'de bankkaart'. 'Ik betaal met de pinpas.' = I'm paying by card."
+    },
+    {
+      "nl": "het wisselgeld",
+      "phonetic": "huht VIS-sul-khelt",
+      "en": "the change (money back)",
+      "tip": "Soft 'g'. 'Uw wisselgeld' = your change (what the cashier hands back)."
+    },
+    {
+      "nl": "de openingsuren",
+      "phonetic": "duh OH-puh-nings-uu-run",
+      "en": "the opening hours",
+      "tip": "'Wat zijn de openingsuren?' = What are the opening hours?"
+    },
+    {
+      "nl": "open",
+      "phonetic": "OH-pun",
+      "en": "open",
+      "tip": "'De winkel is open.' Opposite: gesloten."
+    },
+    {
+      "nl": "gesloten",
+      "phonetic": "khuh-SLOH-tun",
+      "en": "closed",
+      "tip": "Soft 'g'. 'Gesloten op zondag' = closed on Sunday."
+    }
+  ]
+}

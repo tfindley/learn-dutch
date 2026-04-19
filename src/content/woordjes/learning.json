@@ -1,0 +1,84 @@
+{
+  "id": "learning",
+  "order": 22,
+  "title": {
+    "nl": "School & Leren",
+    "en": "School & Learning"
+  },
+  "emoji": "📚",
+  "color": "#1a3a6b",
+  "words": [
+    {
+      "nl": "de les",
+      "phonetic": "duh les",
+      "en": "the lesson",
+      "tip": "Short 'e'. Plural: de lessen. 'In de les' = in class."
+    },
+    {
+      "nl": "de cursus",
+      "phonetic": "duh KUR-sus",
+      "en": "the course",
+      "tip": "Stress on first syllable. 'Een cursus volgen' = to follow a course."
+    },
+    {
+      "nl": "de cursist",
+      "phonetic": "duh kur-SIST",
+      "en": "the course participant",
+      "tip": "The person taking a course. '-ist' = person who does something."
+    },
+    {
+      "nl": "de oefening",
+      "phonetic": "duh OO-fuh-ning",
+      "en": "the exercise",
+      "tip": "'oe' = long 'oo'. 'Een oefening maken' = to do an exercise."
+    },
+    {
+      "nl": "de zin",
+      "phonetic": "duh zin",
+      "en": "the sentence / the desire",
+      "tip": "Dual meaning! 'Een zin schrijven' = write a sentence. 'Ik heb geen zin' = I don't feel like it."
+    },
+    {
+      "nl": "de zinnen",
+      "phonetic": "duh ZIN-un",
+      "en": "the sentences",
+      "tip": "Plural of 'zin' (in the sentence meaning)."
+    },
+    {
+      "nl": "herhalen",
+      "phonetic": "her-HAH-lun",
+      "en": "to repeat",
+      "tip": "'Kan je dat herhalen?' = Can you repeat that?"
+    },
+    {
+      "nl": "keer",
+      "phonetic": "kayr",
+      "en": "time(s) / turn",
+      "tip": "Één keer = once. Twee keer = twice. 'Nog een keer' = one more time."
+    },
+    {
+      "nl": "al",
+      "phonetic": "al",
+      "en": "already",
+      "tip": "'Ik begrijp het al' = I already understand it."
+    },
+    {
+      "nl": "bijna",
+      "phonetic": "BAY-nah",
+      "en": "almost",
+      "tip": "'Ik ben er bijna' = I'm almost there / getting it."
+    },
+    {
+      "nl": "betekenen",
+      "phonetic": "buh-TAY-kuh-nun",
+      "en": "to mean",
+      "tip": "'Wat betekent dit?' = What does this mean? Present: betekent. Past: betekend."
+    },
+    {
+      "nl": "belangrijk",
+      "phonetic": "buh-LANG-rayk",
+      "en": "important",
+      "tip": "'Dit is belangrijk' = This is important."
+    }
+  ]
+}

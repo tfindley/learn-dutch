@@ -1,0 +1,140 @@
+{
+  "id": "3B",
+  "group": "3",
+  "order": 6,
+  "description": {
+    "en": "Age — asking and telling how old someone is using the right verb forms."
+  },
+  "rules": [
+    {
+      "id": "lp3b",
+      "order": 1,
+      "tag": "LEERPAD 3B",
+      "title": {
+        "nl": "Hoe oud ben jij?",
+        "en": "How old are you?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Ik ben [number] jaar (oud). 'oud' is optional in speech — 'Ik ben 35 jaar' is perfectly natural.",
+      "explanation": "This lesson combines 'zijn' (to be) with numbers in a personal context. You give your age, ask about others' ages, and talk about birthdays. It's also where dates and months come together.",
+      "patterns": [
+        {
+          "rule": "Zijn — to be (conjugation)",
+          "examples": [
+            "ik ben (I am)",
+            "jij / je bent (you are) — but: ben jij? in questions",
+            "hij / zij / ze is (he / she is)",
+            "wij / we zijn (we are)",
+            "jullie zijn (you all are)",
+            "zij / ze zijn (they are)"
+          ]
+        },
+        {
+          "rule": "Hoe oud ben jij?",
+          "examples": [
+            "Hoe oud ben jij? (How old are you?)",
+            "Ik ben ___ jaar (oud). (I am ___ years old.)",
+            "Hoe oud is jouw partner / kind? (How old is your partner / child?)",
+            "Hij / Zij is ___ jaar. (He / She is ___ years old.)",
+            "Ik ben net ___ geworden. (I just turned ___.) ← bonus phrase"
+          ]
+        },
+        {
+          "rule": "Verjaardag — Birthday",
+          "examples": [
+            "Wanneer ben jij jarig? (When is your birthday?)",
+            "Wanneer is jouw verjaardag? (When is your birthday?)",
+            "Ik ben jarig op ___ [dag] [maand]. (My birthday is on ___ [day] [month].)",
+            "Ik verjaar op 5 maart. (My birthday is on March 5th.)",
+            "Gelukkige verjaardag! (Happy birthday!)",
+            "Hoeveel kaarsjes? (How many candles?) ← fun follow-up"
+          ]
+        },
+        {
+          "rule": "Dates — ordinal numbers",
+          "examples": [
+            "de eerste (1st) / de tweede (2nd) / de derde (3rd)",
+            "de vierde (4th) / de vijfde (5th) / de tiende (10th)",
+            "de twintigste (20th) / de eenentwintigste (21st)",
+            "Ik ben geboren op 15 april 1985. (I was born on 15 April 1985.)",
+            "In welk jaar ben jij geboren? (In what year were you born?)"
+          ]
+        }
+      ],
+      "memory": "🧠 'Hoe oud' = how old. 'Hoe laat' = how late (what time). Don't mix them up — both start with 'Hoe' but mean different things.",
+      "examples": [
+        {
+          "nl": "Hoe oud ben jij?",
+          "en": "How old are you?"
+        },
+        {
+          "nl": "Ik ben vijfendertig jaar.",
+          "en": "I am thirty-five years old."
+        },
+        {
+          "nl": "Wanneer ben jij jarig?",
+          "en": "When is your birthday?"
+        },
+        {
+          "nl": "Ik verjaar op 12 juni.",
+          "en": "My birthday is on June 12th."
+        },
+        {
+          "nl": "Hoe oud is jouw oudste kind?",
+          "en": "How old is your oldest child?"
+        },
+        {
+          "nl": "In welk jaar ben jij geboren?",
+          "en": "In what year were you born?"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoe oud ben jij?",
+          "en": "How old are you?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ben ___ jaar. En jij?",
+          "en": "I am ___ years old. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Ik ben ___ jaar.",
+          "en": "I am ___ years old."
+        },
+        {
+          "role": "A",
+          "nl": "Wanneer ben jij jarig?",
+          "en": "When is your birthday?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ben jarig op ___ [maand].",
+          "en": "My birthday is on ___ [month]."
+        },
+        {
+          "role": "A",
+          "nl": "In welk jaar ben jij geboren?",
+          "en": "In what year were you born?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ben geboren in ___.",
+          "en": "I was born in ___."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe oud is jouw partner?",
+          "en": "How old is your partner?"
+        },
+        {
+          "role": "B",
+          "nl": "Mijn partner is ___ jaar.",
+          "en": "My partner is ___ years old."
+        }
+      ]
+    }
+  ]
+}

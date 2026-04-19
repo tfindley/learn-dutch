@@ -1,0 +1,75 @@
+{
+  "kind": "grammar",
+  "id": "separable",
+  "order": 7,
+  "tag": "GRAMMAR · SEPARABLE VERBS",
+  "title": {
+    "nl": "Verbs That Split Apart",
+    "en": "Verbs That Split Apart"
+  },
+  "difficulty": "hard",
+  "shortcut": "The prefix detaches and jumps to the END of the main clause.",
+  "explanation": "Dutch compound verbs separate in main clauses — the prefix flies to the end. In subclauses, they stay together.",
+  "patterns": [
+    {
+      "rule": "Main clause: prefix → end",
+      "examples": [
+        "aankomen → Ik kom morgen aan.",
+        "opbellen → Ik bel je op."
+      ]
+    },
+    {
+      "rule": "Subclause: prefix stays attached",
+      "examples": [
+        "...omdat ik morgen aankom.",
+        "...dat ik je opbel."
+      ]
+    },
+    {
+      "rule": "Past participle: ge- goes BETWEEN prefix and stem",
+      "examples": [
+        "aankomen → aangekomen",
+        "opbellen → opgebeld"
+      ]
+    },
+    {
+      "rule": "Common separable prefixes",
+      "examples": [
+        "aan-, op-, uit-, mee-, af-, in-, door-, terug-"
+      ]
+    }
+  ],
+  "memory": "🧠 The prefix is a git subcommand that gets pushed to the end: 'ik bel [stuff happens] op'.",
+  "examples": [
+    {
+      "nl": "Ik bel je morgen op.",
+      "en": "I'll call you tomorrow."
+    },
+    {
+      "nl": "Hij is al aangekomen.",
+      "en": "He has already arrived."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wanneer kom jij aan?",
+      "en": "When do you arrive?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik kom om ___ uur aan.",
+      "en": "I arrive at ___ o'clock."
+    },
+    {
+      "role": "A",
+      "nl": "Bel jij mij op?",
+      "en": "Will you call me?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, ik bel jou vanavond op.",
+      "en": "Yes, I'll call you this evening."
+    }
+  ]
+}

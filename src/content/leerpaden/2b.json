@@ -1,0 +1,127 @@
+{
+  "id": "2B",
+  "group": "2",
+  "order": 4,
+  "description": {
+    "en": "Prices and amounts — asking about costs and handling numbers in real-world context."
+  },
+  "rules": [
+    {
+      "id": "lp2b",
+      "order": 1,
+      "tag": "LEERPAD 2B",
+      "title": {
+        "nl": "Hoeveel kost het boek?",
+        "en": "How much does it cost?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Hoeveel kost het? → Het kost ___ euro. Learn the numbers cold — prices require them instantly.",
+      "explanation": "Leerpad 2B puts numbers into real-world context: prices. You need to ask how much something costs, understand the answer, and react to it. This is also where you practice numbers in the 1–100 range at natural speed.",
+      "patterns": [
+        {
+          "rule": "Asking the price",
+          "examples": [
+            "Hoeveel kost het / dat? (How much does it / that cost?)",
+            "Hoeveel kost het boek / de cursus / het ticket? (How much does the book / course / ticket cost?)",
+            "Hoeveel kosten die? (How much do those cost?) ← plural: kosten",
+            "Wat kost het? (What does it cost?) ← informal alternative"
+          ]
+        },
+        {
+          "rule": "Stating the price",
+          "examples": [
+            "Het kost ___ euro. (It costs ___ euro.)",
+            "Dat kost ___ euro en ___ cent.",
+            "↳ In spoken Belgian Dutch: 'twee euro vijftig' — the 'en' and 'cent' are usually dropped",
+            "Ze kosten ___ euro (per stuk). (They cost ___ euro each.)",
+            "Het is gratis. (It's free.)"
+          ]
+        },
+        {
+          "rule": "Reacting to a price",
+          "examples": [
+            "Dat is (te) duur! (That is (too) expensive!)",
+            "Dat is goedkoop. (That is cheap.)",
+            "Dat is een koopje! (That's a bargain!)",
+            "Dat is redelijk. (That is reasonable.)",
+            "Dat is normaal. (That's a normal price.)"
+          ]
+        },
+        {
+          "rule": "Shopping expressions",
+          "examples": [
+            "Ik wil graag ___. (I would like ___.) ← polite way to order/buy",
+            "Hebt u ___? (Do you have ___?) ← formal, in a shop",
+            "Mag ik de rekening? (Can I have the bill?)",
+            "Hoeveel is dat in totaal? (How much is that in total?)"
+          ]
+        }
+      ],
+      "memory": "🧠 kosten = costs (plural). kost = costs (singular). Flip between them based on whether the thing is one or many. Like singular/plural in any Unix command.",
+      "examples": [
+        {
+          "nl": "Hoeveel kost het boek?",
+          "en": "How much does the book cost?"
+        },
+        {
+          "nl": "Het kost vijftien euro.",
+          "en": "It costs fifteen euro."
+        },
+        {
+          "nl": "Dat is te duur! Hoeveel kosten de andere boeken?",
+          "en": "That's too expensive! How much do the other books cost?"
+        },
+        {
+          "nl": "Ze kosten tien euro per stuk.",
+          "en": "They cost ten euro each."
+        },
+        {
+          "nl": "Dat is een koopje!",
+          "en": "That's a bargain!"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoeveel kost het boek?",
+          "en": "How much does the book cost?"
+        },
+        {
+          "role": "B",
+          "nl": "Het kost ___ euro.",
+          "en": "It costs ___ euro."
+        },
+        {
+          "role": "A",
+          "nl": "Is dat duur?",
+          "en": "Is that expensive?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, dat is (te) duur. / Nee, dat is goedkoop. / Dat is redelijk.",
+          "en": "Yes, that's (too) expensive. / No, that's cheap. / That's reasonable."
+        },
+        {
+          "role": "A",
+          "nl": "Hoeveel kosten twee tickets voor het museum?",
+          "en": "How much do two tickets for the museum cost?"
+        },
+        {
+          "role": "B",
+          "nl": "Twee tickets kosten ___ euro in totaal.",
+          "en": "Two tickets cost ___ euro in total."
+        },
+        {
+          "role": "A",
+          "nl": "Ik wil graag een koffie. Hoeveel kost dat?",
+          "en": "I'd like a coffee. How much does that cost?"
+        },
+        {
+          "role": "B",
+          "nl": "Een koffie kost ___ euro.",
+          "en": "A coffee costs ___ euro."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "4C",
+  "group": "4",
+  "order": 10,
+  "description": {
+    "en": "Shopping — inviting someone along and navigating a full shopping conversation."
+  },
+  "rules": [
+    {
+      "id": "lp4c",
+      "order": 1,
+      "tag": "LEERPAD 4C",
+      "title": {
+        "nl": "Ga je mee winkelen?",
+        "en": "Are you coming shopping?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Learn the supermarket categories first — they tell you where to find everything. Then containers, then paying.",
+      "explanation": "Leerpad 4C covers a full supermarket trip: the product categories, what's in each aisle, how to describe quantities with the right container word, making a shopping list, and paying — including the very Belgian question 'Betaalt u gepast?'",
+      "patterns": [
+        {
+          "rule": "De winkelafdeling — shop categories",
+          "examples": [
+            "de groenten [duh KHROO-tun] — vegetables",
+            "het fruit [huht frowt] — fruit",
+            "de bakkerij [duh bak-kuh-RAY] — bakery",
+            "het vlees [huht vlays] — meat",
+            "de vis [duh fis] — fish",
+            "de zuivel [duh ZOW-vul] — dairy",
+            "de dranken [duh DRANK-un] — drinks",
+            "de niet-voeding [duh NEET-foo-ding] — non-food (toiletries, cleaning, etc.)"
+          ]
+        },
+        {
+          "rule": "Groenten — vegetables",
+          "examples": [
+            "de wortel / wortelen — carrot / carrots",
+            "de aardappel / aardappels — potato / potatoes (aard = earth, appel = apple)",
+            "de broccoli — broccoli (same in Dutch, no plural change)",
+            "de bloemkool — cauliflower (bloem = flower, kool = cabbage)",
+            "de champignon / champignons [sham-pin-YON] — mushroom / mushrooms",
+            "de aubergine [oh-ber-ZHEEN] — aubergine / eggplant",
+            "de tomaat / tomaten — tomato / tomatoes ⚠ botanically a fruit, sold with vegetables!",
+            "de look [duh look] — garlic ← Belgian Dutch! ('knoflook' in NL Dutch)"
+          ]
+        },
+        {
+          "rule": "Fruit",
+          "examples": [
+            "de sinaasappel / sinaasappels — orange / oranges",
+            "de banaan / bananen — banana / bananas",
+            "de aardbei / aardbeien — strawberry / strawberries",
+            "de kers / kersen — cherry / cherries",
+            "de citroen / citroenen — lemon / lemons",
+            "de kiwi / kiwis — kiwi / kiwis",
+            "de druif / druiven — grape / grapes ← f→v rule",
+            "de noot / noten — nut / nuts · het nootje / nootjes — small nut (diminutive)"
+          ]
+        },
+        {
+          "rule": "Bakkerij, zuivel & vlees",
+          "examples": [
+            "het brood — bread (het-word!)",
+            "de croissant [duh krwa-SANT] — croissant",
+            "de taart — cake / tart",
+            "de koekjes — cookies / biscuits (already diminutive plural)",
+            "het ei / eieren — egg / eggs ← het-word! (het ei, not de ei)",
+            "de melk — milk",
+            "de boter — butter",
+            "de kaas — cheese",
+            "de yoghurt — yoghurt",
+            "de room — cream",
+            "de ham — ham",
+            "de chocolade — chocolate (uncountable as a substance; een reep chocolade = a bar of chocolate)"
+          ]
+        },
+        {
+          "rule": "Vis & dranken",
+          "examples": [
+            "de zalm — salmon",
+            "de tonijn — tuna",
+            "de mossel / mosselen — mussel / mussels ← not 'mossels'!",
+            "het bier / bieren — beer / beers",
+            "de wijn — wine",
+            "het fruitsap — fruit juice (het-word)",
+            "de confituur [duh kon-fee-TUUR] — jam ← Belgian Dutch! ('jam' or 'marmelade' in NL)"
+          ]
+        },
+        {
+          "rule": "Niet-voeding — non-food",
+          "examples": [
+            "de tandpasta — toothpaste",
+            "de zeep — soap",
+            "de shampoo — shampoo",
+            "het waspoeder — washing powder (het-word)",
+            "het afwasmiddel — dish soap / washing-up liquid (het-word)"
+          ]
+        },
+        {
+          "rule": "Verpakking — container / packaging words",
+          "examples": [
+            "een reep / repen — a bar (chocolate, etc.): een reep chocolade",
+            "een sneetje / sneetjes — a slice (bread, ham): een sneetje brood",
+            "een stuk / stukken — a piece: een stuk kaas",
+            "een blik / blikken — a tin/can: een blik tomaten, een blik tonijn",
+            "een doos / dozen — a box: een doos koekjes",
+            "een pakje — a small pack: een pakje boter",
+            "een pak / pakken — a pack/carton: een pak melk, een pak waspoeder",
+            "een brik / brikken — a carton (drink): een brik fruitsap",
+            "een pot / potten — a jar: een pot confituur",
+            "een potje / potjes — a small jar (diminutive): een potje yoghurt",
+            "een fles / flessen — a bottle: een fles wijn, een fles shampoo",
+            "een zak / zakken — a bag/sack: een zak aardappels",
+            "een bak / bakken — a tray/crate: een bak aardbeien",
+            "een tros — a bunch (bananas, grapes): een tros bananen",
+            "een bos — a bunch (herbs, flowers): een bos peterselie"
+          ]
+        },
+        {
+          "rule": "De boodschappenlijst — the shopping list",
+          "examples": [
+            "de boodschappenlijst [duh BOHT-skhap-pun-layst] — the shopping list",
+            "Wat staat er op de boodschappenlijst? (What is on the shopping list?)",
+            "Ik moet ___ hebben. (I need to have ___.)",
+            "Vergeet de ___ niet! (Don't forget the ___!)",
+            "Heb je de boodschappenlijst? (Do you have the shopping list?)",
+            "In the shop: de winkelwagen [duh VIN-kul-vah-khun] — the shopping trolley",
+            "de mand [duh mant] — the (shopping) basket"
+          ]
+        },
+        {
+          "rule": "Betalen — paying at the till",
+          "examples": [
+            "Betaalt u gepast? (Are you paying exact change?) ← the classic Belgian till question",
+            "'gepast betalen' = to pay the exact amount (no change needed)",
+            "Ja, ik betaal gepast. (Yes, I'm paying exact change.)",
+            "Nee, ik heb geen gepast. (No, I don't have exact change.)",
+            "contant betalen — to pay cash",
+            "met de pinpas / bankkaart betalen — to pay by card",
+            "de pinpas [duh PIN-pas] — the debit card",
+            "het wisselgeld [huht VIS-sul-khelt] — the change (money back)",
+            "Uw wisselgeld. (Your change.) ← what the cashier says"
+          ]
+        }
+      ],
+      "memory": "🧠 Container words are the key to natural shopping Dutch. 'Een pak melk' (carton), 'een fles wijn' (bottle), 'een blik tonijn' (tin), 'een reep chocolade' (bar). Get those right and you sound native at the till.",
+      "examples": [
+        {
+          "nl": "Wat staat er op de boodschappenlijst?",
+          "en": "What is on the shopping list?"
+        },
+        {
+          "nl": "Een pak melk, een pot confituur en een blik tonijn.",
+          "en": "A carton of milk, a jar of jam and a tin of tuna."
+        },
+        {
+          "nl": "Betaalt u gepast?",
+          "en": "Are you paying exact change?"
+        },
+        {
+          "nl": "Nee, ik betaal met de pinpas.",
+          "en": "No, I'm paying by card."
+        },
+        {
+          "nl": "De tomaat zit bij de groenten, maar het is eigenlijk een fruit.",
+          "en": "The tomato is with the vegetables, but it is actually a fruit."
+        },
+        {
+          "nl": "Uw wisselgeld: twee euro vijftig.",
+          "en": "Your change: two euros fifty."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ga je mee winkelen? Ik moet boodschappen doen.",
+          "en": "Are you coming shopping? I need to do the groceries."
+        },
+        {
+          "role": "B",
+          "nl": "Ja, graag! Wat staat er op de boodschappenlijst?",
+          "en": "Yes please! What is on the shopping list?"
+        },
+        {
+          "role": "A",
+          "nl": "Een pak melk, een pot confituur, een blik tonijn en brood.",
+          "en": "A carton of milk, a jar of jam, a tin of tuna and bread."
+        },
+        {
+          "role": "B",
+          "nl": "En fruit? Een tros bananen?",
+          "en": "And fruit? A bunch of bananas?"
+        },
+        {
+          "role": "A",
+          "nl": "Goed idee! En een zak aardappels voor vanavond.",
+          "en": "Good idea! And a bag of potatoes for tonight."
+        },
+        {
+          "role": "A",
+          "nl": "Betaalt u gepast?",
+          "en": "Are you paying exact change?"
+        },
+        {
+          "role": "B",
+          "nl": "Nee, ik betaal met de pinpas. / Ja, ik betaal gepast.",
+          "en": "No, I'm paying by card. / Yes, I'm paying exact change."
+        },
+        {
+          "role": "A",
+          "nl": "Uw wisselgeld: één euro twintig.",
+          "en": "Your change: one euro twenty."
+        },
+        {
+          "role": "B",
+          "nl": "Dank u wel!",
+          "en": "Thank you!"
+        }
+      ]
+    }
+  ]
+}

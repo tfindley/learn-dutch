@@ -1,0 +1,325 @@
+{
+  "id": "3A",
+  "group": "3",
+  "order": 5,
+  "description": {
+    "en": "Telling the time — clock time and the time prepositions om, op, and in."
+  },
+  "rules": [
+    {
+      "id": "lp3a",
+      "order": 1,
+      "tag": "LEERPAD 3A",
+      "title": {
+        "nl": "Hoe laat is het?",
+        "en": "What time is it?"
+      },
+      "difficulty": "medium",
+      "shortcut": "The BIG trap: 'half drie' = 2:30, NOT 3:30. Dutch 'half' means halfway TO the next hour.",
+      "explanation": "Telling time in Dutch looks simple but has one major trap: 'half' works differently. Dutch counts forward TO the next hour, not backward from the current one. Master that and the rest follows logically.",
+      "patterns": [
+        {
+          "rule": "Full hours — het is ___ uur",
+          "examples": [
+            "Het is twee uur. (It is two o'clock.)",
+            "Het is twaalf uur. (It is twelve o'clock.)",
+            "Het is middernacht. (It is midnight.)",
+            "'s ochtends / 's middags / 's avonds = in the morning / afternoon / evening",
+            "Het is drie uur 's middags. (It is 3pm.)"
+          ]
+        },
+        {
+          "rule": "Quarter past — kwart over",
+          "examples": [
+            "Het is kwart over twee. (It is quarter past two.) = 2:15",
+            "Het is kwart over tien. (It is quarter past ten.) = 10:15"
+          ]
+        },
+        {
+          "rule": "Half — WARNING: counts TO the next hour!",
+          "examples": [
+            "Het is half drie. = 2:30 ← halfway TO three, NOT half past two!",
+            "Het is half twaalf. = 11:30",
+            "Het is half één. = 12:30",
+            "🚫 NEVER say 'half twee' for 2:30 — that is 1:30!"
+          ]
+        },
+        {
+          "rule": "Quarter to — kwart voor",
+          "examples": [
+            "Het is kwart voor drie. (It is quarter to three.) = 2:45",
+            "Het is kwart voor twaalf. (It is quarter to twelve.) = 11:45"
+          ]
+        },
+        {
+          "rule": "Minutes past / to — over / voor",
+          "examples": [
+            "Het is vijf over twee. = 2:05",
+            "Het is tien over twee. = 2:10",
+            "Het is tien voor half drie. = 2:20 (ten to half three)",
+            "Het is vijf voor half drie. = 2:25 (five to half three)",
+            "Het is vijf over half drie. = 2:35 (five past half three)",
+            "Het is tien voor drie. = 2:50",
+            "Het is vijf voor drie. = 2:55"
+          ]
+        },
+        {
+          "rule": "Om hoe laat? — At what time?",
+          "examples": [
+            "Om hoe laat begint de les? (At what time does the lesson start?)",
+            "De les begint om negen uur. (The lesson starts at nine o'clock.)",
+            "Om hoe laat eindigt de les? (At what time does the lesson end?)",
+            "Om hoe laat vertrekt de trein? (At what time does the train leave?)"
+          ]
+        }
+      ],
+      "memory": "🧠 'half [X]' = halfway TO [X]. So half drie = halfway to three = 2:30. Think of it as a progress bar: ▓▓▓▓▓░░░░░ toward the next hour.",
+      "examples": [
+        {
+          "nl": "Hoe laat is het?",
+          "en": "What time is it?"
+        },
+        {
+          "nl": "Het is half drie.",
+          "en": "It is 2:30. (halfway to three)"
+        },
+        {
+          "nl": "Het is kwart over tien.",
+          "en": "It is 10:15."
+        },
+        {
+          "nl": "Het is kwart voor acht.",
+          "en": "It is 7:45."
+        },
+        {
+          "nl": "Om hoe laat begint de les?",
+          "en": "At what time does the lesson start?"
+        },
+        {
+          "nl": "De les begint om half negen.",
+          "en": "The lesson starts at 8:30."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoe laat is het?",
+          "en": "What time is it?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is ___ uur.",
+          "en": "It is ___ o'clock."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat is het? [shows 2:15]",
+          "en": "What time is it?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is kwart over twee.",
+          "en": "It is quarter past two."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat is het? [shows 2:30]",
+          "en": "What time is it?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is half drie. (NOT half twee!)",
+          "en": "It is 2:30."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat is het? [shows 2:45]",
+          "en": "What time is it?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is kwart voor drie.",
+          "en": "It is quarter to three."
+        },
+        {
+          "role": "A",
+          "nl": "Om hoe laat begint de les?",
+          "en": "At what time does the lesson start?"
+        },
+        {
+          "role": "B",
+          "nl": "De les begint om ___ uur.",
+          "en": "The lesson starts at ___ o'clock."
+        },
+        {
+          "role": "A",
+          "nl": "Om hoe laat eindigt de les?",
+          "en": "At what time does the lesson end?"
+        },
+        {
+          "role": "B",
+          "nl": "De les eindigt om ___.",
+          "en": "The lesson ends at ___."
+        }
+      ]
+    },
+    {
+      "id": "lp3a_prep",
+      "order": 2,
+      "tag": "LEERPAD 3A · OM / OP / IN",
+      "title": {
+        "nl": "Om · Op · In",
+        "en": "Time Prepositions"
+      },
+      "difficulty": "easy",
+      "shortcut": "Om = clock time. Op = specific day or date. In = period, month, season, year.",
+      "explanation": "Dutch uses three different prepositions for time, each with a specific job. Getting them mixed up is one of the most common errors at this level. The good news: each one has a clear rule that covers almost all cases.",
+      "patterns": [
+        {
+          "rule": "OM — clock times (always om + uur)",
+          "examples": [
+            "Om 7 uur. (At 7 o'clock.)",
+            "Om half 8. (At 7:30.) ← 'op half 8' is also heard but om is standard",
+            "Om kwart over tien. (At quarter past ten.)",
+            "Om middernacht. (At midnight.)",
+            "De les begint om 9 uur. (The lesson starts at 9 o'clock.)",
+            "Ik sta op om 7 uur 's morgens. (I get up at 7 o'clock in the morning.)",
+            "↳ Rule: if you can put a clock face next to it → use OM"
+          ]
+        },
+        {
+          "rule": "OP — specific days, dates, and named moments",
+          "examples": [
+            "Op maandag. (On Monday.)",
+            "Op dinsdag. (On Tuesday.)",
+            "Op maandagavond. (On Monday evening.)",
+            "Op 8 september. (On 8 September.)",
+            "Op 8 september 2021. (On 8 September 2021.)",
+            "Op mijn verjaardag. (On my birthday.)",
+            "Op Kerstmis. (On Christmas.)",
+            "↳ Rule: specific calendar point — a named day, date, or occasion → use OP"
+          ]
+        },
+        {
+          "rule": "IN — periods, months, seasons, years",
+          "examples": [
+            "In het weekend. (At/in the weekend.)",
+            "In de vakantie. (During the holidays.)",
+            "In de zomer. (In summer.)",
+            "In de herfst. (In autumn.)",
+            "In maart. (In March.)",
+            "In 1999. (In 1999.)",
+            "In de ochtend. (In the morning.) ← note: 's ochtends is also common",
+            "↳ Rule: stretched period of time, not a single point → use IN"
+          ]
+        },
+        {
+          "rule": "Side-by-side comparison — the same idea, different prepositions",
+          "examples": [
+            "OP maandag (on Monday — specific day) vs IN de week (in the week — period)",
+            "OP 8 september (on 8th September — specific date) vs IN september (in September — the whole month)",
+            "OM 7 uur (at 7 o'clock — precise time) vs IN de ochtend (in the morning — period)",
+            "OP maandagochtend (on Monday morning — named specific time) vs IN de ochtend (in general)"
+          ]
+        },
+        {
+          "rule": "Common combinations to memorise",
+          "examples": [
+            "om ___ uur 's morgens / 's ochtends (at ___ o'clock in the morning)",
+            "op ___ avond (on ___ evening) — op vrijdagavond (on Friday evening)",
+            "in het weekend (at the weekend)",
+            "in de vakantie (during the holidays)",
+            "in de zomer / winter / lente / herfst (in summer / winter / spring / autumn)",
+            "in [month] — in januari, in februari, in maart...",
+            "in [year] — in 2021, in 1999"
+          ]
+        }
+      ],
+      "memory": "🧠 Om = O'clock (both start with O — easy!). Op = a point you can point to on a calendar (specific day/date). In = inside a period of time (month, season, year, weekend).",
+      "examples": [
+        {
+          "nl": "Om 7 uur 's morgens.",
+          "en": "At 7 o'clock in the morning."
+        },
+        {
+          "nl": "Op dinsdag. / Op 8 september.",
+          "en": "On Tuesday. / On 8 September."
+        },
+        {
+          "nl": "Op maandagavond om 8 uur.",
+          "en": "On Monday evening at 8 o'clock."
+        },
+        {
+          "nl": "In het weekend. / In de zomer. / In maart. / In 1999.",
+          "en": "At the weekend. / In summer. / In March. / In 1999."
+        },
+        {
+          "nl": "De les is op dinsdag om half tien.",
+          "en": "The lesson is on Tuesday at 9:30."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Om, op of in? → '___ 9 uur'",
+          "en": "Om, op or in? → '___ 9 o'clock'"
+        },
+        {
+          "role": "B",
+          "nl": "OM 9 uur — klokken gebruiken altijd 'om'.",
+          "en": "OM 9 uur — clocks always use 'om'."
+        },
+        {
+          "role": "A",
+          "nl": "Om, op of in? → '___ maandag'",
+          "en": "Om, op or in? → '___ Monday'"
+        },
+        {
+          "role": "B",
+          "nl": "OP maandag — een specifieke dag.",
+          "en": "OP maandag — a specific day."
+        },
+        {
+          "role": "A",
+          "nl": "Om, op of in? → '___ het weekend'",
+          "en": "Om, op or in? → '___ the weekend'"
+        },
+        {
+          "role": "B",
+          "nl": "IN het weekend — een periode, geen specifiek punt.",
+          "en": "IN het weekend — a period, not a specific point."
+        },
+        {
+          "role": "A",
+          "nl": "Om, op of in? → '___ de zomer'",
+          "en": "Om, op or in? → '___ summer'"
+        },
+        {
+          "role": "B",
+          "nl": "IN de zomer — een seizoen is een periode.",
+          "en": "IN de zomer — a season is a period."
+        },
+        {
+          "role": "A",
+          "nl": "Wanneer is de les?",
+          "en": "When is the lesson?"
+        },
+        {
+          "role": "B",
+          "nl": "De les is op ___ om ___ uur.",
+          "en": "The lesson is on ___ at ___ o'clock."
+        },
+        {
+          "role": "A",
+          "nl": "Wanneer ga jij op vakantie?",
+          "en": "When do you go on holiday?"
+        },
+        {
+          "role": "B",
+          "nl": "In de zomer — in augustus.",
+          "en": "In summer — in August."
+        }
+      ]
+    }
+  ]
+}

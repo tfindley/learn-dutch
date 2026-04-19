@@ -1,0 +1,78 @@
+{
+  "id": "prepositions",
+  "order": 14,
+  "title": {
+    "nl": "Voorzetsels",
+    "en": "Prepositions"
+  },
+  "emoji": "📍",
+  "color": "#117a65",
+  "words": [
+    {
+      "nl": "in",
+      "phonetic": "in",
+      "en": "in / into",
+      "tip": "Short 'i' sound."
+    },
+    {
+      "nl": "op",
+      "phonetic": "op",
+      "en": "on / at",
+      "tip": "Op tafel = on the table. Op school = at school."
+    },
+    {
+      "nl": "met",
+      "phonetic": "met",
+      "en": "with",
+      "tip": "Met plezier = with pleasure."
+    },
+    {
+      "nl": "van",
+      "phonetic": "fan",
+      "en": "of / from",
+      "tip": "'v' → 'f'. Van Brussel = from Brussels."
+    },
+    {
+      "nl": "naar",
+      "phonetic": "naar",
+      "en": "to (direction)",
+      "tip": "Naar huis gaan = go home."
+    },
+    {
+      "nl": "voor",
+      "phonetic": "fohr",
+      "en": "for / before / in front of",
+      "tip": "'oo' = long 'oh'. Many meanings."
+    },
+    {
+      "nl": "aan",
+      "phonetic": "aan",
+      "en": "at / on / to",
+      "tip": "Long 'aa'. Aan de kust = at the coast."
+    },
+    {
+      "nl": "uit",
+      "phonetic": "owt",
+      "en": "out of / from",
+      "tip": "'ui' is the tricky Dutch vowel."
+    },
+    {
+      "nl": "bij",
+      "phonetic": "bay",
+      "en": "at / near / with",
+      "tip": "'Bij mij thuis' = at my place. Very versatile."
+    },
+    {
+      "nl": "over",
+      "phonetic": "OH-fur",
+      "en": "about / over / in (time)",
+      "tip": "'Over een uur' = in an hour. 'Praten over' = talk about."
+    },
+    {
+      "nl": "tussen",
+      "phonetic": "TUS-sun",
+      "en": "between",
+      "tip": "Tussen twee en drie uur = between two and three o'clock."
+    }
+  ]
+}

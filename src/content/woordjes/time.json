@@ -1,0 +1,150 @@
+{
+  "id": "time",
+  "order": 10,
+  "title": {
+    "nl": "Tijd",
+    "en": "Time"
+  },
+  "emoji": "⏰",
+  "color": "#784212",
+  "words": [
+    {
+      "nl": "nu",
+      "phonetic": "new",
+      "en": "now",
+      "tip": "Short and punchy."
+    },
+    {
+      "nl": "dan",
+      "phonetic": "dan",
+      "en": "then / so",
+      "tip": "Also logical connector: 'als... dan...' = if... then..."
+    },
+    {
+      "nl": "vandaag",
+      "phonetic": "fan-DAHKH",
+      "en": "today",
+      "tip": "Van + dag (of + day). Soft 'g' at end."
+    },
+    {
+      "nl": "morgen",
+      "phonetic": "MOR-khun",
+      "en": "tomorrow / morning",
+      "tip": "Context tells you which. 'Morgenochtend' = tomorrow morning."
+    },
+    {
+      "nl": "gisteren",
+      "phonetic": "KHIS-tuh-run",
+      "en": "yesterday",
+      "tip": "Soft 'g' at start."
+    },
+    {
+      "nl": "altijd",
+      "phonetic": "AL-tayd",
+      "en": "always",
+      "tip": "'ijd' = 'ayd' sound."
+    },
+    {
+      "nl": "nooit",
+      "phonetic": "noyt",
+      "en": "never",
+      "tip": "'ooi' = 'oy' sound."
+    },
+    {
+      "nl": "soms",
+      "phonetic": "soms",
+      "en": "sometimes",
+      "tip": "Very commonly used."
+    },
+    {
+      "nl": "de minuut",
+      "phonetic": "duh mee-NEWT",
+      "en": "the minute",
+      "tip": "Plural: de minuten. 'Vijf minuten' = five minutes."
+    },
+    {
+      "nl": "het uur",
+      "phonetic": "huht uur",
+      "en": "the hour",
+      "tip": "Long 'uu'. 'Twee uur' = two o'clock / two hours."
+    },
+    {
+      "nl": "het kwartier",
+      "phonetic": "huht kvar-TEER",
+      "en": "the quarter hour",
+      "tip": "Een kwartier = 15 minutes. 'Kwart over twee' = quarter past two."
+    },
+    {
+      "nl": "de dag",
+      "phonetic": "duh dahkh",
+      "en": "the day",
+      "tip": "Elke dag = every day. Plural: de dagen."
+    },
+    {
+      "nl": "de week",
+      "phonetic": "duh vayk",
+      "en": "the week",
+      "tip": "Deze week = this week. Plural: de weken."
+    },
+    {
+      "nl": "de maand",
+      "phonetic": "duh maant",
+      "en": "the month",
+      "tip": "Final 'd' → 't'. Plural: de maanden."
+    },
+    {
+      "nl": "het jaar",
+      "phonetic": "huht yaar",
+      "en": "the year",
+      "tip": "Plural: de jaren."
+    },
+    {
+      "nl": "de ochtend",
+      "phonetic": "duh OKH-tunt",
+      "en": "the morning",
+      "tip": "'s Ochtends = in the morning (adverb form)."
+    },
+    {
+      "nl": "de middag",
+      "phonetic": "duh MID-dahkh",
+      "en": "the afternoon",
+      "tip": "'s Middags = in the afternoon. 'Goedemiddag' uses this."
+    },
+    {
+      "nl": "de avond",
+      "phonetic": "duh AH-font",
+      "en": "the evening",
+      "tip": "'s Avonds = in the evening. 'v' → 'f' sound."
+    },
+    {
+      "nl": "de nacht",
+      "phonetic": "duh nakht",
+      "en": "the night",
+      "tip": "Soft 'ch' at end. 's Nachts = at night."
+    },
+    {
+      "nl": "de klok",
+      "phonetic": "duh klok",
+      "en": "the clock",
+      "tip": "Hoe laat is het? = What time is it? Op de klok = on the clock."
+    },
+    {
+      "nl": "het horloge",
+      "phonetic": "huht hor-LOH-zhuh",
+      "en": "the wristwatch",
+      "tip": "French origin — 'zh' sound like in 'measure'."
+    },
+    {
+      "nl": "het seizoen",
+      "phonetic": "huht say-ZOON",
+      "en": "the season",
+      "tip": "French origin. Plural: de seizoenen."
+    },
+    {
+      "nl": "het begin",
+      "phonetic": "huht buh-KHIN",
+      "en": "the beginning",
+      "tip": "Soft 'g'. 'In het begin' = in the beginning."
+    }
+  ]
+}

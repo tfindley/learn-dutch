@@ -1,0 +1,99 @@
+{
+  "id": "test_lp3ab",
+  "title": "Tijd & Leeftijd",
+  "subtitle": "Leerpad 3A+3B · Time & Ages",
+  "leerpad": "3A+B",
+  "difficulty": "medium",
+  "emoji": "⏰",
+  "questions": [
+    {
+      "q": "'Het is half drie' — what time is it?",
+      "options": [
+        "3:30",
+        "3:15",
+        "2:45",
+        "2:30"
+      ],
+      "answer": 3,
+      "explanation": "This is the #1 Dutch time trap! 'half drie' = halfway TO three = 2:30. NOT half past two (that would be half twee = 1:30)."
+    },
+    {
+      "q": "How do you say 'quarter past ten'?",
+      "options": [
+        "kwart voor tien",
+        "half tien",
+        "kwart over tien",
+        "tien over kwart"
+      ],
+      "answer": 2,
+      "explanation": "'kwart over tien' = 10:15. 'kwart voor tien' = 9:45. Over = past. Voor = to/before."
+    },
+    {
+      "q": "'Het is kwart voor acht' — what time is it?",
+      "options": [
+        "8:15",
+        "8:45",
+        "7:15",
+        "7:45"
+      ],
+      "answer": 3,
+      "explanation": "'kwart voor acht' = quarter TO eight = 7:45. 'voor' means before — quarter before eight."
+    },
+    {
+      "q": "It's 2:25. How do you say this in Dutch?",
+      "options": [
+        "vijf voor half drie",
+        "vijf over half twee",
+        "tien voor half drie",
+        "kwart voor half drie"
+      ],
+      "answer": 0,
+      "explanation": "2:25 = five minutes before 2:30 (half drie). Think: half drie = 2:30, so 2:25 = vijf voor half drie."
+    },
+    {
+      "q": "Which verb is used for age in Dutch?",
+      "options": [
+        "hebben",
+        "komen",
+        "zijn",
+        "wonen"
+      ],
+      "answer": 2,
+      "explanation": "Dutch uses 'zijn' for age: 'Ik BEN vijfendertig jaar.' Never 'ik heb 35 jaar' — that's a very common mistake!"
+    },
+    {
+      "q": "How do you say 'I am thirty-five years old'?",
+      "options": [
+        "Ik heb vijfendertig jaar.",
+        "Ik ga vijfendertig jaar.",
+        "Ik ben vijfendertig jaar.",
+        "Ik woon vijfendertig jaar."
+      ],
+      "answer": 2,
+      "explanation": "'Ik ben [number] jaar (oud).' The word 'oud' is optional — 'Ik ben 35 jaar' is perfectly natural."
+    },
+    {
+      "q": "'Wanneer ben jij jarig?' means:",
+      "options": [
+        "How old are you?",
+        "In what year were you born?",
+        "When is your birthday?",
+        "Where were you born?"
+      ],
+      "answer": 2,
+      "explanation": "'jarig zijn' = to have your birthday. You can also say 'Wanneer is jouw verjaardag?'"
+    },
+    {
+      "q": "'Om hoe laat begint de les?' — what does 'om' signal?",
+      "options": [
+        "It means 'about' (approximately)",
+        "It introduces a specific time point",
+        "It means 'until'",
+        "It is a filler word"
+      ],
+      "answer": 1,
+      "explanation": "'Om + time' = at [specific time]. 'Om twee uur' = at two o'clock. Always use 'om' before clock times."
+    }
+  ],
+  "order": 5
+}

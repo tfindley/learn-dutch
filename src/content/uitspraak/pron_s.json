@@ -1,0 +1,111 @@
+{
+  "kind": "uitspraak",
+  "id": "pron_s",
+  "order": 4,
+  "tag": "UITSPRAAK · 'S WORDS",
+  "title": {
+    "nl": "The 's- Construction",
+    "en": "'s ochtends, 's avonds"
+  },
+  "difficulty": "easy",
+  "shortcut": "'s = a remnant of the old word 'des' (of the). Only used for time of day and a few place names. Always lowercase.",
+  "explanation": "You'll see and hear 's ochtends, 's middags, 's avonds and 's nachts constantly. The apostrophe 's looks strange but has a simple origin: it's what's left of the old Dutch genitive 'des' (meaning 'of the'). In modern Dutch this form only survives in these frozen expressions.",
+  "patterns": [
+    {
+      "rule": "Origin — 'des' → 's",
+      "examples": [
+        "Old Dutch: 'des ochtends' = 'of the morning' (genitive case)",
+        "Modern Dutch: des → 's  (the 'de' dropped, apostrophe marks the omission)",
+        "'s ochtends literally still means 'of the morning' → used to mean 'in the morning'",
+        "This is a FROZEN form — you can't make new ones, just learn these fixed expressions"
+      ]
+    },
+    {
+      "rule": "The four main time expressions",
+      "examples": [
+        "'s ochtends — in the morning (roughly 6am–noon)",
+        "'s middags — in the afternoon (roughly noon–6pm)",
+        "'s avonds — in the evening (roughly 6pm–midnight)",
+        "'s nachts — at night / in the night (midnight–6am)",
+        "'s morgens — in the morning (alternative, slightly more formal than 's ochtends)"
+      ]
+    },
+    {
+      "rule": "Pronunciation — the 's blends in",
+      "examples": [
+        "The 's is a soft /s/ that blends into the following word",
+        "'s ochtends → say 'sochtends' [sɔxtənts] with a gentle s at the start",
+        "'s avonds → say 'savonds' [SAH-fonts]",
+        "'s nachts → say 'snachts' [snakhts]",
+        "The apostrophe just signals where the missing 'de' was — don't pause after it"
+      ]
+    },
+    {
+      "rule": "Always lowercase — even at the start of a sentence",
+      "examples": [
+        "'s Ochtends ga ik wandelen. ← WRONG",
+        "'s ochtends ga ik wandelen. ← CORRECT (lowercase 's even at sentence start)",
+        "Exception: in place names, 's is followed by a capital: 's-Hertogenbosch, 's-Gravenhage"
+      ]
+    },
+    {
+      "rule": "Place names with 's-",
+      "examples": [
+        "'s-Hertogenbosch = full name of Den Bosch (North Brabant)",
+        "'s-Gravenhage = official name of Den Haag / The Hague",
+        "Both use a capital after the hyphen even though 's itself is lowercase"
+      ]
+    }
+  ],
+  "memory": "🧠 Think of 's as a contraction — like English 'it's' drops the 'i'. 'des' drops the 'de' and leaves 's. So 's ochtends = de[s] ochtends = of the morning = in the morning.",
+  "examples": [
+    {
+      "nl": "'s ochtends drink ik koffie.",
+      "en": "In the morning I drink coffee."
+    },
+    {
+      "nl": "'s avonds ga ik graag wandelen.",
+      "en": "In the evening I like going for walks."
+    },
+    {
+      "nl": "'s middags eet ik een boterham.",
+      "en": "In the afternoon I eat a sandwich."
+    },
+    {
+      "nl": "'s nachts slaap ik goed.",
+      "en": "At night I sleep well."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wanneer drink jij koffie?",
+      "en": "When do you drink coffee?"
+    },
+    {
+      "role": "B",
+      "nl": "'s ochtends drink ik altijd koffie.",
+      "en": "In the morning I always drink coffee."
+    },
+    {
+      "role": "A",
+      "nl": "Wat doe jij 's avonds?",
+      "en": "What do you do in the evening?"
+    },
+    {
+      "role": "B",
+      "nl": "'s avonds ___ ik graag ___.",
+      "en": "In the evening I like ___ing."
+    },
+    {
+      "role": "A",
+      "nl": "Slaap jij goed 's nachts?",
+      "en": "Do you sleep well at night?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, 's nachts slaap ik goed. / Nee, ik slaap niet goed 's nachts.",
+      "en": "Yes, I sleep well at night. / No, I don't sleep well at night."
+    }
+  ]
+}

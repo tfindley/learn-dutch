@@ -1,0 +1,99 @@
+{
+  "id": "test_lp1a",
+  "title": "Uit welk land kom jij?",
+  "subtitle": "Leerpad 1A · Introductions",
+  "leerpad": "1A",
+  "difficulty": "easy",
+  "emoji": "🌍",
+  "questions": [
+    {
+      "q": "What does 'Uit welk land kom jij?' mean?",
+      "options": [
+        "Where do you live?",
+        "What language do you speak?",
+        "Where are you from?",
+        "What is your name?"
+      ],
+      "answer": 2,
+      "explanation": "'Uit welk land kom jij?' = 'What country are you from?' Don't confuse with 'Waar woon jij?' = 'Where do you live?'"
+    },
+    {
+      "q": "How do you say 'My name is [name]' in Dutch?",
+      "options": [
+        "Ik woon in ___.",
+        "Ik kom uit ___.",
+        "Mijn naam is ___.",
+        "Ik spreek ___."
+      ],
+      "answer": 2,
+      "explanation": "'Mijn naam is ___' = 'My name is ___'. You can also say 'Ik heet ___' — both are natural."
+    },
+    {
+      "q": "'Ik woon in Roeselare' means:",
+      "options": [
+        "I come from Roeselare",
+        "I work in Roeselare",
+        "I live in Roeselare",
+        "I speak in Roeselare"
+      ],
+      "answer": 2,
+      "explanation": "'wonen' = to live/reside. 'Ik woon' = I live. Different from 'Ik kom uit' (I come from)."
+    },
+    {
+      "q": "How do you say 'I speak a little Dutch'?",
+      "options": [
+        "Ik leer Nederlands.",
+        "Ik spreek een beetje Nederlands.",
+        "Ik kom uit Nederland.",
+        "Ik woon in Nederland."
+      ],
+      "answer": 1,
+      "explanation": "'een beetje' = a little. A very useful phrase for the first lesson!"
+    },
+    {
+      "q": "'Aangenaam!' is used when:",
+      "options": [
+        "Saying goodbye",
+        "Answering the phone",
+        "Meeting someone for the first time",
+        "Asking for directions"
+      ],
+      "answer": 2,
+      "explanation": "'Aangenaam!' = 'Pleased to meet you!' Said when being introduced to someone."
+    },
+    {
+      "q": "Which verb means 'to live/reside'?",
+      "options": [
+        "komen",
+        "spreken",
+        "heten",
+        "wonen"
+      ],
+      "answer": 3,
+      "explanation": "'wonen' = to live/reside. Ik woon, jij woont, hij woont, wij wonen. Not to be confused with 'leven' (to be alive)."
+    },
+    {
+      "q": "Which question do you ask to find out someone's name?",
+      "options": [
+        "Tot ziens!",
+        "Hoe heet jij?",
+        "Doei!",
+        "Goedenacht!"
+      ],
+      "answer": 1,
+      "explanation": "'Hoe heet jij?' = 'What is your name?' You can also say 'Wat is jouw naam?' — both are natural."
+    },
+    {
+      "q": "How do you formally ask someone's name?",
+      "options": [
+        "Hoe heet jij?",
+        "Wat is uw naam?",
+        "Welke taal spreek jij?",
+        "Waar woon jij?"
+      ],
+      "answer": 1,
+      "explanation": "'uw' is the formal 'your'. Used with strangers, elders, or in professional settings."
+    }
+  ],
+  "order": 2
+}

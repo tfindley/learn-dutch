@@ -1,0 +1,132 @@
+{
+  "id": "numbers1",
+  "order": 6,
+  "title": {
+    "nl": "Getallen 1–20",
+    "en": "Numbers 1–20"
+  },
+  "emoji": "🔢",
+  "color": "#6c3483",
+  "words": [
+    {
+      "nl": "één",
+      "phonetic": "ayn",
+      "en": "1 — one",
+      "tip": "Accent distinguishes it from 'een' (a/an)."
+    },
+    {
+      "nl": "twee",
+      "phonetic": "tvay",
+      "en": "2 — two",
+      "tip": "'tw' with a soft 'v' sound."
+    },
+    {
+      "nl": "drie",
+      "phonetic": "dree",
+      "en": "3 — three",
+      "tip": "'ie' = long 'ee'."
+    },
+    {
+      "nl": "vier",
+      "phonetic": "feer",
+      "en": "4 — four",
+      "tip": "'v' → 'f', long 'ee'."
+    },
+    {
+      "nl": "vijf",
+      "phonetic": "fayf",
+      "en": "5 — five",
+      "tip": "'ij' = 'eye'. Final 'v' → 'f'."
+    },
+    {
+      "nl": "zes",
+      "phonetic": "zes",
+      "en": "6 — six",
+      "tip": "Short and sharp."
+    },
+    {
+      "nl": "zeven",
+      "phonetic": "ZAY-fun",
+      "en": "7 — seven",
+      "tip": "'v' → 'f' sound in the middle."
+    },
+    {
+      "nl": "acht",
+      "phonetic": "akht",
+      "en": "8 — eight",
+      "tip": "'ch' = soft guttural."
+    },
+    {
+      "nl": "negen",
+      "phonetic": "NAY-khun",
+      "en": "9 — nine",
+      "tip": "Soft 'g' in the middle."
+    },
+    {
+      "nl": "tien",
+      "phonetic": "teen",
+      "en": "10 — ten",
+      "tip": "'ie' = long 'ee'."
+    },
+    {
+      "nl": "elf",
+      "phonetic": "elf",
+      "en": "11 — eleven",
+      "tip": "Short and clean. Same as English 'elf'!"
+    },
+    {
+      "nl": "twaalf",
+      "phonetic": "tvaalff",
+      "en": "12 — twelve",
+      "tip": "'tw' + long 'aa'. Double 'f' sound at end."
+    },
+    {
+      "nl": "dertien",
+      "phonetic": "DER-teen",
+      "en": "13 — thirteen",
+      "tip": "Drie → der- in compounds."
+    },
+    {
+      "nl": "veertien",
+      "phonetic": "FAYR-teen",
+      "en": "14 — fourteen",
+      "tip": "Vier → veer- in compounds. Long 'ee'."
+    },
+    {
+      "nl": "vijftien",
+      "phonetic": "FAYF-teen",
+      "en": "15 — fifteen",
+      "tip": "Vijf + tien."
+    },
+    {
+      "nl": "zestien",
+      "phonetic": "ZES-teen",
+      "en": "16 — sixteen",
+      "tip": "Zes + tien."
+    },
+    {
+      "nl": "zeventien",
+      "phonetic": "ZAY-fun-teen",
+      "en": "17 — seventeen",
+      "tip": "Zeven + tien."
+    },
+    {
+      "nl": "achttien",
+      "phonetic": "AKH-teen",
+      "en": "18 — eighteen",
+      "tip": "Acht + tien. One 't' dropped in writing."
+    },
+    {
+      "nl": "negentien",
+      "phonetic": "NAY-khun-teen",
+      "en": "19 — nineteen",
+      "tip": "Negen + tien."
+    },
+    {
+      "nl": "twintig",
+      "phonetic": "TVIN-tikh",
+      "en": "20 — twenty",
+      "tip": "Soft 'g' at end. Base for 21–29."
+    }
+  ]
+}

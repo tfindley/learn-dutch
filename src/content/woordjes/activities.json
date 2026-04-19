@@ -1,0 +1,72 @@
+{
+  "id": "activities",
+  "order": 21,
+  "title": {
+    "nl": "Activiteiten",
+    "en": "Activities"
+  },
+  "emoji": "🏃",
+  "color": "#117a65",
+  "words": [
+    {
+      "nl": "wandelen",
+      "phonetic": "VAN-duh-lun",
+      "en": "walking / hiking",
+      "tip": "Ik ga graag wandelen = I like going for walks."
+    },
+    {
+      "nl": "fietsen",
+      "phonetic": "FEET-sun",
+      "en": "cycling",
+      "tip": "'ie' = long 'ee'. Ik ga graag fietsen = I like cycling."
+    },
+    {
+      "nl": "zwemmen",
+      "phonetic": "ZVEM-un",
+      "en": "swimming",
+      "tip": "Ik zwem graag = I like swimming. Double 'm' = short vowel."
+    },
+    {
+      "nl": "skiën",
+      "phonetic": "SKEE-un",
+      "en": "skiing",
+      "tip": "The 'ë' shows two separate syllables: ski-en. Ik ga graag skiën."
+    },
+    {
+      "nl": "lezen",
+      "phonetic": "LAY-zun",
+      "en": "reading",
+      "tip": "Ik lees graag = I like reading. Irregular: lezen → lees."
+    },
+    {
+      "nl": "koken",
+      "phonetic": "KOH-kun",
+      "en": "cooking",
+      "tip": "Ik kook graag = I like cooking. Long 'oh'."
+    },
+    {
+      "nl": "gamen",
+      "phonetic": "KHAY-mun",
+      "en": "gaming",
+      "tip": "Ik game graag op de computer. English loanword used naturally."
+    },
+    {
+      "nl": "foto's nemen",
+      "phonetic": "FOH-tohs NAY-mun",
+      "en": "taking photos",
+      "tip": "Ik neem graag foto's van de natuur. 'foto's' — apostrophe for plural of foreign words."
+    },
+    {
+      "nl": "uit eten gaan",
+      "phonetic": "owt AY-tun khaan",
+      "en": "going out to eat",
+      "tip": "'uit' = separable prefix of 'uitgaan'. 'Ga je mee uit eten?' = Coming out to eat?"
+    },
+    {
+      "nl": "sporten",
+      "phonetic": "SPOR-tun",
+      "en": "doing sport / exercising",
+      "tip": "Ik sport graag = I like sport."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "kind": "uitspraak",
+  "id": "pron_special",
+  "order": 2,
+  "tag": "UITSPRAAK · SPECIAL VOWELS",
+  "title": {
+    "nl": "Special Vowels",
+    "en": "EU·IJ/EI·UI·OE·IE"
+  },
+  "difficulty": "medium",
+  "shortcut": "OE = English 'oo'. IE = English 'ee'. IJ/EI = English 'eye'. EU = French 'eu'. UI = the hard one.",
+  "explanation": "Dutch has five vowel combinations that don't exist in English. OE and IE are the easiest. IJ and EI are identical in sound. EU and UI require new mouth positions — but with practice they click into place.",
+  "patterns": [
+    {
+      "rule": "IE — long 'ee' sound (like 'see')",
+      "examples": [
+        "Mouth: lips slightly spread, tongue high and forward",
+        "bier [beer] (beer) · hier [heer] (here) · niet [neet] (not)",
+        "brief [breef] (letter) · zien [zeen] (to see) · vier [feer] (four)",
+        "⚠ Don't confuse IE with IJ: ie = 'ee', ij = 'eye'"
+      ]
+    },
+    {
+      "rule": "OE — long 'oo' sound (like 'food')",
+      "examples": [
+        "Mouth: lips rounded and pushed forward",
+        "doen [doon] (to do) · goed [khoot] (good) · boek [book] (book)",
+        "groep [khroep] (group) · moeten [mooten] (must) · schoen [skhoon] (shoe)",
+        "This is one of the easier Dutch sounds — just say 'oo' as in 'food'"
+      ]
+    },
+    {
+      "rule": "IJ / EI — 'eye' sound (identical pronunciation)",
+      "examples": [
+        "Mouth: starts open like 'ah', glides to 'ee' position",
+        "zijn [zayn] (to be) · wijn [vayn] (wine) · tijd [tayd] (time)",
+        "klein [klayn] (small) · trein [trayn] (train) · mei [may] (May)",
+        "IJ and EI are pronounced IDENTICALLY — only spelling differs",
+        "Tip: 'ij' is more common mid-word; 'ei' appears in some common words (trein, klein, mei)"
+      ]
+    },
+    {
+      "rule": "EU — rounded 'ee' (like French 'deux', German 'schön')",
+      "examples": [
+        "Mouth: round your lips as if saying 'oo', but put your tongue in 'ee' position",
+        "leuk [löök] (fun/nice) · deur [dör] (door) · neus [nös] (nose)",
+        "euro [ö-ro] · nieuw [neew] (new) · reus [rös] (giant)",
+        "Practice: say 'ee', hold it, then slowly round your lips without moving your tongue"
+      ]
+    },
+    {
+      "rule": "UI — the hardest Dutch vowel",
+      "examples": [
+        "Mouth: start with EU position, then glide toward 'ee' — lips start rounded, end spread",
+        "huis [howss] (house) · uit [owt] (out) · buik [bowk] (belly)",
+        "zuidelijk [zow-duh-luk] (southern) · tuin [town] (garden) · ruim [rowm] (spacious)",
+        "It's often approximated as 'ow' by English speakers — close enough to be understood",
+        "The phonetic guide [howss] is approximate — the real sound is rounder than English 'ow'"
+      ]
+    }
+  ],
+  "memory": "🧠 Mouth journey for UI: start like EU (rounded, forward), glide to spread lips like IE. OE = just 'oo'. IE = just 'ee'. IJ/EI = just 'eye'. EU = 'oo' lips + 'ee' tongue.",
+  "examples": [
+    {
+      "nl": "bier / boer / buur",
+      "en": "IE [beer] / OE [boor] / EU [bür] — three different vowels"
+    },
+    {
+      "nl": "zijn / zien",
+      "en": "IJ [zayn] / IE [zeen] — 'eye' vs 'ee'"
+    },
+    {
+      "nl": "huis / hoes",
+      "en": "UI [howss] / OE [hoos] — hear the difference"
+    },
+    {
+      "nl": "leuk / look",
+      "en": "EU [löök] / OE [look] — EU needs rounded lips"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Hoe spreek je 'goed' uit?",
+      "en": "How do you pronounce 'goed'?"
+    },
+    {
+      "role": "B",
+      "nl": "'goed' = [khoot] — OE klinkt als 'oo' in food",
+      "en": "'goed' = [khoot] — OE sounds like 'oo' in food"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'zijn' en 'zien'?",
+      "en": "What's the difference between 'zijn' and 'zien'?"
+    },
+    {
+      "role": "B",
+      "nl": "'zijn' = [zayn] (IJ = 'eye'). 'zien' = [zeen] (IE = 'ee').",
+      "en": "'zijn' = [zayn]. 'zien' = [zeen]."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe klinkt 'leuk'?",
+      "en": "How does 'leuk' sound?"
+    },
+    {
+      "role": "B",
+      "nl": "[löök] — EU: lippen rond als 'oo', tong als 'ee'",
+      "en": "[löök] — EU: lips round like 'oo', tongue like 'ee'"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "connectors",
+  "order": 13,
+  "title": {
+    "nl": "Verbindingswoorden",
+    "en": "Connectors & Adverbs"
+  },
+  "emoji": "🔗",
+  "color": "#b03a2e",
+  "words": [
+    {
+      "nl": "en",
+      "phonetic": "en",
+      "en": "and",
+      "tip": "Short 'e' sound."
+    },
+    {
+      "nl": "maar",
+      "phonetic": "maar",
+      "en": "but",
+      "tip": "Long 'aa' vowel."
+    },
+    {
+      "nl": "of",
+      "phonetic": "of",
+      "en": "or / whether",
+      "tip": "Dual meaning — context tells you which."
+    },
+    {
+      "nl": "want",
+      "phonetic": "vant",
+      "en": "because / for",
+      "tip": "Word order stays normal after 'want' (unlike 'omdat')."
+    },
+    {
+      "nl": "omdat",
+      "phonetic": "OM-dat",
+      "en": "because",
+      "tip": "Verb goes to end: 'omdat ik moe ben'."
+    },
+    {
+      "nl": "dus",
+      "phonetic": "dus",
+      "en": "so / therefore",
+      "tip": "'Dus jij bent klaar' = So you're done."
+    },
+    {
+      "nl": "ook",
+      "phonetic": "ohk",
+      "en": "also / too",
+      "tip": "'oo' = long 'oh'."
+    },
+    {
+      "nl": "nog",
+      "phonetic": "nokh",
+      "en": "still / yet / another",
+      "tip": "Very versatile. 'Nog een?' = Another one?"
+    },
+    {
+      "nl": "al",
+      "phonetic": "al",
+      "en": "already",
+      "tip": "'Ik ben al klaar' = I'm already done. Also 'al' = although."
+    },
+    {
+      "nl": "bijna",
+      "phonetic": "BAY-nah",
+      "en": "almost / nearly",
+      "tip": "'Ik ben er bijna' = I'm almost there."
+    },
+    {
+      "nl": "onmiddellijk",
+      "phonetic": "on-MID-duh-luk",
+      "en": "immediately",
+      "tip": "Stressing the 'mid' syllable. 'Kom onmiddellijk!' = Come immediately!"
+    },
+    {
+      "nl": "binnenkort",
+      "phonetic": "BIN-un-kort",
+      "en": "soon / shortly",
+      "tip": "Lit. 'within short'. 'Tot binnenkort' = See you soon."
+    },
+    {
+      "nl": "gelukkig",
+      "phonetic": "khuh-LUK-ikh",
+      "en": "fortunately / luckily",
+      "tip": "Soft 'g' both times. Also means 'happy': 'Ik ben gelukkig'."
+    },
+    {
+      "nl": "helaas",
+      "phonetic": "huh-LAAS",
+      "en": "unfortunately",
+      "tip": "Long 'aa'. 'Helaas kan ik niet.' = Unfortunately I can't."
+    },
+    {
+      "nl": "spijtig",
+      "phonetic": "SPAY-tikh",
+      "en": "regrettably / what a pity",
+      "tip": "Typically Belgian! 'Spijtig genoeg' = Unfortunately (lit. pityingly enough)."
+    },
+    {
+      "nl": "zelf",
+      "phonetic": "zelf",
+      "en": "self / myself / yourself",
+      "tip": "'Doe het zelf' = Do it yourself. Adds emphasis."
+    },
+    {
+      "nl": "even",
+      "phonetic": "AY-fun",
+      "en": "just a moment / just",
+      "tip": "'Even wachten' = just wait. 'Kan ik even...?' = Can I just...?"
+    },
+    {
+      "nl": "gewoon",
+      "phonetic": "khuh-VOHN",
+      "en": "just / simply / normally",
+      "tip": "'Dat is gewoon zo' = That's just how it is. Very Belgian filler word."
+    },
+    {
+      "nl": "vooral",
+      "phonetic": "for-AL",
+      "en": "especially / above all",
+      "tip": "'Vooral in de zomer' = especially in summer."
+    },
+    {
+      "nl": "echt",
+      "phonetic": "ekht",
+      "en": "really / truly / genuine",
+      "tip": "'Echt?' = Really? Great as a reaction. 'Dat is echt leuk' = That's really fun."
+    },
+    {
+      "nl": "zal",
+      "phonetic": "zal",
+      "en": "shall / will",
+      "tip": "Modal verb form of 'zullen'. 'Ik zal het doen' = I will do it."
+    }
+  ]
+}

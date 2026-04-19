@@ -1,0 +1,162 @@
+{
+  "id": "4B",
+  "group": "4",
+  "order": 9,
+  "description": {
+    "en": "Schedules — talking about when shops and services are open."
+  },
+  "rules": [
+    {
+      "id": "lp4b",
+      "order": 1,
+      "tag": "LEERPAD 4B",
+      "title": {
+        "nl": "Wanneer is de winkel open?",
+        "en": "When is the shop open?"
+      },
+      "difficulty": "easy",
+      "shortcut": "Open/gesloten + openingsuren. 'Wachten op' = to wait FOR (not on). 'Op welk spoor?' for trains.",
+      "explanation": "Leerpad 4B is practical everyday language: shops, timetables, supermarkets, trains. You learn to ask about opening hours, navigate a supermarket, and understand train platform information. Many of these words you'll use every week.",
+      "patterns": [
+        {
+          "rule": "Winkel en openingsuren — shops and opening hours",
+          "examples": [
+            "de winkel [duh VIN-kul] — the shop",
+            "de supermarkt — the supermarket",
+            "de bibliotheek [duh bib-lee-oh-TAYK] — the library",
+            "de openingsuren [duh OH-puh-nings-uu-run] — the opening hours",
+            "de dienstregeling [duh DEENST-ray-khuh-ling] — the timetable / schedule",
+            "open — open · gesloten [khuh-SLOH-tun] — closed",
+            "Wanneer is de winkel open? (When is the shop open?)",
+            "De winkel is gesloten op zondag. (The shop is closed on Sunday.)"
+          ]
+        },
+        {
+          "rule": "Winkelen — shopping vocabulary",
+          "examples": [
+            "winkelen [VIN-kuh-lun] — to go shopping (separable: ik winkel, jij winkelt)",
+            "Ga je mee winkelen? (Are you coming shopping?) ← LP4C key question",
+            "Ik winkel in de supermarkt. (I shop at the supermarket.)",
+            "de boodschappen [duh BOHT-skhap-pun] — the groceries",
+            "de boodschappentas — the grocery bag / shopping bag",
+            "Ik doe de boodschappen. (I do the grocery shopping.)",
+            "de kassa [duh KAS-sah] — the checkout / till",
+            "Ik betaal aan de kassa. (I pay at the checkout.)"
+          ]
+        },
+        {
+          "rule": "Betalen en wachten — paying and waiting",
+          "examples": [
+            "betalen [buh-TAH-lun] — to pay",
+            "Ik betaal met de kaart / met cash. (I pay by card / with cash.)",
+            "wachten [VAKH-tun] — to wait",
+            "wachten op = to wait FOR (not 'on' — different from English!)",
+            "Ik wacht op de trein. (I am waiting for the train.)",
+            "Ik wacht op de winkel. (I am waiting for the shop [to open].)",
+            "Hoe lang moet ik wachten? (How long do I have to wait?)"
+          ]
+        },
+        {
+          "rule": "De trein — train platform vocabulary",
+          "examples": [
+            "het spoor [huht spohr] — the (railway) track / platform",
+            "Op welk spoor vertrekt de trein? (On which track does the train depart?)",
+            "De trein vertrekt op spoor 7. (The train departs on platform 7.)",
+            "vertrekken — to depart · aankomen — to arrive",
+            "de afspraak [duh AF-spraak] — the appointment (also: arranged meeting)",
+            "Ik heb een afspraak om drie uur. (I have an appointment at three o'clock.)"
+          ]
+        },
+        {
+          "rule": "Herhalen — repetition vocabulary (from your course!)",
+          "examples": [
+            "de herhaling [duh her-HAH-ling] — the repetition / revision",
+            "herhalen — to repeat (ik herhaal, jij herhaalt)",
+            "Kan je dat herhalen? (Can you repeat that?)",
+            "de vacature [duh fah-kah-TUU-ruh] — the job vacancy",
+            "Er is een vacature bij de supermarkt. (There is a vacancy at the supermarket.)"
+          ]
+        }
+      ],
+      "memory": "🧠 'Wachten op' = wait FOR — the op surprises English speakers. Same structure as 'wachten op de bus' (waiting for the bus) — op always goes with wachten.",
+      "examples": [
+        {
+          "nl": "Wanneer is de supermarkt open?",
+          "en": "When is the supermarket open?"
+        },
+        {
+          "nl": "De winkel is gesloten op zondag.",
+          "en": "The shop is closed on Sunday."
+        },
+        {
+          "nl": "Ik betaal aan de kassa met de kaart.",
+          "en": "I pay at the checkout by card."
+        },
+        {
+          "nl": "Op welk spoor vertrekt de trein naar Brussel?",
+          "en": "On which track does the train to Brussels depart?"
+        },
+        {
+          "nl": "Ik wacht op de trein op spoor 3.",
+          "en": "I am waiting for the train on platform 3."
+        },
+        {
+          "nl": "Ik heb een afspraak bij de dokter om half tien.",
+          "en": "I have a doctor's appointment at 9:30."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wanneer is de bibliotheek open?",
+          "en": "When is the library open?"
+        },
+        {
+          "role": "B",
+          "nl": "De bibliotheek is open van ___ tot ___ uur.",
+          "en": "The library is open from ___ to ___ o'clock."
+        },
+        {
+          "role": "A",
+          "nl": "Is de supermarkt open op zondag?",
+          "en": "Is the supermarket open on Sunday?"
+        },
+        {
+          "role": "B",
+          "nl": "Nee, de supermarkt is gesloten op zondag.",
+          "en": "No, the supermarket is closed on Sunday."
+        },
+        {
+          "role": "A",
+          "nl": "Op welk spoor vertrekt de trein?",
+          "en": "On which platform does the train depart?"
+        },
+        {
+          "role": "B",
+          "nl": "De trein vertrekt op spoor ___.",
+          "en": "The train departs on platform ___."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe betaal jij — met de kaart of met cash?",
+          "en": "How do you pay — by card or with cash?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik betaal altijd met de kaart. / Ik betaal liever met cash.",
+          "en": "I always pay by card. / I prefer to pay with cash."
+        },
+        {
+          "role": "A",
+          "nl": "Wacht jij lang op de bus?",
+          "en": "Do you wait long for the bus?"
+        },
+        {
+          "role": "B",
+          "nl": "Nee, ik wacht maar vijf minuten. / Ja, soms een kwartier!",
+          "en": "No, I only wait five minutes. / Yes, sometimes a quarter hour!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "clothing",
+  "order": 23,
+  "title": {
+    "nl": "Kleding",
+    "en": "Clothing"
+  },
+  "emoji": "👗",
+  "color": "#6e2f8a",
+  "words": [
+    {
+      "nl": "de handschoen",
+      "phonetic": "duh HANT-skhoon",
+      "en": "the glove",
+      "tip": "Hand (hand) + schoen (shoe). Lit. 'hand shoe'! Plural: de handschoenen."
+    },
+    {
+      "nl": "de muts",
+      "phonetic": "duh muts",
+      "en": "the hat / beanie",
+      "tip": "Specifically a knitted hat/beanie. 'Een muts opzetten' = to put on a hat."
+    },
+    {
+      "nl": "de regenjas",
+      "phonetic": "duh RAY-khun-yas",
+      "en": "the raincoat",
+      "tip": "Regen (rain) + jas (coat/jacket). Essential in Belgium!"
+    },
+    {
+      "nl": "de jas",
+      "phonetic": "duh yas",
+      "en": "the jacket / coat",
+      "tip": "General outerwear. 'Doe je jas aan' = put on your coat."
+    },
+    {
+      "nl": "de schoenen",
+      "phonetic": "duh SKHOO-nun",
+      "en": "the shoes",
+      "tip": "'oe' = long 'oo'. Singular: de schoen."
+    },
+    {
+      "nl": "de trui",
+      "phonetic": "duh troy",
+      "en": "the sweater / jumper",
+      "tip": "'ui' vowel. 'Een warme trui' = a warm sweater."
+    }
+  ]
+}

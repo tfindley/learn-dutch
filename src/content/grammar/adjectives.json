@@ -1,0 +1,76 @@
+{
+  "kind": "grammar",
+  "id": "adjectives",
+  "order": 4,
+  "tag": "GRAMMAR · ADJECTIVES",
+  "title": {
+    "nl": "Adjective Endings",
+    "en": "The -e Rule"
+  },
+  "difficulty": "medium",
+  "shortcut": "Add -e to almost every adjective. The only exception: het-word + indefinite (een).",
+  "explanation": "Dutch adjectives inflect. One clean rule covers 90% of cases.",
+  "patterns": [
+    {
+      "rule": "de-word: always add -e",
+      "examples": [
+        "de grote auto",
+        "een grote auto"
+      ]
+    },
+    {
+      "rule": "het-word + definite (het/dit/dat): add -e",
+      "examples": [
+        "het grote huis",
+        "dat oude gebouw"
+      ]
+    },
+    {
+      "rule": "het-word + indefinite (een): NO -e ← the exception!",
+      "examples": [
+        "een groot huis ✓ (NOT grote)",
+        "een oud gebouw ✓"
+      ]
+    },
+    {
+      "rule": "Predicate adjective (after zijn): NO ending ever",
+      "examples": [
+        "De auto is groot.",
+        "Het huis is oud."
+      ]
+    }
+  ],
+  "memory": "🧠 One exception: 'een [het-word]' = no -e. Everything else gets -e. Default-deny firewall with one allow rule.",
+  "examples": [
+    {
+      "nl": "een groot huis / het grote huis",
+      "en": "a big house / the big house"
+    },
+    {
+      "nl": "een grote auto / de grote auto",
+      "en": "a big car / the big car"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Groot of grote? → 'een ___ huis'",
+      "en": "Groot or grote? → 'a ___ house'"
+    },
+    {
+      "role": "B",
+      "nl": "een groot huis ✓ (het-word + een = no -e)",
+      "en": "a big house"
+    },
+    {
+      "role": "A",
+      "nl": "Groot of grote? → 'de ___ auto'",
+      "en": "Groot or grote? → 'the ___ car'"
+    },
+    {
+      "role": "B",
+      "nl": "de grote auto ✓ (de-word = always -e)",
+      "en": "the big car"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "test_lp2",
+  "title": "Kinderen & Kosten",
+  "subtitle": "Leerpad 2A+2B · Family & Prices",
+  "leerpad": "2",
+  "difficulty": "easy",
+  "emoji": "👨‍👩‍👧",
+  "questions": [
+    {
+      "q": "'Hoeveel kinderen heb jij?' — why is it 'heb' and not 'hebt'?",
+      "options": [
+        "'hebben' is irregular here",
+        "Inversion: 'jij' after the verb drops the -t",
+        "It's 1st person singular",
+        "'hebt' is actually correct"
+      ],
+      "answer": 1,
+      "explanation": "When 'jij/je' comes AFTER the verb (inversion in questions), the -t drops. 'heb jij?' not 'hebt jij?'."
+    },
+    {
+      "q": "'Ik heb geen kinderen' means:",
+      "options": [
+        "I have some children",
+        "My children are not here",
+        "I have no children",
+        "I don't want children"
+      ],
+      "answer": 2,
+      "explanation": "'geen' negates nouns. 'Ik heb geen [noun]' = I have no [noun]."
+    },
+    {
+      "q": "How do you say 'My oldest is twelve years old'?",
+      "options": [
+        "Mijn jongste is twaalf jaar.",
+        "Mijn oudste is twaalf jaar.",
+        "Mijn kind heeft twaalf jaar.",
+        "Twaalf jaar heeft mijn oudste."
+      ],
+      "answer": 1,
+      "explanation": "'oudste' = oldest. Dutch uses 'zijn' for age: 'is twaalf jaar', not 'heeft twaalf jaar'."
+    },
+    {
+      "q": "You're in a shop. How do you ask 'How much does it cost?'",
+      "options": [
+        "Wat kost het?",
+        "Hoeveel kost het?",
+        "Both are correct.",
+        "Hoe duur is het?"
+      ],
+      "answer": 2,
+      "explanation": "'Hoeveel kost het?' and 'Wat kost het?' are both natural and common."
+    },
+    {
+      "q": "The price is too high. What do you say?",
+      "options": [
+        "Dat is goedkoop!",
+        "Dat is een koopje!",
+        "Dat is redelijk.",
+        "Dat is te duur!"
+      ],
+      "answer": 3,
+      "explanation": "'te duur' = too expensive. 'goedkoop' = cheap. 'een koopje' = a bargain."
+    },
+    {
+      "q": "'Hoeveel kosten die?' — when do you use 'kosten' instead of 'kost'?",
+      "options": [
+        "When talking about expensive things",
+        "When asking politely",
+        "When the subject is plural",
+        "When in a formal shop"
+      ],
+      "answer": 2,
+      "explanation": "'kost' = singular. 'kosten' = plural. Match the verb to the subject, not the price."
+    },
+    {
+      "q": "'één' vs 'een' — what is the difference?",
+      "options": [
+        "'één' is formal, 'een' is informal",
+        "'één' = the number one (with accent), 'een' = the article a/an",
+        "They are the same word",
+        "'een' is only used before het-words"
+      ],
+      "answer": 1,
+      "explanation": "The accent marks on 'één' distinguish the number from the article 'een' (a/an)."
+    },
+    {
+      "q": "'Ik heb één broer en twee zussen' — what does this mean?",
+      "options": [
+        "I have two brothers and one sister",
+        "I have one brother and two sisters",
+        "I am an only child",
+        "I have three siblings"
+      ],
+      "answer": 1,
+      "explanation": "'broer' = brother. 'zus' (pl. 'zussen') = sister."
+    }
+  ],
+  "order": 4
+}

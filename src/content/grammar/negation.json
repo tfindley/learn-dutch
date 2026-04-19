@@ -1,0 +1,74 @@
+{
+  "kind": "grammar",
+  "id": "negation",
+  "order": 3,
+  "tag": "GRAMMAR · NEGATION",
+  "title": {
+    "nl": "niet vs. geen",
+    "en": "Two Ways to Say No"
+  },
+  "difficulty": "easy",
+  "shortcut": "'geen' replaces 'een' or no article. 'niet' negates everything else.",
+  "explanation": "Dutch has two negation words. The rule is simple once you see the pattern.",
+  "patterns": [
+    {
+      "rule": "geen = negates nouns (replaces een/no article)",
+      "examples": [
+        "Ik heb geen auto.",
+        "Ik heb geen tijd."
+      ]
+    },
+    {
+      "rule": "niet = negates verbs, adjectives, adverbs",
+      "examples": [
+        "Ik werk niet.",
+        "Het is niet goed."
+      ]
+    },
+    {
+      "rule": "niet = negates specific nouns with 'de/het'",
+      "examples": [
+        "Ik heb de auto niet. (I don't have THE car.)"
+      ]
+    },
+    {
+      "rule": "niet comes at END before separable verb parts",
+      "examples": [
+        "Ik ga niet mee."
+      ]
+    }
+  ],
+  "memory": "🧠 geen = 'no [thing]' (/dev/null for nouns). niet = toggle switch for everything else.",
+  "examples": [
+    {
+      "nl": "Ik drink geen koffie.",
+      "en": "I don't drink coffee. (geen = no article)"
+    },
+    {
+      "nl": "Ik drink de koffie niet.",
+      "en": "I'm not drinking the coffee. (the specific one)"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Heb jij een auto?",
+      "en": "Do you have a car?"
+    },
+    {
+      "role": "B",
+      "nl": "Nee, ik heb geen auto.",
+      "en": "No, I have no car."
+    },
+    {
+      "role": "A",
+      "nl": "Werk jij vandaag?",
+      "en": "Are you working today?"
+    },
+    {
+      "role": "B",
+      "nl": "Nee, ik werk vandaag niet.",
+      "en": "No, I'm not working today."
+    }
+  ]
+}
