@@ -83,5 +83,8 @@
       "nl": "Ja, ik ben er geweest. / Nee, nog niet.",
       "en": "Yes, I've been there. / No, not yet."
     }
+  ],
+  "relatedRules": [
+    "verbstem"
   ]
 }

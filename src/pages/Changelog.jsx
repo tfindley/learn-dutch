@@ -2,6 +2,29 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.0.1',
+    date: '2026-05-06',
+    added: [
+      'Course video playlists wired into every leerpad group — clickable from /leerpaden and each /leerpaden/<id> page',
+      'Leerpad 0 and Leerpad 5 placeholder pages — playlists available now, text content coming later',
+      'New grammar rule: "De stam — ik-vorm" (verb stems / present-tense formation, four sub-rules)',
+      'New uitspraak rule: "U · UU · OU" — three look-alike sounds with side-by-side minimal pairs',
+      'New woordjes category: "Hoe vaak?" — frequency adverbs (nooit / soms / dikwijls / vaak / meestal / altijd) with a 0–100% scale',
+      'Three new tests: verb stems, U/UU/OU pronunciation, and Leerpad 4B train timetables',
+      'Cross-rule "See also" links via a new optional relatedRules field — wired across 11 rules connecting leerpaden to grammar/uitspraak references',
+      'Canonical content schema reference at docs/content-schema.md, covering all five content types',
+    ],
+    changed: [
+      'Leerpad 4A enriched with extra weather adjectives (lichtbewolkt, zwaarbewolkt, fris, stormt, onweert, dondert), weather-gear vocabulary, temperature/forecast patterns, and two full forecast paragraphs',
+      'Leerpad 4B split into two rules — shop/library opening hours + train timetable Q&A — with appointment-booking patterns added',
+      'Leerpad 4C extended with the "Ik doe (niet) graag boodschappen" conversation pattern, checkout vocabulary (winkelkarretje, scan zelf, GSM, draag), and a Mexicaans-koken shopping list example',
+      'Difficulty re-calibrated for lp4a / lp4b / lp4c / lp3a_prep / negation — bumped easy → medium where the underlying distinction trips learners up',
+      'CLAUDE.md trimmed to a focused pointer file (~2 KB) — content-schema.md is now the source of truth for content schemas',
+      'Minor woordjes additions: croissant, watermeloen, ananas',
+    ],
+    fixed: [],
+  },
+  {
     version: '2.0.0',
     date: '2026-04-19',
     added: [

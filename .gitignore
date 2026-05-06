@@ -4,3 +4,6 @@ dist/
 vuln-report-*.json
 obsolete/
 NUL
+
+# notes input directory
+input_notes/

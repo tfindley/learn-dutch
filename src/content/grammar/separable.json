@@ -71,5 +71,9 @@
       "nl": "Ja, ik bel jou vanavond op.",
       "en": "Yes, I'll call you this evening."
     }
+  ],
+  "relatedRules": [
+    "verbstem",
+    "lp4b_trein"
   ]
 }

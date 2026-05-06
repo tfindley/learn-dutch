@@ -1,0 +1,99 @@
+{
+  "id": "test_verbstem",
+  "order": 10,
+  "title": "Verb Stems · ik-vorm",
+  "subtitle": "Building the present-tense stem",
+  "leerpad": "Grammar",
+  "difficulty": "medium",
+  "emoji": "🌱",
+  "questions": [
+    {
+      "q": "What is the 'ik' form (stem) of 'starten'?",
+      "options": [
+        "ik staart",
+        "ik start",
+        "ik startt",
+        "ik starten"
+      ],
+      "answer": 1,
+      "explanation": "Basic rule: drop -en. 'starten' → ik start. No extra letters added or removed."
+    },
+    {
+      "q": "What is the stem of 'zitten'?",
+      "options": [
+        "ik zitt",
+        "ik zitten",
+        "ik zit",
+        "ik ziet"
+      ],
+      "answer": 2,
+      "explanation": "Double-consonant rule: drop -en AND drop one of the doubled letters. 'zit-ten' → ik zit. The doubled 't' was only there to keep the 'i' short in the infinitive."
+    },
+    {
+      "q": "What is the stem of 'lopen'?",
+      "options": [
+        "ik lop",
+        "ik lopp",
+        "ik loop",
+        "ik lopen"
+      ],
+      "answer": 2,
+      "explanation": "Long-vowel rule: drop -en AND double the vowel to keep the sound long. 'lo-pen' has open syllable → ik loop closes the syllable, so 'oo' is needed to keep the long sound."
+    },
+    {
+      "q": "What is the stem of 'reizen'?",
+      "options": [
+        "ik reiz",
+        "ik rees",
+        "ik reis",
+        "ik reizen"
+      ],
+      "answer": 2,
+      "explanation": "Z → S at the end of a stem. 'reizen' → ik reis. Dutch never ends a word with voiced 'z' — it devoices to 's'. (NOT 'ik rees' — the vowel doesn't change.)"
+    },
+    {
+      "q": "What is the stem of 'schrijven'?",
+      "options": [
+        "ik schrijv",
+        "ik schrijf",
+        "ik schreef",
+        "ik schrijven"
+      ],
+      "answer": 1,
+      "explanation": "V → F at the end of a stem. 'schrijven' → ik schrijf. Same principle as Z → S: voiced consonants devoice when there's no vowel after them."
+    },
+    {
+      "q": "Why does 'leren' become 'ik leer' (with double e)?",
+      "options": [
+        "Because all stems double their vowels",
+        "Because 'le-ren' is an open syllable (long e), and 'leer' is closed — needs 'ee' to stay long",
+        "It's an irregular verb",
+        "Because 'r' always doubles the preceding vowel"
+      ],
+      "answer": 1,
+      "explanation": "In 'le-ren' the syllable is open (ends on a vowel sound) so 'e' is long. When you close the syllable to make 'leer', you must double to 'ee' to preserve the long sound."
+    },
+    {
+      "q": "What is the 'jij' form of 'lezen'?",
+      "options": [
+        "jij lees",
+        "jij leest",
+        "jij lezt",
+        "jij leesd"
+      ],
+      "answer": 1,
+      "explanation": "Stem + t. The stem of 'lezen' is 'lees' (Z→S), so 'jij' adds -t: jij leest. Same for hij/zij/het."
+    },
+    {
+      "q": "What's wrong with 'Werkt jij vandaag?'",
+      "options": [
+        "Nothing — it's correct",
+        "Should be 'Werken jij vandaag?'",
+        "When 'jij' comes AFTER the verb, drop the -t: 'Werk jij vandaag?'",
+        "Should be 'Jij werkt vandaag?'"
+      ],
+      "answer": 2,
+      "explanation": "Inversion rule: when 'jij' (or 'je') follows the verb in a question or after a fronted element, the -t is dropped. 'Jij werkt' but 'Werk jij?'"
+    }
+  ]
+}

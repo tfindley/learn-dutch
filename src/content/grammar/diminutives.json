@@ -72,5 +72,8 @@
       "nl": "Ja, graag! / Nee, dank je.",
       "en": "Yes please! / No thank you."
     }
+  ],
+  "relatedRules": [
+    "articles"
   ]
 }

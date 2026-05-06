@@ -10,14 +10,14 @@ export default function LeerpadeIndex() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold mb-1">Leerpaden</h1>
       <p className="text-sm text-gray-500 dark:text-gray-400 mb-8">
-        Sequential curriculum — follow from Leerpad 1 through 4 for a structured learning path.
-        {' '}{totalRules} rules across {leerpadTree.length} units.
+        Sequential curriculum — follow from Leerpad 0 through 5 for a structured learning path.
+        {' '}{totalRules} rules across {leerpadTree.length} units. Each unit links to its course video playlist.
       </p>
 
       <div className="space-y-10">
         {leerpadTree.map(group => (
           <section key={group.id}>
-            <div className="flex items-center gap-3 mb-2">
+            <div className="flex flex-wrap items-center gap-3 mb-2">
               <h2 className="text-lg font-bold">Leerpad {group.id}</h2>
               <Link
                 to={`/leerpaden/${group.id}`}
@@ -25,31 +25,47 @@ export default function LeerpadeIndex() {
               >
                 Open unit →
               </Link>
+              {group.playlist && (
+                <a
+                  href={group.playlist.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-red-600 dark:text-red-400 hover:underline font-medium"
+                >
+                  📺 Playlist ↗
+                </a>
+              )}
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               {t(group.description)}
             </p>
 
-            <div className="space-y-4">
-              {group.sections.map(section => (
-                <div key={section.id}>
-                  <div className="flex items-center gap-2 mb-2">
-                    <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 font-mono">
-                      {section.id}
-                    </h3>
-                    <span className="text-xs text-gray-400 dark:text-gray-600">—</span>
-                    <span className="text-xs text-gray-500 dark:text-gray-400">
-                      {t(section.description)}
-                    </span>
+            {group.sections.length === 0 ? (
+              <p className="text-xs italic text-gray-400 dark:text-gray-500">
+                Content coming soon — playlist available above.
+              </p>
+            ) : (
+              <div className="space-y-4">
+                {group.sections.map(section => (
+                  <div key={section.id}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-400 dark:text-gray-500 font-mono">
+                        {section.id}
+                      </h3>
+                      <span className="text-xs text-gray-400 dark:text-gray-600">—</span>
+                      <span className="text-xs text-gray-500 dark:text-gray-400">
+                        {t(section.description)}
+                      </span>
+                    </div>
+                    <div className="space-y-2">
+                      {section.rules.map(rule => (
+                        <RuleListItem key={rule.id} rule={rule} basePath={`/leerpaden/${group.id}`} />
+                      ))}
+                    </div>
                   </div>
-                  <div className="space-y-2">
-                    {section.rules.map(rule => (
-                      <RuleListItem key={rule.id} rule={rule} basePath={`/leerpaden/${group.id}`} />
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </section>
         ))}
       </div>

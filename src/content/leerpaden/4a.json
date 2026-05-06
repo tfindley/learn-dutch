@@ -14,7 +14,7 @@
         "nl": "Welk weer is het?",
         "en": "What is the weather like?"
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "shortcut": "Het + 3rd person verb: het regent / het sneeuwt / het waait / het vriest. Or: Het is + adjective: het is bewolkt / warm / koud.",
       "explanation": "Weather is one of the most common Belgian conversation topics — Belgians talk about it constantly! You need two structures: 'het + verb' for weather actions, and 'het is + adjective' for states. You also learn compass directions and weather-related places.",
       "patterns": [
@@ -27,7 +27,11 @@
             "Het hagelt. (It is hailing.) ← from 'hagelen'",
             "Het vriest. (It is freezing.) ← from 'vriezen'. Irregular: vriezen → vriest",
             "Het bliksemt. (It is lightning.) ← from 'bliksemen'",
-            "De zon schijnt. (The sun is shining.) ← subject is 'de zon', not 'het'"
+            "Het dondert. (It is thundering.) ← from 'donderen'. De donder = the thunder (noun).",
+            "Het onweert. (There is a thunderstorm.) ← thunder + lightning + rain combined",
+            "Het stormt. (It is storming / there is a storm.) ← from 'stormen'",
+            "De zon schijnt. (The sun is shining.) ← subject is 'de zon', not 'het'",
+            "Er is veel wind. (There is a lot of wind.) ← noun-based alternative to 'het waait'"
           ]
         },
         {
@@ -35,11 +39,37 @@
           "examples": [
             "Het is warm. (It is warm.)",
             "Het is koud. (It is cold.)",
+            "Het is fris. (It is chilly / fresh.) ← cool but not cold",
             "Het is bewolkt. (It is cloudy.) ← [buh-VOLKT]",
+            "Het is lichtbewolkt. (It is partly cloudy.) ← licht (light) + bewolkt",
+            "Het is zwaarbewolkt. (It is heavily overcast.) ← zwaar (heavy) + bewolkt",
             "Het is zonnig. (It is sunny.)",
             "Het is mistig. (It is foggy.)",
             "Het is winderig. (It is windy.) ← alternative to 'het waait'",
             "Het is nat. (It is wet.)"
+          ]
+        },
+        {
+          "rule": "Weather gear — what to take with you",
+          "examples": [
+            "de paraplu [duh pah-rah-PLUU] — the umbrella",
+            "de regenjas [duh RAY-khun-yas] — the raincoat",
+            "de muts [duh muts] — the (winter) hat / beanie",
+            "Ik neem mijn paraplu. (I am taking my umbrella.)",
+            "Vergeet je regenjas niet! (Don't forget your raincoat!)",
+            "Vergeet je muts niet, want het is koud. (Don't forget your hat, because it is cold.)"
+          ]
+        },
+        {
+          "rule": "Temperatuur — degrees and the forecast",
+          "examples": [
+            "de temperatuur [duh tem-puh-rah-TUUR] — the temperature",
+            "graden Celsius [KHRAH-dun SEL-see-us] — degrees Celsius",
+            "Het is twintig graden. (It is twenty degrees.)",
+            "min vijf graden — minus five degrees · plus zes graden — plus six degrees",
+            "tussen X en Y graden — between X and Y degrees",
+            "De temperatuur is tussen tien en vijftien graden Celsius.",
+            "de wind waait uit het zuiden — the wind blows from the south"
           ]
         },
         {
@@ -97,6 +127,14 @@
         {
           "nl": "Het vriest vannacht.",
           "en": "It is freezing tonight."
+        },
+        {
+          "nl": "Vandaag in het centrum van België is het bewolkt en regent het, met een temperatuur tussen vijftien en zevenentwintig graden Celsius. De wind waait uit het zuiden. Vergeet je regenjas en paraplu niet!",
+          "en": "Today in the centre of Belgium it is cloudy and raining, with a temperature between fifteen and twenty-seven degrees Celsius. The wind is blowing from the south. Don't forget your raincoat and umbrella!"
+        },
+        {
+          "nl": "Vandaag in het oosten van België is het zonnig met lichte bewolking, maar de temperatuur is tussen min vijf en plus zes graden Celsius. Vergeet je muts niet, want het is niet zo warm.",
+          "en": "Today in the east of Belgium it is sunny with light cloud cover, but the temperature is between minus five and plus six degrees Celsius. Don't forget your hat, because it isn't very warm."
         }
       ],
       "practice": [
@@ -149,7 +187,31 @@
           "role": "B",
           "nl": "Ja! Als het niet regent... (If it doesn't rain...)",
           "en": "Yes! If it doesn't rain..."
+        },
+        {
+          "role": "A",
+          "nl": "Wat is de weersvoorspelling voor morgen?",
+          "en": "What is the weather forecast for tomorrow?"
+        },
+        {
+          "role": "B",
+          "nl": "Het is lichtbewolkt met een temperatuur tussen tien en vijftien graden. Niet zo warm.",
+          "en": "It is partly cloudy with a temperature between ten and fifteen degrees. Not very warm."
+        },
+        {
+          "role": "A",
+          "nl": "Moet ik mijn paraplu meenemen?",
+          "en": "Should I take my umbrella?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, het regent vanmiddag. Vergeet ook je regenjas niet!",
+          "en": "Yes, it is raining this afternoon. Also don't forget your raincoat!"
         }
+      ],
+      "relatedRules": [
+        "verbstem",
+        "pron_u_ou"
       ]
     }
   ]

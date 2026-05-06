@@ -1,6 +1,20 @@
 {
   "groups": [
     {
+      "id": "0",
+      "order": 0,
+      "title": {
+        "en": "Leerpad 0"
+      },
+      "description": {
+        "en": "Pre-course warm-up — alphabet, sounds, and the absolute basics before Leerpad 1."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpN3ui8TMq_GRUMcQwFNXUCY",
+        "title": "Leerpad 0 — full course playlist"
+      }
+    },
+    {
       "id": "1",
       "order": 1,
       "title": {
@@ -8,6 +22,10 @@
       },
       "description": {
         "en": "First steps — the essential building blocks of Dutch: greetings, introductions, telling people about yourself, and asking basic questions."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpNDS-qBgU5MugJoG0Xic_Ns",
+        "title": "Leerpad 1 — full course playlist"
       }
     },
     {
@@ -18,6 +36,10 @@
       },
       "description": {
         "en": "People and numbers — talking about family, relationships, and handling everyday transactions with confidence."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpPy3HQ2SKSPIDdeUheS5ceS",
+        "title": "Leerpad 2 — full course playlist"
       }
     },
     {
@@ -28,6 +50,10 @@
       },
       "description": {
         "en": "Time and social life — telling the time, daily routines, making plans, and the social language of Belgian Dutch."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpPs1I8fYkxwg-i_v9n3KXRh",
+        "title": "Leerpad 3 — full course playlist"
       }
     },
     {
@@ -38,6 +64,24 @@
       },
       "description": {
         "en": "Real-world Dutch — weather, schedules, and shopping trips, with the grammar needed for more complex everyday situations."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpNKzhB1foAIpO_jTTpsG7JE",
+        "title": "Leerpad 4 — full course playlist"
+      }
+    },
+    {
+      "id": "5",
+      "order": 5,
+      "title": {
+        "en": "Leerpad 5"
+      },
+      "description": {
+        "en": "Beyond the basics — advanced topics building on Leerpaden 1–4. Content coming soon; the course playlist is available now."
+      },
+      "playlist": {
+        "url": "https://youtube.com/playlist?list=PL5TEE1070vpPIo4COuQ2gAujQk1OmEqdc",
+        "title": "Leerpad 5 — full course playlist"
       }
     }
   ]

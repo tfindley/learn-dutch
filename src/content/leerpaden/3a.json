@@ -161,6 +161,10 @@
           "nl": "De les eindigt om ___.",
           "en": "The lesson ends at ___."
         }
+      ],
+      "relatedRules": [
+        "lp3a_prep",
+        "lp4b_trein"
       ]
     },
     {
@@ -171,7 +175,7 @@
         "nl": "Om · Op · In",
         "en": "Time Prepositions"
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "shortcut": "Om = clock time. Op = specific day or date. In = period, month, season, year.",
       "explanation": "Dutch uses three different prepositions for time, each with a specific job. Getting them mixed up is one of the most common errors at this level. The good news: each one has a clear rule that covers almost all cases.",
       "patterns": [
@@ -319,6 +323,10 @@
           "nl": "In de zomer — in augustus.",
           "en": "In summer — in August."
         }
+      ],
+      "relatedRules": [
+        "lp3a",
+        "lp4b"
       ]
     }
   ]

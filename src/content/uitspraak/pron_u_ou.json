@@ -1,0 +1,130 @@
+{
+  "kind": "uitspraak",
+  "id": "pron_u_ou",
+  "order": 6,
+  "tag": "UITSPRAAK · U & OU",
+  "title": {
+    "nl": "U · UU · OU",
+    "en": "Three sounds, one letter"
+  },
+  "difficulty": "medium",
+  "shortcut": "U short = English 'uh' (bus). UU long = rounded 'ee' (muur). OU/AU = English 'ow' (now).",
+  "explanation": "The Dutch 'u' takes two forms — short and long — and they sound completely different. The diphthong 'ou' (and its identical twin 'au') is a third, separate sound. Mixing them up is the most common mistake at this level.",
+  "patterns": [
+    {
+      "rule": "Korte U — short, like English 'uh' in 'but'",
+      "examples": [
+        "de bus [bus] — the bus",
+        "de zus [zus] — the sister",
+        "het nummer [NUM-mur] — the number",
+        "de kus [kus] — the kiss",
+        "↳ Spelling cue: a single 'u' followed by a consonant (closed syllable) → SHORT.",
+        "↳ Belgian phonetic: the short 'u' is roughly halfway between English 'u' in 'put' and 'u' in 'cut'."
+      ]
+    },
+    {
+      "rule": "Lange UU — long, rounded vowel like German ü or French 'u'",
+      "examples": [
+        "de muur [muur] — the wall",
+        "duur [duur] — expensive / lasting",
+        "de huur [huur] — the rent",
+        "het uur [uur] — the hour",
+        "ik huur [huur] — I rent (verb form of huren)",
+        "↳ How to make it: shape your lips to say 'oo', then say 'ee' WITHOUT moving your lips. That's UU.",
+        "↳ Spelling cue: 'uu' (double) OR a single 'u' in an open syllable (mu-ren) → LONG.",
+        "↳ Same vowel: u-ren and uur sound IDENTICAL — only the spelling adapts."
+      ]
+    },
+    {
+      "rule": "Tweeklank OU — diphthong, like English 'ow' in 'now'",
+      "examples": [
+        "mevrouw [muh-VROW] — madam / Mrs",
+        "trouw [trow] — loyal / faithful · de trouw — loyalty",
+        "jouw [yow] — your (possessive)",
+        "de vrouw [vrow] — the woman / wife",
+        "koud [kowt] — cold (final 'd' devoices to 't')",
+        "het goud [khowt] — the gold",
+        "↳ AU and OU sound IDENTICAL in Dutch — both pronounced [ow]. Spelling is etymological, not phonetic.",
+        "↳ Examples of AU: blauw [blow] — blue · pauze [POW-zuh] — pause · auto [OW-toh] — car"
+      ]
+    },
+    {
+      "rule": "Side-by-side — the three sounds compared",
+      "examples": [
+        "U (short)  vs UU (long)  vs OU (diphthong)",
+        "bus       vs buur       vs bouw     ← these all look similar but sound different",
+        "[bus]     vs [buur]     vs [bow]",
+        "kus       vs kuur       vs kous",
+        "[kus]     vs [kuur]     vs [kows]"
+      ]
+    }
+  ],
+  "memory": "🧠 Three sounds: U = quick 'uh' (bus, zus, nummer). UU = long rounded 'ee' (muur, duur, huur — lips like 'oo', say 'ee'). OU/AU = English 'ow' (mevrouw, jouw, koud). The OU and AU spellings make the SAME sound — never different.",
+  "examples": [
+    {
+      "nl": "De huur is duur.",
+      "en": "The rent is expensive. (two long UUs)"
+    },
+    {
+      "nl": "Mijn zus zit in de bus.",
+      "en": "My sister is on the bus. (three short Us)"
+    },
+    {
+      "nl": "Mevrouw, mag ik jouw nummer?",
+      "en": "Madam, may I have your number? (OU + OU + short U)"
+    },
+    {
+      "nl": "Het is koud op de bus.",
+      "en": "It is cold on the bus. (OU + short U)"
+    },
+    {
+      "nl": "De muur van het huis is blauw.",
+      "en": "The wall of the house is blue. (UU + 'ui' + AU)"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Hoe spreek je 'bus' uit — kort of lang?",
+      "en": "How do you pronounce 'bus' — short or long?"
+    },
+    {
+      "role": "B",
+      "nl": "Kort. [bus] — één u in een gesloten lettergreep.",
+      "en": "Short. [bus] — one u in a closed syllable."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe spreek je 'muur' uit?",
+      "en": "How do you pronounce 'muur'?"
+    },
+    {
+      "role": "B",
+      "nl": "Lang. [muur] — dubbele uu, lippen rond, tong vooraan.",
+      "en": "Long. [muur] — double uu, lips round, tongue forward."
+    },
+    {
+      "role": "A",
+      "nl": "Klinkt 'au' anders dan 'ou'?",
+      "en": "Does 'au' sound different from 'ou'?"
+    },
+    {
+      "role": "B",
+      "nl": "Nee — exact hetzelfde. Blauw en mevrouw rijmen.",
+      "en": "No — exactly the same. Blauw and mevrouw rhyme."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe klinkt 'koud'?",
+      "en": "How does 'koud' sound?"
+    },
+    {
+      "role": "B",
+      "nl": "[kowt] — net als de Engelse 'cow' met een -t.",
+      "en": "[kowt] — like English 'cow' with a -t."
+    }
+  ],
+  "relatedRules": [
+    "pron_vowels"
+  ]
+}

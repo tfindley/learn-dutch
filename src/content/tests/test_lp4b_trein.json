@@ -1,0 +1,99 @@
+{
+  "id": "test_lp4b_trein",
+  "order": 12,
+  "title": "Leerpad 4B · De Trein",
+  "subtitle": "Train timetables — vertrek, aankomst, spoor, prijs",
+  "leerpad": "4B",
+  "difficulty": "medium",
+  "emoji": "🚆",
+  "questions": [
+    {
+      "q": "How do you ask 'At what time does the train to Brussels depart?'",
+      "options": [
+        "Wanneer is de trein in Brussel?",
+        "Hoe laat vertrekt de trein naar Brussel?",
+        "Hoe laat komt de trein in Brussel aan?",
+        "Op welk spoor is de trein naar Brussel?"
+      ],
+      "answer": 1,
+      "explanation": "'Hoe laat vertrekt...' = at what time does ... depart. The verb 'vertrekken' means to depart. 'naar Brussel' = to Brussels."
+    },
+    {
+      "q": "What does 'De trein komt om 12:15 in Brussel aan' mean?",
+      "options": [
+        "The train departs from Brussels at 12:15",
+        "The train arrives in Brussels at 12:15",
+        "The train stops in Brussels at 12:15",
+        "The train passes Brussels at 12:15"
+      ],
+      "answer": 1,
+      "explanation": "'aankomen' = to arrive. It's a SEPARABLE verb — 'aan' goes to the END of the main clause: 'De trein KOMT om 12:15 in Brussel AAN.'"
+    },
+    {
+      "q": "Which preposition fits: '___ welk spoor vertrekt de trein?'",
+      "options": [
+        "Om",
+        "In",
+        "Op",
+        "Aan"
+      ],
+      "answer": 2,
+      "explanation": "'Op welk spoor' = on which platform. Spoor is treated as a place (a flat surface), so OP, not OM. OM is only for clock times."
+    },
+    {
+      "q": "How would you write '11:45' as it is SPOKEN?",
+      "options": [
+        "Elf vijfenveertig",
+        "Elf uur vijfenveertig",
+        "Elf en een half uur",
+        "Vijfenveertig over elf"
+      ],
+      "answer": 1,
+      "explanation": "Written: '11:45 uur'. Spoken: 'elf uur vijfenveertig'. Belgian Dutch standardly includes 'uur' in spoken time. Alternative: 'kwart voor twaalf' (quarter to twelve)."
+    },
+    {
+      "q": "How do you say 'a return ticket'?",
+      "options": [
+        "Een enkele reis",
+        "Een retourticket",
+        "Een dubbele kaartje",
+        "Een tweerichting"
+      ],
+      "answer": 1,
+      "explanation": "'Retourticket' = return ticket. 'Enkele reis' = one-way. The cashier may ask: 'Enkele reis of retour?'"
+    },
+    {
+      "q": "Complete: 'Een ticket ___ vijfentwintig euro.'",
+      "options": [
+        "kost",
+        "kosten",
+        "kostet",
+        "kostt"
+      ],
+      "answer": 0,
+      "explanation": "Singular subject ('een ticket'), so the verb 'kosten' takes the 3rd-person singular form: kost. Plural would be 'twee tickets KOSTEN vijftig euro'."
+    },
+    {
+      "q": "Where does 'aan' go in: 'De trein komt om half drie in Dinant ___'?",
+      "options": [
+        "Aan stays attached: 'aankomt' at the start",
+        "At the very end: 'De trein komt om half drie in Dinant aan'",
+        "Right after the verb: 'komt aan om half drie'",
+        "It's optional — both work"
+      ],
+      "answer": 1,
+      "explanation": "Separable verbs split in main clauses — the prefix goes to the END. 'aankomen' → 'De trein KOMT ... AAN'. Same pattern as 'opstaan', 'meegaan', 'uitgaan'."
+    },
+    {
+      "q": "What does 'de bestemming' mean?",
+      "options": [
+        "The platform",
+        "The destination",
+        "The departure",
+        "The timetable"
+      ],
+      "answer": 1,
+      "explanation": "Bestemming = destination. Other key words: dienstregeling (timetable), vertrek (departure), aankomst (arrival), spoor (platform)."
+    }
+  ]
+}
