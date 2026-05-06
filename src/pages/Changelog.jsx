@@ -2,6 +2,19 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.0.2',
+    date: '2026-05-06',
+    added: [],
+    changed: [
+      'CI/CD switched to a tag-driven release pipeline — pushing a v* tag is now the only way to trigger a build, and that single build publishes :sha-<sha>, :<version>, and :latest in one go (previously a main push and a tag push triggered two parallel builds, leading to a race on :latest)',
+      'Gitea weekly schedule now rebuilds the latest v* tag for Alpine security-patch refreshes, keeping :latest pinned to the most recent release rather than mainline HEAD',
+      'Internal: rule lookups (getRuleById, getLeerpadRuleById, getGrammarRuleById, getRelatedRules) now share a single Map index instead of repeating Array.find scans',
+    ],
+    fixed: [
+      'Footer version on the deployed v2.0.1 image showed "sha-<sha>" instead of "v2.0.1" — caused by the dual-build race in the old CI flow. Fixed structurally by the new tag-driven pipeline.',
+    ],
+  },
+  {
     version: '2.0.1',
     date: '2026-05-06',
     added: [
