@@ -1,0 +1,164 @@
+{
+  "kind": "grammar",
+  "id": "verbstem",
+  "order": 10,
+  "tag": "GRAMMAR · VERB STEM",
+  "title": {
+    "nl": "De stam — ik-vorm",
+    "en": "Verb Stems & ik-form"
+  },
+  "difficulty": "medium",
+  "shortcut": "Stam = infinitive minus -en, then apply spelling rules. The 'ik' form IS the stem.",
+  "explanation": "The stem (de stam) is the foundation of every present-tense conjugation. Once you have the stem, the 'ik' form is exactly that, and 'jij/hij/zij' add -t. There are four simple rules — three are about preserving the vowel sound, and one is about devoicing v and z at the end of a word.",
+  "patterns": [
+    {
+      "rule": "1. The basic rule — drop -en",
+      "examples": [
+        "luisteren → ik luister (to listen)",
+        "drinken → ik drink (to drink)",
+        "kijken → ik kijk (to watch)",
+        "dansen → ik dans (to dance)",
+        "werken → ik werk (to work)",
+        "fietsen → ik fiets (to cycle)",
+        "antwoorden → ik antwoord (to answer)",
+        "begrijpen → ik begrijp (to understand)"
+      ]
+    },
+    {
+      "rule": "2. Double consonant — drop -en AND drop the doubled letter",
+      "examples": [
+        "knippen → ik knip (to cut) ← keep the short 'i'",
+        "zitten → ik zit (to sit)",
+        "bellen → ik bel (to ring / to call)",
+        "kussen → ik kus (to kiss)",
+        "beginnen → ik begin (to begin)",
+        "hebben → ik heb (to have) ← irregular conjugation later, but the stem is regular",
+        "zwemmen → ik zwem (to swim)",
+        "stoppen → ik stop (to stop)",
+        "wassen → ik was (to wash)",
+        "🧠 Why? The doubled consonant only existed to keep the vowel SHORT in the infinitive (zit-ten). With one consonant at the end (zit), the vowel stays short anyway — no doubling needed."
+      ]
+    },
+    {
+      "rule": "3. Long vowel — drop -en AND double the vowel",
+      "examples": [
+        "leren → ik leer (to learn)",
+        "lopen → ik loop (to walk / to run)",
+        "spreken → ik spreek (to speak)",
+        "vragen → ik vraag (to ask)",
+        "koken → ik kook (to cook)",
+        "nemen → ik neem (to take)",
+        "wonen → ik woon (to live / to reside)",
+        "kopen → ik koop (to buy)",
+        "huren → ik huur (to rent)",
+        "betalen → ik betaal (to pay)",
+        "eten → ik eet (to eat)",
+        "🧠 Why? In 'le-ren' the syllable is open (ends on the vowel), so 'e' is long. In 'leer' the syllable is closed, so we double to 'ee' to keep the long sound."
+      ]
+    },
+    {
+      "rule": "4. V → F and Z → S at the end of the stem",
+      "examples": [
+        "schrijven → ik schrijf (to write)",
+        "geven → ik geef (to give)",
+        "leven → ik leef (to live)",
+        "blijven → ik blijf (to stay)",
+        "lezen → ik lees (to read)",
+        "reizen → ik reis (to travel) ← NOT 'ik rees'!",
+        "verhuizen → ik verhuis (to move house)",
+        "kiezen → ik kies (to choose)",
+        "🧠 Why? Dutch never ends a word with a 'voiced' v or z. The sound devoices to f / s when there's no vowel after it."
+      ]
+    },
+    {
+      "rule": "Putting it together — present tense from the stem",
+      "examples": [
+        "ik [stam] · jij [stam]+t · hij/zij/het [stam]+t",
+        "wij [infinitief] · jullie [infinitief] · zij [infinitief]",
+        "Example — werken: ik werk · jij werkt · hij werkt · wij werken · jullie werken · zij werken",
+        "Example — lezen: ik lees · jij leest · hij leest · wij lezen · jullie lezen · zij lezen",
+        "↳ When jij comes AFTER the verb (questions/inversion), drop the -t: 'Werk jij?' (not 'Werkt jij?')"
+      ]
+    }
+  ],
+  "memory": "🧠 Stam = infinitief − en, then keep the vowel sound the same. Double-consonant verbs lose a letter (zitten → zit). Long-vowel verbs gain a letter (leren → leer). V/Z at the end devoice to F/S (schrijven → schrijf, lezen → lees).",
+  "examples": [
+    {
+      "nl": "Ik werk in Brussel.",
+      "en": "I work in Brussels."
+    },
+    {
+      "nl": "Ik schrijf een brief.",
+      "en": "I write a letter. (schrijven → schrijf, V→F)"
+    },
+    {
+      "nl": "Ik lees een boek.",
+      "en": "I read a book. (lezen → lees, Z→S)"
+    },
+    {
+      "nl": "Ik begin om negen uur.",
+      "en": "I start at nine o'clock. (beginnen → begin, drop double n)"
+    },
+    {
+      "nl": "Ik woon in Oostende.",
+      "en": "I live in Ostend. (wonen → woon, double the vowel)"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat is de stam van 'starten'?",
+      "en": "What is the stem of 'starten'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik start. (basis-regel: -en eraf)",
+      "en": "Ik start. (basic rule: drop -en)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de stam van 'zitten'?",
+      "en": "What is the stem of 'zitten'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik zit. (dubbele letter eraf)",
+      "en": "Ik zit. (drop the doubled letter)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de stam van 'kopen'?",
+      "en": "What is the stem of 'kopen'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik koop. (lange klinker — verdubbel de o)",
+      "en": "Ik koop. (long vowel — double the o)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de stam van 'reizen'?",
+      "en": "What is the stem of 'reizen'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik reis. (z → s aan het einde)",
+      "en": "Ik reis. (z → s at the end) — NOT 'ik rees'!"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de stam van 'schrijven'?",
+      "en": "What is the stem of 'schrijven'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ik schrijf. (v → f aan het einde)",
+      "en": "Ik schrijf. (v → f at the end)"
+    }
+  ],
+  "relatedRules": [
+    "verbtenses",
+    "separable",
+    "pron_vowels"
+  ]
+}

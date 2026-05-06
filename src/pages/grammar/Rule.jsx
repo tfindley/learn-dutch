@@ -5,6 +5,7 @@ import { t } from '../../lib/i18n';
 import DifficultyBadge from '../../components/DifficultyBadge';
 import PatternBlock from '../../components/PatternBlock';
 import PracticeConversation from '../../components/PracticeConversation';
+import RelatedRules from '../../components/RelatedRules';
 
 export default function GrammarRule() {
   const { ruleId } = useParams();
@@ -113,6 +114,8 @@ export default function GrammarRule() {
           <PracticeConversation practice={rule.practice} />
         </section>
       )}
+
+      <RelatedRules ids={rule.relatedRules} />
 
       <div className="flex justify-between gap-4 pt-4 border-t border-gray-200 dark:border-gray-800">
         {prevRule ? (

@@ -72,3 +72,17 @@ export function getTestById(id) {
   if (id === 'marathon') return marathonTest;
   return tests.find(t => t.id === id);
 }
+
+export function getRelatedRules(ids = []) {
+  return ids
+    .map(id => {
+      const lp = leerpaden.find(r => r.id === id);
+      if (lp) return { rule: lp, path: `/leerpaden/${lp.group}/${lp.id}`, kindLabel: `Leerpad ${lp.leerpad}` };
+      const gr = referenceRules.find(r => r.id === id);
+      if (gr) return { rule: gr, path: `/grammar/reference/${gr.id}`, kindLabel: 'Grammar' };
+      const uit = uitspraakRules.find(r => r.id === id);
+      if (uit) return { rule: uit, path: `/grammar/uitspraak/${uit.id}`, kindLabel: 'Uitspraak' };
+      return null;
+    })
+    .filter(Boolean);
+}

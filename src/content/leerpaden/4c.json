@@ -14,7 +14,7 @@
         "nl": "Ga je mee winkelen?",
         "en": "Are you coming shopping?"
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "shortcut": "Learn the supermarket categories first — they tell you where to find everything. Then containers, then paying.",
       "explanation": "Leerpad 4C covers a full supermarket trip: the product categories, what's in each aisle, how to describe quantities with the right container word, making a shopping list, and paying — including the very Belgian question 'Betaalt u gepast?'",
       "patterns": [
@@ -125,7 +125,35 @@
             "Vergeet de ___ niet! (Don't forget the ___!)",
             "Heb je de boodschappenlijst? (Do you have the shopping list?)",
             "In the shop: de winkelwagen [duh VIN-kul-vah-khun] — the shopping trolley",
+            "het winkelkarretje [huht VIN-kul-kar-uh-tyuh] — the small shopping cart (diminutive)",
             "de mand [duh mant] — the (shopping) basket"
+          ]
+        },
+        {
+          "rule": "Ik doe (niet) graag boodschappen — saying what you like / dislike",
+          "examples": [
+            "Waar doe jij graag boodschappen? (Where do you like to do the shopping?)",
+            "Ik doe graag boodschappen in de supermarkt. (I like shopping at the supermarket.)",
+            "Ik doe niet graag boodschappen op de markt — het is te druk. (I don't like shopping at the market — it's too busy.)",
+            "Ik doe graag boodschappen met mijn partner. (I like shopping with my partner.)",
+            "Ik winkel samen met mijn kind. (I shop together with my child.)",
+            "Ik neem een winkelkarretje. (I take a small shopping cart.)",
+            "Ik koop groenten en fruit. (I buy vegetables and fruit.)",
+            "↳ Pattern: Ik (niet) graag + verb. 'graag' goes after the conjugated verb."
+          ]
+        },
+        {
+          "rule": "Aan de kassa — at the checkout",
+          "examples": [
+            "Ik wacht aan de kassa. (I wait at the checkout.)",
+            "Ik wacht niet graag aan de kassa. (I don't like waiting at the checkout.)",
+            "Ik scan graag zelf mijn aankopen. (I like to scan my own purchases.)",
+            "Ik betaal niet graag aan de kassa. (I don't like paying at the checkout.)",
+            "Ik betaal graag met de kaart. (I like paying by card.)",
+            "Ik betaal niet graag cash. (I don't like paying in cash.)",
+            "Ik betaal met mijn GSM. (I pay with my mobile phone.) ← GSM is Belgian/older Dutch for 'phone'",
+            "Ik draag de boodschappen. (I carry the groceries.)",
+            "de aankoop / de aankopen — the purchase / purchases"
           ]
         },
         {
@@ -168,6 +196,18 @@
         {
           "nl": "Uw wisselgeld: twee euro vijftig.",
           "en": "Your change: two euros fifty."
+        },
+        {
+          "nl": "Ik doe graag boodschappen in de supermarkt — onze lokale Delhaize.",
+          "en": "I like shopping at the supermarket — our local Delhaize."
+        },
+        {
+          "nl": "Vandaag koken we Mexicaans, dus we kopen kip, paprika, courgette, tomaatjes, zure room, salsa en sla.",
+          "en": "Today we are cooking Mexican, so we are buying chicken, peppers, courgette, small tomatoes, sour cream, salsa and lettuce."
+        },
+        {
+          "nl": "Ik scan zelf graag mijn aankopen en ik betaal met mijn GSM.",
+          "en": "I like to scan my own purchases and I pay with my mobile phone."
         }
       ],
       "practice": [
@@ -215,7 +255,42 @@
           "role": "B",
           "nl": "Dank u wel!",
           "en": "Thank you!"
+        },
+        {
+          "role": "A",
+          "nl": "Waar doe jij graag boodschappen?",
+          "en": "Where do you like to do the shopping?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik doe graag boodschappen in de supermarkt. Niet op de markt — het is te druk.",
+          "en": "I like shopping at the supermarket. Not at the market — it's too busy."
+        },
+        {
+          "role": "A",
+          "nl": "Met wie ga je meestal?",
+          "en": "Who do you usually go with?"
+        },
+        {
+          "role": "B",
+          "nl": "Met mijn partner. Zij maakt boodschappen leuk!",
+          "en": "With my partner. She makes shopping fun!"
+        },
+        {
+          "role": "A",
+          "nl": "Hoe betaal je het liefst?",
+          "en": "How do you prefer to pay?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik scan zelf graag mijn aankopen en ik betaal met mijn GSM. Ik wacht niet graag aan de kassa.",
+          "en": "I like to scan my own purchases and I pay with my mobile. I don't like waiting at the checkout."
         }
+      ],
+      "relatedRules": [
+        "articles",
+        "graag",
+        "verbstem"
       ]
     }
   ]

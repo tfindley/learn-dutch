@@ -5,6 +5,7 @@ import { t } from '../../lib/i18n';
 import DifficultyBadge from '../../components/DifficultyBadge';
 import PatternBlock from '../../components/PatternBlock';
 import PracticeConversation from '../../components/PracticeConversation';
+import RelatedRules from '../../components/RelatedRules';
 
 export default function LeerpadRule() {
   const { groupId, ruleId } = useParams();
@@ -114,6 +115,8 @@ export default function LeerpadRule() {
           <PracticeConversation practice={rule.practice} />
         </section>
       )}
+
+      <RelatedRules ids={rule.relatedRules} />
 
       {matchingTests.length > 0 && (
         <div className="mb-8 p-4 rounded-lg bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-900">

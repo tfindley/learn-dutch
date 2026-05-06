@@ -1,0 +1,66 @@
+{
+  "id": "frequency",
+  "order": 28,
+  "title": {
+    "nl": "Hoe vaak?",
+    "en": "Frequency"
+  },
+  "emoji": "📊",
+  "color": "#d35400",
+  "words": [
+    {
+      "nl": "nooit",
+      "phonetic": "noyt",
+      "en": "never (0%)",
+      "tip": "Final 't' (no devoicing — already voiceless). 'Ik eet nooit vlees.' = I never eat meat."
+    },
+    {
+      "nl": "soms",
+      "phonetic": "soms",
+      "en": "sometimes (~10%)",
+      "tip": "Short 'o'. 'Ik drink soms koffie.' = I sometimes drink coffee."
+    },
+    {
+      "nl": "dikwijls",
+      "phonetic": "DIK-vayls",
+      "en": "often (~70%)",
+      "tip": "Belgian Dutch favourite — 'vaak' is more common in NL Dutch. 'Ik fiets dikwijls naar het werk.'"
+    },
+    {
+      "nl": "vaak",
+      "phonetic": "vaak",
+      "en": "often (~70%)",
+      "tip": "Synonym of dikwijls — both are correct. 'vaak' is shorter and used everywhere."
+    },
+    {
+      "nl": "meestal",
+      "phonetic": "MAY-stal",
+      "en": "usually / mostly (~90%)",
+      "tip": "Higher frequency than dikwijls — close to 'always'. 'Ik werk meestal van thuis.' = I usually work from home."
+    },
+    {
+      "nl": "altijd",
+      "phonetic": "AL-tayt",
+      "en": "always (100%)",
+      "tip": "Final 'd' → 't'. 'Ik drink 's morgens altijd koffie.' = I always drink coffee in the morning."
+    },
+    {
+      "nl": "hoe vaak?",
+      "phonetic": "hoo vaak",
+      "en": "how often?",
+      "tip": "Question opener. 'Hoe vaak eet je vlees?' = How often do you eat meat?"
+    },
+    {
+      "nl": "elke dag",
+      "phonetic": "EL-kuh dakh",
+      "en": "every day",
+      "tip": "Soft 'g'. Use with present tense for habits. 'Ik fiets elke dag.'"
+    },
+    {
+      "nl": "een keer per week",
+      "phonetic": "uhn keer per vayk",
+      "en": "once a week",
+      "tip": "'twee keer / drie keer per week' = twice / three times a week. Substitute month / dag / jaar as needed."
+    }
+  ]
+}

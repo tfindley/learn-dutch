@@ -1,0 +1,88 @@
+{
+  "id": "test_u_ou",
+  "order": 11,
+  "title": "U · UU · OU",
+  "subtitle": "Three sounds that look alike",
+  "leerpad": "Uitspraak",
+  "difficulty": "medium",
+  "emoji": "🔤",
+  "questions": [
+    {
+      "q": "How is 'bus' pronounced?",
+      "options": [
+        "Long — like 'boos' in English",
+        "Short — like 'uh' in English 'but'",
+        "Like 'boys'",
+        "Like German 'Buss'"
+      ],
+      "answer": 1,
+      "explanation": "Short U. One 'u' in a closed syllable (bus) → SHORT. Same vowel as in zus, kus, nummer."
+    },
+    {
+      "q": "How is 'muur' pronounced?",
+      "options": [
+        "Like English 'moor'",
+        "Like English 'more'",
+        "Long rounded vowel — lips like 'oo', tongue like 'ee'",
+        "Like English 'mover'"
+      ],
+      "answer": 2,
+      "explanation": "Lange UU. Round your lips for 'oo', then say 'ee' without moving them. Same sound as German ü or French 'u'."
+    },
+    {
+      "q": "Do 'au' and 'ou' sound different in Dutch?",
+      "options": [
+        "Yes — 'au' is longer",
+        "Yes — 'ou' is more rounded",
+        "No — they sound identical, both like English 'ow' in 'now'",
+        "Yes — only at the end of words"
+      ],
+      "answer": 2,
+      "explanation": "AU and OU are pronounced IDENTICALLY in Dutch — both [ow], like English 'ow' in 'now'. The spelling is etymological. Blauw and mevrouw rhyme."
+    },
+    {
+      "q": "Which word does NOT rhyme with 'mevrouw'?",
+      "options": [
+        "jouw",
+        "blauw",
+        "muur",
+        "trouw"
+      ],
+      "answer": 2,
+      "explanation": "'muur' is long UU [muur]. The other three are all OU/AU [ow] — they rhyme. Listen for the diphthong vs the pure long vowel."
+    },
+    {
+      "q": "How does 'koud' sound?",
+      "options": [
+        "[kowt] — like English 'cow' with a -t",
+        "[kuud] — long UU then voiced d",
+        "[kuh-d] — short u, soft d",
+        "[koh-ood] — long oh-oo blend"
+      ],
+      "answer": 0,
+      "explanation": "OU = [ow]. Final 'd' devoices to 't'. 'koud' = [kowt]. Same with 'goud' [khowt] and 'oud' [owt]."
+    },
+    {
+      "q": "Why does 'u-ren' (in 'tien uren') sound the same as 'uur'?",
+      "options": [
+        "It doesn't — they sound different",
+        "Open syllable rule: 'u' alone in an open syllable is long, same as 'uu' in a closed one",
+        "Because 'ren' is added",
+        "Belgian Dutch quirk"
+      ],
+      "answer": 1,
+      "explanation": "Both produce the same long UU sound. 'uur' uses double-u in a closed syllable; 'u-ren' uses one 'u' in an open syllable. Spelling adapts, sound stays the same."
+    },
+    {
+      "q": "Which spelling rule decides if 'u' is short or long?",
+      "options": [
+        "Stress placement",
+        "Whether the syllable is closed (one consonant after = short) or open / has 'uu' (= long)",
+        "Position in the word",
+        "There's no rule — you just memorise it"
+      ],
+      "answer": 1,
+      "explanation": "Closed syllable + single u = SHORT (bus, kus, nummer). Open syllable + single u, OR double 'uu' = LONG (u-ren, muur, duur). Same rule as for a/e/o/i."
+    }
+  ]
+}

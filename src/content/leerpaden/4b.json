@@ -3,7 +3,7 @@
   "group": "4",
   "order": 9,
   "description": {
-    "en": "Schedules — talking about when shops and services are open."
+    "en": "Schedules — opening hours, train timetables, and booking appointments."
   },
   "rules": [
     {
@@ -14,7 +14,7 @@
         "nl": "Wanneer is de winkel open?",
         "en": "When is the shop open?"
       },
-      "difficulty": "easy",
+      "difficulty": "medium",
       "shortcut": "Open/gesloten + openingsuren. 'Wachten op' = to wait FOR (not on). 'Op welk spoor?' for trains.",
       "explanation": "Leerpad 4B is practical everyday language: shops, timetables, supermarkets, trains. You learn to ask about opening hours, navigate a supermarket, and understand train platform information. Many of these words you'll use every week.",
       "patterns": [
@@ -75,6 +75,29 @@
             "Kan je dat herhalen? (Can you repeat that?)",
             "de vacature [duh fah-kah-TUU-ruh] — the job vacancy",
             "Er is een vacature bij de supermarkt. (There is a vacancy at the supermarket.)"
+          ]
+        },
+        {
+          "rule": "Een afspraak maken — booking an appointment",
+          "examples": [
+            "Ik wil een afspraak. (I would like an appointment.)",
+            "Ik wil een afspraak om drie uur, alstublieft. (I would like an appointment at three o'clock, please.)",
+            "Ik wil een afspraak op donderdag om vier uur. (I would like an appointment on Thursday at four o'clock.)",
+            "Mijn naam is ___. Dat is ___-___-___. (Spell out the name letter by letter.)",
+            "Mijn geboortedatum is 19 november 1984. (My date of birth is...)",
+            "Mijn telefoonnummer is ___. (My phone number is...)",
+            "↳ Phone numbers in Belgian Dutch are spoken in pairs: 0474 — nul vier, vierenzeventig"
+          ]
+        },
+        {
+          "rule": "Openingsuren in praktijk — real opening hours",
+          "examples": [
+            "Bibliotheek: ma-do 10-18u · vrijdag tot 19u · zaterdag 10-16u · zondag gesloten",
+            "Zwembad: ma 18:30-20:00 · di 7:30-9u en 18-19:30 · wo 13-19:30",
+            "De winkel is open van ___ tot ___. (The shop is open from ___ to ___.)",
+            "De bibliotheek is gesloten op zondag en feestdagen. (Closed on Sundays and public holidays.)",
+            "Het sociaal huis: dagelijks afspraken 9-12u en 13-16u, behalve op vrijdag.",
+            "behalve [buh-HAL-vuh] — except · feestdag — public holiday"
           ]
         }
       ],
@@ -155,7 +178,188 @@
           "role": "B",
           "nl": "Nee, ik wacht maar vijf minuten. / Ja, soms een kwartier!",
           "en": "No, I only wait five minutes. / Yes, sometimes a quarter hour!"
+        },
+        {
+          "role": "A",
+          "nl": "Goedemiddag, ik wil een afspraak, alstublieft.",
+          "en": "Good afternoon, I would like an appointment, please."
+        },
+        {
+          "role": "B",
+          "nl": "Natuurlijk. Wat is uw naam?",
+          "en": "Of course. What is your name?"
+        },
+        {
+          "role": "A",
+          "nl": "Mijn naam is Tristan Findley. Dat is T-R-I-S-T-A-N, F-I-N-D-L-E-Y.",
+          "en": "My name is Tristan Findley. That is T-R-I-S-T-A-N, F-I-N-D-L-E-Y."
+        },
+        {
+          "role": "B",
+          "nl": "Bedankt. Wanneer wilt u komen?",
+          "en": "Thank you. When would you like to come?"
+        },
+        {
+          "role": "A",
+          "nl": "Op donderdag om vier uur, graag. Mijn telefoonnummer is nul vier, vierenzeventig...",
+          "en": "On Thursday at four o'clock, please. My phone number is zero four, seventy-four..."
         }
+      ],
+      "relatedRules": [
+        "lp3a_prep",
+        "lp4b_trein"
+      ]
+    },
+    {
+      "id": "lp4b_trein",
+      "order": 2,
+      "tag": "LEERPAD 4B · DE TREIN",
+      "title": {
+        "nl": "Hoe laat vertrekt de trein?",
+        "en": "Train timetables"
+      },
+      "difficulty": "medium",
+      "shortcut": "Three Q&A patterns: vertrekken (depart) · aankomen (arrive) · op welk spoor (which platform) · hoeveel kost (how much). Plus: 'om' for clock time, 'op' for the day.",
+      "explanation": "Belgian trains are central to daily life. You need four standard questions and answers to navigate any station. Notice the inversion in questions ('vertrekt de trein?' not 'de trein vertrekt?') and the separable verb 'aankomen' which splits in main clauses.",
+      "patterns": [
+        {
+          "rule": "Treinwoordjes — train vocabulary",
+          "examples": [
+            "de trein [duh trayn] — the train",
+            "de dienstregeling [duh DEENST-ray-khuh-ling] — the timetable",
+            "de bestemming [duh buh-STEM-ming] — the destination",
+            "het vertrek [huht fer-TREK] — the departure · vertrekken — to depart",
+            "de aankomst [duh AAN-komst] — the arrival · aankomen — to arrive (separable!)",
+            "het spoor [huht spohr] — the (railway) platform / track",
+            "het ticket / het kaartje — the ticket",
+            "kosten [KOS-tun] — to cost · kost — costs (3rd person)"
+          ]
+        },
+        {
+          "rule": "Vraag 1 — At what time does the train DEPART?",
+          "examples": [
+            "Hoe laat vertrekt de trein naar Brussel? (At what time does the train to Brussels depart?)",
+            "De trein naar Brussel vertrekt om elf uur vijfenveertig. (The train to Brussels departs at 11:45.)",
+            "De trein vertrekt om kwart voor twaalf. (The train departs at quarter to twelve.)",
+            "De trein vertrekt op één augustus om elf uur. (The train departs on the 1st of August at eleven o'clock.)",
+            "↳ Time written: 11:45 uur · Time spoken: 'elf uur, vijfenveertig'"
+          ]
+        },
+        {
+          "rule": "Vraag 2 — At what time does the train ARRIVE?",
+          "examples": [
+            "Hoe laat komt de trein in Brussel aan? (At what time does the train arrive in Brussels?)",
+            "De trein komt om twaalf uur vijftien in Brussel aan. (The train arrives in Brussels at 12:15.)",
+            "De trein komt om kwart over twaalf aan. (The train arrives at quarter past twelve.)",
+            "↳ 'aankomen' is SEPARABLE: 'aan' goes to the END of the main clause. 'De trein KOMT om 12:15 in Brussel AAN.'"
+          ]
+        },
+        {
+          "rule": "Vraag 3 — On which PLATFORM does it depart?",
+          "examples": [
+            "Op welk spoor vertrekt de trein? (On which platform does the train depart?)",
+            "De trein vertrekt op spoor 7. (The train departs from platform 7.)",
+            "De trein vertrekt op spoor drie. (The train departs from platform three.)",
+            "↳ 'op welk spoor' uses OP, not OM — spoor is a place, not a time."
+          ]
+        },
+        {
+          "rule": "Vraag 4 — How much does a ticket COST?",
+          "examples": [
+            "Hoeveel kost een ticket? (How much does a ticket cost?)",
+            "Een ticket kost vijfentwintig euro. (A ticket costs 25 euros.)",
+            "Een ticket kost achtendertig euro vijftig. (A ticket costs 38 euros 50.)",
+            "Een retourticket — a return ticket · enkele reis — one-way",
+            "↳ Money: 'euro' stays singular after a number — 'vijf euro', not 'vijf euros'."
+          ]
+        }
+      ],
+      "memory": "🧠 Four standard questions, all starting with the verb. Hoe laat VERTREKT...? · Hoe laat KOMT ... AAN? · Op welk SPOOR vertrekt...? · Hoeveel KOST...? Master these and you can use any Belgian station.",
+      "examples": [
+        {
+          "nl": "Hoe laat vertrekt de trein naar Dinant?",
+          "en": "At what time does the train to Dinant depart?"
+        },
+        {
+          "nl": "De trein naar Dinant vertrekt op één augustus om elf uur vijfenveertig.",
+          "en": "The train to Dinant departs on the 1st of August at 11:45."
+        },
+        {
+          "nl": "Hoe laat komt de trein in Dinant aan?",
+          "en": "At what time does the train arrive in Dinant?"
+        },
+        {
+          "nl": "De trein komt om dertien uur vijfenveertig in Dinant aan.",
+          "en": "The train arrives in Dinant at 13:45."
+        },
+        {
+          "nl": "Op welk spoor vertrekt de trein?",
+          "en": "On which platform does the train depart?"
+        },
+        {
+          "nl": "De trein vertrekt op spoor vijf.",
+          "en": "The train departs from platform five."
+        },
+        {
+          "nl": "Hoeveel kost een ticket?",
+          "en": "How much does a ticket cost?"
+        },
+        {
+          "nl": "Een ticket kost achtendertig euro vijftig.",
+          "en": "A ticket costs 38 euros 50."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Hoe laat vertrekt de trein naar Brussel?",
+          "en": "At what time does the train to Brussels depart?"
+        },
+        {
+          "role": "B",
+          "nl": "De trein naar Brussel vertrekt om twintig over twee 's middags.",
+          "en": "The train to Brussels departs at twenty past two in the afternoon."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat komt de trein in Brussel aan?",
+          "en": "At what time does the train arrive in Brussels?"
+        },
+        {
+          "role": "B",
+          "nl": "De trein komt om vijf voor drie 's middags in Brussel aan.",
+          "en": "The train arrives in Brussels at five to three in the afternoon."
+        },
+        {
+          "role": "A",
+          "nl": "Op welk spoor vertrekt de trein?",
+          "en": "On which platform does the train depart?"
+        },
+        {
+          "role": "B",
+          "nl": "De trein vertrekt op spoor drie.",
+          "en": "The train departs from platform three."
+        },
+        {
+          "role": "A",
+          "nl": "Hoeveel kost een ticket?",
+          "en": "How much does a ticket cost?"
+        },
+        {
+          "role": "B",
+          "nl": "Een ticket kost vijfentwintig euro. Enkele reis of retour?",
+          "en": "A ticket costs 25 euros. One-way or return?"
+        },
+        {
+          "role": "A",
+          "nl": "Een retourticket, alstublieft.",
+          "en": "A return ticket, please."
+        }
+      ],
+      "relatedRules": [
+        "separable",
+        "lp3a",
+        "lp3a_prep"
       ]
     }
   ]

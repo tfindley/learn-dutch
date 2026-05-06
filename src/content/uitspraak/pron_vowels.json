@@ -111,5 +111,9 @@
       "nl": "Lang — net als 'boom'. Open lettergreep: bo-men.",
       "en": "Long — same as 'boom'. Open syllable: bo-men."
     }
+  ],
+  "relatedRules": [
+    "pron_u_ou",
+    "spelling_plural"
   ]
 }
