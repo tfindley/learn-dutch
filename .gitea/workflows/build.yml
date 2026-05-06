@@ -4,9 +4,12 @@
 #
 # OVERVIEW
 # --------
-# Single-arch build targeting the x86_64 `docker` runner.
-# Pipeline: build image → test it → push to Gitea registry.
-# Running tests before pushing ensures a broken image is never published.
+# Tag-driven release pipeline.
+#   - Pushing a v* tag → one build that pushes :sha-<sha> + :<version> + :latest
+#   - schedule         → weekly Alpine-patch refresh of the latest tagged release
+#   - workflow_dispatch → manual rebuild (publishes from the dispatched ref)
+#
+# Pushes to `main` alone do NOT build. Cut a release by creating a v* tag.
 #
 # RUNNER
 # ------
@@ -31,19 +34,20 @@ name: Build Container Image
 
 on:
   push:
-    branches:
-      - main
     tags:
       - "v*"
     paths-ignore:
       - "*.md"
-  # Rebuild every Monday at 03:00 UTC.
-  # Even with no code changes, `apk upgrade --no-cache` in the Dockerfile
-  # means each rebuild picks up the latest Alpine security patches — keeping
-  # the published image fresh without any manual intervention.
+  # Weekly rebuild of the most recent tagged release. `apk upgrade --no-cache`
+  # in the Dockerfile picks up the latest Alpine security patches, so :latest
+  # stays fresh even between releases.
   schedule:
     - cron: '0 3 * * 1'
   workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.sha }}
+  cancel-in-progress: true
 
 jobs:
 
@@ -69,7 +73,28 @@ jobs:
       - name: Checkout
         uses: https://github.com/actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Need full history so the schedule trigger can resolve the latest v* tag.
+          fetch-depth: 0
+
+      # On a scheduled run, GITHUB_REF points at the default branch (main),
+      # but we want :latest to track the most recent v* tag — not whatever is
+      # currently on main. Resolve the latest tag and check it out so the rest
+      # of the pipeline behaves as if a tag push had happened.
+      - name: Resolve target ref (schedule → latest v* tag)
+        shell: sh
+        run: |
+          set -eu
+          if [ "${GITHUB_EVENT_NAME:-}" = "schedule" ]; then
+            LATEST=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+            if [ -z "$LATEST" ]; then
+              echo "No v* tag found; aborting scheduled rebuild."
+              exit 1
+            fi
+            echo "Scheduled rebuild — checking out tag: ${LATEST}"
+            git checkout "$LATEST"
+            echo "BUILD_REF=refs/tags/${LATEST}"   >> "$GITHUB_ENV"
+            echo "BUILD_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          fi
 
       - name: Log in to registry
         env:
@@ -88,14 +113,19 @@ jobs:
       - name: Build image
         shell: sh
         env:
-          CI_REGISTRY_HOST: ${{ secrets.CI_REGISTRY_HOST }}
-          REPO_OWNER:       ${{ github.repository_owner }}
-          REPO_NAME:        ${{ github.event.repository.name }}
-          COMMIT_SHA:       ${{ github.sha }}
-          CA_CERT_URL:      ${{ secrets.CA_CERT_URL }}
-          VITE_GA_ID:       ${{ secrets.VITE_GA_ID }}
+          CI_REGISTRY_HOST:    ${{ secrets.CI_REGISTRY_HOST }}
+          REPO_OWNER:          ${{ github.repository_owner }}
+          REPO_NAME:           ${{ github.event.repository.name }}
+          GITHUB_SHA_FALLBACK: ${{ github.sha }}
+          GITHUB_REF_FALLBACK: ${{ github.ref }}
+          CA_CERT_URL:         ${{ secrets.CA_CERT_URL }}
+          VITE_GA_ID:          ${{ secrets.VITE_GA_ID }}
         run: |
           set -eu
+
+          # BUILD_SHA / BUILD_REF are set by the Resolve step on schedule runs.
+          COMMIT_SHA="${BUILD_SHA:-$GITHUB_SHA_FALLBACK}"
+          REF="${BUILD_REF:-$GITHUB_REF_FALLBACK}"
 
           IMAGE_BASE=$(printf "%s/%s/%s" "$CI_REGISTRY_HOST" "$REPO_OWNER" "$REPO_NAME" \
             | tr '[:upper:]' '[:lower:]')
@@ -103,7 +133,6 @@ jobs:
           SHA_SHORT=$(echo "$COMMIT_SHA" | cut -c1-12)
           SHA_TAG="${IMAGE_BASE}:sha-${SHA_SHORT}"
 
-          REF="${GITHUB_REF:-}"
           if echo "$REF" | grep -q '^refs/tags/v'; then
             APP_VERSION="${REF#refs/tags/}"
           else
@@ -162,12 +191,14 @@ jobs:
       # -----------------------------------------------------------------------
       # PUSH
       # -----------------------------------------------------------------------
-      # Push the sha-specific tag and update :latest.
-      # On a version tag push, also publish the version tag.
+      # Push :sha-<sha> on every run.
+      # On a v* tag (push event OR schedule-resolved): also push :<version> and
+      # update :latest. workflow_dispatch from a non-tag ref publishes only
+      # :sha-<sha> — :latest is reserved for tagged releases.
       - name: Push image
         shell: sh
         env:
-          COMMIT_SHA: ${{ github.sha }}
+          GITHUB_REF_FALLBACK: ${{ github.ref }}
         run: |
           set -eu
           SHA_TAG=$(cat /tmp/image_tag)
@@ -176,14 +207,14 @@ jobs:
           docker push "${SHA_TAG}"
           echo "Pushed: ${SHA_TAG}"
 
-          docker tag "${SHA_TAG}" "${IMAGE_BASE}:latest"
-          docker push "${IMAGE_BASE}:latest"
-          echo "Pushed: ${IMAGE_BASE}:latest"
-
-          REF="${GITHUB_REF:-}"
+          REF="${BUILD_REF:-$GITHUB_REF_FALLBACK}"
           if echo "$REF" | grep -q '^refs/tags/v'; then
             VERSION="${REF#refs/tags/}"
             docker tag "${SHA_TAG}" "${IMAGE_BASE}:${VERSION}"
             docker push "${IMAGE_BASE}:${VERSION}"
             echo "Pushed: ${IMAGE_BASE}:${VERSION}"
+
+            docker tag "${SHA_TAG}" "${IMAGE_BASE}:latest"
+            docker push "${IMAGE_BASE}:latest"
+            echo "Pushed: ${IMAGE_BASE}:latest"
           fi

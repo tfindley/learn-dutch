@@ -243,7 +243,7 @@ After adding content, run `npm run build` to confirm the new file is picked up a
 
 ## CI/CD
 
-Two pipelines run in parallel on every push to `main` and version tags:
+Two tag-driven pipelines run in parallel — pushing a `v*` tag triggers ONE build per pipeline that publishes `:sha-<sha>`, `:<version>` and `:latest`. Pull requests run build + test only (no push). Pushes to `main` alone do not build — cut a release by creating a tag.
 
 | Pipeline | File | Registry |
 | --- | --- | --- |
