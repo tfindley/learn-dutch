@@ -36,19 +36,33 @@ const _testFiles = import.meta.glob('../content/tests/*.json', { eager: true });
 export const tests = loadSorted(_testFiles);
 
 // ── Lookups ─────────────────────────────────────────────────────────────────
-const allGrammarRules = [...referenceRules, ...uitspraakRules];
+const _ruleIndex = new Map();
+for (const r of leerpaden) _ruleIndex.set(r.id, r);
+for (const r of referenceRules) _ruleIndex.set(r.id, r);
+for (const r of uitspraakRules) _ruleIndex.set(r.id, r);
+
+export function getRuleById(id) {
+  return _ruleIndex.get(id);
+}
 
 export function getLeerpadRuleById(id) {
-  return leerpaden.find(r => r.id === id);
+  const r = _ruleIndex.get(id);
+  return r?.kind === 'leerpad' ? r : undefined;
 }
 
 export function getGrammarRuleById(id) {
-  return allGrammarRules.find(r => r.id === id);
+  const r = _ruleIndex.get(id);
+  return (r?.kind === 'grammar' || r?.kind === 'uitspraak') ? r : undefined;
 }
 
-export function getRuleById(id) {
-  return getLeerpadRuleById(id) ?? getGrammarRuleById(id);
-}
+const _routeFor = rule => {
+  switch (rule.kind) {
+    case 'leerpad':   return `/leerpaden/${rule.group}/${rule.id}`;
+    case 'grammar':   return `/grammar/reference/${rule.id}`;
+    case 'uitspraak': return `/grammar/uitspraak/${rule.id}`;
+    default:          return null;
+  }
+};
 
 export function getLeerpadSectionById(id) {
   return leerpadSections.find(s => s.id.toLowerCase() === id.toLowerCase());
@@ -75,14 +89,7 @@ export function getTestById(id) {
 
 export function getRelatedRules(ids = []) {
   return ids
-    .map(id => {
-      const lp = leerpaden.find(r => r.id === id);
-      if (lp) return { rule: lp, path: `/leerpaden/${lp.group}/${lp.id}`, kindLabel: `Leerpad ${lp.leerpad}` };
-      const gr = referenceRules.find(r => r.id === id);
-      if (gr) return { rule: gr, path: `/grammar/reference/${gr.id}`, kindLabel: 'Grammar' };
-      const uit = uitspraakRules.find(r => r.id === id);
-      if (uit) return { rule: uit, path: `/grammar/uitspraak/${uit.id}`, kindLabel: 'Uitspraak' };
-      return null;
-    })
-    .filter(Boolean);
+    .map(id => _ruleIndex.get(id))
+    .filter(rule => rule && _routeFor(rule))
+    .map(rule => ({ rule, path: _routeFor(rule), kind: rule.kind }));
 }

@@ -41,10 +41,10 @@ on:
       - "*.md"
   workflow_dispatch:
 
-# Belt-and-braces dedupe: if two events ever target the same SHA, the
-# second cancels the first.
+# Cancel superseded runs on the same workflow + ref (e.g. multiple commits
+# pushed to the same PR branch — only the latest needs to finish).
 concurrency:
-  group: build-${{ github.sha }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:

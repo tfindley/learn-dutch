@@ -2,6 +2,12 @@ import { Link } from 'react-router-dom';
 import { getRelatedRules } from '../lib/content';
 import { t } from '../lib/i18n';
 
+const KIND_LABEL = {
+  leerpad:   rule => `Leerpad ${rule.leerpad}`,
+  grammar:   ()   => 'Grammar',
+  uitspraak: ()   => 'Uitspraak',
+};
+
 export default function RelatedRules({ ids }) {
   const related = getRelatedRules(ids);
   if (related.length === 0) return null;
@@ -12,7 +18,7 @@ export default function RelatedRules({ ids }) {
         See also
       </h2>
       <div className="space-y-2">
-        {related.map(({ rule, path, kindLabel }) => (
+        {related.map(({ rule, path, kind }) => (
           <Link
             key={rule.id}
             to={path}
@@ -20,7 +26,9 @@ export default function RelatedRules({ ids }) {
           >
             <div className="flex items-center justify-between gap-3">
               <div className="min-w-0">
-                <div className="text-xs font-mono text-gray-400 dark:text-gray-500 mb-0.5">{kindLabel}</div>
+                <div className="text-xs font-mono text-gray-400 dark:text-gray-500 mb-0.5">
+                  {KIND_LABEL[kind]?.(rule) ?? kind}
+                </div>
                 <div className="text-sm font-medium text-gray-900 dark:text-gray-100 truncate">
                   {t(rule.title, 'nl')}
                 </div>
