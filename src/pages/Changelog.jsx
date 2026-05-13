@@ -2,6 +2,23 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.4.0',
+    date: '2026-05-13',
+    added: [
+      'Four major new grammar rules — Autonome zin (sentence types: hoofdzin / bijzin / autonomous vs non-autonomous), Voornaamwoorden (full pronoun reference: personal subject + object, possessive, demonstrative, reflexive, formal u, tricky cases), Voegwoorden (conjunctions in depth: coordinating vs subordinating, the WANT-vs-OMDAT pair, ALS vs WANNEER), and morgen vs \'s morgens (when each form applies, with a decision table)',
+      'Inversion now has a "Multiple information groups" pattern — a single sentence (Ik loop op zaterdag om 9 uur in het park met mijn vrienden) shown rearranged four ways plus the Belgian native compounded form, six anatomy tables in total',
+      'Modal rule got a major depth pass — full conjugation tables for all five modals, anatomy-table examples, the polite \'wil graag\' pattern, and a prominent ⚠ trap block on mag-niet vs moet-niet (must-not vs don\'t-have-to). The No-Smoking-sign worked example is included',
+      'New \'hoeven niet\' pattern (the unambiguous way to say "don\'t have to") added to the modal rule',
+      'Vocabulary: lachen, sluiten, gezond eten in dailyactivities; deur, raam in nouns',
+    ],
+    changed: [
+      'Cross-links wired between the four new grammar rules and ~15 existing rules so each new concept is discoverable from where you\'d expect to land',
+    ],
+    fixed: [
+      'Modal rule had an actual mistranslation — "Je moet dat niet doen." was glossed as "You mustn\'t do that." The Dutch sentence actually means "you don\'t have to do that", the opposite of mustn\'t. Corrected, and the broader trap is now its own pattern',
+    ],
+  },
+  {
     version: '2.3.0',
     date: '2026-05-13',
     added: [

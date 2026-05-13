@@ -1,0 +1,279 @@
+{
+  "kind": "grammar",
+  "id": "pronouns",
+  "order": 1.5,
+  "tag": "GRAMMAR · PRONOUNS",
+  "title": {
+    "nl": "Voornaamwoorden",
+    "en": "Pronouns — personal, possessive, demonstrative, reflexive"
+  },
+  "difficulty": "medium",
+  "shortcut": "Pronouns replace nouns. Dutch has six kinds you'll use daily: subject form (ik / jij), object form (mij / jou), possessive (mijn / jouw), demonstrative (dit / dat / deze / die), reflexive (me / je / zich), and formal (u).",
+  "explanation": "Pronouns are the small words that stand in for nouns you've already mentioned — 'Jan is happy. He smiles.' Dutch has the same categories as English, but with one extra complication: pronouns change form depending on what JOB they're doing in the sentence (subject? object? possessive?). This rule gives you the full tables for each type, with English equivalents alongside.",
+  "patterns": [
+    {
+      "rule": "1. Personal pronouns — SUBJECT form (doing the action)",
+      "examples": [
+        "Used when the pronoun is the SUBJECT of the sentence (the doer of the verb).",
+        {
+          "caption": "Singular — I / you / he / she / it",
+          "labels":  ["1st sing.", "2nd informal", "2nd formal", "3rd masc.", "3rd fem.",      "3rd neuter"],
+          "words":   ["ik",        "jij / je",     "u",          "hij",       "zij / ze",     "het"],
+          "english": ["I",         "you",          "you (formal)", "he",      "she",          "it"]
+        },
+        {
+          "caption": "Plural — we / you (plural) / they",
+          "labels":  ["1st plural", "2nd plural", "3rd plural"],
+          "words":   ["wij / we",   "jullie",     "zij / ze"],
+          "english": ["we",         "you (pl)",   "they"]
+        },
+        "↳ 'jij' / 'wij' / 'zij' are the FULL forms (stressed). 'je' / 'we' / 'ze' are the REDUCED forms (unstressed) — more common in everyday speech.",
+        "⚠ 'zij/ze' is both 'she' AND 'they' — context disambiguates. The verb agreement tells you which: 'zij IS' = she is, 'zij ZIJN' = they are."
+      ]
+    },
+    {
+      "rule": "2. Personal pronouns — OBJECT form (receiving the action)",
+      "examples": [
+        "Used when the pronoun is the OBJECT — receives the action or comes after a preposition. Different forms from the subject pronouns above.",
+        {
+          "caption": "Singular object pronouns",
+          "labels":  ["1st sing.", "2nd informal", "2nd formal", "3rd masc.", "3rd fem.",     "3rd neuter"],
+          "words":   ["mij / me",  "jou / je",     "u",          "hem",       "haar",         "het"],
+          "english": ["me",        "you",          "you (formal)", "him",     "her",          "it"]
+        },
+        {
+          "caption": "Plural object pronouns",
+          "labels":  ["1st plural", "2nd plural", "3rd plural"],
+          "words":   ["ons",        "jullie",     "hen / hun / ze"],
+          "english": ["us",         "you (pl)",   "them"]
+        },
+        "↳ 'hen' = direct object 'them' (Ik zie hen). 'hun' = indirect object 'to them' (Ik geef hun het boek). In casual Belgian speech this distinction is often dropped — 'ze' covers both.",
+        {
+          "caption": "Same sentence with subject vs object pronoun visible",
+          "labels":  ["SUBJECT pronoun", "VERB",  "OBJECT pronoun"],
+          "words":   ["Ik",              "zie",   "hem."],
+          "english": ["I (subject)",     "see",   "him (object)"]
+        }
+      ]
+    },
+    {
+      "rule": "3. Possessive pronouns — whose is it?",
+      "examples": [
+        "Used to show OWNERSHIP. Always sits BEFORE the noun they modify, like an adjective.",
+        {
+          "caption": "Possessive pronouns — singular owners",
+          "labels":  ["my",   "your (informal)", "your (formal)", "his",   "her",   "its"],
+          "words":   ["mijn", "jouw / je",       "uw",            "zijn",  "haar",  "zijn"],
+          "english": ["my",   "your",            "your (formal)", "his",   "her",   "its"]
+        },
+        {
+          "caption": "Possessive pronouns — plural owners",
+          "labels":  ["our",         "your (pl)", "their"],
+          "words":   ["ons / onze",  "jullie",    "hun"],
+          "english": ["our",         "your",      "their"]
+        },
+        "↳ 'ons' goes with het-words, 'onze' goes with de-words: 'ons huis' (our house, het) vs 'onze tafel' (our table, de).",
+        "⚠ 'haar' and 'zijn' look the same as 'her' and 'his/its' in English — but Dutch 'zijn' is ALSO the infinitive of 'to be'. Context tells you which.",
+        {
+          "caption": "Possessive pronoun in a full sentence",
+          "labels":  ["POSS",  "NOUN", "VERB",  "PLACE"],
+          "words":   ["Mijn",  "zus",  "woont", "in Engeland."],
+          "english": ["My",    "sister","lives","in England."]
+        }
+      ]
+    },
+    {
+      "rule": "4. Demonstrative pronouns — this / that / these / those",
+      "examples": [
+        "Used to POINT — to a specific thing nearby (this/these) or further away (that/those). Dutch picks the form based on de/het AND singular/plural.",
+        {
+          "caption": "Demonstratives — near vs far × de/het × singular/plural",
+          "labels":  ["", "DE-WORD singular", "HET-WORD singular", "PLURAL (all de)"],
+          "words":   ["NEAR (this/these)", "deze", "dit",  "deze"],
+          "english": ["",                  "this", "this", "these"]
+        },
+        {
+          "caption": "Demonstratives — far",
+          "labels":  ["", "DE-WORD singular", "HET-WORD singular", "PLURAL (all de)"],
+          "words":   ["FAR (that/those)", "die",  "dat",  "die"],
+          "english": ["",                 "that", "that", "those"]
+        },
+        "Examples in action:",
+        "deze auto (this car) — auto is a de-word, near",
+        "dit huis (this house) — huis is a het-word, near",
+        "deze huizen (these houses) — plural, all 'deze'",
+        "die auto (that car) — far, de-word",
+        "dat huis (that house) — far, het-word",
+        "die huizen (those houses) — far, plural",
+        "↳ Mnemonic: 'd-T' words (dit, dat) go with 'h-T' words (het). 'd-E' words (deze, die) go with 'd-E' words (de) and all plurals."
+      ]
+    },
+    {
+      "rule": "5. Reflexive pronouns — when the action is on yourself",
+      "examples": [
+        "Used with reflexive verbs (zich wassen, zich vergissen, zich herinneren). The pronoun matches the subject and means '-self' / 'myself' / 'himself'.",
+        {
+          "caption": "Reflexive pronouns — full set",
+          "labels":  ["ik",      "jij / je", "u",   "hij / zij / het", "wij",  "jullie",       "zij"],
+          "words":   ["me / mij","je / jou", "zich","zich",            "ons",  "je / jullie",  "zich"],
+          "english": ["myself",  "yourself", "yourself (formal)", "him-/her-/itself", "ourselves", "yourselves", "themselves"]
+        },
+        {
+          "caption": "'I wash myself.' — full reflexive sentence",
+          "labels":  ["SUBJECT", "VERB", "REFLEXIVE"],
+          "words":   ["Ik",      "was",  "me."],
+          "english": ["I",       "wash", "myself."]
+        },
+        {
+          "caption": "Same with 'hij' — note the form change to 'zich'",
+          "labels":  ["SUBJECT", "VERB", "REFLEXIVE"],
+          "words":   ["Hij",     "wast", "zich."],
+          "english": ["He",      "washes","himself."]
+        },
+        "↳ Only 3rd person (hij/zij/het, zij plural) and formal 'u' use 'zich'. Everyone else uses an object-pronoun-like form (me / je / ons / je)."
+      ]
+    },
+    {
+      "rule": "6. Formal U — when to use it and what it covers",
+      "examples": [
+        "'U' is the formal 'you' — used with strangers, elders, authority figures, in customer-service settings, and in writing. Belgian Dutch leans on it more than NL Dutch.",
+        "'U' covers both subject AND object roles: 'U bent welkom' (you are welcome) / 'Ik help u' (I help you).",
+        "Possessive is 'uw': 'Uw boek' (your book) / 'Uw paspoort, alstublieft' (your passport, please).",
+        "Reflexive with u is 'zich': 'Wast u zich?' (Are you washing yourself?).",
+        {
+          "caption": "Formal 'u' across the four jobs",
+          "labels":  ["SUBJECT", "OBJECT", "POSSESSIVE", "REFLEXIVE"],
+          "words":   ["u",       "u",      "uw",         "zich"],
+          "english": ["you",     "you",    "your",       "yourself"]
+        },
+        "↳ When in doubt in Belgium, use 'u' with anyone you don't know well. Switching to 'jij' should be invited by the other person."
+      ]
+    },
+    {
+      "rule": "7. Tricky cases — 'ze' vs 'zij', 'haar' vs 'haar', 'je' everywhere",
+      "examples": [
+        "'ze' (unstressed) vs 'zij' (stressed, used for emphasis): 'Ze komt vandaag' (she's coming today) vs 'ZIJ komt vandaag, niet hij' (SHE's coming today, not him).",
+        "'haar' has two meanings: 'her' (object pronoun + possessive). Context separates them: 'Ik zie haar' (I see her — object) vs 'haar boek' (her book — possessive).",
+        "'je' is the busiest pronoun in Dutch: subject (jij), object (jou), possessive (jouw), reflexive (je/jou) — ALL can reduce to 'je'. Verb form usually disambiguates.",
+        {
+          "caption": "'je' wearing four hats in four sentences",
+          "labels":  ["ROLE",     "EXAMPLE",            "ENGLISH"],
+          "words":   ["Subject",  "Je komt morgen.",    "You come tomorrow."],
+          "english": ["",         "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["ROLE",     "EXAMPLE",            "ENGLISH"],
+          "words":   ["Object",   "Ik zie je.",         "I see you."],
+          "english": ["",         "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["ROLE",     "EXAMPLE",            "ENGLISH"],
+          "words":   ["Possessive","Je boek ligt hier.","Your book is here."],
+          "english": ["",         "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["ROLE",     "EXAMPLE",            "ENGLISH"],
+          "words":   ["Reflexive","Was je!",            "Wash yourself!"],
+          "english": ["",         "",                   ""]
+        },
+        "↳ Don't overthink 'je' — listen for the verb form and sentence shape, and the role is obvious."
+      ]
+    }
+  ],
+  "memory": "🧠 Six pronoun types: SUBJECT (ik, jij, hij…), OBJECT (mij, jou, hem…), POSSESSIVE (mijn, jouw, zijn…), DEMONSTRATIVE (dit/dat/deze/die — split by de/het/plural), REFLEXIVE (me/je/zich…), and FORMAL 'u' (covers subject + object). 'jij/je', 'wij/we', 'zij/ze' are stressed/unstressed pairs of the same pronoun.",
+  "examples": [
+    {
+      "caption": "Subject pronoun → object pronoun in one sentence",
+      "labels":  ["SUBJECT", "VERB", "OBJECT"],
+      "words":   ["Ik",      "zie",  "hem."],
+      "english": ["I",       "see",  "him."]
+    },
+    {
+      "caption": "Possessive — 'My sister lives in England.'",
+      "labels":  ["POSS",  "NOUN", "VERB",  "PLACE"],
+      "words":   ["Mijn",  "zus",  "woont", "in Engeland."],
+      "english": ["My",    "sister","lives","in England."]
+    },
+    {
+      "caption": "Demonstrative — 'This book is good.'",
+      "labels":  ["DEMONSTRATIVE", "NOUN", "VERB", "ADJECTIVE"],
+      "words":   ["Dit",           "boek", "is",   "goed."],
+      "english": ["This",          "book", "is",   "good."]
+    },
+    {
+      "caption": "Reflexive — 'He washes himself.'",
+      "labels":  ["SUBJECT", "VERB",   "REFLEXIVE"],
+      "words":   ["Hij",     "wast",   "zich."],
+      "english": ["He",      "washes", "himself."]
+    },
+    {
+      "caption": "Formal — 'Can I help you?'",
+      "labels":  ["MODAL", "SUBJECT", "OBJECT (formal)", "INFINITIVE"],
+      "words":   ["Kan",   "ik",      "u",                "helpen?"],
+      "english": ["Can",   "I",       "you",              "to help?"]
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'ik' en 'mij'?",
+      "en": "What's the difference between 'ik' and 'mij'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Ik' is subject — de doener van de actie. 'Mij' is object — degene die de actie ondergaat. 'Ik zie hem' (subject) vs 'Hij ziet mij' (object).",
+      "en": "'Ik' is subject — the doer of the action. 'Mij' is object — the receiver. 'Ik zie hem' vs 'Hij ziet mij'."
+    },
+    {
+      "role": "A",
+      "nl": "Welk bezittelijk voornaamwoord bij 'huis'?",
+      "en": "Which possessive pronoun with 'huis'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Huis' is een het-woord, dus 'ons huis' (niet 'onze huis'). 'Onze' gaat met de-woorden: 'onze tafel'.",
+      "en": "'Huis' is a het-word, so 'ons huis' (not 'onze huis'). 'Onze' goes with de-words: 'onze tafel'."
+    },
+    {
+      "role": "A",
+      "nl": "Wanneer gebruik je 'die' en wanneer 'dat'?",
+      "en": "When do you use 'die' and when 'dat'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Die' bij de-woorden en bij meervoud: 'die auto', 'die boeken'. 'Dat' bij het-woorden enkelvoud: 'dat huis'. Beide betekenen 'that/those'.",
+      "en": "'Die' with de-words and plurals. 'Dat' with het-word singulars. Both mean 'that/those'."
+    },
+    {
+      "role": "A",
+      "nl": "Vertaal: 'I wash myself every morning.'",
+      "en": "Translate: 'I wash myself every morning.'"
+    },
+    {
+      "role": "B",
+      "nl": "'Ik was me 's morgens.' — 'me' is het reflexief pronomen voor 'ik'.",
+      "en": "'Ik was me 's morgens.' — 'me' is the reflexive pronoun for 'ik'."
+    },
+    {
+      "role": "A",
+      "nl": "Met wie gebruik je 'u' in België?",
+      "en": "Whom do you use 'u' with in Belgium?"
+    },
+    {
+      "role": "B",
+      "nl": "Met onbekenden, ouderen, klanten, leerkrachten — iedereen die je niet goed kent. Beter te formeel dan te informeel.",
+      "en": "With strangers, elders, customers, teachers — anyone you don't know well. Better too formal than too informal."
+    }
+  ],
+  "relatedRules": [
+    "terms_words",
+    "articles",
+    "diminutives"
+  ],
+  "relatedWoordjes": [
+    "pronouns"
+  ]
+}

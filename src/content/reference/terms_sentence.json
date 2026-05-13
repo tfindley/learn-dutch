@@ -96,27 +96,90 @@
         "  Position 3+ = the rest of the sentence — subject (if not at 1), objects, information, infinitives at the end.",
         {
           "caption": "Default order — subject at position 1",
-          "labels":  ["POS 1 — SUBJECT", "POS 2 — VERB", "POS 3",   "POS 4"],
-          "words":   ["Ik",              "werk",         "vandaag", "thuis"],
-          "english": ["I",               "work",         "today",   "at home"]
+          "labels": [
+            "POS 1 — SUBJECT",
+            "POS 2 — VERB",
+            "POS 3",
+            "POS 4"
+          ],
+          "words": [
+            "Ik",
+            "werk",
+            "vandaag",
+            "thuis"
+          ],
+          "english": [
+            "I",
+            "work",
+            "today",
+            "at home"
+          ]
         },
         {
           "caption": "Time at position 1 → inversion",
-          "labels":  ["POS 1 — TIME", "POS 2 — VERB", "POS 3 — SUBJECT", "POS 4"],
-          "words":   ["Vandaag",      "werk",         "ik",              "thuis"],
-          "english": ["Today",        "work",         "I",               "at home"]
+          "labels": [
+            "POS 1 — TIME",
+            "POS 2 — VERB",
+            "POS 3 — SUBJECT",
+            "POS 4"
+          ],
+          "words": [
+            "Vandaag",
+            "werk",
+            "ik",
+            "thuis"
+          ],
+          "english": [
+            "Today",
+            "work",
+            "I",
+            "at home"
+          ]
         },
         {
           "caption": "Question word at position 1 → inversion",
-          "labels":  ["POS 1 — WH-WORD", "POS 2 — VERB", "POS 3 — SUBJECT", "POS 4"],
-          "words":   ["Wanneer",         "komt",         "hij",             "thuis"],
-          "english": ["When",            "comes",        "he",              "home?"]
+          "labels": [
+            "POS 1 — WH-WORD",
+            "POS 2 — VERB",
+            "POS 3 — SUBJECT",
+            "POS 4"
+          ],
+          "words": [
+            "Wanneer",
+            "komt",
+            "hij",
+            "thuis"
+          ],
+          "english": [
+            "When",
+            "comes",
+            "he",
+            "home?"
+          ]
         },
         {
           "caption": "Modal at position 2 → infinitive closes the clause",
-          "labels":  ["POS 1 — TIME", "POS 2 — MODAL", "POS 3 — SUBJ", "POS 4", "END — INFINITIVE"],
-          "words":   ["Vandaag",      "wil",           "ik",           "thuis", "werken"],
-          "english": ["Today",        "want",          "I",            "home",  "to work"]
+          "labels": [
+            "POS 1 — TIME",
+            "POS 2 — MODAL",
+            "POS 3 — SUBJ",
+            "POS 4",
+            "END — INFINITIVE"
+          ],
+          "words": [
+            "Vandaag",
+            "wil",
+            "ik",
+            "thuis",
+            "werken"
+          ],
+          "english": [
+            "Today",
+            "want",
+            "I",
+            "home",
+            "to work"
+          ]
         },
         "→ Inversion in full: [[inversion]]."
       ]
@@ -129,15 +192,45 @@
         "In a MAIN clause, the two parts SPLIT — the base verb sits at position 2, the prefix goes to the END of the clause.",
         {
           "caption": "Default order — separable verb 'opstaan' splits",
-          "labels":  ["POS 1 — SUBJECT", "POS 2 — VERB", "POS 3 — TIME",   "END — PREFIX"],
-          "words":   ["Stefaan",         "staat",        "om zeven uur",   "op"],
-          "english": ["Stefaan",         "gets",         "at seven",       "up"]
+          "labels": [
+            "POS 1 — SUBJECT",
+            "POS 2 — VERB",
+            "POS 3 — TIME",
+            "END — PREFIX"
+          ],
+          "words": [
+            "Stefaan",
+            "staat",
+            "om zeven uur",
+            "op"
+          ],
+          "english": [
+            "Stefaan",
+            "gets",
+            "at seven",
+            "up"
+          ]
         },
         {
           "caption": "Under inversion — the split STAYS",
-          "labels":  ["POS 1 — TIME",  "POS 2 — VERB", "POS 3 — SUBJECT", "END — PREFIX"],
-          "words":   ["Om zeven uur",  "staat",        "Stefaan",         "op"],
-          "english": ["At seven",      "gets",         "Stefaan",         "up"]
+          "labels": [
+            "POS 1 — TIME",
+            "POS 2 — VERB",
+            "POS 3 — SUBJECT",
+            "END — PREFIX"
+          ],
+          "words": [
+            "Om zeven uur",
+            "staat",
+            "Stefaan",
+            "op"
+          ],
+          "english": [
+            "At seven",
+            "gets",
+            "Stefaan",
+            "up"
+          ]
         },
         "→ Full separable-verb rules: [[separable]]."
       ]
@@ -159,33 +252,120 @@
   "examples": [
     {
       "caption": "Default order — subject first",
-      "labels":  ["SUBJECT (pos 1)", "VERB (pos 2)", "TIME INFO", "PLACE INFO"],
-      "words":   ["Ik",              "werk",         "vandaag",   "thuis"],
-      "english": ["I",               "work",         "today",     "at home"]
+      "labels": [
+        "SUBJECT (pos 1)",
+        "VERB (pos 2)",
+        "TIME INFO",
+        "PLACE INFO"
+      ],
+      "words": [
+        "Ik",
+        "werk",
+        "vandaag",
+        "thuis"
+      ],
+      "english": [
+        "I",
+        "work",
+        "today",
+        "at home"
+      ]
     },
     {
       "caption": "Inversion — time fronted",
-      "labels":  ["TIME INFO (pos 1)", "VERB (pos 2)", "SUBJECT (pos 3)", "PLACE INFO"],
-      "words":   ["Vandaag",           "werk",         "ik",              "thuis"],
-      "english": ["Today",             "work",         "I",               "at home"]
+      "labels": [
+        "TIME INFO (pos 1)",
+        "VERB (pos 2)",
+        "SUBJECT (pos 3)",
+        "PLACE INFO"
+      ],
+      "words": [
+        "Vandaag",
+        "werk",
+        "ik",
+        "thuis"
+      ],
+      "english": [
+        "Today",
+        "work",
+        "I",
+        "at home"
+      ]
     },
     {
       "caption": "Separable verb under inversion — prefix at the END",
-      "labels":  ["TIME INFO (pos 1)", "VERB (pos 2)", "SUBJECT (pos 3)", "PREFIX (end)"],
-      "words":   ["Om zeven uur",      "staat",        "Stefaan",         "op"],
-      "english": ["At seven",          "gets",         "Stefaan",         "up"]
+      "labels": [
+        "TIME INFO (pos 1)",
+        "VERB (pos 2)",
+        "SUBJECT (pos 3)",
+        "PREFIX (end)"
+      ],
+      "words": [
+        "Om zeven uur",
+        "staat",
+        "Stefaan",
+        "op"
+      ],
+      "english": [
+        "At seven",
+        "gets",
+        "Stefaan",
+        "up"
+      ]
     },
     {
       "caption": "Modal sentence — infinitive at the END",
-      "labels":  ["SUBJECT", "MODAL (pos 2)", "ADVERB", "DIRECT OBJECT", "INFINITIVE (end)"],
-      "words":   ["Ik",      "wil",           "graag",  "een boek",      "lezen"],
-      "english": ["I",       "want",          "gladly", "a book",        "to read"]
+      "labels": [
+        "SUBJECT",
+        "MODAL (pos 2)",
+        "ADVERB",
+        "DIRECT OBJECT",
+        "INFINITIVE (end)"
+      ],
+      "words": [
+        "Ik",
+        "wil",
+        "graag",
+        "een boek",
+        "lezen"
+      ],
+      "english": [
+        "I",
+        "want",
+        "gladly",
+        "a book",
+        "to read"
+      ]
     },
     {
       "caption": "Main clause + subclause — verb 'ben' kicked to the END after 'omdat'",
-      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "MAIN — PLACE", "CONJ",     "SUB — SUBJ", "SUB — ADJ", "SUB — VERB"],
-      "words":   ["Ik",          "ga",          "naar huis",    "omdat",    "ik",         "moe",       "ben"],
-      "english": ["I",           "go",          "home",         "because",  "I",          "tired",     "am"],
+      "labels": [
+        "MAIN — SUBJ",
+        "MAIN — VERB",
+        "MAIN — PLACE",
+        "CONJ",
+        "SUB — SUBJ",
+        "SUB — ADJ",
+        "SUB — VERB"
+      ],
+      "words": [
+        "Ik",
+        "ga",
+        "naar huis",
+        "omdat",
+        "ik",
+        "moe",
+        "ben"
+      ],
+      "english": [
+        "I",
+        "go",
+        "home",
+        "because",
+        "I",
+        "tired",
+        "am"
+      ],
       "note": "Main clause keeps V2 (verb at pos 2). Subclause sends its conjugated verb to the END."
     }
   ],
@@ -246,6 +426,8 @@
     "inversion",
     "wordorder",
     "separable",
-    "modal"
+    "modal",
+    "autonome_zin",
+    "conjunctions"
   ]
 }

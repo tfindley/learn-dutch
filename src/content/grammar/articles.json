@@ -115,6 +115,7 @@
   ],
   "relatedRules": [
     "terms_words",
-    "diminutives"
+    "diminutives",
+    "pronouns"
   ]
 }

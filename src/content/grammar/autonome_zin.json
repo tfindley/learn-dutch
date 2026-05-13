@@ -1,0 +1,217 @@
+{
+  "kind": "grammar",
+  "id": "autonome_zin",
+  "order": 2.3,
+  "tag": "GRAMMAR · SENTENCE TYPES",
+  "title": {
+    "nl": "Autonome zin",
+    "en": "Autonomous (main) vs non-autonomous (subordinate) sentences"
+  },
+  "difficulty": "medium",
+  "shortcut": "An autonomous sentence (autonome zin / hoofdzin) can stand alone. A non-autonomous sentence (niet-autonome zin / bijzin) depends on another clause AND sends its verb to the end.",
+  "explanation": "Belgian Dutch teachers split every clause into two types. An autonomous sentence (also called hoofdzin) makes sense on its own — it has a subject, an action, and information, in the V2 order you already know. A non-autonomous sentence (also called bijzin) is glued onto a main clause by a conjunction (omdat, dat, als, wanneer, …) and follows a completely different rule: the conjugated verb is kicked to the END. Once you can spot which type a clause is, the word-order question answers itself.",
+  "patterns": [
+    {
+      "rule": "What makes a sentence autonomous",
+      "examples": [
+        "Test: read the clause aloud on its own. If it makes complete sense and feels finished, it's autonomous.",
+        "Het regent. ← stands alone, makes sense → autonomous",
+        "Jan studeert Nederlands. ← stands alone, makes sense → autonomous",
+        "...omdat ik moe ben. ← does NOT stand alone (the 'omdat' demands a main clause to attach to) → non-autonomous",
+        "An autonomous sentence is a complete unit of meaning. A non-autonomous sentence is a dependent fragment that needs a host."
+      ]
+    },
+    {
+      "rule": "Two Dutch terms for the same thing — autonome zin = hoofdzin",
+      "examples": [
+        "autonome zin (autonomous sentence) = hoofdzin (main sentence) = can stand alone",
+        "niet-autonome zin (non-autonomous sentence) = bijzin (side sentence) = needs a host",
+        "Both pairs of terms mean the same thing. CVO Scala uses 'autonome zin / niet-autonome zin'. Textbooks often use 'hoofdzin / bijzin'. Same concept, different labels."
+      ]
+    },
+    {
+      "rule": "Standard autonomous-sentence structure — Subject · Actie · Informatie",
+      "examples": [
+        "An autonomous sentence has three roles, always in V2 order: someone (subject) does something (actie / verb) about/at/with something (informatie).",
+        {
+          "caption": "'Jan studeert Nederlands.' — the canonical example",
+          "labels":  ["SUBJECT", "ACTIE",    "INFORMATIE"],
+          "words":   ["Jan",     "studeert", "Nederlands."],
+          "english": ["Jan",     "studies",  "Dutch."]
+        },
+        {
+          "caption": "'Mijn zus woont in Engeland.' — more informatie",
+          "labels":  ["SUBJECT",  "ACTIE", "INFORMATIE"],
+          "words":   ["Mijn zus", "woont", "in Engeland."],
+          "english": ["My sister","lives", "in England."]
+        },
+        {
+          "caption": "'Het regent vandaag hard.' — no real subject, weather pattern",
+          "labels":  ["SUBJECT (dummy)", "ACTIE",  "INFORMATIE"],
+          "words":   ["Het",             "regent", "vandaag hard."],
+          "english": ["It",               "rains", "today hard."]
+        },
+        "↳ 'Actie' is the everyday Belgian-Dutch label your teacher will use. It's the same thing as 'werkwoord' (verb) or 'persoonsvorm' (conjugated verb)."
+      ]
+    },
+    {
+      "rule": "Non-autonomous sentences — the verb kicks to the END",
+      "examples": [
+        "A non-autonomous sentence opens with a subordinating conjunction (omdat, dat, als, wanneer, terwijl, hoewel, …). That conjunction is the trigger: the conjugated verb moves to the very END of the clause.",
+        {
+          "caption": "'omdat ik moe ben.' — the verb 'ben' is at the END (not at position 2)",
+          "labels":  ["CONJUNCTIE", "SUBJECT", "INFO",  "ACTIE (end)"],
+          "words":   ["omdat",      "ik",      "moe",   "ben"],
+          "english": ["because",    "I",       "tired", "am"]
+        },
+        {
+          "caption": "Same in English — but English keeps the verb in normal order",
+          "labels":  ["CONJ",    "SUBJECT", "VERB", "INFO"],
+          "words":   ["because", "I",       "am",   "tired"],
+          "english": ["",        "",        "",     ""]
+        },
+        "↳ This is the most important Dutch-vs-English difference at this level. English: 'because I AM tired.' Dutch: 'omdat ik moe BEN.' The verb position is reversed."
+      ]
+    },
+    {
+      "rule": "Putting them together — hoofdzin + bijzin in real sentences",
+      "examples": [
+        "Most natural Dutch combines an autonomous sentence (hoofdzin) with a non-autonomous one (bijzin), glued by a conjunction.",
+        {
+          "caption": "'Ik ga naar huis omdat ik moe ben.' — hoofdzin + bijzin",
+          "labels":  ["MAIN (autonomous) →", "→", "→",         "CONJ",    "SUB (non-autonomous) →", "→",     "→ END"],
+          "words":   ["Ik",                  "ga", "naar huis", "omdat",   "ik",                     "moe",   "ben"],
+          "english": ["I",                   "go", "home",      "because", "I",                      "tired", "am"]
+        },
+        {
+          "caption": "'Hij zegt dat hij komt.' — the hoofdzin is just 'Hij zegt', the rest is a bijzin",
+          "labels":  ["MAIN — SUBJ", "MAIN — VERB", "CONJ", "SUB — SUBJ", "SUB — VERB (end)"],
+          "words":   ["Hij",         "zegt",        "dat",  "hij",        "komt"],
+          "english": ["He",          "says",        "that", "he",         "comes"]
+        },
+        "↳ Notice how each half plays by its own rules: the main clause keeps V2 (verb at position 2), the subclause sends its verb to the END."
+      ]
+    },
+    {
+      "rule": "Two verbs in a bijzin — both at the end, modal first, infinitive last",
+      "examples": [
+        "When a non-autonomous sentence has TWO verbs (modal + infinitive), they both go to the end, in that order.",
+        {
+          "caption": "'…omdat ik koffie wil drinken.' — modal 'wil' before infinitive 'drinken', both at end",
+          "labels":  ["CONJ",   "SUBJECT", "OBJECT", "MODAL", "INFINITIVE (very end)"],
+          "words":   ["omdat",  "ik",      "koffie", "wil",   "drinken"],
+          "english": ["because","I",       "coffee", "want",  "to drink"]
+        },
+        {
+          "caption": "'…dat hij niet kan komen.' — negation slots before the verb cluster",
+          "labels":  ["CONJ", "SUBJECT", "NEG",  "MODAL", "INFINITIVE"],
+          "words":   ["dat",  "hij",     "niet", "kan",   "komen"],
+          "english": ["that", "he",      "not",  "can",   "to come"]
+        }
+      ]
+    },
+    {
+      "rule": "Yes/no questions are autonomous too — but with verb leading",
+      "examples": [
+        "A yes/no question is still an autonomous sentence — it can stand alone. The structure differs: position 1 is empty, the verb leads, subject follows.",
+        {
+          "caption": "'Werk jij vandaag?' — autonomous, verb-led",
+          "labels":  ["POS 1 (empty)", "VERB", "SUBJECT", "INFO"],
+          "words":   ["—",             "Werk", "jij",     "vandaag?"],
+          "english": ["",              "Work", "you",     "today?"],
+          "note": "Pos 1 is empty in yes/no questions. The verb is still in slot 2 of the V2 rule — there's just nothing in slot 1. ⚠ -t DROPPED before 'jij' (statement would be 'jij werkt')."
+        }
+      ]
+    },
+    {
+      "rule": "Conjunction quick-spot guide — does this make a clause non-autonomous?",
+      "examples": [
+        "Coordinating conjunctions (en, maar, of, want, dus) glue two AUTONOMOUS sentences together. Each half keeps its V2 order.",
+        "Subordinating conjunctions (dat, omdat, als, wanneer, terwijl, hoewel, …) introduce a NON-AUTONOMOUS clause. The verb kicks to the end.",
+        "Belgian-Dutch trap: 'want' (coordinating, both clauses autonomous) and 'omdat' (subordinating, the omdat-clause is non-autonomous) both mean 'because' — but follow different rules. See [[conjunctions]] for the full pair.",
+        "Compare:",
+        {
+          "caption": "WANT (coordinating) — both halves are autonomous, both keep V2",
+          "labels":  ["AUTONOMOUS 1",  "CONJ",    "AUTONOMOUS 2"],
+          "words":   ["Ik ben moe",    "want",    "ik heb hard gewerkt."],
+          "english": ["I am tired",    "because", "I have worked hard."]
+        },
+        {
+          "caption": "OMDAT (subordinating) — the omdat-half is non-autonomous, verb at end",
+          "labels":  ["AUTONOMOUS",    "CONJ",    "NON-AUTONOMOUS — verb 'heb' at end"],
+          "words":   ["Ik ben moe",    "omdat",   "ik hard gewerkt heb."],
+          "english": ["I am tired",    "because", "I have hard worked."]
+        }
+      ]
+    }
+  ],
+  "memory": "🧠 Two questions to answer for any Dutch clause: (1) Is it autonomous (can it stand alone)? — if yes, use V2 (verb at position 2). (2) Did a subordinating conjunction (omdat, dat, als, wanneer, …) trigger this clause? — if yes, verb kicks to the END. The conjunction is the visible signal of which rule to apply.",
+  "examples": [
+    {
+      "caption": "Pure autonomous — verb 'studeert' at position 2",
+      "labels":  ["SUBJECT", "ACTIE",    "INFORMATIE"],
+      "words":   ["Jan",     "studeert", "Nederlands."],
+      "english": ["Jan",     "studies",  "Dutch."]
+    },
+    {
+      "caption": "Hoofdzin + bijzin — main verb at pos 2, sub verb at END",
+      "labels":  ["MAIN", "VERB", "INFO",      "CONJ",    "SUB-SUBJ", "SUB-INFO", "SUB-VERB (end)"],
+      "words":   ["Ik",   "ga",   "naar huis", "omdat",   "ik",       "moe",      "ben"],
+      "english": ["I",    "go",   "home",      "because", "I",        "tired",    "am"]
+    },
+    {
+      "caption": "Two-verb bijzin — modal then infinitive, both at end",
+      "labels":  ["MAIN", "VERB", "CONJ", "SUB-SUBJ", "SUB-NEG", "MODAL", "INFINITIVE"],
+      "words":   ["Hij",  "zegt", "dat",  "hij",      "niet",    "kan",   "komen"],
+      "english": ["He",   "says", "that", "he",       "not",     "can",   "to come"]
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Is dit een autonome zin: 'Jan studeert Nederlands'?",
+      "en": "Is this an autonomous sentence: 'Jan studeert Nederlands'?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja — het kan alleen staan. Subject ('Jan') + actie ('studeert') + informatie ('Nederlands'). Klassieke V2.",
+      "en": "Yes — it can stand alone. Subject + action + information. Classic V2."
+    },
+    {
+      "role": "A",
+      "nl": "En 'omdat ik moe ben'?",
+      "en": "And 'omdat ik moe ben'?"
+    },
+    {
+      "role": "B",
+      "nl": "Niet autonoom — 'omdat' eist een hoofdzin. En het werkwoord 'ben' staat aan het einde, niet op positie 2.",
+      "en": "Not autonomous — 'omdat' demands a main clause. And the verb 'ben' is at the END, not at position 2."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'want' en 'omdat'?",
+      "en": "What's the difference between 'want' and 'omdat'?"
+    },
+    {
+      "role": "B",
+      "nl": "Beide betekenen 'because'. Maar 'want' is nevenschikkend — beide helften zijn autonoom. 'Omdat' is onderschikkend — de omdat-helft is niet autonoom en het werkwoord gaat naar het einde.",
+      "en": "Both mean 'because'. But 'want' is coordinating — both halves are autonomous. 'Omdat' is subordinating — the omdat-half is non-autonomous and the verb goes to the end."
+    },
+    {
+      "role": "A",
+      "nl": "Schrijf één hoofdzin en één bijzin samen.",
+      "en": "Write one main clause and one subclause together."
+    },
+    {
+      "role": "B",
+      "nl": "Ik leer Nederlands omdat ik in België woon. Hoofdzin: 'Ik leer Nederlands' (V2). Bijzin: 'omdat ik in België woon' (werkwoord 'woon' aan het einde).",
+      "en": "I learn Dutch because I live in Belgium. Main clause: V2. Subclause: verb at the end."
+    }
+  ],
+  "relatedRules": [
+    "terms_sentence",
+    "wordorder",
+    "inversion",
+    "conjunctions"
+  ]
+}

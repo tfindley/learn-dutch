@@ -247,7 +247,9 @@
         "lp3a",
         "lp3a_prep",
         "verbstem",
-        "separable"
+        "separable",
+        "autonome_zin",
+        "morgen"
       ],
       "relatedWoordjes": [
         "dailyactivities",

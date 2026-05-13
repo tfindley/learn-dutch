@@ -4,79 +4,291 @@
   "order": 6,
   "tag": "GRAMMAR · MODALS",
   "title": {
-    "nl": "The Power 5 Modal Verbs",
-    "en": "The Power 5 Modal Verbs"
+    "nl": "Modale werkwoorden",
+    "en": "Modal Verbs — May / Must / Want / Can / Shall"
   },
-  "difficulty": "easy",
-  "shortcut": "Modal + infinitive at end. No 'te'. No conjugation on the infinitive.",
-  "explanation": "Modals are your workhorses. Learn their conjugations and you can express almost anything.",
+  "difficulty": "medium",
+  "shortcut": "Modal at position 2, infinitive at the END. The five modals: kunnen (can), willen (want), moeten (must / have to), mogen (may / allowed), zullen (will / shall). ⚠ Prohibition trap: English 'must not' = Dutch MAG NIET (NOT 'moet niet').",
+  "explanation": "Modal verbs express capacity, ambition, obligation, permission, and futurity. Dutch has five. They share a structural pattern (modal at slot 2, infinitive at the end of the clause) but each carries a different precise meaning. The biggest trap for English speakers is the modal + niet combination — a word-for-word translation of 'must not' as 'moet niet' inverts the meaning.",
   "patterns": [
     {
-      "rule": "kunnen (can)",
+      "rule": "The five modals — what each one means",
       "examples": [
-        "Ik kan, jij kunt/kan, hij kan, wij kunnen"
+        "Each modal expresses a specific shade of meaning. They are NOT interchangeable.",
+        {
+          "caption": "The five modals at a glance",
+          "labels":  ["DUTCH",  "ENGLISH",            "CATEGORY"],
+          "words":   ["kunnen", "can / be able to",   "CAPACITEIT — capacity / ability"],
+          "english": ["",       "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["DUTCH",  "ENGLISH",            "CATEGORY"],
+          "words":   ["willen", "want to",            "AMBITIE — desire / wish"],
+          "english": ["",       "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["DUTCH",  "ENGLISH",            "CATEGORY"],
+          "words":   ["moeten", "must / have to",     "OBLIGATIE — obligation / necessity"],
+          "english": ["",       "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["DUTCH",  "ENGLISH",            "CATEGORY"],
+          "words":   ["mogen",  "may / be allowed to","PERMISSIE — permission"],
+          "english": ["",       "",                   ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["DUTCH",  "ENGLISH",            "CATEGORY"],
+          "words":   ["zullen", "will / shall",       "TOEKOMST — futurity / promise"],
+          "english": ["",       "",                   ""]
+        }
       ]
     },
     {
-      "rule": "willen (want to)",
+      "rule": "Conjugation tables — all five are slightly irregular",
       "examples": [
-        "Ik wil, jij wilt/wil, hij wil, wij willen"
+        {
+          "caption": "kunnen (can) — ⚠ 'jij kunt' OR 'jij kan' both fine, but 'Kun je…?' after the verb",
+          "labels":  ["ik",  "jij / je",    "u",    "hij / zij / het", "wij",     "jullie",  "zij"],
+          "words":   ["kan", "kunt / kan",  "kunt", "kan",              "kunnen",  "kunnen",  "kunnen"],
+          "english": ["I can","you can",    "you (formal) can","he/she/it can","we can","you (pl) can","they can"]
+        },
+        {
+          "caption": "willen (want) — same drop: 'Wil je…?' after the verb",
+          "labels":  ["ik",  "jij / je",   "u",     "hij / zij / het",  "wij",     "jullie",  "zij"],
+          "words":   ["wil", "wilt / wil", "wilt",  "wil",               "willen",  "willen",  "willen"],
+          "english": ["I want","you want", "you (formal) want","he/she/it wants","we want","you (pl) want","they want"]
+        },
+        {
+          "caption": "moeten (must / have to)",
+          "labels":  ["ik",   "jij / je",  "u",      "hij / zij / het", "wij",     "jullie",  "zij"],
+          "words":   ["moet", "moet",      "moet",   "moet",             "moeten",  "moeten",  "moeten"],
+          "english": ["I must","you must", "you (formal) must","he/she/it must","we must","you (pl) must","they must"]
+        },
+        {
+          "caption": "mogen (may / allowed to)",
+          "labels":  ["ik",  "jij / je", "u",    "hij / zij / het",  "wij",    "jullie",  "zij"],
+          "words":   ["mag", "mag",      "mag",  "mag",               "mogen",  "mogen",   "mogen"],
+          "english": ["I may","you may", "you (formal) may","he/she/it may","we may","you (pl) may","they may"]
+        },
+        {
+          "caption": "zullen (will / shall)",
+          "labels":  ["ik",  "jij / je",   "u",     "hij / zij / het",  "wij",     "jullie",  "zij"],
+          "words":   ["zal", "zal / zult", "zult",  "zal",               "zullen",  "zullen",  "zullen"],
+          "english": ["I will","you will","you (formal) will","he/she/it will","we will","you (pl) will","they will"]
+        }
       ]
     },
     {
-      "rule": "moeten (must / have to)",
+      "rule": "Modal sentence structure — modal at slot 2, infinitive at the END",
       "examples": [
-        "Ik moet, jij moet, hij moet, wij moeten"
+        "Every modal sentence: conjugated modal at position 2, infinitive at the very end, everything else stacked between.",
+        {
+          "caption": "KUNNEN — capacity. 'I can speak Dutch.'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",        "INFINITIVE"],
+          "words":   ["Ik",      "kan",   "Nederlands",  "spreken."],
+          "english": ["I",       "can",   "Dutch",       "speak."]
+        },
+        {
+          "caption": "WILLEN — ambition. 'I want to read a book.'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",       "INFINITIVE"],
+          "words":   ["Ik",      "wil",   "een boek",   "lezen."],
+          "english": ["I",       "want",  "a book",     "to read."]
+        },
+        {
+          "caption": "MOETEN — obligation. 'I have to get up at 8.'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",          "INFINITIVE"],
+          "words":   ["Ik",      "moet",  "om 8 uur",      "opstaan."],
+          "english": ["I",       "must",  "at 8 o'clock",  "get up."]
+        },
+        {
+          "caption": "MOGEN — permission. 'You may wait here.'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",   "INFINITIVE"],
+          "words":   ["Je",      "mag",   "hier",   "wachten."],
+          "english": ["You",     "may",   "here",   "wait."]
+        },
+        {
+          "caption": "ZULLEN — futurity / promise. 'I will come on Thursday.'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",        "INFINITIVE"],
+          "words":   ["Ik",      "zal",   "donderdag",   "komen."],
+          "english": ["I",       "will",  "Thursday",    "come."]
+        }
       ]
     },
     {
-      "rule": "mogen (may / allowed to)",
+      "rule": "⚠ THE BIG TRAP — modal + niet (must-not vs don't-have-to)",
       "examples": [
-        "Ik mag, jij mag, hij mag, wij mogen"
+        "This is the single biggest gotcha for English speakers. English 'must not' and 'don't have to' look similar to Dutch 'moet niet' and 'mag niet' — but the mapping is INVERTED.",
+        "A direct word-for-word translation of 'you must not smoke' → 'je moet niet roken' gives the WRONG meaning. 'Moet niet' actually means 'don't have to' — almost the opposite!",
+        {
+          "caption": "MAG NIET = 'not allowed' / 'must not' (strong prohibition)",
+          "labels":  ["SUBJECT", "MAG", "NIET", "INFINITIVE", "WHAT IT MEANS"],
+          "words":   ["Je",      "mag", "niet", "roken.",     "You're NOT ALLOWED to smoke."],
+          "english": ["",        "",    "",     "",           "(= 'You must not smoke' in English)"]
+        },
+        {
+          "caption": "MOET NIET = 'don't have to' / 'needn't' (lack of obligation)",
+          "labels":  ["SUBJECT", "MOET", "NIET", "INFINITIVE", "WHAT IT MEANS"],
+          "words":   ["Je",      "moet", "niet", "roken.",     "You DON'T HAVE TO smoke."],
+          "english": ["",        "",     "",     "",           "(NOT 'you must not' — it means you have no obligation!)"]
+        },
+        "Why English speakers fall in: 'moet' looks and sounds like 'must', so the brain reaches for it when wanting to say 'must not'. But Dutch uses MAG NIET (literally 'may not') for prohibition.",
+        {
+          "caption": "The inverted English ↔ Dutch mapping",
+          "labels":  ["ENGLISH",             "→ DUTCH",     "WRONG TRANSLATION"],
+          "words":   ["must not / forbidden", "mag niet",   "(NOT 'moet niet')"],
+          "english": ["",                    "",            ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["ENGLISH",                 "→ DUTCH",     "WRONG TRANSLATION"],
+          "words":   ["don't have to / needn't", "moet niet",   "(NOT 'mag niet')"],
+          "english": ["",                       "",             ""]
+        },
+        "🚭 Real-world test — a 'No Smoking' sign in a café:",
+        {
+          "caption": "✅ Correct Dutch for 'No smoking allowed'",
+          "labels":  ["PLACE",      "MODAL", "SUBJ", "NIET", "INFINITIVE"],
+          "words":   ["In het café","mag",   "je",   "niet", "roken."],
+          "english": ["In the café","may",   "you",  "not",  "smoke."],
+          "note": "Literally 'in the café you may not smoke' — i.e. 'you're not allowed'."
+        },
+        {
+          "caption": "❌ What 'In het café moet je niet roken' actually means",
+          "labels":  ["PLACE",      "MODAL", "SUBJ", "NIET", "INFINITIVE"],
+          "words":   ["In het café","moet",  "je",   "niet", "roken."],
+          "english": ["In the café","must",  "you",  "not",  "smoke."],
+          "note": "An English speaker reads this as 'you must not smoke' (prohibition). A Dutch speaker reads it as 'in the café you don't have to smoke' — meaningless on a No Smoking sign!"
+        }
       ]
     },
     {
-      "rule": "zullen (will / shall)",
+      "rule": "'Hoeven' — the polite alternative to 'moet niet'",
       "examples": [
-        "Ik zal, jij zal/zult, hij zal, wij zullen"
+        "Belgian Dutch has a special verb 'hoeven' that's used ONLY in negative contexts (with niet, geen, nooit). It's a more formal, clearer way to say 'don't have to'.",
+        {
+          "caption": "HOEVEN NIET = 'don't have to' (formal, unambiguous)",
+          "labels":  ["SUBJECT", "HOEFT", "NIET", "TE",  "INFINITIVE"],
+          "words":   ["Je",      "hoeft", "niet", "te",  "komen."],
+          "english": ["You",     "need",  "not",  "to",  "come."],
+          "note": "'Hoeven' requires 'te' before the infinitive — that's the only modal-like verb in Dutch that does."
+        },
+        "↳ Use 'hoeven niet' when you want to be UNAMBIGUOUS about 'don't have to'. It can't be confused with 'mag niet' (prohibition)."
+      ]
+    },
+    {
+      "rule": "Modal + inversion — fronting a time keeps the structure",
+      "examples": [
+        "When something fronts (time, place, etc), the MODAL takes slot 2. The infinitive STILL stays at the end.",
+        {
+          "caption": "Default — 'I want to work from home today'",
+          "labels":  ["SUBJECT", "MODAL", "TIME",     "PLACE",  "INFINITIVE"],
+          "words":   ["Ik",      "wil",   "vandaag",  "thuis",  "werken."],
+          "english": ["I",       "want",  "today",    "home",   "to work."]
+        },
+        {
+          "caption": "Inverted — time fronted, modal anchors slot 2",
+          "labels":  ["TIME",     "MODAL", "SUBJECT", "PLACE", "INFINITIVE"],
+          "words":   ["Vandaag",  "wil",   "ik",      "thuis", "werken."],
+          "english": ["Today",    "want",  "I",       "home",  "to work."]
+        },
+        "↳ See [[inversion]] for the full V2 rule. The pattern stacks: inversion + modal-at-slot-2 + infinitive-at-end."
+      ]
+    },
+    {
+      "rule": "Polite 'wil graag' — the Dutch 'would like to'",
+      "examples": [
+        "English 'I'd like to ___' is a politeness softener. Dutch uses 'wil graag' for the same purpose.",
+        {
+          "caption": "Direct: 'I want to take French class'",
+          "labels":  ["SUBJECT", "MODAL", "INFO",                  "INFINITIVE"],
+          "words":   ["Ik",      "wil",   "franse les niveau 4",   "volgen."],
+          "english": ["I",       "want",  "French class level 4",  "to follow."]
+        },
+        {
+          "caption": "Polite: 'I would like to take French class'",
+          "labels":  ["SUBJECT", "MODAL", "ADV",    "INFO",                  "INFINITIVE"],
+          "words":   ["Ik",      "wil",   "graag",  "franse les niveau 4",   "volgen."],
+          "english": ["I",       "want",  "gladly", "French class level 4",  "to follow."]
+        },
+        "↳ Anywhere you'd say 'I'd like to' in English, say 'ik wil graag' in Dutch. Standard polite opener for any service / enrolment / shop interaction."
       ]
     }
   ],
-  "memory": "🧠 Modal verbs = pipes in bash. Modal sets the mode, infinitive is the command: ik wil | werken.",
+  "memory": "🧠 Five modals, five meanings: kunnen=capacity, willen=ambition, moeten=obligation, mogen=permission, zullen=futurity. Structure: modal at slot 2, infinitive at the END. ⚠ Burn this in: English 'must not' = Dutch MAG NIET (NOT 'moet niet'!). 'Moet niet' = 'don't have to'. The 'No Smoking' sign uses MAG NIET.",
   "examples": [
     {
       "nl": "Ik kan Nederlands spreken.",
-      "en": "I can speak Dutch."
+      "en": "I can speak Dutch. (kunnen — capacity)"
     },
     {
-      "nl": "Je moet dat niet doen.",
-      "en": "You mustn't do that."
+      "nl": "Ik wil graag een koffie, alstublieft.",
+      "en": "I would like a coffee, please. (willen + graag = polite 'I'd like')"
+    },
+    {
+      "nl": "'s Morgens moet ik vroeg opstaan.",
+      "en": "In the mornings I have to get up early. (moeten — obligation)"
     },
     {
       "nl": "Mag ik even storen?",
-      "en": "May I disturb you for a moment?"
+      "en": "May I disturb you for a moment? (mogen — permission)"
+    },
+    {
+      "nl": "In het café mag je niet roken.",
+      "en": "In the café you may not / must not smoke. (mag + niet = prohibition)"
+    },
+    {
+      "nl": "Je moet dat niet doen.",
+      "en": "You DON'T HAVE TO do that. (moet + niet = LACK of obligation — NOT 'you mustn't'!)"
+    },
+    {
+      "nl": "Ik zal donderdag komen.",
+      "en": "I shall come on Thursday. (zullen — promise / futurity)"
     }
   ],
   "practice": [
     {
       "role": "A",
-      "nl": "Kan jij goed koken?",
-      "en": "Can you cook well?"
+      "nl": "Hoe zeg je 'I can cook well' in het Nederlands?",
+      "en": "How do you say 'I can cook well' in Dutch?"
     },
     {
       "role": "B",
-      "nl": "Ja, ik kan goed koken. / Nee, ik kan niet goed koken.",
-      "en": "Yes, I can cook well. / No, I can't cook well."
+      "nl": "Ik kan goed koken. Modaal werkwoord 'kan' op positie 2, infinitief 'koken' aan het einde.",
+      "en": "Ik kan goed koken. Modal at position 2, infinitive at the end."
     },
     {
       "role": "A",
-      "nl": "Mag ik even de deur opendoen?",
-      "en": "May I open the door for a moment?"
+      "nl": "Een bord in een café zegt 'No smoking'. Vertaal naar het Nederlands.",
+      "en": "A sign in a café says 'No smoking'. Translate to Dutch."
     },
     {
       "role": "B",
-      "nl": "Ja, natuurlijk! / Nee, liever niet.",
-      "en": "Yes, of course! / No, I'd rather not."
+      "nl": "'Je mag niet roken' (= je bent niet toegestaan om te roken). NIET 'je moet niet roken' — dat betekent 'je hoeft niet te roken' en is precies het tegenovergestelde van een verbod!",
+      "en": "'Je mag niet roken' (= you're not allowed to smoke). NOT 'je moet niet roken' — that means 'you don't have to smoke', the exact OPPOSITE of a prohibition!"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'je moet niet' en 'je hoeft niet'?",
+      "en": "What's the difference between 'je moet niet' and 'je hoeft niet'?"
+    },
+    {
+      "role": "B",
+      "nl": "Beide betekenen 'you don't have to'. 'Hoeven' is formeler en duidelijker — het kan niet verward worden met een verbod. 'Hoeven' vereist altijd 'te' voor de infinitief: 'Je hoeft niet TE komen.'",
+      "en": "Both mean 'you don't have to'. 'Hoeven' is more formal and clearer — can't be confused with prohibition. 'Hoeven' always requires 'te' before the infinitive."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe vraag je beleefd om een koffie?",
+      "en": "How do you politely ask for a coffee?"
+    },
+    {
+      "role": "B",
+      "nl": "'Ik wil graag een koffie, alstublieft.' Of: 'Mag ik een koffie, alstublieft?' (mag = polite permission request.)",
+      "en": "'Ik wil graag een koffie, alstublieft.' Or: 'Mag ik een koffie, alstublieft?'"
     }
   ],
   "relatedRules": [
@@ -84,6 +296,7 @@
     "terms_words",
     "inversion",
     "wordorder",
+    "imperative",
     "lp5b"
   ]
 }

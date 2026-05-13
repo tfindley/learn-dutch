@@ -75,6 +75,7 @@
   ],
   "relatedRules": [
     "terms_words",
-    "articles"
+    "articles",
+    "pronouns"
   ]
 }

@@ -1,0 +1,223 @@
+{
+  "kind": "grammar",
+  "id": "conjunctions",
+  "order": 2.7,
+  "tag": "GRAMMAR · CONJUNCTIONS",
+  "title": {
+    "nl": "Voegwoorden",
+    "en": "Conjunctions — sentence glue + word-order effects"
+  },
+  "difficulty": "medium",
+  "shortcut": "Coordinating conjunctions (en / maar / of / want / dus) glue two autonomous clauses, no word-order change. Subordinating conjunctions (dat / omdat / als / wanneer / terwijl / hoewel) introduce a non-autonomous clause and send the verb to the END.",
+  "explanation": "Conjunctions are short words that glue clauses together. In Dutch, every conjunction belongs to one of two camps — and which camp it's in determines the word order of the clause it introduces. This is the rule that 'want' vs 'omdat' hinges on, and it's one of the biggest stumbling blocks for English speakers because English doesn't change word order based on the conjunction.",
+  "patterns": [
+    {
+      "rule": "What conjunctions do — they glue two clauses together",
+      "examples": [
+        "A conjunction is a small word that connects two pieces. The pieces it joins can be two complete (autonomous) sentences, or one main + one dependent (non-autonomous) clause.",
+        "Common conjunctions you already know: en (and), maar (but), of (or), want (because), dus (so), omdat (because), dat (that), als (if), wanneer (when), terwijl (while), hoewel (although).",
+        "→ See [[autonome_zin]] for what 'autonomous' and 'non-autonomous' clauses are. The two concepts are inseparable."
+      ]
+    },
+    {
+      "rule": "1. Coordinating (nevenschikkend) — both halves stay autonomous, no word-order change",
+      "examples": [
+        "The five coordinating conjunctions: **en** (and), **maar** (but), **of** (or), **want** (because), **dus** (so). Memory hook in Dutch: 'EMOWaD' or just 'the 5 coordinators'. They link two main clauses — each side keeps its V2 word order.",
+        {
+          "caption": "EN — joining two autonomous clauses with 'and'",
+          "labels":  ["AUTONOMOUS 1",      "CONJ", "AUTONOMOUS 2"],
+          "words":   ["Ik werk vandaag",   "en",   "ik kook 's avonds."],
+          "english": ["I work today",      "and",  "I cook in the evening."]
+        },
+        {
+          "caption": "MAAR — joining with 'but'",
+          "labels":  ["AUTONOMOUS 1",      "CONJ",  "AUTONOMOUS 2"],
+          "words":   ["Ik werk vandaag",   "maar",  "ik ben moe."],
+          "english": ["I work today",      "but",   "I am tired."]
+        },
+        {
+          "caption": "WANT — coordinating 'because' (both halves stay V2)",
+          "labels":  ["AUTONOMOUS 1",   "CONJ",    "AUTONOMOUS 2 — verb still at pos 2"],
+          "words":   ["Ik ben moe",     "want",    "ik heb hard gewerkt."],
+          "english": ["I am tired",     "because", "I have worked hard."]
+        },
+        "↳ With coordinating conjunctions, the rule is simple: each clause is a full main clause, V2 order on each side. No special placement of the verb."
+      ]
+    },
+    {
+      "rule": "2. Subordinating (onderschikkend) — the second clause is non-autonomous, verb to the END",
+      "examples": [
+        "Common subordinating conjunctions: **dat** (that), **omdat** (because), **als** (if/when), **wanneer** (when), **terwijl** (while), **hoewel** (although), **doordat** (due to the fact that), **zodat** (so that), **voordat** (before), **nadat** (after). All of them trigger the verb-to-end rule in the clause they introduce.",
+        {
+          "caption": "OMDAT — subordinating 'because'. Verb 'heb' kicked to the end.",
+          "labels":  ["AUTONOMOUS",     "CONJ",    "NON-AUTONOMOUS — verb at end"],
+          "words":   ["Ik ben moe",     "omdat",   "ik hard gewerkt heb."],
+          "english": ["I am tired",     "because", "I have hard worked."]
+        },
+        {
+          "caption": "DAT — 'that'. The second clause is non-autonomous, verb at end.",
+          "labels":  ["AUTONOMOUS",   "CONJ",  "NON-AUTONOMOUS"],
+          "words":   ["Hij zegt",     "dat",   "hij ziek is."],
+          "english": ["He says",      "that",  "he sick is."]
+        },
+        {
+          "caption": "ALS — 'if'. Verb 'regent' at end of the if-clause.",
+          "labels":  ["CONJ", "NON-AUTONOMOUS", "MAIN — autonomous"],
+          "words":   ["Als",  "het regent",      "neem ik mijn paraplu."],
+          "english": ["If",   "it rains",        "I take my umbrella."],
+          "note": "Notice: when the non-autonomous clause comes FIRST, the main clause that follows starts with the verb (inversion) — because the whole subclause counts as 'position 1'."
+        },
+        {
+          "caption": "TERWIJL — 'while'. Subclause verb 'eet' at end.",
+          "labels":  ["AUTONOMOUS",  "CONJ",    "NON-AUTONOMOUS"],
+          "words":   ["Hij leest",   "terwijl", "zij eet."],
+          "english": ["He reads",    "while",   "she eats."]
+        }
+      ]
+    },
+    {
+      "rule": "⚠ THE BIG PAIR — WANT vs OMDAT (both mean 'because')",
+      "examples": [
+        "Both 'want' and 'omdat' translate to English 'because'. The difference is purely structural: word order. This trips up almost everyone.",
+        {
+          "caption": "WANT — coordinating. Both halves are autonomous. Verb 'heb' stays at position 2.",
+          "labels":  ["AUTONOMOUS",  "CONJ", "AUTONOMOUS — verb at pos 2"],
+          "words":   ["Ik ben moe",  "want", "ik heb hard gewerkt."],
+          "english": ["I am tired",  "because","I have worked hard."]
+        },
+        {
+          "caption": "OMDAT — subordinating. Second half is non-autonomous. Verb 'heb' kicked to the END.",
+          "labels":  ["AUTONOMOUS",  "CONJ",   "NON-AUTONOMOUS — verb at end"],
+          "words":   ["Ik ben moe",  "omdat",  "ik hard gewerkt heb."],
+          "english": ["I am tired",  "because","I have hard worked."]
+        },
+        "↳ Same meaning. Different word order. Memorise the table or pick a favourite and stick with it. In Belgian Dutch, 'omdat' is more common in writing and formal speech; 'want' is common in conversation."
+      ]
+    },
+    {
+      "rule": "⚠ The als-vs-wanneer distinction",
+      "examples": [
+        "Both can translate to English 'when'. The split is roughly:",
+        "**als** = if, OR when (for repeating / habitual events): 'Als het regent, neem ik mijn paraplu.' (Whenever it rains…)",
+        "**wanneer** = when (for specific / one-time events, AND in questions): 'Wanneer komt hij?' (When is he coming?)",
+        {
+          "caption": "ALS — for general / habitual conditions",
+          "labels":  ["CONJ", "NON-AUTONOMOUS", "MAIN (inversion)"],
+          "words":   ["Als",  "het regent",     "blijf ik thuis."],
+          "english": ["If/whenever","it rains", "I stay home."]
+        },
+        {
+          "caption": "WANNEER — as a question word (most common usage)",
+          "labels":  ["WH-WORD (pos 1)", "VERB (pos 2)", "SUBJECT", "INFO"],
+          "words":   ["Wanneer",          "komt",         "hij",     "thuis?"],
+          "english": ["When",             "comes",        "he",      "home?"]
+        },
+        "↳ In casual speech, the distinction can blur. The safe move: use 'als' for if-statements, 'wanneer' for question words."
+      ]
+    },
+    {
+      "rule": "Two-verb non-autonomous clauses — both verbs at the end",
+      "examples": [
+        "When a non-autonomous clause has a modal + infinitive, both go to the END, in that order.",
+        {
+          "caption": "Modal at the second-to-last, infinitive at the very last",
+          "labels":  ["AUTONOMOUS",  "CONJ", "NON-AUT — SUBJ", "OBJ",    "MODAL", "INFINITIVE"],
+          "words":   ["Hij zegt",    "dat",  "hij",            "koffie", "wil",   "drinken."],
+          "english": ["He says",     "that", "he",             "coffee", "wants", "to drink."]
+        },
+        {
+          "caption": "With negation slotted before the verb cluster",
+          "labels":  ["AUTONOMOUS",  "CONJ", "NON-AUT — SUBJ", "NEG",  "MODAL", "INFINITIVE"],
+          "words":   ["Ik weet",     "dat",  "hij",            "niet", "kan",   "komen."],
+          "english": ["I know",      "that", "he",             "not",  "can",   "to come."]
+        }
+      ]
+    },
+    {
+      "rule": "Putting them on opposite ends — bijzin first, then main clause",
+      "examples": [
+        "Non-autonomous clauses don't have to come second. When they come FIRST, the main clause that follows uses inversion (verb at position 2, subject after).",
+        {
+          "caption": "Bijzin first → inversion in the main clause",
+          "labels":  ["CONJ", "NON-AUTONOMOUS (verb at end)", "MAIN — VERB (inversion)", "SUBJ", "REST"],
+          "words":   ["Omdat","ik moe ben,",                  "ga",                      "ik",   "naar huis."],
+          "english": ["Because","I tired am,",                "go",                      "I",    "home."]
+        },
+        "↳ The whole non-autonomous clause counts as 'position 1' of the main clause that follows. So the main verb 'ga' is in position 2 — V2 still holds.",
+        "↳ Use a comma between the two halves when the bijzin comes first. Optional when the main clause comes first."
+      ]
+    }
+  ],
+  "memory": "🧠 Coordinating (the 5: en, maar, of, want, dus) glue autonomous clauses — no word-order change. Subordinating (dat, omdat, als, wanneer, terwijl, hoewel, …) introduce a non-autonomous clause — verb to the END. Same meaning ≠ same word order: 'want' and 'omdat' both mean 'because' but follow different camps.",
+  "examples": [
+    {
+      "caption": "WANT (coordinating) — verb 'heb' at position 2",
+      "labels":  ["AUTONOMOUS",  "CONJ", "AUTONOMOUS — V at pos 2"],
+      "words":   ["Ik ben moe",  "want", "ik heb hard gewerkt."],
+      "english": ["I am tired",  "because","I have worked hard."]
+    },
+    {
+      "caption": "OMDAT (subordinating) — verb 'heb' kicked to the END",
+      "labels":  ["AUTONOMOUS",  "CONJ",   "NON-AUTONOMOUS — V at end"],
+      "words":   ["Ik ben moe",  "omdat",  "ik hard gewerkt heb."],
+      "english": ["I am tired",  "because","I have hard worked."]
+    },
+    {
+      "caption": "Bijzin-first construction — inversion in the main clause",
+      "labels":  ["CONJ",    "NON-AUTONOMOUS", "VERB (inv)", "SUBJ", "REST"],
+      "words":   ["Omdat",   "ik moe ben,",    "ga",         "ik",   "naar huis."],
+      "english": ["Because", "I tired am,",    "go",         "I",    "home."]
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Welke voegwoorden zijn nevenschikkend?",
+      "en": "Which conjunctions are coordinating?"
+    },
+    {
+      "role": "B",
+      "nl": "Vijf: en, maar, of, want, dus. Bij deze blijft beide helften autonoom en de woordvolgorde verandert niet.",
+      "en": "Five: en, maar, of, want, dus. With these, both halves stay autonomous and the word order doesn't change."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'want' en 'omdat'?",
+      "en": "What's the difference between 'want' and 'omdat'?"
+    },
+    {
+      "role": "B",
+      "nl": "Beide betekenen 'because'. 'Want' is nevenschikkend — werkwoord blijft op positie 2. 'Omdat' is onderschikkend — werkwoord gaat naar het einde. 'Ik ben moe want ik heb hard gewerkt' vs 'Ik ben moe omdat ik hard gewerkt heb'.",
+      "en": "Both mean 'because'. 'Want' is coordinating — verb stays at pos 2. 'Omdat' is subordinating — verb goes to the end."
+    },
+    {
+      "role": "A",
+      "nl": "Maak een zin met 'als' aan het begin.",
+      "en": "Make a sentence with 'als' at the start."
+    },
+    {
+      "role": "B",
+      "nl": "'Als het regent, neem ik mijn paraplu.' De als-bijzin staat eerst. Daarna inversie in de hoofdzin — werkwoord 'neem' op positie 2.",
+      "en": "'Als het regent, neem ik mijn paraplu.' The als-subclause comes first. Then inversion in the main clause — verb at position 2."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe weet je of een voegwoord nevenschikkend of onderschikkend is?",
+      "en": "How do you know if a conjunction is coordinating or subordinating?"
+    },
+    {
+      "role": "B",
+      "nl": "Memoriseer de vijf nevenschikkende (en, maar, of, want, dus). Alles anders is onderschikkend. Of: test of het werkwoord in de tweede helft naar het einde gaat — als ja, onderschikkend.",
+      "en": "Memorise the five coordinating ones (en, maar, of, want, dus). Everything else is subordinating. Or: test whether the verb in the second half goes to the end — if yes, it's subordinating."
+    }
+  ],
+  "relatedRules": [
+    "autonome_zin",
+    "wordorder",
+    "inversion",
+    "terms_sentence"
+  ],
+  "relatedWoordjes": [
+    "connectors"
+  ]
+}

@@ -196,27 +196,114 @@
   "examples": [
     {
       "caption": "'The small girl reads a book.'",
-      "labels":  ["ARTICLE", "ADJECTIVE", "NOUN",   "VERB",  "ARTICLE", "NOUN"],
-      "words":   ["Het",     "kleine",    "meisje", "leest", "een",     "boek"],
-      "english": ["The",     "small",     "girl",   "reads", "a",       "book"]
+      "labels": [
+        "ARTICLE",
+        "ADJECTIVE",
+        "NOUN",
+        "VERB",
+        "ARTICLE",
+        "NOUN"
+      ],
+      "words": [
+        "Het",
+        "kleine",
+        "meisje",
+        "leest",
+        "een",
+        "boek"
+      ],
+      "english": [
+        "The",
+        "small",
+        "girl",
+        "reads",
+        "a",
+        "book"
+      ]
     },
     {
       "caption": "'Today I work from home.' (inversion — time fronted)",
-      "labels":  ["ADVERB (time)", "VERB",  "PRONOUN (subj)", "ADVERB (place)"],
-      "words":   ["Vandaag",       "werk",  "ik",             "thuis"],
-      "english": ["Today",         "work",  "I",              "home"]
+      "labels": [
+        "ADVERB (time)",
+        "VERB",
+        "PRONOUN (subj)",
+        "ADVERB (place)"
+      ],
+      "words": [
+        "Vandaag",
+        "werk",
+        "ik",
+        "thuis"
+      ],
+      "english": [
+        "Today",
+        "work",
+        "I",
+        "home"
+      ]
     },
     {
       "caption": "'I would like to take French class.' (modal + infinitive)",
-      "labels":  ["PRONOUN", "MODAL", "ADVERB", "ADJ",     "NOUN", "INFINITIVE"],
-      "words":   ["Ik",      "wil",   "graag",  "franse",  "les",  "volgen"],
-      "english": ["I",       "want",  "gladly", "French",  "class","to take"]
+      "labels": [
+        "PRONOUN",
+        "MODAL",
+        "ADVERB",
+        "ADJ",
+        "NOUN",
+        "INFINITIVE"
+      ],
+      "words": [
+        "Ik",
+        "wil",
+        "graag",
+        "franse",
+        "les",
+        "volgen"
+      ],
+      "english": [
+        "I",
+        "want",
+        "gladly",
+        "French",
+        "class",
+        "to take"
+      ]
     },
     {
       "caption": "'My sister lives in England because she works there.' (main + subclause)",
-      "labels":  ["POSSESS", "NOUN", "VERB",  "PREP", "PROPER NOUN", "CONJ",   "PRONOUN", "ADVERB", "VERB"],
-      "words":   ["Mijn",    "zus",  "woont", "in",   "Engeland",    "omdat",  "ze",      "daar",   "werkt"],
-      "english": ["My",      "sister","lives","in",   "England",     "because","she",     "there",  "works"],
+      "labels": [
+        "POSSESS",
+        "NOUN",
+        "VERB",
+        "PREP",
+        "PROPER NOUN",
+        "CONJ",
+        "PRONOUN",
+        "ADVERB",
+        "VERB"
+      ],
+      "words": [
+        "Mijn",
+        "zus",
+        "woont",
+        "in",
+        "Engeland",
+        "omdat",
+        "ze",
+        "daar",
+        "werkt"
+      ],
+      "english": [
+        "My",
+        "sister",
+        "lives",
+        "in",
+        "England",
+        "because",
+        "she",
+        "there",
+        "works"
+      ],
       "note": "After 'omdat' the verb moves to the END of the clause — that's the subclause rule."
     }
   ],
@@ -277,6 +364,9 @@
     "verbstem",
     "articles",
     "modal",
-    "inversion"
+    "inversion",
+    "pronouns",
+    "conjunctions",
+    "morgen"
   ]
 }

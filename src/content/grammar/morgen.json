@@ -1,0 +1,191 @@
+{
+  "kind": "grammar",
+  "id": "morgen",
+  "order": 12.5,
+  "tag": "GRAMMAR · MORGEN vs 'S MORGENS",
+  "title": {
+    "nl": "Morgen · 's morgens · vanmorgen",
+    "en": "Tomorrow vs Mornings vs This morning"
+  },
+  "difficulty": "easy",
+  "shortcut": "morgen = tomorrow (most common) OR morning (rarely, in compounds). 's morgens = in the mornings (recurring habit). vanmorgen / vanochtend = this morning (specific).",
+  "explanation": "The Dutch word 'morgen' is busier than it looks. It usually means 'tomorrow', but it ALSO means 'morning' — and the distinction depends on what wraps around it. Meanwhile, ''s morgens' is a separate idiom for 'in the mornings' (the recurring kind), and 'vanmorgen' is a third form for 'this morning' (specific). Belgian Dutch class will throw all three at you in the same sentence. Here are the rules for telling them apart.",
+  "patterns": [
+    {
+      "rule": "1. morgen = TOMORROW (the default meaning)",
+      "examples": [
+        "When 'morgen' stands alone as a time word, it almost always means 'tomorrow'. This is the most common usage.",
+        {
+          "caption": "'I'm going to Brussels tomorrow.'",
+          "labels":  ["TIME",    "VERB", "SUBJECT", "PLACE"],
+          "words":   ["Morgen",  "ga",   "ik",      "naar Brussel."],
+          "english": ["Tomorrow","go",   "I",       "to Brussels."]
+        },
+        "Common phrases using 'morgen' = tomorrow:",
+        "Tot morgen! — See you tomorrow!",
+        "Morgen is het zondag. — Tomorrow is Sunday.",
+        "Overmorgen — the day after tomorrow.",
+        "Eergisteren — the day before yesterday (the parallel for the past)."
+      ]
+    },
+    {
+      "rule": "2. 's morgens = IN THE MORNINGS (recurring / habitual)",
+      "examples": [
+        "''s morgens' is the adverb form used for SOMETHING THAT HAPPENS EVERY MORNING — a habit, routine, or general truth. The 's is a fossilised genitive (old form of 'des morgens', meaning 'of the morning').",
+        {
+          "caption": "'In the mornings I drink coffee.' (every morning, recurring)",
+          "labels":  ["TIME (recurring)", "VERB",  "SUBJECT", "INFO"],
+          "words":   ["'s Morgens",        "drink", "ik",      "koffie."],
+          "english": ["In the mornings",   "drink", "I",       "coffee."]
+        },
+        "Other 'recurring' time adverbs in the same family:",
+        "'s Ochtends — in the (early) mornings (synonym of 's morgens)",
+        "'s Middags — in the afternoons",
+        "'s Avonds — in the evenings",
+        "'s Nachts — at night",
+        "All use the same 's pattern. All describe RECURRING action.",
+        "⚠ Apostrophe BEFORE the s — write 's morgens, not s'morgens."
+      ]
+    },
+    {
+      "rule": "3. vanmorgen / vanochtend = THIS MORNING (specific, the one just past or starting)",
+      "examples": [
+        "When you mean 'this morning' specifically — the one just past, or the one we're currently in — use 'vanmorgen' or 'vanochtend' (synonyms). Van + morgen / ochtend.",
+        {
+          "caption": "'This morning I drank coffee.' (specific morning, just past)",
+          "labels":  ["TIME (specific)", "AUX",  "SUBJECT", "INFO",  "PAST PARTICIPLE"],
+          "words":   ["Vanmorgen",       "heb",  "ik",      "koffie","gedronken."],
+          "english": ["This morning",    "have", "I",       "coffee","drunk."]
+        },
+        "Compare the trio in one row:",
+        "Vanmorgen heb ik koffie gedronken. — THIS MORNING I drank coffee. (specific, completed)",
+        "'s Morgens drink ik koffie. — IN THE MORNINGS I drink coffee. (every morning, habit)",
+        "Morgen drink ik koffie. — TOMORROW I'll drink coffee. (future).",
+        "↳ 'vanavond' and 'vannacht' work the same way for 'this evening' and 'tonight (late)'."
+      ]
+    },
+    {
+      "rule": "4. de morgen / de ochtend — the noun 'morning'",
+      "examples": [
+        "If you need 'morning' as an actual noun (with an article), use 'de ochtend' (more common) or 'de morgen' (poetic / dated). Both are 'de'-words.",
+        "een mooie ochtend — a beautiful morning",
+        "de ochtendkrant — the morning paper",
+        "de ochtendpost — the morning post",
+        "in de ochtend (less common than 's ochtends) — in the morning, as a single occurrence",
+        "↳ In everyday speech, learners almost never need 'de morgen' as a noun. Reach for 'de ochtend' if you need it, and for the recurring adverb form use 's ochtends / 's morgens."
+      ]
+    },
+    {
+      "rule": "5. Quick disambiguation guide — which form do I want?",
+      "examples": [
+        "Ask yourself: WHEN does the action happen, and is it a one-off or a recurring pattern?",
+        {
+          "caption": "The decision table",
+          "labels":  ["MEANING",                          "DUTCH FORM",         "EXAMPLE"],
+          "words":   ["tomorrow",                          "morgen",              "Tot morgen!"],
+          "english": ["",                                 "",                    ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["MEANING",                          "DUTCH FORM",         "EXAMPLE"],
+          "words":   ["every morning / in the mornings",   "'s morgens",          "'s Morgens drink ik koffie."],
+          "english": ["",                                 "",                    ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["MEANING",                          "DUTCH FORM",         "EXAMPLE"],
+          "words":   ["this morning (just past)",          "vanmorgen / vanochtend","Vanmorgen heb ik koffie gedronken."],
+          "english": ["",                                 "",                    ""]
+        },
+        {
+          "caption": "",
+          "labels":  ["MEANING",                          "DUTCH FORM",         "EXAMPLE"],
+          "words":   ["the morning (noun)",               "de ochtend",          "Een mooie ochtend."],
+          "english": ["",                                 "",                    ""]
+        }
+      ]
+    },
+    {
+      "rule": "🚫 Common mistakes",
+      "examples": [
+        "❌ 'Morgen drink ik koffie' meaning 'in the mornings I drink coffee'. → ✅ ''s Morgens drink ik koffie.' ('morgen' alone = tomorrow, not 'every morning'.)",
+        "❌ Writing 's morgens' as 's'morgens' or 'smorgens'. → ✅ ''s morgens' — apostrophe BEFORE the s, space after.",
+        "❌ Using 'in de morgen' as a recurring habit. → ✅ Use ''s morgens' for recurring; 'in de ochtend' is fine but less idiomatic.",
+        "❌ Confusing 'morgen' (tomorrow) with 'de morgen' (the morning as noun). → Same word, different role — context tells you. The bare 'Morgen…' at the start of a sentence = tomorrow."
+      ]
+    }
+  ],
+  "memory": "🧠 Three different concepts, three different Dutch forms: TOMORROW = morgen. EVERY MORNING = 's morgens. THIS MORNING (specific) = vanmorgen. Don't confuse the bare 'morgen' (tomorrow) with 's morgens (every morning) — they look related but mean different things.",
+  "examples": [
+    {
+      "nl": "Morgen ga ik naar Brussel.",
+      "en": "TOMORROW I'm going to Brussels. (future, one-off)"
+    },
+    {
+      "nl": "'s Morgens drink ik altijd koffie.",
+      "en": "IN THE MORNINGS I always drink coffee. (recurring habit)"
+    },
+    {
+      "nl": "Vanmorgen heb ik spek en eieren gegeten.",
+      "en": "THIS MORNING I ate bacon and eggs. (specific, just past)"
+    },
+    {
+      "nl": "Het was een mooie ochtend.",
+      "en": "It was a beautiful morning. ('ochtend' as a noun)"
+    },
+    {
+      "nl": "Tot morgen!",
+      "en": "See you tomorrow! (very common parting)"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen 'morgen' en ''s morgens'?",
+      "en": "What's the difference between 'morgen' and ''s morgens'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Morgen' alleen = tomorrow. ''s Morgens' = in the mornings (recurrend). 'Morgen drink ik koffie' = ik ga morgen koffie drinken. ''s Morgens drink ik koffie' = elke ochtend.",
+      "en": "'Morgen' alone = tomorrow. ''s Morgens' = in the mornings (recurring). 'Morgen drink ik koffie' = I'll drink coffee tomorrow. ''s Morgens drink ik koffie' = every morning."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe zeg je 'this morning I drank coffee'?",
+      "en": "How do you say 'this morning I drank coffee'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Vanmorgen heb ik koffie gedronken.' Of: 'Vanochtend heb ik koffie gedronken.' Beide zijn correct — 'vanmorgen' en 'vanochtend' zijn synoniemen.",
+      "en": "'Vanmorgen heb ik koffie gedronken' or 'Vanochtend heb ik koffie gedronken'. Both correct — 'vanmorgen' and 'vanochtend' are synonyms."
+    },
+    {
+      "role": "A",
+      "nl": "Welke vorm hoort bij 'every evening I watch TV'?",
+      "en": "Which form goes with 'every evening I watch TV'?"
+    },
+    {
+      "role": "B",
+      "nl": "''s Avonds kijk ik tv.' — recurring, dus de 's-vorm. 'Vanavond kijk ik tv' zou betekenen 'tonight (one specific evening)'.",
+      "en": "''s Avonds kijk ik tv.' — recurring, so the 's-form. 'Vanavond kijk ik tv' would mean 'tonight (one specific evening)'."
+    },
+    {
+      "role": "A",
+      "nl": "Waar staat de apostrof bij ''s morgens'?",
+      "en": "Where does the apostrophe go in ''s morgens'?"
+    },
+    {
+      "role": "B",
+      "nl": "VOOR de s. ''s morgens' — niet 's'morgens', niet 'smorgens'. De apostrof staat in voor het oude 'des' (genitief van 'de morgen').",
+      "en": "BEFORE the s. ''s morgens' — not 's'morgens', not 'smorgens'. The apostrophe stands in for old 'des' (genitive of 'de morgen')."
+    }
+  ],
+  "relatedRules": [
+    "terms_words",
+    "lp5a"
+  ],
+  "relatedWoordjes": [
+    "time",
+    "weekdays"
+  ]
+}

@@ -36,44 +36,134 @@
         "If the grammar terms below are unfamiliar, read the glossaries first: [[terms_words]] (word types) and [[terms_sentence]] (sentence anatomy).",
         {
           "caption": "Default order — no inversion",
-          "labels":  ["SUBJECT",  "VERB",  "TIME",     "PLACE"],
-          "words":   ["Ik",       "werk",  "vandaag",  "thuis"],
-          "english": ["I",        "work",  "today",    "at home"],
+          "labels": [
+            "SUBJECT",
+            "VERB",
+            "TIME",
+            "PLACE"
+          ],
+          "words": [
+            "Ik",
+            "werk",
+            "vandaag",
+            "thuis"
+          ],
+          "english": [
+            "I",
+            "work",
+            "today",
+            "at home"
+          ],
           "note": "Subject [1] · Verb [2] · everything else [3+]. Same shape as English."
         },
         {
           "caption": "TIME at position 1 → inversion",
-          "labels":  ["TIME",     "VERB",  "SUBJECT",  "PLACE"],
-          "words":   ["Vandaag",  "werk",  "ik",       "thuis"],
-          "english": ["Today",    "work",  "I",        "at home"],
+          "labels": [
+            "TIME",
+            "VERB",
+            "SUBJECT",
+            "PLACE"
+          ],
+          "words": [
+            "Vandaag",
+            "werk",
+            "ik",
+            "thuis"
+          ],
+          "english": [
+            "Today",
+            "work",
+            "I",
+            "at home"
+          ],
           "note": "Something other than the subject leads → subject jumps to AFTER the verb. The verb stays anchored at position 2."
         },
         {
           "caption": "Frequency time + 'naar het journaal'",
-          "labels":  ["TIME (frequency)", "VERB",  "SUBJECT",      "PLACE / OBJECT"],
-          "words":   ["Elke avond",       "kijkt", "mijn buurman", "naar het journaal"],
-          "english": ["Every evening",    "watches", "my neighbour", "at the news"],
+          "labels": [
+            "TIME (frequency)",
+            "VERB",
+            "SUBJECT",
+            "PLACE / OBJECT"
+          ],
+          "words": [
+            "Elke avond",
+            "kijkt",
+            "mijn buurman",
+            "naar het journaal"
+          ],
+          "english": [
+            "Every evening",
+            "watches",
+            "my neighbour",
+            "at the news"
+          ],
           "note": "Multi-word phrases count as ONE element. 'Elke avond' is a single time block in slot 1."
         },
         {
           "caption": "Separable verb under inversion — prefix stays at the end",
-          "labels":  ["TIME",          "VERB",   "SUBJECT",  "PREFIX"],
-          "words":   ["Om zeven uur",  "staat",  "Stefaan",  "op"],
-          "english": ["At seven",      "gets",   "Stefaan",  "up"],
+          "labels": [
+            "TIME",
+            "VERB",
+            "SUBJECT",
+            "PREFIX"
+          ],
+          "words": [
+            "Om zeven uur",
+            "staat",
+            "Stefaan",
+            "op"
+          ],
+          "english": [
+            "At seven",
+            "gets",
+            "Stefaan",
+            "up"
+          ],
           "note": "'opstaan' splits: 'staat' fills slot 2, 'op' goes to the END. Inversion doesn't pull the prefix back."
         },
         {
           "caption": "Modal + infinitive under inversion",
-          "labels":  ["TIME",     "MODAL",  "SUBJECT",  "PLACE",  "INFINITIVE"],
-          "words":   ["Vandaag",  "wil",    "ik",       "thuis",  "werken"],
-          "english": ["Today",    "want",   "I",        "home",   "to work"],
+          "labels": [
+            "TIME",
+            "MODAL",
+            "SUBJECT",
+            "PLACE",
+            "INFINITIVE"
+          ],
+          "words": [
+            "Vandaag",
+            "wil",
+            "ik",
+            "thuis",
+            "werken"
+          ],
+          "english": [
+            "Today",
+            "want",
+            "I",
+            "home",
+            "to work"
+          ],
           "note": "The CONJUGATED modal anchors slot 2. The infinitive 'werken' closes the clause."
         },
         {
           "caption": "Yes/no question — slot 1 is empty, verb leads",
-          "labels":  ["VERB",  "SUBJECT",  "TIME"],
-          "words":   ["Werk",  "jij",      "vandaag"],
-          "english": ["Work",  "you",      "today?"],
+          "labels": [
+            "VERB",
+            "SUBJECT",
+            "TIME"
+          ],
+          "words": [
+            "Werk",
+            "jij",
+            "vandaag"
+          ],
+          "english": [
+            "Work",
+            "you",
+            "today?"
+          ],
           "note": "Pos 1 is empty in yes/no questions — the verb is the first element. ⚠ -t DROPPED before 'jij' (would normally be 'jij werkt' but in inversion: 'Werk jij?')."
         }
       ]
@@ -180,6 +270,52 @@
         "Wij gaan vanavond uit. → Vanavond gaan wij uit.",
         "Hij doet om acht uur zijn kleren aan. → Om acht uur doet hij zijn kleren aan.",
         "↳ Inversion does NOT pull the prefix back to the verb. The split stays — only the subject moves."
+      ]
+    },
+    {
+      "rule": "Multiple information groups — pick which to front",
+      "examples": [
+        "When a sentence has SEVERAL pieces of information (time, place, manner, accompaniment), any one of them can move to position 1 — the verb stays anchored at slot 2, the subject lands right after it.",
+        "Take this sentence with four info groups: day, clock time, place, accompaniment.",
+        {
+          "caption": "Default — subject leads, V2 order",
+          "labels":  ["SUBJECT", "VERB",  "TIME (day)", "TIME (clock)", "PLACE",       "ACCOMPANIMENT"],
+          "words":   ["Ik",      "loop",  "op zaterdag", "om 9 uur",     "in het park", "met mijn vrienden."],
+          "english": ["I",       "walk",  "on Saturday", "at 9 o'clock", "in the park", "with my friends."]
+        },
+        "Now front each info group. Whichever one leads, the subject ('ik') slides to slot 3, the verb stays at slot 2.",
+        {
+          "caption": "Option 1 — front the day (op zaterdag)",
+          "labels":  ["TIME (day)",   "VERB",  "SUBJECT", "TIME (clock)", "PLACE",       "ACCOMPANIMENT"],
+          "words":   ["Op zaterdag",  "loop",  "ik",      "om 9 uur",     "in het park", "met mijn vrienden."],
+          "english": ["On Saturday",  "walk",  "I",       "at 9 o'clock", "in the park", "with my friends."]
+        },
+        {
+          "caption": "Option 2 — front the clock time (om 9 uur)",
+          "labels":  ["TIME (clock)",  "VERB",  "SUBJECT", "TIME (day)",  "PLACE",       "ACCOMPANIMENT"],
+          "words":   ["Om 9 uur",      "loop",  "ik",      "op zaterdag", "in het park", "met mijn vrienden."],
+          "english": ["At 9 o'clock",  "walk",  "I",       "on Saturday", "in the park", "with my friends."]
+        },
+        {
+          "caption": "Option 3 — front the place (in het park)",
+          "labels":  ["PLACE",       "VERB",  "SUBJECT", "TIME (day)",  "TIME (clock)", "ACCOMPANIMENT"],
+          "words":   ["In het park", "loop",  "ik",      "op zaterdag", "om 9 uur",     "met mijn vrienden."],
+          "english": ["In the park", "walk",  "I",       "on Saturday", "at 9 o'clock", "with my friends."]
+        },
+        {
+          "caption": "Option 4 — front the accompaniment (met mijn vrienden)",
+          "labels":  ["ACCOMPANIMENT",       "VERB",  "SUBJECT", "TIME (day)",  "TIME (clock)", "PLACE"],
+          "words":   ["Met mijn vrienden",   "loop",  "ik",      "op zaterdag", "om 9 uur",     "in het park."],
+          "english": ["With my friends",     "walk",  "I",       "on Saturday", "at 9 o'clock", "in the park."]
+        },
+        "🇧🇪 Belgian-native shortcut: you can FRONT TWO time elements together (day + clock) as a single block at position 1 — the verb still stays at slot 2.",
+        {
+          "caption": "Belgian preference — day + clock fronted as ONE block",
+          "labels":  ["TIME (day + clock combined)",     "VERB",  "SUBJECT", "PLACE",       "ACCOMPANIMENT"],
+          "words":   ["Op zaterdag om 9 uur",            "loop",  "ik",      "in het park", "met mijn vrienden."],
+          "english": ["On Saturday at 9 o'clock",        "walk",  "I",       "in the park", "with my friends."]
+        },
+        "↳ Which to front? Whichever you want to EMPHASISE. Fronting puts the focus there. The other info groups slot into their normal default order after the subject. The V2 rule holds in every option."
       ]
     },
     {
@@ -342,7 +478,9 @@
     "verbstem",
     "separable",
     "modal",
-    "lp4b_trein"
+    "lp4b_trein",
+    "autonome_zin",
+    "conjunctions"
   ],
   "relatedWoordjes": [
     "weekdays",

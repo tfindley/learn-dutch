@@ -15,14 +15,38 @@
       "rule": "Main clause: Subject → Verb → Object",
       "examples": [
         {
-          "labels":  ["SUBJECT", "VERB",  "OBJECT"],
-          "words":   ["Ik",      "drink", "koffie"],
-          "english": ["I",       "drink", "coffee"]
+          "labels": [
+            "SUBJECT",
+            "VERB",
+            "OBJECT"
+          ],
+          "words": [
+            "Ik",
+            "drink",
+            "koffie"
+          ],
+          "english": [
+            "I",
+            "drink",
+            "coffee"
+          ]
         },
         {
-          "labels":  ["SUBJECT", "VERB",  "PLACE"],
-          "words":   ["Hij",     "werkt", "thuis"],
-          "english": ["He",      "works", "at home"]
+          "labels": [
+            "SUBJECT",
+            "VERB",
+            "PLACE"
+          ],
+          "words": [
+            "Hij",
+            "werkt",
+            "thuis"
+          ],
+          "english": [
+            "He",
+            "works",
+            "at home"
+          ]
         }
       ]
     },
@@ -30,15 +54,39 @@
       "rule": "Yes/No question: flip S and V",
       "examples": [
         {
-          "labels":  ["VERB",  "SUBJECT", "OBJECT"],
-          "words":   ["Drink", "jij",     "koffie?"],
-          "english": ["Drink", "you",     "coffee?"],
+          "labels": [
+            "VERB",
+            "SUBJECT",
+            "OBJECT"
+          ],
+          "words": [
+            "Drink",
+            "jij",
+            "koffie?"
+          ],
+          "english": [
+            "Drink",
+            "you",
+            "coffee?"
+          ],
           "note": "-t DROPPED before 'jij' (statement would be 'jij drinkt')."
         },
         {
-          "labels":  ["VERB",  "SUBJECT", "PLACE"],
-          "words":   ["Werkt", "hij",     "thuis?"],
-          "english": ["Works", "he",      "at home?"]
+          "labels": [
+            "VERB",
+            "SUBJECT",
+            "PLACE"
+          ],
+          "words": [
+            "Werkt",
+            "hij",
+            "thuis?"
+          ],
+          "english": [
+            "Works",
+            "he",
+            "at home?"
+          ]
         }
       ]
     },
@@ -47,15 +95,45 @@
       "examples": [
         {
           "caption": "After 'omdat' the verb 'drink' moves to the END",
-          "labels":  ["CONJ",    "SUBJECT", "OBJECT", "VERB (END)"],
-          "words":   ["omdat",   "ik",      "koffie", "drink"],
-          "english": ["because", "I",       "coffee", "drink"]
+          "labels": [
+            "CONJ",
+            "SUBJECT",
+            "OBJECT",
+            "VERB (END)"
+          ],
+          "words": [
+            "omdat",
+            "ik",
+            "koffie",
+            "drink"
+          ],
+          "english": [
+            "because",
+            "I",
+            "coffee",
+            "drink"
+          ]
         },
         {
           "caption": "After 'dat' the verb 'werkt' moves to the END",
-          "labels":  ["CONJ", "SUBJECT", "PLACE", "VERB (END)"],
-          "words":   ["dat",  "hij",     "thuis", "werkt"],
-          "english": ["that", "he",      "home",  "works"]
+          "labels": [
+            "CONJ",
+            "SUBJECT",
+            "PLACE",
+            "VERB (END)"
+          ],
+          "words": [
+            "dat",
+            "hij",
+            "thuis",
+            "werkt"
+          ],
+          "english": [
+            "that",
+            "he",
+            "home",
+            "works"
+          ]
         }
       ]
     },
@@ -64,15 +142,51 @@
       "examples": [
         {
           "caption": "Modal + infinitive both at the end — modal first, infinitive last",
-          "labels":  ["CONJ",    "SUBJECT", "OBJECT", "MODAL", "INFINITIVE"],
-          "words":   ["omdat",   "ik",      "koffie", "wil",   "drinken"],
-          "english": ["because", "I",       "coffee", "want",  "to drink"]
+          "labels": [
+            "CONJ",
+            "SUBJECT",
+            "OBJECT",
+            "MODAL",
+            "INFINITIVE"
+          ],
+          "words": [
+            "omdat",
+            "ik",
+            "koffie",
+            "wil",
+            "drinken"
+          ],
+          "english": [
+            "because",
+            "I",
+            "coffee",
+            "want",
+            "to drink"
+          ]
         },
         {
           "caption": "Negated modal — 'niet' sits before the verb cluster",
-          "labels":  ["CONJ", "SUBJECT", "NEG",  "MODAL", "INFINITIVE"],
-          "words":   ["dat",  "hij",     "niet", "kan",   "werken"],
-          "english": ["that", "he",      "not",  "can",   "to work"]
+          "labels": [
+            "CONJ",
+            "SUBJECT",
+            "NEG",
+            "MODAL",
+            "INFINITIVE"
+          ],
+          "words": [
+            "dat",
+            "hij",
+            "niet",
+            "kan",
+            "werken"
+          ],
+          "english": [
+            "that",
+            "he",
+            "not",
+            "can",
+            "to work"
+          ]
         }
       ]
     }
@@ -81,15 +195,63 @@
   "examples": [
     {
       "caption": "Main clause + subclause — verb 'ben' at the very end after 'omdat'",
-      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "MAIN — PLACE", "CONJ",    "SUB — SUBJ", "SUB — ADJ", "SUB — VERB"],
-      "words":   ["Ik",          "ga",          "naar huis",    "omdat",   "ik",         "moe",       "ben"],
-      "english": ["I",           "go",          "home",         "because", "I",          "tired",     "am"]
+      "labels": [
+        "MAIN — SUBJ",
+        "MAIN — VERB",
+        "MAIN — PLACE",
+        "CONJ",
+        "SUB — SUBJ",
+        "SUB — ADJ",
+        "SUB — VERB"
+      ],
+      "words": [
+        "Ik",
+        "ga",
+        "naar huis",
+        "omdat",
+        "ik",
+        "moe",
+        "ben"
+      ],
+      "english": [
+        "I",
+        "go",
+        "home",
+        "because",
+        "I",
+        "tired",
+        "am"
+      ]
     },
     {
       "caption": "Two-verb subclause — both verbs at the end, modal before infinitive",
-      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "CONJ", "SUB — SUBJ", "SUB — NEG", "SUB — MODAL", "SUB — INFIN"],
-      "words":   ["Hij",         "zegt",        "dat",  "hij",        "niet",      "kan",         "komen"],
-      "english": ["He",          "says",        "that", "he",         "not",       "can",         "to come"]
+      "labels": [
+        "MAIN — SUBJ",
+        "MAIN — VERB",
+        "CONJ",
+        "SUB — SUBJ",
+        "SUB — NEG",
+        "SUB — MODAL",
+        "SUB — INFIN"
+      ],
+      "words": [
+        "Hij",
+        "zegt",
+        "dat",
+        "hij",
+        "niet",
+        "kan",
+        "komen"
+      ],
+      "english": [
+        "He",
+        "says",
+        "that",
+        "he",
+        "not",
+        "can",
+        "to come"
+      ]
     }
   ],
   "practice": [
@@ -117,6 +279,8 @@
   "relatedRules": [
     "terms_sentence",
     "inversion",
-    "verbstem"
+    "verbstem",
+    "autonome_zin",
+    "conjunctions"
   ]
 }

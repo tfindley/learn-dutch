@@ -54,27 +54,87 @@
             "The conjugated MODAL anchors slot 2. The INFINITIVE always goes to the END of the clause. Everything else slots in between.",
             {
               "caption": "Jan can work well",
-              "labels":  ["SUBJECT", "MODAL", "INFO",  "INFINITIVE"],
-              "words":   ["Jan",     "kan",   "goed",  "werken"],
-              "english": ["Jan",     "can",   "well",  "to work"]
+              "labels": [
+                "SUBJECT",
+                "MODAL",
+                "INFO",
+                "INFINITIVE"
+              ],
+              "words": [
+                "Jan",
+                "kan",
+                "goed",
+                "werken"
+              ],
+              "english": [
+                "Jan",
+                "can",
+                "well",
+                "to work"
+              ]
             },
             {
               "caption": "Els wants to cook soup",
-              "labels":  ["SUBJECT", "MODAL", "OBJECT", "INFINITIVE"],
-              "words":   ["Els",     "wil",   "soep",   "koken"],
-              "english": ["Els",     "wants", "soup",   "to cook"]
+              "labels": [
+                "SUBJECT",
+                "MODAL",
+                "OBJECT",
+                "INFINITIVE"
+              ],
+              "words": [
+                "Els",
+                "wil",
+                "soep",
+                "koken"
+              ],
+              "english": [
+                "Els",
+                "wants",
+                "soup",
+                "to cook"
+              ]
             },
             {
               "caption": "I have to have breakfast in the morning",
-              "labels":  ["SUBJECT", "MODAL", "TIME",        "INFINITIVE"],
-              "words":   ["Ik",      "moet",  "'s morgens",  "ontbijten"],
-              "english": ["I",       "must",  "in the mornings", "to breakfast"]
+              "labels": [
+                "SUBJECT",
+                "MODAL",
+                "TIME",
+                "INFINITIVE"
+              ],
+              "words": [
+                "Ik",
+                "moet",
+                "'s morgens",
+                "ontbijten"
+              ],
+              "english": [
+                "I",
+                "must",
+                "in the mornings",
+                "to breakfast"
+              ]
             },
             {
               "caption": "We are allowed to wait here",
-              "labels":  ["SUBJECT", "MODAL", "PLACE", "INFINITIVE"],
-              "words":   ["Wij",     "mogen", "hier",  "wachten"],
-              "english": ["We",      "may",   "here",  "to wait"]
+              "labels": [
+                "SUBJECT",
+                "MODAL",
+                "PLACE",
+                "INFINITIVE"
+              ],
+              "words": [
+                "Wij",
+                "mogen",
+                "hier",
+                "wachten"
+              ],
+              "english": [
+                "We",
+                "may",
+                "here",
+                "to wait"
+              ]
             }
           ]
         },
@@ -212,7 +272,9 @@
         "modal",
         "inversion",
         "wordorder",
-        "graag"
+        "graag",
+        "autonome_zin",
+        "conjunctions"
       ],
       "relatedWoordjes": [
         "freetime",
