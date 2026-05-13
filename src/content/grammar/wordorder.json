@@ -14,41 +14,82 @@
     {
       "rule": "Main clause: Subject → Verb → Object",
       "examples": [
-        "Ik drink koffie.",
-        "Hij werkt thuis."
+        {
+          "labels":  ["SUBJECT", "VERB",  "OBJECT"],
+          "words":   ["Ik",      "drink", "koffie"],
+          "english": ["I",       "drink", "coffee"]
+        },
+        {
+          "labels":  ["SUBJECT", "VERB",  "PLACE"],
+          "words":   ["Hij",     "werkt", "thuis"],
+          "english": ["He",      "works", "at home"]
+        }
       ]
     },
     {
       "rule": "Yes/No question: flip S and V",
       "examples": [
-        "Drink jij koffie?",
-        "Werkt hij thuis?"
+        {
+          "labels":  ["VERB",  "SUBJECT", "OBJECT"],
+          "words":   ["Drink", "jij",     "koffie?"],
+          "english": ["Drink", "you",     "coffee?"],
+          "note": "-t DROPPED before 'jij' (statement would be 'jij drinkt')."
+        },
+        {
+          "labels":  ["VERB",  "SUBJECT", "PLACE"],
+          "words":   ["Werkt", "hij",     "thuis?"],
+          "english": ["Works", "he",      "at home?"]
+        }
       ]
     },
     {
-      "rule": "Subclause (omdat, dat, als...): verb goes LAST",
+      "rule": "Subclause (omdat, dat, als…): verb kicks to the END",
       "examples": [
-        "...omdat ik koffie drink.",
-        "...dat hij thuis werkt."
+        {
+          "caption": "After 'omdat' the verb 'drink' moves to the END",
+          "labels":  ["CONJ",    "SUBJECT", "OBJECT", "VERB (END)"],
+          "words":   ["omdat",   "ik",      "koffie", "drink"],
+          "english": ["because", "I",       "coffee", "drink"]
+        },
+        {
+          "caption": "After 'dat' the verb 'werkt' moves to the END",
+          "labels":  ["CONJ", "SUBJECT", "PLACE", "VERB (END)"],
+          "words":   ["dat",  "hij",     "thuis", "werkt"],
+          "english": ["that", "he",      "home",  "works"]
+        }
       ]
     },
     {
       "rule": "Two verbs in subclause: infinitive comes last",
       "examples": [
-        "...omdat ik koffie wil drinken.",
-        "...dat hij niet kan werken."
+        {
+          "caption": "Modal + infinitive both at the end — modal first, infinitive last",
+          "labels":  ["CONJ",    "SUBJECT", "OBJECT", "MODAL", "INFINITIVE"],
+          "words":   ["omdat",   "ik",      "koffie", "wil",   "drinken"],
+          "english": ["because", "I",       "coffee", "want",  "to drink"]
+        },
+        {
+          "caption": "Negated modal — 'niet' sits before the verb cluster",
+          "labels":  ["CONJ", "SUBJECT", "NEG",  "MODAL", "INFINITIVE"],
+          "words":   ["dat",  "hij",     "niet", "kan",   "werken"],
+          "english": ["that", "he",      "not",  "can",   "to work"]
+        }
       ]
     }
   ],
   "memory": "🧠 Subclause = function call — you stack verbs at the end like arguments: subject + [modal] + [infinitive].",
   "examples": [
     {
-      "nl": "Ik ga naar huis omdat ik moe ben.",
-      "en": "I'm going home because I'm tired."
+      "caption": "Main clause + subclause — verb 'ben' at the very end after 'omdat'",
+      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "MAIN — PLACE", "CONJ",    "SUB — SUBJ", "SUB — ADJ", "SUB — VERB"],
+      "words":   ["Ik",          "ga",          "naar huis",    "omdat",   "ik",         "moe",       "ben"],
+      "english": ["I",           "go",          "home",         "because", "I",          "tired",     "am"]
     },
     {
-      "nl": "Hij zegt dat hij niet kan komen.",
-      "en": "He says that he can't come."
+      "caption": "Two-verb subclause — both verbs at the end, modal before infinitive",
+      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "CONJ", "SUB — SUBJ", "SUB — NEG", "SUB — MODAL", "SUB — INFIN"],
+      "words":   ["Hij",         "zegt",        "dat",  "hij",        "niet",      "kan",         "komen"],
+      "english": ["He",          "says",        "that", "he",         "not",       "can",         "to come"]
     }
   ],
   "practice": [

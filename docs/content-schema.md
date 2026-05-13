@@ -83,6 +83,36 @@ Canonical schema for every content type in `src/content/`. New JSON files in the
 - **`playlist`** (optional): renders as a "📺 Watch the playlist" button on `/leerpaden` and `/leerpaden/<id>`. Omit if there's no playlist.
 - A group may have **zero sections** — the page still renders the playlist and a "Content coming soon" placeholder. Useful for outline groups (e.g. Leerpad 0, Leerpad 5) where the course videos are available but text content isn't written yet.
 
+### Sentence-anatomy tables inside patterns
+
+A pattern's `examples` array can mix plain strings with **anatomy objects** — a structured way to break a Dutch sentence into labelled columns. Each anatomy object renders as a small inline table; mix and match freely with plain-string examples.
+
+```json
+{
+  "rule": "🔍 Sentence anatomy — what sits in each slot",
+  "examples": [
+    "Plain string examples still render normally.",
+    {
+      "caption": "TIME at position 1 → inversion",
+      "labels":  ["TIME",    "VERB", "SUBJECT", "PLACE"],
+      "words":   ["Vandaag", "werk", "ik",      "thuis"],
+      "english": ["Today",   "work", "I",       "at home"],
+      "note": "Optional footnote shown under the table."
+    }
+  ]
+}
+```
+
+- **`labels`** (required, array of strings): column headers — small caps, mono font.
+- **`words`** (required, array of strings, SAME length as `labels`): the Dutch sentence broken into one word/phrase per column.
+- **`english`** (optional, array of strings): translation row beneath the words.
+- **`caption`** (optional): heading above the table.
+- **`note`** (optional): footnote below the table.
+
+Detected structurally — any object with both `labels` and `words` arrays renders as an anatomy table. Use a long-dash or empty string for visually-empty cells (e.g. yes/no questions where position 1 is empty); the renderer shows them as a faint `—`. Table widths are flexible — different examples can have different column counts (3, 4, 5+).
+
+This is the right tool whenever you want to show "this word does X" mappings — much more scannable than `'word' = LABEL` inline lists.
+
 ### Style notes for leerpad content
 
 - **Pattern examples** mix three formats freely:

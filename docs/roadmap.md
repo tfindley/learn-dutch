@@ -7,6 +7,39 @@ Status legend:
 - 🟢 **READY** — well-specced, no blockers, pick and ship
 - 🟡 **NEEDS DESIGN** — direction agreed but details to nail down
 - 🔵 **DEFERRED** — sized correctly but waiting on content volume or another item
+- 🔴 **MAJOR** — large enough to warrant its own release planning session
+
+---
+
+## 0. Dutch/English visual differentiation in prose · 🔴 MAJOR — v3.0 candidate
+
+**Problem:** mixed-language content (Dutch words inside English explanations, pattern examples that combine Dutch sentences with English translations) doesn't visually distinguish the two languages. The reader's brain has to context-switch without a cue, fatiguing comprehension.
+
+**Tried and reverted in v2.3.0 (don't repeat):** A naive single-quote regex (`/'([^']+?)'/g`) failed because English contractions (`weren't`, `you've`, `don't`, `it's`) contain apostrophes that the regex paired with subsequent Dutch tokens, styling whole sentences of English as Dutch. The mistake is captured in the `[reverted]` commits for reference.
+
+**Proposed approach for v3.0 (the "intensive option"):**
+
+Two layers, planned together:
+
+1. **Pattern examples become structured `{nl, en, note?}` objects.** Renderer renders NL/EN as a two-column split (matches the rule-level examples pattern, minus mono font). Plain strings keep working for pure-English commentary, pure-Dutch lines, and bullets. No regex on apostrophes — the field tag is the source of truth.
+
+2. **Inline Dutch tokens in prose fields** (`explanation`, `memory`, `shortcut`, anatomy `note`/`caption`) use **backticks** as the markup convention — unambiguous, no collision with English contractions. Renderer styles backticked spans distinctively. Single quotes stay as natural-language quoting for English meta-references.
+
+**Scope estimate:**
+- Schema + renderer changes: ~2 hours
+- Content migration: ~300-400 example strings across ~30 files for pattern examples (case-by-case judgment), plus a sweep through prose fields to backtick Dutch tokens
+- A second sweep for QA — checking each rule page renders correctly
+- Realistic total: a half-day to a full day of focused work
+
+**Why v3.0:** This is a content schema change. Pattern examples shift from "flexible strings" to "structured bilingual objects" as the dominant form. That's a meaningful enough architectural shift to warrant the major-version bump and a dedicated planning session.
+
+**Dependencies:** none. Independent of the other roadmap items.
+
+**Open design questions for the v3.0 planning session:**
+- Exact visual style for the NL/EN split (color, weight, separators, mobile layout)
+- Exact visual style for backtick-wrapped Dutch tokens (subtle highlight, color, weight)
+- Whether to migrate all content in one PR or roll out rule-by-rule
+- Whether `practice[]` (chat dialogue) and woordjes also need this treatment, or just rules
 
 ---
 

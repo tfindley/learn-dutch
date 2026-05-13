@@ -195,20 +195,29 @@
   "memory": "🧠 Each word in a sentence has a JOB. The job has a name (verb, noun, pronoun…) and Dutch teachers will always use the Dutch name (werkwoord, naamwoord, voornaamwoord…). Memorise the mapping once and the grammar rules become readable. The two most important pairs for Belgian Dutch class: werkwoord/verbum = verb, voorzetsel = preposition.",
   "examples": [
     {
-      "nl": "Het kleine meisje leest een boek.",
-      "en": "The small girl reads a book. → 'Het' = article, 'kleine' = adjective, 'meisje' = noun, 'leest' = verb (conjugated), 'een' = article, 'boek' = noun."
+      "caption": "'The small girl reads a book.'",
+      "labels":  ["ARTICLE", "ADJECTIVE", "NOUN",   "VERB",  "ARTICLE", "NOUN"],
+      "words":   ["Het",     "kleine",    "meisje", "leest", "een",     "boek"],
+      "english": ["The",     "small",     "girl",   "reads", "a",       "book"]
     },
     {
-      "nl": "Vandaag werk ik thuis.",
-      "en": "Today I work from home. → 'Vandaag' = adverb (time), 'werk' = verb, 'ik' = pronoun (subject), 'thuis' = adverb (place)."
+      "caption": "'Today I work from home.' (inversion — time fronted)",
+      "labels":  ["ADVERB (time)", "VERB",  "PRONOUN (subj)", "ADVERB (place)"],
+      "words":   ["Vandaag",       "werk",  "ik",             "thuis"],
+      "english": ["Today",         "work",  "I",              "home"]
     },
     {
-      "nl": "Ik wil graag franse les volgen.",
-      "en": "I would like to take French class. → 'Ik' = pronoun, 'wil' = modal verb, 'graag' = adverb, 'franse' = adjective, 'les' = noun, 'volgen' = infinitive."
+      "caption": "'I would like to take French class.' (modal + infinitive)",
+      "labels":  ["PRONOUN", "MODAL", "ADVERB", "ADJ",     "NOUN", "INFINITIVE"],
+      "words":   ["Ik",      "wil",   "graag",  "franse",  "les",  "volgen"],
+      "english": ["I",       "want",  "gladly", "French",  "class","to take"]
     },
     {
-      "nl": "Mijn zus woont in Engeland omdat ze daar werkt.",
-      "en": "My sister lives in England because she works there. → 'Mijn' = possessive pronoun, 'zus' = noun, 'woont' = verb, 'in' = preposition, 'Engeland' = proper noun, 'omdat' = subordinating conjunction, 'ze' = pronoun, 'daar' = adverb (place), 'werkt' = verb (at the end because of 'omdat')."
+      "caption": "'My sister lives in England because she works there.' (main + subclause)",
+      "labels":  ["POSSESS", "NOUN", "VERB",  "PREP", "PROPER NOUN", "CONJ",   "PRONOUN", "ADVERB", "VERB"],
+      "words":   ["Mijn",    "zus",  "woont", "in",   "Engeland",    "omdat",  "ze",      "daar",   "werkt"],
+      "english": ["My",      "sister","lives","in",   "England",     "because","she",     "there",  "works"],
+      "note": "After 'omdat' the verb moves to the END of the clause — that's the subclause rule."
     }
   ],
   "practice": [

@@ -12,41 +12,76 @@
   "explanation": "Dutch has two negation words. The rule is simple once you see the pattern.",
   "patterns": [
     {
-      "rule": "geen = negates nouns (replaces een/no article)",
+      "rule": "geen = negates nouns (replaces 'een' or no article)",
       "examples": [
-        "Ik heb geen auto.",
-        "Ik heb geen tijd."
+        {
+          "caption": "'I have no car' — geen replaces 'een'",
+          "labels":  ["SUBJECT", "VERB", "GEEN", "NOUN"],
+          "words":   ["Ik",      "heb",  "geen", "auto"],
+          "english": ["I",       "have", "no",   "car"]
+        },
+        {
+          "caption": "'I have no time' — geen replaces zero article",
+          "labels":  ["SUBJECT", "VERB", "GEEN", "NOUN"],
+          "words":   ["Ik",      "heb",  "geen", "tijd"],
+          "english": ["I",       "have", "no",   "time"]
+        }
       ]
     },
     {
       "rule": "niet = negates verbs, adjectives, adverbs",
       "examples": [
-        "Ik werk niet.",
-        "Het is niet goed."
+        {
+          "caption": "'I don't work' — niet negates the verb",
+          "labels":  ["SUBJECT", "VERB", "NIET"],
+          "words":   ["Ik",      "werk", "niet"],
+          "english": ["I",       "work", "not"]
+        },
+        {
+          "caption": "'It is not good' — niet negates the adjective",
+          "labels":  ["SUBJECT", "VERB", "NIET", "ADJECTIVE"],
+          "words":   ["Het",     "is",   "niet", "goed"],
+          "english": ["It",      "is",   "not",  "good"]
+        }
       ]
     },
     {
-      "rule": "niet = negates specific nouns with 'de/het'",
+      "rule": "niet = negates SPECIFIC nouns (those with de/het)",
       "examples": [
-        "Ik heb de auto niet. (I don't have THE car.)"
+        {
+          "caption": "'I don't have THE car' — niet because the noun is specific (has 'de')",
+          "labels":  ["SUBJECT", "VERB", "ARTICLE", "NOUN", "NIET"],
+          "words":   ["Ik",      "heb",  "de",      "auto", "niet"],
+          "english": ["I",       "have", "the",     "car",  "not"]
+        }
       ]
     },
     {
-      "rule": "niet comes at END before separable verb parts",
+      "rule": "niet comes BEFORE separable prefix at the end",
       "examples": [
-        "Ik ga niet mee."
+        {
+          "caption": "'I'm not coming along' — niet sits just before the prefix 'mee'",
+          "labels":  ["SUBJECT", "VERB", "NIET", "PREFIX"],
+          "words":   ["Ik",      "ga",   "niet", "mee"],
+          "english": ["I",       "go",   "not",  "along"]
+        }
       ]
     }
   ],
   "memory": "🧠 geen = 'no [thing]' (/dev/null for nouns). niet = toggle switch for everything else.",
   "examples": [
     {
-      "nl": "Ik drink geen koffie.",
-      "en": "I don't drink coffee. (geen = no article)"
+      "caption": "geen — 'I don't drink coffee' (general — no article)",
+      "labels":  ["SUBJECT", "VERB",  "GEEN", "NOUN"],
+      "words":   ["Ik",      "drink", "geen", "koffie"],
+      "english": ["I",       "drink", "no",   "coffee"]
     },
     {
-      "nl": "Ik drink de koffie niet.",
-      "en": "I'm not drinking the coffee. (the specific one)"
+      "caption": "niet — 'I'm not drinking THE coffee' (specific cup, has 'de')",
+      "labels":  ["SUBJECT", "VERB",  "ARTICLE", "NOUN",   "NIET"],
+      "words":   ["Ik",      "drink", "de",      "koffie", "niet"],
+      "english": ["I",       "drink", "the",     "coffee", "not"],
+      "note": "Adding 'de' switches the negation from geen → niet. The noun is now specific (this particular coffee), not general."
     }
   ],
   "practice": [

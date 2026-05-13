@@ -2,6 +2,19 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.3.0',
+    date: '2026-05-13',
+    added: [
+      'Sentence-anatomy tables — pattern examples and rule-level examples can now be authored as labelled column tables ({caption, labels, words, english, note}). Renders as a clean grid showing what role each word plays in the sentence. The "Pos 1: ... Pos 2: ..." inline annotations are gone',
+      'New <SentenceAnatomy> component plus dispatch in PatternBlock and both Rule pages',
+    ],
+    changed: [
+      'Inversion, terms_sentence, wordorder, negation, terms_words, and Leerpad 5B (V1+V2) all converted to anatomy tables — sentence structure is now visually scannable',
+      'Rule pages widened from max-w-3xl (768 px) to max-w-4xl (896 px), and Course Module too. More breathing room on desktop, better fit for the new tables',
+    ],
+    fixed: [],
+  },
+  {
     version: '2.2.0',
     date: '2026-05-13',
     added: [

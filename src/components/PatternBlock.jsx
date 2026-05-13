@@ -1,3 +1,5 @@
+import SentenceAnatomy, { isAnatomy } from './SentenceAnatomy';
+
 export default function PatternBlock({ pattern, expanded, onToggle }) {
   return (
     <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
@@ -12,9 +14,11 @@ export default function PatternBlock({ pattern, expanded, onToggle }) {
       </button>
       {expanded && (
         <div className="px-4 py-3 space-y-1.5 bg-white dark:bg-gray-900">
-          {pattern.examples.map((ex, i) => (
-            <div key={i} className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{ex}</div>
-          ))}
+          {pattern.examples.map((ex, i) =>
+            isAnatomy(ex)
+              ? <SentenceAnatomy key={i} {...ex} />
+              : <div key={i} className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">{ex}</div>
+          )}
         </div>
       )}
     </div>

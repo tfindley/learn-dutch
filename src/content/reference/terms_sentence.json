@@ -94,18 +94,30 @@
         "  Position 1 = ONE element (subject, time, place, question word, or a subordinate clause).",
         "  Position 2 = the CONJUGATED VERB. Always. No exceptions in main clauses.",
         "  Position 3+ = the rest of the sentence — subject (if not at 1), objects, information, infinitives at the end.",
-        "Worked example #1 — default order:",
-        "  Pos 1: Ik    | Pos 2: werk | Pos 3+: vandaag thuis",
-        "  → 'Ik werk vandaag thuis.'",
-        "Worked example #2 — time at slot 1, inverted:",
-        "  Pos 1: Vandaag | Pos 2: werk | Pos 3: ik | Pos 4: thuis",
-        "  → 'Vandaag werk ik thuis.'",
-        "Worked example #3 — question word at slot 1:",
-        "  Pos 1: Wanneer | Pos 2: komt | Pos 3: hij | Pos 4: thuis",
-        "  → 'Wanneer komt hij thuis?'",
-        "Worked example #4 — modal at slot 2, infinitive at the END:",
-        "  Pos 1: Vandaag | Pos 2: wil | Pos 3: ik | Pos 4+: thuis | End: werken",
-        "  → 'Vandaag wil ik thuis werken.'",
+        {
+          "caption": "Default order — subject at position 1",
+          "labels":  ["POS 1 — SUBJECT", "POS 2 — VERB", "POS 3",   "POS 4"],
+          "words":   ["Ik",              "werk",         "vandaag", "thuis"],
+          "english": ["I",               "work",         "today",   "at home"]
+        },
+        {
+          "caption": "Time at position 1 → inversion",
+          "labels":  ["POS 1 — TIME", "POS 2 — VERB", "POS 3 — SUBJECT", "POS 4"],
+          "words":   ["Vandaag",      "werk",         "ik",              "thuis"],
+          "english": ["Today",        "work",         "I",               "at home"]
+        },
+        {
+          "caption": "Question word at position 1 → inversion",
+          "labels":  ["POS 1 — WH-WORD", "POS 2 — VERB", "POS 3 — SUBJECT", "POS 4"],
+          "words":   ["Wanneer",         "komt",         "hij",             "thuis"],
+          "english": ["When",            "comes",        "he",              "home?"]
+        },
+        {
+          "caption": "Modal at position 2 → infinitive closes the clause",
+          "labels":  ["POS 1 — TIME", "POS 2 — MODAL", "POS 3 — SUBJ", "POS 4", "END — INFINITIVE"],
+          "words":   ["Vandaag",      "wil",           "ik",           "thuis", "werken"],
+          "english": ["Today",        "want",          "I",            "home",  "to work"]
+        },
         "→ Inversion in full: [[inversion]]."
       ]
     },
@@ -115,11 +127,18 @@
         "A verb made of TWO parts: a prefix (op-, uit-, aan-, mee-, thuis-) and a base verb.",
         "Listed in the dictionary as one word: 'opstaan' (to get up), 'uitgaan' (to go out), 'aandoen' (to put on).",
         "In a MAIN clause, the two parts SPLIT — the base verb sits at position 2, the prefix goes to the END of the clause.",
-        "  Pos 1: Stefaan | Pos 2: staat | Pos 3: om zeven uur | End: op",
-        "  → 'Stefaan staat om zeven uur op.'",
-        "Under inversion, the split STAYS:",
-        "  Pos 1: Om zeven uur | Pos 2: staat | Pos 3: Stefaan | End: op",
-        "  → 'Om zeven uur staat Stefaan op.'",
+        {
+          "caption": "Default order — separable verb 'opstaan' splits",
+          "labels":  ["POS 1 — SUBJECT", "POS 2 — VERB", "POS 3 — TIME",   "END — PREFIX"],
+          "words":   ["Stefaan",         "staat",        "om zeven uur",   "op"],
+          "english": ["Stefaan",         "gets",         "at seven",       "up"]
+        },
+        {
+          "caption": "Under inversion — the split STAYS",
+          "labels":  ["POS 1 — TIME",  "POS 2 — VERB", "POS 3 — SUBJECT", "END — PREFIX"],
+          "words":   ["Om zeven uur",  "staat",        "Stefaan",         "op"],
+          "english": ["At seven",      "gets",         "Stefaan",         "up"]
+        },
         "→ Full separable-verb rules: [[separable]]."
       ]
     },
@@ -139,24 +158,35 @@
   "memory": "🧠 Two glossaries, two perspectives. The Word-Types glossary [[terms_words]] tells you what a word IS (verb, noun, pronoun…). The Sentence-Anatomy glossary tells you what a word DOES in a sentence (subject, object, information…). Master both labels for any single word in a sentence and you can read every Dutch grammar rule fluently. The most important sentence-anatomy concept for Dutch: COUNT TO TWO — what's at position 1, what's at position 2. The conjugated verb is ALWAYS at position 2 in main clauses.",
   "examples": [
     {
-      "nl": "Ik werk vandaag thuis.",
-      "en": "→ 'Ik' = subject (pos 1) · 'werk' = verb (pos 2) · 'vandaag' = time info · 'thuis' = place info."
+      "caption": "Default order — subject first",
+      "labels":  ["SUBJECT (pos 1)", "VERB (pos 2)", "TIME INFO", "PLACE INFO"],
+      "words":   ["Ik",              "werk",         "vandaag",   "thuis"],
+      "english": ["I",               "work",         "today",     "at home"]
     },
     {
-      "nl": "Vandaag werk ik thuis.",
-      "en": "→ 'Vandaag' = time info AT POSITION 1 · 'werk' = verb (pos 2) · 'ik' = subject (pos 3) · 'thuis' = place info. INVERSION."
+      "caption": "Inversion — time fronted",
+      "labels":  ["TIME INFO (pos 1)", "VERB (pos 2)", "SUBJECT (pos 3)", "PLACE INFO"],
+      "words":   ["Vandaag",           "werk",         "ik",              "thuis"],
+      "english": ["Today",             "work",         "I",               "at home"]
     },
     {
-      "nl": "Om zeven uur staat Stefaan op.",
-      "en": "→ 'Om zeven uur' = time info (pos 1) · 'staat' = verb (pos 2) · 'Stefaan' = subject (pos 3) · 'op' = SEPARABLE PREFIX at the end."
+      "caption": "Separable verb under inversion — prefix at the END",
+      "labels":  ["TIME INFO (pos 1)", "VERB (pos 2)", "SUBJECT (pos 3)", "PREFIX (end)"],
+      "words":   ["Om zeven uur",      "staat",        "Stefaan",         "op"],
+      "english": ["At seven",          "gets",         "Stefaan",         "up"]
     },
     {
-      "nl": "Ik wil graag een boek lezen.",
-      "en": "→ 'Ik' = subject · 'wil' = modal verb (pos 2) · 'graag' = adverb · 'een boek' = direct object · 'lezen' = INFINITIVE at the end."
+      "caption": "Modal sentence — infinitive at the END",
+      "labels":  ["SUBJECT", "MODAL (pos 2)", "ADVERB", "DIRECT OBJECT", "INFINITIVE (end)"],
+      "words":   ["Ik",      "wil",           "graag",  "een boek",      "lezen"],
+      "english": ["I",       "want",          "gladly", "a book",        "to read"]
     },
     {
-      "nl": "Ik ga naar huis omdat ik moe ben.",
-      "en": "→ MAIN clause: 'Ik ga naar huis' (verb 'ga' at pos 2). SUB clause: 'omdat ik moe BEN' (verb 'ben' kicked to the END)."
+      "caption": "Main clause + subclause — verb 'ben' kicked to the END after 'omdat'",
+      "labels":  ["MAIN — SUBJ", "MAIN — VERB", "MAIN — PLACE", "CONJ",     "SUB — SUBJ", "SUB — ADJ", "SUB — VERB"],
+      "words":   ["Ik",          "ga",          "naar huis",    "omdat",    "ik",         "moe",       "ben"],
+      "english": ["I",           "go",          "home",         "because",  "I",          "tired",     "am"],
+      "note": "Main clause keeps V2 (verb at pos 2). Subclause sends its conjugated verb to the END."
     }
   ],
   "practice": [

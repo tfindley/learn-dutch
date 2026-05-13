@@ -7,6 +7,7 @@ import PatternBlock from '../../components/PatternBlock';
 import PracticeConversation from '../../components/PracticeConversation';
 import RelatedRules from '../../components/RelatedRules';
 import RelatedWoordjes from '../../components/RelatedWoordjes';
+import SentenceAnatomy, { isAnatomy } from '../../components/SentenceAnatomy';
 
 export default function LeerpadRule() {
   const { groupId, ruleId } = useParams();
@@ -35,7 +36,7 @@ export default function LeerpadRule() {
   }, [rule.leerpad, rule.id]);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
+    <div className="max-w-4xl mx-auto px-4 py-8">
       <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-6">
         <Link to="/leerpaden" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">Leerpaden</Link>
         <span>/</span>
@@ -100,12 +101,16 @@ export default function LeerpadRule() {
         <section className="mb-8">
           <h2 className="text-sm font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400 mb-3">Examples</h2>
           <div className="space-y-2">
-            {rule.examples.map((ex, i) => (
-              <div key={i} className="flex flex-col sm:flex-row sm:gap-4 text-sm py-2 border-b border-gray-100 dark:border-gray-800 last:border-0">
-                <span className="font-mono font-medium text-gray-900 dark:text-gray-100 sm:w-1/2">{ex.nl}</span>
-                <span className="text-gray-500 dark:text-gray-400 sm:w-1/2">{ex.en}</span>
-              </div>
-            ))}
+            {rule.examples.map((ex, i) =>
+              isAnatomy(ex)
+                ? <SentenceAnatomy key={i} {...ex} />
+                : (
+                  <div key={i} className="flex flex-col sm:flex-row sm:gap-4 text-sm py-2 border-b border-gray-100 dark:border-gray-800 last:border-0">
+                    <span className="font-mono font-medium text-gray-900 dark:text-gray-100 sm:w-1/2">{ex.nl}</span>
+                    <span className="text-gray-500 dark:text-gray-400 sm:w-1/2">{ex.en}</span>
+                  </div>
+                )
+            )}
           </div>
         </section>
       )}

@@ -34,49 +34,48 @@
       "rule": "🔍 Sentence anatomy — what sits in each slot",
       "examples": [
         "If the grammar terms below are unfamiliar, read the glossaries first: [[terms_words]] (word types) and [[terms_sentence]] (sentence anatomy).",
-        "",
-        "── Example 1: default order (no inversion) ──",
-        "Sentence: 'Ik werk vandaag thuis.'",
-        "  Pos 1: 'Ik'      = SUBJECT (onderwerp · pronoun)",
-        "  Pos 2: 'werk'    = VERB (persoonsvorm · conjugated form of 'werken')",
-        "  Pos 3: 'vandaag' = INFORMATION (time · adverb)",
-        "  Pos 4: 'thuis'   = INFORMATION (place · adverb)",
-        "",
-        "── Example 2: TIME at position 1 → inversion ──",
-        "Sentence: 'Vandaag werk ik thuis.'",
-        "  Pos 1: 'Vandaag' = INFORMATION (time)  ← something other than subject leads",
-        "  Pos 2: 'werk'    = VERB (persoonsvorm) ← STILL at position 2",
-        "  Pos 3: 'ik'      = SUBJECT (onderwerp)  ← subject moved AFTER the verb",
-        "  Pos 4: 'thuis'   = INFORMATION (place)",
-        "",
-        "── Example 3: clock time + neighbour watching the news ──",
-        "Sentence: 'Elke avond kijkt mijn buurman naar het journaal.'",
-        "  Pos 1: 'Elke avond'        = INFORMATION (time · frequency)",
-        "  Pos 2: 'kijkt'             = VERB (persoonsvorm)",
-        "  Pos 3: 'mijn buurman'      = SUBJECT (noun phrase)",
-        "  Pos 4: 'naar het journaal' = INFORMATION (prepositional phrase)",
-        "",
-        "── Example 4: separable verb under inversion ──",
-        "Sentence: 'Om zeven uur staat Stefaan op.'",
-        "  Pos 1:  'Om zeven uur' = INFORMATION (time · clock)",
-        "  Pos 2:  'staat'        = VERB (persoonsvorm — main half of separable 'opstaan')",
-        "  Pos 3:  'Stefaan'      = SUBJECT (proper noun)",
-        "  End:    'op'           = SEPARABLE PREFIX (stays at the end)",
-        "",
-        "── Example 5: modal + infinitive under inversion ──",
-        "Sentence: 'Vandaag wil ik thuis werken.'",
-        "  Pos 1:  'Vandaag' = INFORMATION (time)",
-        "  Pos 2:  'wil'     = MODAL VERB (conjugated)",
-        "  Pos 3:  'ik'      = SUBJECT",
-        "  Pos 4:  'thuis'   = INFORMATION (place)",
-        "  End:    'werken'  = INFINITIVE (stays at the end)",
-        "",
-        "── Example 6: yes/no question (slot 1 is empty) ──",
-        "Sentence: 'Werk jij vandaag?'",
-        "  Pos 1: (empty)",
-        "  Pos 2: 'werk'    = VERB (persoonsvorm — note: -t DROPPED before 'jij')",
-        "  Pos 3: 'jij'     = SUBJECT (pronoun)",
-        "  Pos 4: 'vandaag' = INFORMATION (time)"
+        {
+          "caption": "Default order — no inversion",
+          "labels":  ["SUBJECT",  "VERB",  "TIME",     "PLACE"],
+          "words":   ["Ik",       "werk",  "vandaag",  "thuis"],
+          "english": ["I",        "work",  "today",    "at home"],
+          "note": "Subject [1] · Verb [2] · everything else [3+]. Same shape as English."
+        },
+        {
+          "caption": "TIME at position 1 → inversion",
+          "labels":  ["TIME",     "VERB",  "SUBJECT",  "PLACE"],
+          "words":   ["Vandaag",  "werk",  "ik",       "thuis"],
+          "english": ["Today",    "work",  "I",        "at home"],
+          "note": "Something other than the subject leads → subject jumps to AFTER the verb. The verb stays anchored at position 2."
+        },
+        {
+          "caption": "Frequency time + 'naar het journaal'",
+          "labels":  ["TIME (frequency)", "VERB",  "SUBJECT",      "PLACE / OBJECT"],
+          "words":   ["Elke avond",       "kijkt", "mijn buurman", "naar het journaal"],
+          "english": ["Every evening",    "watches", "my neighbour", "at the news"],
+          "note": "Multi-word phrases count as ONE element. 'Elke avond' is a single time block in slot 1."
+        },
+        {
+          "caption": "Separable verb under inversion — prefix stays at the end",
+          "labels":  ["TIME",          "VERB",   "SUBJECT",  "PREFIX"],
+          "words":   ["Om zeven uur",  "staat",  "Stefaan",  "op"],
+          "english": ["At seven",      "gets",   "Stefaan",  "up"],
+          "note": "'opstaan' splits: 'staat' fills slot 2, 'op' goes to the END. Inversion doesn't pull the prefix back."
+        },
+        {
+          "caption": "Modal + infinitive under inversion",
+          "labels":  ["TIME",     "MODAL",  "SUBJECT",  "PLACE",  "INFINITIVE"],
+          "words":   ["Vandaag",  "wil",    "ik",       "thuis",  "werken"],
+          "english": ["Today",    "want",   "I",        "home",   "to work"],
+          "note": "The CONJUGATED modal anchors slot 2. The infinitive 'werken' closes the clause."
+        },
+        {
+          "caption": "Yes/no question — slot 1 is empty, verb leads",
+          "labels":  ["VERB",  "SUBJECT",  "TIME"],
+          "words":   ["Werk",  "jij",      "vandaag"],
+          "english": ["Work",  "you",      "today?"],
+          "note": "Pos 1 is empty in yes/no questions — the verb is the first element. ⚠ -t DROPPED before 'jij' (would normally be 'jij werkt' but in inversion: 'Werk jij?')."
+        }
       ]
     },
     {
