@@ -188,10 +188,17 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
+        "terms_words",
         "modal",
         "inversion",
         "wordorder",
         "graag"
+      ],
+      "relatedWoordjes": [
+        "freetime",
+        "activities",
+        "frequency"
       ]
     }
   ]

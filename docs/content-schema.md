@@ -63,6 +63,7 @@ Canonical schema for every content type in `src/content/`. New JSON files in the
 - `tag` is the short label shown above the rule title (e.g. `"LEERPAD 4A"`, `"LEERPAD 3A · OM / OP / IN"`).
 - `practice[].role` alternates `"A"` / `"B"` — controls chat-bubble side and colour.
 - **`relatedRules`** (optional, any rule type): array of rule IDs (leerpaden, grammar, or uitspraak) — rendered as a "See also" section linking out. Use to connect a leerpad rule to the grammar/uitspraak rule that explains its mechanism, or to chain related leerpad rules.
+- **`relatedWoordjes`** (optional, any rule type): array of woordjes category IDs — rendered as a "Vocabulary" section beneath "See also" on rule pages. The woordjes Category page automatically shows the reverse direction ("Used in") for any rule that references it. Use to surface the vocab a learner will need to make the rule's examples meaningful.
 
 ### Group entry — `_groups.json`
 
@@ -187,6 +188,45 @@ The pronunciation tips that show on every category page live in `_tips.json`:
 - `answer`: 0-based index into `options`.
 - `leerpad`: links the test to a leerpad section so a "Test this leerpad" button appears on matching rule pages. Match the leerpad `id` exactly (`"4A"`, `"4B"`, etc.). Use `"4"` to match all of leerpad 4 (see `test_lp4.json`).
 - `title` and `subtitle` are plain strings (not bilingual objects) — they're shown in the test card and quiz header.
+
+---
+
+## 5. Course module (curriculum sequencing)
+
+**Path:** `src/content/course/<id>.json` — e.g. `module-3.json`.
+
+A course module sequences EXISTING content (vocabulary, grammar, lessons, tests) into an ordered path. Modules don't contain new content of their own — they only reference content by ID.
+
+```json
+{
+  "id": "module-3",
+  "order": 3,
+  "weeks": "11-14",
+  "title":    { "nl": "Tijd en sociaal leven", "en": "Time and Social Life" },
+  "subtitle": { "en": "Clock time, time prepositions, daily routines, social plans." },
+  "leerpadGroup": "3",
+  "milestone": {
+    "en": "Can tell the time, use om/op/in correctly, say what you like to do, and accept/decline plans."
+  },
+  "reference":  [{ "id": "terms_sentence", "priority": "supplementary", "note": "Optional refresher." }],
+  "vocabulary": [{ "id": "time",       "priority": "core" }],
+  "grammar":    [{ "id": "wordorder",  "priority": "core" }],
+  "uitspraak":  [{ "id": "spelling_plural", "priority": "supplementary" }],
+  "lessons":    [{ "id": "lp3a",       "priority": "core" }],
+  "tests":      [{ "id": "test_lp3ab", "priority": "core" }]
+}
+```
+
+- **`id`** is the URL slug (`/course/module-3`).
+- **`order`** controls the timeline order (and is rendered as the module number).
+- **`weeks`** is a free-form string like `"11-14"` — displayed but not parsed.
+- **`leerpadGroup`** (optional): if set, the module page renders a "Leerpad N" badge + the playlist link from that group's entry in `_groups.json`.
+- **`milestone`**: a "by the end of this module you can…" statement — rendered in a green callout near the top.
+- The six section arrays — `reference`, `vocabulary`, `grammar`, `uitspraak`, `lessons`, `tests` — each contain `{id, priority?, note?}` items. The section name determines which content pool the `id` is resolved against (vocabulary → woordjes categories, lessons → leerpaden rules, etc).
+- **`priority`** is `"core"` (default, shown prominently) or `"supplementary"` (dimmer, tagged "optional"). Omit for core.
+- **`note`** is optional inline italic text rendered under the linked item — use it for "do this twice, it's a long-term retention problem" style guidance.
+
+The course page is the **recommended entry point** for new learners — the landing page has a prominent CTA card pointing at `/course`.
 
 ---
 

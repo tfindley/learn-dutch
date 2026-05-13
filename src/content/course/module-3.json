@@ -1,0 +1,50 @@
+{
+  "id": "module-3",
+  "order": 3,
+  "weeks": "11-14",
+  "title": {
+    "nl": "Tijd en sociaal leven",
+    "en": "Time and Social Life"
+  },
+  "subtitle": {
+    "en": "Clock time, time prepositions, daily routines, and making social plans in Belgian Dutch."
+  },
+  "leerpadGroup": "3",
+  "milestone": {
+    "en": "Can tell the time (including the 'half drie = 2:30' trap), use om / op / in correctly, say what you like to do, and invite / accept / decline plans with someone."
+  },
+  "reference": [
+    { "id": "terms_sentence", "priority": "supplementary", "note": "If a leerpad rule mentions 'persoonsvorm' or 'onderwerp' and you blank, this is the cheat sheet." }
+  ],
+  "vocabulary": [
+    { "id": "time",       "priority": "core" },
+    { "id": "months",     "priority": "core" },
+    { "id": "activities", "priority": "core" },
+    { "id": "connectors", "priority": "core",          "note": "en / maar / want / omdat — the glue for longer sentences." },
+    { "id": "frequency",  "priority": "supplementary", "note": "nooit / soms / dikwijls / meestal / altijd — pairs well with 'graag' patterns." }
+  ],
+  "grammar": [
+    { "id": "wordorder", "priority": "core",          "note": "Main clauses vs subclauses. The omdat-clause-verb-at-end rule comes up constantly." },
+    { "id": "modal",     "priority": "core",          "note": "Introduce the five modals. Module 5 is where you'll drill modal + infinitive at the end." },
+    { "id": "separable", "priority": "supplementary", "note": "'afspreken' is separable — see the rule once so the split makes sense." }
+  ],
+  "uitspraak": [
+    { "id": "spelling_plural", "priority": "supplementary" }
+  ],
+  "lessons": [
+    { "id": "lp3a",          "priority": "core" },
+    { "id": "lp3a_prep",     "priority": "core" },
+    { "id": "lp3b",          "priority": "core" },
+    { "id": "graag",         "priority": "core" },
+    { "id": "gajemee",       "priority": "core" },
+    { "id": "afspreken",     "priority": "core" },
+    { "id": "watdoejegraag", "priority": "core" },
+    { "id": "answers",       "priority": "core" },
+    { "id": "metmee",        "priority": "supplementary" }
+  ],
+  "tests": [
+    { "id": "test_lp3ab",    "priority": "core" },
+    { "id": "test_om_op_in", "priority": "core",          "note": "Run this twice — the om/op/in distinction is a long-term retention problem." },
+    { "id": "test_lp3c",     "priority": "core" }
+  ]
+}

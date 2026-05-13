@@ -134,6 +134,10 @@
           "nl": "Mijn partner is ___ jaar.",
           "en": "My partner is ___ years old."
         }
+      ],
+      "relatedWoordjes": [
+        "numbers1",
+        "time"
       ]
     }
   ]

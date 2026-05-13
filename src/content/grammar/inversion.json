@@ -344,5 +344,10 @@
     "separable",
     "modal",
     "lp4b_trein"
+  ],
+  "relatedWoordjes": [
+    "weekdays",
+    "time",
+    "dailyactivities"
   ]
 }

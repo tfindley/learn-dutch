@@ -1,11 +1,18 @@
 import { useState, useMemo } from 'react';
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom';
-import { getGrammarRuleById, referenceRules, uitspraakRules } from '../../lib/content';
+import { getGrammarRuleById, grammarRules, referenceRules, uitspraakRules } from '../../lib/content';
 import { t } from '../../lib/i18n';
 import DifficultyBadge from '../../components/DifficultyBadge';
 import PatternBlock from '../../components/PatternBlock';
 import PracticeConversation from '../../components/PracticeConversation';
 import RelatedRules from '../../components/RelatedRules';
+import RelatedWoordjes from '../../components/RelatedWoordjes';
+
+const SECTION = {
+  grammar:   { path: '/grammar/rules',     label: 'Rules',     rules: () => grammarRules },
+  reference: { path: '/grammar/reference', label: 'Reference', rules: () => referenceRules },
+  uitspraak: { path: '/grammar/uitspraak', label: 'Uitspraak', rules: () => uitspraakRules },
+};
 
 export default function GrammarRule() {
   const { ruleId } = useParams();
@@ -14,12 +21,23 @@ export default function GrammarRule() {
   const [expandedPatterns, setExpandedPatterns] = useState({});
 
   if (!rule) {
-    const section = location.pathname.includes('/uitspraak') ? 'uitspraak' : 'reference';
+    // Infer which section the user came from to bounce them back to the right tab.
+    let section = 'rules';
+    if (location.pathname.includes('/uitspraak'))      section = 'uitspraak';
+    else if (location.pathname.includes('/reference')) section = 'reference';
     return <Navigate to={`/grammar/${section}`} replace />;
   }
 
-  const backPath = rule.kind === 'uitspraak' ? '/grammar/uitspraak' : '/grammar/reference';
-  const backLabel = rule.kind === 'uitspraak' ? 'Uitspraak' : 'Grammar';
+  const sectionInfo = SECTION[rule.kind] ?? SECTION.grammar;
+  const backPath = sectionInfo.path;
+  const backLabel = sectionInfo.label;
+
+  // Old bookmarks (pre-2.2.0) used /grammar/reference for what is now /grammar/rules.
+  // If the URL doesn't match the rule's canonical section, redirect to its proper home.
+  const canonicalPath = `${sectionInfo.path}/${rule.id}`;
+  if (location.pathname !== canonicalPath) {
+    return <Navigate to={canonicalPath} replace />;
+  }
 
   const togglePattern = i => setExpandedPatterns(prev => ({ ...prev, [i]: !prev[i] }));
   const toggleAllPatterns = () => {
@@ -28,13 +46,13 @@ export default function GrammarRule() {
   };
 
   const { prevRule, nextRule } = useMemo(() => {
-    const sectionRules = rule.kind === 'uitspraak' ? uitspraakRules : referenceRules;
+    const sectionRules = sectionInfo.rules();
     const idx = sectionRules.findIndex(r => r.id === rule.id);
     return {
       prevRule: idx > 0 ? sectionRules[idx - 1] : null,
       nextRule: idx < sectionRules.length - 1 ? sectionRules[idx + 1] : null,
     };
-  }, [rule.kind, rule.id]);
+  }, [sectionInfo, rule.id]);
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
@@ -116,6 +134,7 @@ export default function GrammarRule() {
       )}
 
       <RelatedRules ids={rule.relatedRules} />
+      <RelatedWoordjes ids={rule.relatedWoordjes} />
 
       <div className="flex justify-between gap-4 pt-4 border-t border-gray-200 dark:border-gray-800">
         {prevRule ? (

@@ -163,10 +163,14 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
         "lp3a_prep",
         "lp4b_trein",
         "inversion",
         "lp5a"
+      ],
+      "relatedWoordjes": [
+        "time"
       ]
     },
     {
@@ -327,10 +331,17 @@
         }
       ],
       "relatedRules": [
+        "terms_words",
         "lp3a",
         "lp4b",
         "inversion",
         "lp5c"
+      ],
+      "relatedWoordjes": [
+        "prepositions",
+        "time",
+        "months",
+        "weekdays"
       ]
     }
   ]

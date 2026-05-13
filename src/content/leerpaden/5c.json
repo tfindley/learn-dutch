@@ -171,10 +171,15 @@
         }
       ],
       "relatedRules": [
+        "terms_words",
         "imperative",
         "wordorder",
         "lp3a_prep",
         "inversion"
+      ],
+      "relatedWoordjes": [
+        "prepositions",
+        "learning"
       ]
     },
     {
@@ -281,9 +286,13 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
         "lp5a",
         "inversion",
         "imperative"
+      ],
+      "relatedWoordjes": [
+        "connectors"
       ]
     }
   ]

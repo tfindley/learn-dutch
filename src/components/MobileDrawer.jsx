@@ -39,6 +39,7 @@ export default function MobileDrawer({ open, onClose, showEnglish, onToggleEngli
 
         <nav className="flex-1 overflow-y-auto p-4 space-y-1">
           <NavLink to="/" end className={navLinkClass} onClick={onClose}>Home</NavLink>
+          <NavLink to="/course" className={navLinkClass} onClick={onClose}>Course</NavLink>
           <NavLink to="/woordjes" className={navLinkClass} onClick={onClose}>Woordjes</NavLink>
 
           <div className="pt-2 pb-1 px-4 text-xs font-semibold text-gray-400 dark:text-gray-600 uppercase tracking-wider">
@@ -53,7 +54,8 @@ export default function MobileDrawer({ open, onClose, showEnglish, onToggleEngli
           <div className="pt-2 pb-1 px-4 text-xs font-semibold text-gray-400 dark:text-gray-600 uppercase tracking-wider">
             Grammar
           </div>
-          <NavLink to="/grammar/reference" className={navLinkClass} onClick={onClose}>Grammar Reference</NavLink>
+          <NavLink to="/grammar/rules"     className={navLinkClass} onClick={onClose}>Rules</NavLink>
+          <NavLink to="/grammar/reference" className={navLinkClass} onClick={onClose}>Reference</NavLink>
           <NavLink to="/grammar/uitspraak" className={navLinkClass} onClick={onClose}>Uitspraak</NavLink>
 
           <NavLink to="/tests" className={navLinkClass} onClick={onClose}>Tests</NavLink>

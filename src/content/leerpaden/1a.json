@@ -164,6 +164,9 @@
           "nl": "Tot ziens! Jij ook!",
           "en": "Goodbye! You too!"
         }
+      ],
+      "relatedWoordjes": [
+        "greetings"
       ]
     },
     {
@@ -305,6 +308,10 @@
           "nl": "Ik spreek ___ thuis.",
           "en": "I speak ___ at home."
         }
+      ],
+      "relatedWoordjes": [
+        "places",
+        "people"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
-  "kind": "grammar",
+  "kind": "reference",
   "id": "terms_words",
   "order": 0,
-  "tag": "GLOSSARY · WORD TYPES",
+  "tag": "REFERENCE · WORD TYPES",
   "title": {
     "nl": "Woordsoorten",
     "en": "Word Types — A Glossary"

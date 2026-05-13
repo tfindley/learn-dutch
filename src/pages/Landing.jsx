@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { categories, leerpaden, leerpadGroups, referenceRules, uitspraakRules, tests } from '../lib/content';
+import { categories, leerpaden, leerpadGroups, grammarRules, referenceRules, uitspraakRules, tests, courseModules } from '../lib/content';
 
 const PILLARS = [
   {
@@ -24,7 +24,7 @@ const PILLARS = [
     subtitle: 'Reference rules, pronunciation and spelling guides',
     emoji: '📖',
     accent: 'teal',
-    stat: `${referenceRules.length + uitspraakRules.length} reference rules`,
+    stat: `${grammarRules.length + referenceRules.length + uitspraakRules.length} reference rules`,
   },
   {
     to: '/tests',
@@ -74,6 +74,28 @@ export default function Landing() {
         </p>
       </div>
 
+      <Link
+        to="/course"
+        className="group block mb-10 rounded-xl border-2 border-green-300 dark:border-green-800 bg-green-50/40 dark:bg-green-950/20 p-6 hover:border-green-500 dark:hover:border-green-600 hover:bg-green-50 dark:hover:bg-green-950/40 transition-colors"
+      >
+        <div className="flex items-start gap-4">
+          <span className="text-3xl shrink-0">🧭</span>
+          <div className="flex-1 min-w-0">
+            <div className="text-xs font-mono font-semibold tracking-wider text-green-700 dark:text-green-400 mb-1 uppercase">
+              New to Dutch? Start here
+            </div>
+            <h2 className="text-xl font-bold mb-1 text-gray-900 dark:text-gray-100">
+              Follow the course
+            </h2>
+            <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              A structured {courseModules.length}-module path through everything on the site, sequenced the way a CVO Scala class would teach it — roughly four weeks per module.
+            </p>
+          </div>
+          <span className="text-green-700 dark:text-green-400 text-2xl shrink-0 group-hover:translate-x-1 transition-transform">→</span>
+        </div>
+      </Link>
+
+      <div className="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-600 mb-3 font-mono">Or jump straight in</div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
         {PILLARS.map(p => {
           const ac = ACCENT_CLASSES[p.accent];

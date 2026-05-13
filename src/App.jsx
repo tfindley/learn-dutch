@@ -8,9 +8,12 @@ import LeerpadeIndex from './pages/leerpaden/Index';
 import LeerpadGroup from './pages/leerpaden/Group';
 import LeerpadRule from './pages/leerpaden/Rule';
 import GrammarLayout from './pages/grammar/Layout';
+import GrammarRules from './pages/grammar/Rules';
 import GrammarReference from './pages/grammar/Reference';
 import GrammarUitspraak from './pages/grammar/Uitspraak';
 import GrammarRule from './pages/grammar/Rule';
+import CourseIndex from './pages/course/Index';
+import CourseModule from './pages/course/Module';
 import TestsIndex from './pages/tests/Index';
 import TestsQuiz from './pages/tests/Quiz';
 import TestsResults from './pages/tests/Results';
@@ -33,6 +36,9 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Landing />} />
 
+            <Route path="/course" element={<CourseIndex />} />
+            <Route path="/course/:moduleId" element={<CourseModule />} />
+
             <Route path="/woordjes" element={<WoordjesIndex />} />
             <Route path="/woordjes/:categoryId" element={<WoordjesCategory />} />
 
@@ -41,7 +47,9 @@ export default function App() {
             <Route path="/leerpaden/:groupId/:ruleId" element={<LeerpadRule />} />
 
             <Route path="/grammar" element={<GrammarLayout />}>
-              <Route index element={<Navigate to="/grammar/reference" replace />} />
+              <Route index element={<Navigate to="/grammar/rules" replace />} />
+              <Route path="rules" element={<GrammarRules />} />
+              <Route path="rules/:ruleId" element={<GrammarRule />} />
               <Route path="reference" element={<GrammarReference />} />
               <Route path="reference/:ruleId" element={<GrammarRule />} />
               <Route path="uitspraak" element={<GrammarUitspraak />} />

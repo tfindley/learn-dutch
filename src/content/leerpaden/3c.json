@@ -181,6 +181,13 @@
           "nl": "Ik ___ niet graag. Maar ik ___ graag.",
           "en": "I don't like ___ing. But I like ___ing."
         }
+      ],
+      "relatedRules": [
+        "terms_words"
+      ],
+      "relatedWoordjes": [
+        "activities",
+        "frequency"
       ]
     },
     {
@@ -304,6 +311,9 @@
           "nl": "Ja, wij gaan mee! / Nee, wij kunnen niet.",
           "en": "Yes, we're coming! / No, we can't."
         }
+      ],
+      "relatedWoordjes": [
+        "activities"
       ]
     },
     {
@@ -479,6 +489,10 @@
           "nl": "Overmorgen 's middags past me goed.",
           "en": "The day after tomorrow in the afternoon suits me well."
         }
+      ],
+      "relatedWoordjes": [
+        "time",
+        "weekdays"
       ]
     },
     {
@@ -595,6 +609,10 @@
           "nl": "Ja, ik sport graag. / Nee, ik sport niet graag.",
           "en": "Yes, I like sport. / No, I don't like sport."
         }
+      ],
+      "relatedWoordjes": [
+        "activities",
+        "frequency"
       ]
     },
     {
@@ -757,6 +775,9 @@
           "nl": "Ja, ze gaat met hen mee. / Nee, ze gaat niet mee.",
           "en": "Yes, she's going with them. / No, she's not going."
         }
+      ],
+      "relatedWoordjes": [
+        "activities"
       ]
     },
     {
@@ -880,6 +901,10 @@
           "nl": "Ik heb hoofdpijn. Kan het ook volgende week?",
           "en": "I have a headache. Can it be next week?"
         }
+      ],
+      "relatedWoordjes": [
+        "essentials",
+        "connectors"
       ]
     }
   ]

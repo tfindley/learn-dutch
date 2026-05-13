@@ -130,6 +130,10 @@
           "nl": "Ja, ik heb ___. / Nee, ik heb geen broers of zussen. Ik ben enig kind.",
           "en": "Yes, I have ___. / No, I have no siblings. I'm an only child."
         }
+      ],
+      "relatedWoordjes": [
+        "relationships",
+        "people"
       ]
     }
   ]

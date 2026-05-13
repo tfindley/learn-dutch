@@ -1,0 +1,41 @@
+{
+  "id": "module-4",
+  "order": 4,
+  "weeks": "15-18",
+  "title": {
+    "nl": "Praktisch Nederlands",
+    "en": "Practical Dutch"
+  },
+  "subtitle": {
+    "en": "Weather, opening hours, trains, supermarkets — the language you'll use every week."
+  },
+  "leerpadGroup": "4",
+  "milestone": {
+    "en": "Can describe the weather and a weather forecast, ask about shop and library opening hours, book a doctor's appointment, navigate a Belgian train station, and complete a supermarket shopping conversation including 'Betaalt u gepast?'."
+  },
+  "reference": [],
+  "vocabulary": [
+    { "id": "weather",    "priority": "core" },
+    { "id": "shopping",   "priority": "core" },
+    { "id": "supermarkt", "priority": "core" },
+    { "id": "containers", "priority": "core",          "note": "Container words (een pak, een fles, een blik, een pot…) are the difference between sounding tourist and sounding native at the till." },
+    { "id": "fruit_veg",  "priority": "core" },
+    { "id": "transport",  "priority": "supplementary", "note": "Trains, trams, buses — the LP4B train dialogue uses these." },
+    { "id": "places",     "priority": "supplementary" }
+  ],
+  "grammar": [
+    { "id": "separable", "priority": "core",          "note": "Deep dive — 'aankomen' is the canonical example used in LP4B. Watch the prefix go to the end." },
+    { "id": "erword",    "priority": "supplementary", "note": "Optional touch. 'Er is een vacature…' shows up in LP4B." }
+  ],
+  "uitspraak": [],
+  "lessons": [
+    { "id": "lp4a",       "priority": "core" },
+    { "id": "lp4b",       "priority": "core" },
+    { "id": "lp4b_trein", "priority": "core" },
+    { "id": "lp4c",       "priority": "core" }
+  ],
+  "tests": [
+    { "id": "test_lp4",       "priority": "core" },
+    { "id": "test_lp4b_trein","priority": "core",          "note": "Focused on the four train Q&A patterns — useful for the speaking exam." }
+  ]
+}

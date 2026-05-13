@@ -134,9 +134,13 @@
     }
   ],
   "relatedRules": [
+    "terms_sentence",
     "terms_words",
     "verbstem",
     "separable",
     "modal"
+  ],
+  "relatedWoordjes": [
+    "dailyactivities"
   ]
 }

@@ -46,7 +46,8 @@ const chevron = open => (
 
 const leerpadeItems = leerpadGroups.map(g => ({ to: `/leerpaden/${g.id}`, label: `Leerpad ${g.id}` }));
 const grammarItems = [
-  { to: '/grammar/reference', label: 'Grammar' },
+  { to: '/grammar/rules',     label: 'Rules' },
+  { to: '/grammar/reference', label: 'Reference' },
   { to: '/grammar/uitspraak', label: 'Uitspraak' },
 ];
 
@@ -91,6 +92,19 @@ export default function TopNav() {
           </Link>
 
           <nav className="hidden md:flex items-center gap-1 flex-1">
+            <NavLink
+              to="/course"
+              className={({ isActive }) =>
+                `px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                  isActive
+                    ? 'bg-green-50 text-green-700 dark:bg-green-950 dark:text-green-400'
+                    : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`
+              }
+            >
+              Course
+            </NavLink>
+
             <NavLink
               to="/woordjes"
               className={({ isActive }) =>

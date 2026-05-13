@@ -6,6 +6,7 @@ import DifficultyBadge from '../../components/DifficultyBadge';
 import PatternBlock from '../../components/PatternBlock';
 import PracticeConversation from '../../components/PracticeConversation';
 import RelatedRules from '../../components/RelatedRules';
+import RelatedWoordjes from '../../components/RelatedWoordjes';
 
 export default function LeerpadRule() {
   const { groupId, ruleId } = useParams();
@@ -117,6 +118,7 @@ export default function LeerpadRule() {
       )}
 
       <RelatedRules ids={rule.relatedRules} />
+      <RelatedWoordjes ids={rule.relatedWoordjes} />
 
       {matchingTests.length > 0 && (
         <div className="mb-8 p-4 rounded-lg bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-900">

@@ -206,8 +206,14 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
         "lp3a_prep",
         "lp4b_trein"
+      ],
+      "relatedWoordjes": [
+        "time",
+        "shopping",
+        "essentials"
       ]
     },
     {
@@ -357,10 +363,17 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
         "separable",
         "lp3a",
         "lp3a_prep",
         "inversion"
+      ],
+      "relatedWoordjes": [
+        "transport",
+        "time",
+        "places",
+        "numbers1"
       ]
     }
   ]

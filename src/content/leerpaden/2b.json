@@ -121,6 +121,12 @@
           "nl": "Een koffie kost ___ euro.",
           "en": "A coffee costs ___ euro."
         }
+      ],
+      "relatedWoordjes": [
+        "numbers1",
+        "numbers2",
+        "numwords",
+        "essentials"
       ]
     }
   ]

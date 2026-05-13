@@ -212,6 +212,10 @@
       "relatedRules": [
         "verbstem",
         "pron_u_ou"
+      ],
+      "relatedWoordjes": [
+        "weather",
+        "places"
       ]
     }
   ]

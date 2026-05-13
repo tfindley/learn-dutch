@@ -2,6 +2,26 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.2.0',
+    date: '2026-05-13',
+    added: [
+      'New "Course" top-level section — a six-module curriculum (~22 weeks) sequencing every leerpad, woordje category, grammar rule, uitspraak rule, and test into a structured path. Each module bundles core + supplementary items with optional per-item notes and a "by the end of this module" milestone',
+      'Landing page "Follow the course" CTA card directing new learners straight into the curriculum',
+      'New `relatedWoordjes` field on rules — pages now show a "Vocabulary" section linking to relevant woordjes categories. 56 cross-links wired across all leerpaden and three grammar rules (inversion, separable, imperative)',
+      'Auto-derived "Used in" section on every woordjes Category page, listing the leerpaden and grammar rules that reference it',
+      'Roadmap document at docs/roadmap.md tracking the deferred UX improvements (progress tracking, global search, revision sheets, mobile audit, etc.)',
+    ],
+    changed: [
+      'Grammar nav restructured into three tabs: Rules (the rules), Reference (the Word Types and Sentence Anatomy glossaries), and Uitspraak. Old /grammar/reference/<id> URLs auto-redirect to their canonical /grammar/rules/<id> home, so existing bookmarks keep working',
+      'Pattern examples now render in normal sans-serif text instead of monospace — easier to read and scan',
+      'Extracted a shared <RelatedCardList> primitive consumed by "See also", "Vocabulary", and "Used in" — three near-duplicate card blocks collapsed into one styled component',
+      'Internal: simplified Module page (dropped a redundant useMemo, removed narrate-the-obvious comments) following the post-release code review',
+    ],
+    fixed: [
+      'Module page subtitle rendering had dead code — a section==="tests" check inside the section!=="tests" branch was unreachable. Flattened.',
+    ],
+  },
+  {
     version: '2.1.0',
     date: '2026-05-13',
     added: [

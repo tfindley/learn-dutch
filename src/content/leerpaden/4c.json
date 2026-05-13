@@ -291,6 +291,12 @@
         "articles",
         "graag",
         "verbstem"
+      ],
+      "relatedWoordjes": [
+        "shopping",
+        "supermarkt",
+        "fruit_veg",
+        "containers"
       ]
     }
   ]

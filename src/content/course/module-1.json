@@ -1,0 +1,42 @@
+{
+  "id": "module-1",
+  "order": 1,
+  "weeks": "3-6",
+  "title": {
+    "nl": "Eerste stappen",
+    "en": "First Steps"
+  },
+  "subtitle": {
+    "en": "Greetings, self-introduction, and the basic question-answer rhythm."
+  },
+  "leerpadGroup": "1",
+  "milestone": {
+    "en": "Can greet someone, introduce yourself with name / country / profession, and answer the basic 'where are you from?' / 'what do you do?' questions."
+  },
+  "reference": [],
+  "vocabulary": [
+    { "id": "greetings",   "priority": "core" },
+    { "id": "pronouns",    "priority": "core" },
+    { "id": "people",      "priority": "core" },
+    { "id": "questions",   "priority": "core" },
+    { "id": "professions", "priority": "core" },
+    { "id": "places",      "priority": "supplementary", "note": "Countries and cities for 'where are you from?' answers." }
+  ],
+  "grammar": [
+    { "id": "articles", "priority": "core", "note": "The de/het split. You will get this wrong — that's fine, defaulting to 'de' is right ~75% of the time." },
+    { "id": "verbstem", "priority": "supplementary", "note": "Skim the basic rule; we'll go deeper in Module 5." }
+  ],
+  "uitspraak": [
+    { "id": "pron_r", "priority": "supplementary" },
+    { "id": "pron_s", "priority": "supplementary" }
+  ],
+  "lessons": [
+    { "id": "hoegaathet", "priority": "core" },
+    { "id": "lp1a",       "priority": "core" },
+    { "id": "lp1b",       "priority": "core" }
+  ],
+  "tests": [
+    { "id": "test_lp1a", "priority": "core" },
+    { "id": "test_lp1b", "priority": "core" }
+  ]
+}

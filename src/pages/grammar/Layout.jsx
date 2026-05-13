@@ -1,7 +1,8 @@
 import { NavLink, Outlet } from 'react-router-dom';
 
 const tabs = [
-  { to: '/grammar/reference', label: 'Grammar' },
+  { to: '/grammar/rules',     label: 'Rules' },
+  { to: '/grammar/reference', label: 'Reference' },
   { to: '/grammar/uitspraak', label: 'Uitspraak' },
 ];
 

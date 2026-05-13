@@ -1,7 +1,9 @@
 import { useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { categories, pronunciationTips } from '../../lib/content';
+import { categories, pronunciationTips, getLeerpadenReferencingWoordje } from '../../lib/content';
+import { t } from '../../lib/i18n';
 import { useLanguage } from '../../providers/LanguageProvider';
+import RelatedCardList from '../../components/RelatedCardList';
 
 function FlipCard({ word }) {
   const [flipped, setFlipped] = useState(false);
@@ -40,13 +42,20 @@ export default function WoordjesCategory() {
   const { showEnglish } = useLanguage();
 
   const cat = categories.find(c => c.id === categoryId);
-  if (!cat) return <Navigate to="/woordjes" replace />;
 
   const filtered = useMemo(() => {
+    if (!cat) return [];
     const q = search.trim().toLowerCase();
     if (!q) return cat.words;
     return cat.words.filter(w => w.nl.toLowerCase().includes(q) || w.en.toLowerCase().includes(q));
-  }, [search, cat.words]);
+  }, [search, cat]);
+
+  const usedIn = useMemo(
+    () => (cat ? getLeerpadenReferencingWoordje(cat.id) : []),
+    [cat],
+  );
+
+  if (!cat) return <Navigate to="/woordjes" replace />;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -100,6 +109,19 @@ export default function WoordjesCategory() {
       {filtered.length === 0 && (
         <p className="text-center text-gray-500 py-12">No results for "{search}"</p>
       )}
+
+      <RelatedCardList
+        heading="Used in"
+        accent="green"
+        className="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800"
+        items={usedIn.map(({ rule, path }) => ({
+          key: rule.id,
+          to: path,
+          caption: rule.tag || `Leerpad ${rule.leerpad}`,
+          titleNl: t(rule.title, 'nl'),
+          titleEn: t(rule.title, 'en'),
+        }))}
+      />
     </div>
   );
 }

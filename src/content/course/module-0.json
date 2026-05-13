@@ -1,0 +1,36 @@
+{
+  "id": "module-0",
+  "order": 0,
+  "weeks": "1-2",
+  "title": {
+    "nl": "Eerste contact",
+    "en": "First Contact"
+  },
+  "subtitle": {
+    "en": "Sounds, salutations, and grammar terminology — orient yourself before the lessons start."
+  },
+  "leerpadGroup": "0",
+  "milestone": {
+    "en": "Can pronounce Belgian Dutch vowel sounds, exchange basic greetings, and read grammar rules without being thrown by the terminology."
+  },
+  "reference": [
+    { "id": "terms_words",    "priority": "core", "note": "Bookmark this — every grammar rule below uses these terms." },
+    { "id": "terms_sentence", "priority": "core", "note": "The position-1/2/3 model gets used heavily from Module 3 onwards." }
+  ],
+  "vocabulary": [
+    { "id": "greetings",  "priority": "core" },
+    { "id": "essentials", "priority": "supplementary", "note": "Useful phrases (yes, no, please, thank you) — handy from day one." }
+  ],
+  "grammar": [],
+  "uitspraak": [
+    { "id": "pron_vowels",  "priority": "core",          "note": "The short-vs-long vowel rule is the foundation of Dutch spelling." },
+    { "id": "pron_u_ou",    "priority": "core",          "note": "Three look-alike sounds that trip every learner." },
+    { "id": "pron_special", "priority": "core",          "note": "The 'soft g' that defines Belgian Dutch." },
+    { "id": "pron_r",       "priority": "supplementary" }
+  ],
+  "lessons": [],
+  "tests": [
+    { "id": "test_uitspraak", "priority": "core",          "note": "Run this once you're comfortable with the vowel rules." },
+    { "id": "test_opening",   "priority": "supplementary" }
+  ]
+}

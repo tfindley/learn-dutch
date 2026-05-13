@@ -1,8 +1,8 @@
 {
-  "kind": "grammar",
+  "kind": "reference",
   "id": "terms_sentence",
   "order": 0.5,
-  "tag": "GLOSSARY · SENTENCE ANATOMY",
+  "tag": "REFERENCE · SENTENCE ANATOMY",
   "title": {
     "nl": "Zinsbouw",
     "en": "Sentence Anatomy — A Glossary"

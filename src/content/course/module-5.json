@@ -1,0 +1,50 @@
+{
+  "id": "module-5",
+  "order": 5,
+  "weeks": "19-24",
+  "title": {
+    "nl": "Dagelijks leven",
+    "en": "Daily Life"
+  },
+  "subtitle": {
+    "en": "Routines, free time, modal verbs in practice, and the big one — inversion / V2 word order."
+  },
+  "leerpadGroup": "5",
+  "milestone": {
+    "en": "Can describe your full daily routine using inversion correctly, talk about free time and hobbies with modal verbs, give and follow imperative commands, and write a self-introduction email to a language-exchange partner."
+  },
+  "reference": [
+    { "id": "terms_sentence", "priority": "core",          "note": "The position-1/2/3 model finally pays off this module. If inversion confuses you, come back here." },
+    { "id": "terms_words",    "priority": "supplementary", "note": "Modal verb, infinitive, separable verb — all defined here." }
+  ],
+  "vocabulary": [
+    { "id": "weekdays",        "priority": "core" },
+    { "id": "dailyactivities", "priority": "core" },
+    { "id": "freetime",        "priority": "core" },
+    { "id": "frequency",       "priority": "core",          "note": "Frequency adverbs pair naturally with the new daily-activity vocabulary." },
+    { "id": "prepositions",    "priority": "supplementary", "note": "Refresh the location prepositions before LP5C." }
+  ],
+  "grammar": [
+    { "id": "inversion",  "priority": "core", "note": "THE big topic. Read it once start-to-finish, then refer back constantly." },
+    { "id": "imperative", "priority": "core" },
+    { "id": "modal",      "priority": "core", "note": "Deep dive this time — combine with inversion in LP5B." },
+    { "id": "verbstem",   "priority": "core", "note": "Full review with the four sub-rules. Locks in the ik-form spelling." },
+    { "id": "wordorder",  "priority": "supplementary" }
+  ],
+  "uitspraak": [
+    { "id": "pron_u_ou", "priority": "supplementary", "note": "Revisit if u / uu / ou still feel unclear." }
+  ],
+  "lessons": [
+    { "id": "lp5a",       "priority": "core" },
+    { "id": "lp5b",       "priority": "core" },
+    { "id": "lp5c",       "priority": "core" },
+    { "id": "lp5c_email", "priority": "core" }
+  ],
+  "tests": [
+    { "id": "test_inversion",   "priority": "core",          "note": "Hardest test in the course. Don't expect a clean run first try." },
+    { "id": "test_lp5_modals",  "priority": "core" },
+    { "id": "test_imperative",  "priority": "core" },
+    { "id": "test_verbstem",    "priority": "core" },
+    { "id": "test_u_ou",        "priority": "supplementary" }
+  ]
+}

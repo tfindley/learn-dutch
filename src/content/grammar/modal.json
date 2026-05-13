@@ -80,6 +80,7 @@
     }
   ],
   "relatedRules": [
+    "terms_sentence",
     "terms_words",
     "inversion",
     "wordorder",

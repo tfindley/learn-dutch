@@ -132,6 +132,10 @@
           "nl": "Mijn man / vrouw / partner is ___. Hij / Zij werkt ___.",
           "en": "My husband / wife / partner is ___. He / She works ___."
         }
+      ],
+      "relatedWoordjes": [
+        "professions",
+        "people"
       ]
     }
   ]

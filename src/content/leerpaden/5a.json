@@ -242,11 +242,18 @@
         }
       ],
       "relatedRules": [
+        "terms_sentence",
         "inversion",
         "lp3a",
         "lp3a_prep",
         "verbstem",
         "separable"
+      ],
+      "relatedWoordjes": [
+        "dailyactivities",
+        "weekdays",
+        "time",
+        "frequency"
       ]
     }
   ]

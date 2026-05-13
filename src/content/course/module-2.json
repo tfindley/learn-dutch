@@ -1,0 +1,37 @@
+{
+  "id": "module-2",
+  "order": 2,
+  "weeks": "7-10",
+  "title": {
+    "nl": "Mensen en getallen",
+    "en": "People and Numbers"
+  },
+  "subtitle": {
+    "en": "Family, relationships, counting, and handling everyday transactions."
+  },
+  "leerpadGroup": "2",
+  "milestone": {
+    "en": "Can describe family members, count up to a hundred, give and understand prices, and handle simple till transactions."
+  },
+  "reference": [],
+  "vocabulary": [
+    { "id": "relationships", "priority": "core" },
+    { "id": "numbers1",      "priority": "core" },
+    { "id": "numbers2",      "priority": "core" },
+    { "id": "numwords",      "priority": "core",          "note": "Number words you can't reduce to digits (eerste, tweede, helft, ...)." },
+    { "id": "essentials",    "priority": "supplementary" },
+    { "id": "months",        "priority": "supplementary", "note": "Useful for birth dates and dates in general." }
+  ],
+  "grammar": [
+    { "id": "diminutives", "priority": "core",          "note": "Diminutives are EVERYWHERE in Belgian Dutch and they're always 'het' — get the rule once and it sticks." },
+    { "id": "adjectives",  "priority": "supplementary", "note": "Introduce; full mastery isn't expected yet." }
+  ],
+  "uitspraak": [],
+  "lessons": [
+    { "id": "lp2a", "priority": "core" },
+    { "id": "lp2b", "priority": "core" }
+  ],
+  "tests": [
+    { "id": "test_lp2", "priority": "core" }
+  ]
+}
