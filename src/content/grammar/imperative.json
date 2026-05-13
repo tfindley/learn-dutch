@@ -1,0 +1,142 @@
+{
+  "kind": "grammar",
+  "id": "imperative",
+  "order": 12,
+  "tag": "GRAMMAR · IMPERATIVE",
+  "title": {
+    "nl": "De imperatief",
+    "en": "Commands"
+  },
+  "difficulty": "easy",
+  "shortcut": "Drop -en from the infinitive. That's the command form. Same as the ik-stem.",
+  "explanation": "The imperative is the easiest verb form in Dutch — it's literally the verb stem (the same form you use after 'ik'). Use it for direct instructions, recipes, signs, and polite requests when softened with 'alstublieft' or 'even'.",
+  "patterns": [
+    {
+      "rule": "Form — drop the -en from the infinitive",
+      "examples": [
+        "komen → Kom! (Come!)",
+        "gaan → Ga! (Go!)",
+        "eten → Eet! (Eat!)",
+        "drinken → Drink! (Drink!)",
+        "bellen → Bel! (Call!)",
+        "studeren → Studeer! (Study!) ← long-vowel rule: e doubles to ee",
+        "hoesten → Hoest! (Cough!)",
+        "kijken → Kijk! (Look!)",
+        "luisteren → Luister! (Listen!)",
+        "↳ Same spelling rules as the ik-stem: double the vowel for long-vowel verbs, drop the doubled letter for short ones."
+      ]
+    },
+    {
+      "rule": "Softening — Belgian Dutch loves to soften commands",
+      "examples": [
+        "Kom alstublieft binnen. (Please come in.) ← alstublieft = please (formal)",
+        "Kom even hier. (Come here for a moment.) ← 'even' softens any command",
+        "Wacht eens. (Wait a moment.) ← 'eens' = just / for once",
+        "Wacht maar. (Just wait.) ← 'maar' = just (reassuring)",
+        "Kijk eens naar dit. (Just look at this.)",
+        "↳ Bare imperatives sound abrupt in Belgian Dutch. Adding 'even', 'eens', 'maar', or 'alstublieft' makes them polite without changing the verb."
+      ]
+    },
+    {
+      "rule": "Recipes, signs, instructions",
+      "examples": [
+        "Snijd de groenten klein. (Cut the vegetables small.)",
+        "Kook de pasta tien minuten. (Cook the pasta for ten minutes.)",
+        "Voeg zout en peper toe. (Add salt and pepper.)",
+        "Open hier. (Open here.) — on packaging",
+        "Niet roken. (No smoking.) — infinitive used as instruction on signs",
+        "Vul het formulier in. (Fill in the form.) — separable, prefix at end"
+      ]
+    },
+    {
+      "rule": "Separable verbs — prefix goes to the end",
+      "examples": [
+        "opstaan → Sta op! (Get up!)",
+        "uitgaan → Ga uit! (Go out!)",
+        "aandoen → Doe aan! (Put on!) ← Doe je jas aan! (Put your coat on!)",
+        "thuiskomen → Kom thuis! (Come home!)",
+        "↳ Same split rule as in main clauses — the prefix is the LAST word."
+      ]
+    },
+    {
+      "rule": "Formal imperative — with 'u'",
+      "examples": [
+        "Komt u binnen. (Please come in.) ← stem + t for the formal 'u'",
+        "Wacht u even, alstublieft. (Please wait a moment.)",
+        "Neemt u plaats. (Please take a seat.)",
+        "↳ For very formal contexts (forms, official requests), Dutch uses stem + t. The bare-stem form is fine in most everyday Belgian contexts."
+      ]
+    }
+  ],
+  "memory": "🧠 Imperative = ik-stem with an exclamation point. Same form, different intent. 'Kom!' = 'ik kom' with attitude. Always soften in Belgian Dutch with 'even', 'eens', 'maar' or 'alstublieft' — bare commands sound rude.",
+  "examples": [
+    {
+      "nl": "Kom op tijd naar de school.",
+      "en": "Come to school on time."
+    },
+    {
+      "nl": "Wacht even, alstublieft.",
+      "en": "Wait a moment, please."
+    },
+    {
+      "nl": "Studeer hard voor het examen.",
+      "en": "Study hard for the exam. (long-vowel rule: ee)"
+    },
+    {
+      "nl": "Vergeet je paraplu niet!",
+      "en": "Don't forget your umbrella! (negation with 'niet')"
+    },
+    {
+      "nl": "Doe je kleren aan.",
+      "en": "Put your clothes on. (separable — 'aan' at the end)"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat is de imperatief van 'komen'?",
+      "en": "What is the imperative of 'komen'?"
+    },
+    {
+      "role": "B",
+      "nl": "Kom! (basic rule: drop -en)",
+      "en": "Kom! (basic rule: drop -en)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de imperatief van 'studeren'?",
+      "en": "What is the imperative of 'studeren'?"
+    },
+    {
+      "role": "B",
+      "nl": "Studeer! (long-vowel — double the e)",
+      "en": "Studeer! (long-vowel — double the e)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat is de imperatief van 'opstaan'?",
+      "en": "What is the imperative of 'opstaan'?"
+    },
+    {
+      "role": "B",
+      "nl": "Sta op! (separable — 'op' goes to the end)",
+      "en": "Sta op! (separable — 'op' goes to the end)"
+    },
+    {
+      "role": "A",
+      "nl": "Kun je dit aan mij geven?",
+      "en": "Can you give this to me?"
+    },
+    {
+      "role": "B",
+      "nl": "Geef het maar. (Just give it.) ← softened with 'maar'",
+      "en": "Just hand it over."
+    }
+  ],
+  "relatedRules": [
+    "terms_words",
+    "verbstem",
+    "separable",
+    "modal"
+  ]
+}

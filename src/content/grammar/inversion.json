@@ -1,0 +1,348 @@
+{
+  "kind": "grammar",
+  "id": "inversion",
+  "order": 11,
+  "tag": "GRAMMAR · INVERSION",
+  "title": {
+    "nl": "Inversie",
+    "en": "V2 — When Subject and Verb Swap"
+  },
+  "difficulty": "hard",
+  "shortcut": "The verb is ALWAYS the 2nd element in a main clause. If anything other than the subject starts the sentence, the subject moves AFTER the verb.",
+  "explanation": "Dutch is a 'V2 language' — the conjugated verb sits in slot two of every main clause, no matter what. In the default order, the subject takes slot one and the verb follows: 'Ik werk vandaag.' But the moment you start the sentence with anything else — a time, a place, an object, a question word — the subject jumps over the verb to slot three. This is called inversie, and it's one of the most common errors learners make because English doesn't do it. Master the V2 rule and your Dutch instantly sounds more natural.",
+  "patterns": [
+    {
+      "rule": "The core rule — verb in slot two, always",
+      "examples": [
+        "Position 1 holds ONE element. Position 2 is ALWAYS the conjugated verb.",
+        "What sits in position 1: subject, OR time, OR place, OR object, OR question word, OR a whole subclause.",
+        "Whatever moves to position 1 pushes the subject to position 3 (after the verb).",
+        "↳ Mental model: the verb is the ANCHOR. Element 1 swings around it. Subject lives wherever there's space."
+      ]
+    },
+    {
+      "rule": "Default order — Subject + Verb + Information",
+      "examples": [
+        "Ik werk vandaag. (I work today.)",
+        "Stefaan staat om zeven uur op. (Stefaan gets up at seven o'clock.)",
+        "Mijn buurman kijkt elke avond naar het journaal. (My neighbour watches the news every evening.)",
+        "Het vliegtuig vertrekt om acht uur. (The plane departs at eight o'clock.)",
+        "↳ Subject [1] · Verb [2] · everything else [3+]. Same as English — no surprises here."
+      ]
+    },
+    {
+      "rule": "🔍 Sentence anatomy — what sits in each slot",
+      "examples": [
+        "If the grammar terms below are unfamiliar, read the glossaries first: [[terms_words]] (word types) and [[terms_sentence]] (sentence anatomy).",
+        "",
+        "── Example 1: default order (no inversion) ──",
+        "Sentence: 'Ik werk vandaag thuis.'",
+        "  Pos 1: 'Ik'      = SUBJECT (onderwerp · pronoun)",
+        "  Pos 2: 'werk'    = VERB (persoonsvorm · conjugated form of 'werken')",
+        "  Pos 3: 'vandaag' = INFORMATION (time · adverb)",
+        "  Pos 4: 'thuis'   = INFORMATION (place · adverb)",
+        "",
+        "── Example 2: TIME at position 1 → inversion ──",
+        "Sentence: 'Vandaag werk ik thuis.'",
+        "  Pos 1: 'Vandaag' = INFORMATION (time)  ← something other than subject leads",
+        "  Pos 2: 'werk'    = VERB (persoonsvorm) ← STILL at position 2",
+        "  Pos 3: 'ik'      = SUBJECT (onderwerp)  ← subject moved AFTER the verb",
+        "  Pos 4: 'thuis'   = INFORMATION (place)",
+        "",
+        "── Example 3: clock time + neighbour watching the news ──",
+        "Sentence: 'Elke avond kijkt mijn buurman naar het journaal.'",
+        "  Pos 1: 'Elke avond'        = INFORMATION (time · frequency)",
+        "  Pos 2: 'kijkt'             = VERB (persoonsvorm)",
+        "  Pos 3: 'mijn buurman'      = SUBJECT (noun phrase)",
+        "  Pos 4: 'naar het journaal' = INFORMATION (prepositional phrase)",
+        "",
+        "── Example 4: separable verb under inversion ──",
+        "Sentence: 'Om zeven uur staat Stefaan op.'",
+        "  Pos 1:  'Om zeven uur' = INFORMATION (time · clock)",
+        "  Pos 2:  'staat'        = VERB (persoonsvorm — main half of separable 'opstaan')",
+        "  Pos 3:  'Stefaan'      = SUBJECT (proper noun)",
+        "  End:    'op'           = SEPARABLE PREFIX (stays at the end)",
+        "",
+        "── Example 5: modal + infinitive under inversion ──",
+        "Sentence: 'Vandaag wil ik thuis werken.'",
+        "  Pos 1:  'Vandaag' = INFORMATION (time)",
+        "  Pos 2:  'wil'     = MODAL VERB (conjugated)",
+        "  Pos 3:  'ik'      = SUBJECT",
+        "  Pos 4:  'thuis'   = INFORMATION (place)",
+        "  End:    'werken'  = INFINITIVE (stays at the end)",
+        "",
+        "── Example 6: yes/no question (slot 1 is empty) ──",
+        "Sentence: 'Werk jij vandaag?'",
+        "  Pos 1: (empty)",
+        "  Pos 2: 'werk'    = VERB (persoonsvorm — note: -t DROPPED before 'jij')",
+        "  Pos 3: 'jij'     = SUBJECT (pronoun)",
+        "  Pos 4: 'vandaag' = INFORMATION (time)"
+      ]
+    },
+    {
+      "rule": "TIME in front → inversion (the most common trigger)",
+      "examples": [
+        "Vandaag werk ik. (Today I work.) ← NOT 'Vandaag ik werk.'",
+        "Morgen ga ik naar Brussel. (Tomorrow I am going to Brussels.)",
+        "Vanavond koken wij Mexicaans. (Tonight we are cooking Mexican.)",
+        "Om acht uur vertrekt de trein. (At eight o'clock the train leaves.)",
+        "Om kwart voor acht ontbijt hij. (At quarter to eight he has breakfast.)",
+        "Op maandag werk ik thuis. (On Monday I work from home.)",
+        "Op 8 september begint de cursus. (On 8 September the course begins.)",
+        "In het weekend gaan we wandelen. (At the weekend we go walking.)",
+        "In de zomer zwemmen wij elke dag. (In summer we swim every day.)",
+        "'s Morgens drink ik koffie. (In the mornings I drink coffee.)",
+        "'s Avonds kijken zij tv. (In the evenings they watch TV.)",
+        "Elke avond kijkt mijn buurman naar het journaal. (Every evening my neighbour watches the news.)",
+        "↳ ALL forms of time count: clock times (om...), days (op maandag), dates (op 8 september), periods (in de zomer), adverbs ('s morgens, vandaag, morgen, vanavond), and frequencies (elke dag, soms, altijd)."
+      ]
+    },
+    {
+      "rule": "PLACE in front → inversion",
+      "examples": [
+        "In Brussel woont mijn zus. (In Brussels my sister lives.)",
+        "Aan de kust is het winderig. (At the coast it is windy.)",
+        "In het noorden van België regent het. (In the north of Belgium it is raining.)",
+        "Op spoor zeven staat de trein naar Gent. (On platform 7 the train to Ghent is waiting.)",
+        "Hier woon ik. (Here I live.)",
+        "Daar is de winkel. (There is the shop.)"
+      ]
+    },
+    {
+      "rule": "Question word in front → inversion (a special case)",
+      "examples": [
+        "Wat doe jij? (What are you doing?)",
+        "Waar woon je? (Where do you live?)",
+        "Hoe laat vertrekt de trein? (At what time does the train depart?)",
+        "Wanneer komen jullie? (When are you coming?)",
+        "Waarom leer je Nederlands? (Why are you learning Dutch?)",
+        "Welke dag komt na maandag? (Which day comes after Monday?)",
+        "↳ All wh-questions in Dutch follow this — the question word fills slot 1, verb fills slot 2."
+      ]
+    },
+    {
+      "rule": "Object in front → inversion (less common but valid for emphasis)",
+      "examples": [
+        "Dat boek lees ik morgen. (That book I will read tomorrow.) ← emphasis on 'that book'",
+        "Koffie drink ik altijd zwart. (Coffee I always drink black.)",
+        "Mijn broer heb ik gisteren gezien. (My brother I saw yesterday.)",
+        "↳ Fronting an object is a stylistic choice — used to emphasise the object. English does this less, but the V2 rule still applies."
+      ]
+    },
+    {
+      "rule": "Yes/no questions — pure verb-subject inversion",
+      "examples": [
+        "Werk jij vandaag? (Are you working today?)",
+        "Kom je morgen? (Are you coming tomorrow?)",
+        "Heeft hij kinderen? (Does he have children?)",
+        "Drinken jullie koffie? (Do you drink coffee?)",
+        "↳ Yes/no questions skip slot 1 entirely — verb leads, subject follows immediately. Same V2 logic: nothing in slot 1, verb anchors slot 2."
+      ]
+    },
+    {
+      "rule": "⚠ Special form — jij/je after the verb drops the -t",
+      "examples": [
+        "Jij werkt. → Werk jij? (NOT 'Werkt jij?') ← the -t disappears when je follows the verb",
+        "Jij komt. → Kom je? (NOT 'Komt je?')",
+        "Jij drinkt koffie. → Drink je koffie?",
+        "Vandaag werk je thuis. (NOT 'Vandaag werkt je thuis.')",
+        "Op welk spoor neem je de trein? (On which platform are you taking the train?)",
+        "↳ This rule applies whenever 'jij' or 'je' comes AFTER the verb — in questions OR in inverted statements. The -t is silent in speech and dropped in writing.",
+        "↳ Only 'jij/je' triggers this. Other subjects (hij/zij/het, jullie, etc.) keep their -t: 'Vandaag werkt hij thuis.'"
+      ]
+    },
+    {
+      "rule": "⚠ Extra-irregular drops — kunt → kun, wilt → wil",
+      "examples": [
+        "Jij kunt → Kun je? (You can → Can you?) ← drops the ENTIRE 't' marker",
+        "Jij wilt → Wil je? (You want → Want you?)",
+        "Je kunt oefeningen maken op onze website. → Op onze website kun je oefeningen maken.",
+        "Je wilt naar huis. → Nu wil je naar huis.",
+        "↳ These two modals (kunnen, willen) have a stronger drop than regular verbs — the form is 'kun' and 'wil' (not 'kunt' / 'wilt') whenever je follows."
+      ]
+    },
+    {
+      "rule": "Modal + infinitive — modal does V2, infinitive stays at the end",
+      "examples": [
+        "Ik wil vandaag thuis werken. (default: Ik wil...)",
+        "Vandaag wil ik thuis werken. (inverted: modal moves to V2, infinitive 'werken' stays at end)",
+        "Ik kan goed Nederlands spreken. → Goed kan ik Nederlands spreken. (rare but valid)",
+        "Ik moet boodschappen doen. → 's Morgens moet ik boodschappen doen.",
+        "Jullie mogen hier wachten. → Hier mogen jullie wachten.",
+        "↳ The conjugated modal anchors V2. The infinitive (werken, spreken, etc.) always closes the clause."
+      ]
+    },
+    {
+      "rule": "Separable verbs — prefix stays at the end (always)",
+      "examples": [
+        "Stefaan staat om zeven uur op. (default — prefix 'op' at end)",
+        "Om zeven uur staat Stefaan op. (inverted — prefix STILL at end)",
+        "Ik kom om zes uur thuis. → Om zes uur kom ik thuis.",
+        "Wij gaan vanavond uit. → Vanavond gaan wij uit.",
+        "Hij doet om acht uur zijn kleren aan. → Om acht uur doet hij zijn kleren aan.",
+        "↳ Inversion does NOT pull the prefix back to the verb. The split stays — only the subject moves."
+      ]
+    },
+    {
+      "rule": "Worked example — De dag van Stefaan (Stefaan's day)",
+      "examples": [
+        "Every line below starts with a time → inversion every time.",
+        "Om zeven uur staat Stefaan op. (At 7 Stefaan gets up.) — separable 'opstaan'",
+        "Om kwart over zeven neemt hij een douche. (At 7:15 he takes a shower.)",
+        "Om kwart voor acht ontbijt hij. (At 7:45 he has breakfast.)",
+        "Om acht uur neemt hij de bus. (At 8 he takes the bus.)",
+        "Om half zes 's avonds gaat hij naar het zwembad. (At 5:30 in the evening he goes to the pool.)",
+        "Om half acht 's avonds eet Stefaan. (At 7:30 in the evening Stefaan eats.)",
+        "Om kwart over acht kijkt hij naar het journaal. (At 8:15 he watches the news.)",
+        "Om tien uur 's avonds poetst Stefaan zijn tanden. (At 10 in the evening Stefaan brushes his teeth.)",
+        "Om half elf slaapt hij. (At 10:30 he sleeps.)",
+        "↳ Notice the rhythm: TIME [1] · VERB [2] · SUBJECT [3] · everything else. This is the V2 pattern you'll use every day in Belgian Dutch."
+      ]
+    },
+    {
+      "rule": "🚫 Common mistakes — what NOT to do",
+      "examples": [
+        "❌ Vandaag ik werk thuis. → ✅ Vandaag werk ik thuis. (subject must move after the verb)",
+        "❌ Om acht uur de trein vertrekt. → ✅ Om acht uur vertrekt de trein.",
+        "❌ Werkt jij vandaag? → ✅ Werk jij vandaag? (drop the -t before jij)",
+        "❌ Wanneer jij komt? → ✅ Wanneer kom je? (question word triggers inversion + jij drops the -t)",
+        "❌ In Brussel mijn zus woont. → ✅ In Brussel woont mijn zus.",
+        "↳ When in doubt: count to two. Element 1, then VERB. If your verb is in slot 3 or later, something is wrong."
+      ]
+    }
+  ],
+  "memory": "🧠 Dutch is V2 — the verb is the ANCHOR, always at position 2. Element 1 can be anyone (subject, time, place, question). Whoever isn't in slot 1 slots in AFTER the verb. Time-fronted is by far the most common trigger: 'Vandaag werk ik', 'Om acht uur vertrekt de trein', 'Op maandag ga ik...' — count to two: ELEMENT, VERB, rest.",
+  "examples": [
+    {
+      "nl": "Ik werk vandaag thuis.",
+      "en": "I am working from home today. (default order)"
+    },
+    {
+      "nl": "Vandaag werk ik thuis.",
+      "en": "Today I am working from home. (time fronted → inversion)"
+    },
+    {
+      "nl": "Om acht uur vertrekt het vliegtuig.",
+      "en": "At eight o'clock the plane departs."
+    },
+    {
+      "nl": "Op welk spoor vertrekt de trein naar Brussel?",
+      "en": "On which platform does the train to Brussels depart?"
+    },
+    {
+      "nl": "'s Morgens drink ik altijd koffie.",
+      "en": "In the mornings I always drink coffee."
+    },
+    {
+      "nl": "Elke avond kijkt mijn buurman naar het journaal.",
+      "en": "Every evening my neighbour watches the news."
+    },
+    {
+      "nl": "In het weekend gaan we wandelen aan de kust.",
+      "en": "At the weekend we go walking at the coast."
+    },
+    {
+      "nl": "Op onze website kun je oefeningen maken.",
+      "en": "On our website you can do exercises. (kun, not kunt — je follows)"
+    },
+    {
+      "nl": "Op maandag werk ik en op vrijdag ga ik naar het café.",
+      "en": "On Monday I work and on Friday I go to the café. (two inversions, joined)"
+    },
+    {
+      "nl": "Wanneer kom je thuis?",
+      "en": "When are you coming home?"
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Werk jij vandaag?",
+      "en": "Are you working today?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, vandaag werk ik thuis. (NOT 'Vandaag ik werk thuis')",
+      "en": "Yes, today I am working from home."
+    },
+    {
+      "role": "A",
+      "nl": "Hoe laat vertrekt de trein?",
+      "en": "At what time does the train depart?"
+    },
+    {
+      "role": "B",
+      "nl": "De trein vertrekt om kwart voor acht. / Om kwart voor acht vertrekt de trein.",
+      "en": "The train departs at quarter to eight. (both orders work — V2 is preserved either way)"
+    },
+    {
+      "role": "A",
+      "nl": "Wat doe jij in het weekend?",
+      "en": "What do you do at the weekend?"
+    },
+    {
+      "role": "B",
+      "nl": "In het weekend ga ik wandelen. Op zondag kook ik samen met mijn partner.",
+      "en": "At the weekend I go walking. On Sunday I cook with my partner. (two time-fronted inversions in a row)"
+    },
+    {
+      "role": "A",
+      "nl": "Kun jij me helpen?",
+      "en": "Can you help me?"
+    },
+    {
+      "role": "B",
+      "nl": "Ja, natuurlijk. Wat wil je weten? (note: 'kun' and 'wil' — not 'kunt' or 'wilt')",
+      "en": "Yes, of course. What do you want to know?"
+    },
+    {
+      "role": "A",
+      "nl": "Wanneer staat Stefaan op?",
+      "en": "When does Stefaan get up?"
+    },
+    {
+      "role": "B",
+      "nl": "Om zeven uur staat Stefaan op. (separable: 'op' stays at the end)",
+      "en": "At seven o'clock Stefaan gets up."
+    },
+    {
+      "role": "A",
+      "nl": "Waar woont jouw zus?",
+      "en": "Where does your sister live?"
+    },
+    {
+      "role": "B",
+      "nl": "Mijn zus woont in Engeland. / In Engeland woont mijn zus.",
+      "en": "My sister lives in England."
+    },
+    {
+      "role": "A",
+      "nl": "Op welke dag ga je naar het café?",
+      "en": "On which day do you go to the café?"
+    },
+    {
+      "role": "B",
+      "nl": "Op vrijdag ga ik naar het café met vrienden.",
+      "en": "On Friday I go to the café with friends."
+    },
+    {
+      "role": "A",
+      "nl": "Wat eet jij 's morgens?",
+      "en": "What do you eat in the mornings?"
+    },
+    {
+      "role": "B",
+      "nl": "'s Morgens eet ik spek en eieren. Soms eet ik alleen een boterham.",
+      "en": "In the mornings I eat bacon and eggs. Sometimes I just eat a sandwich."
+    }
+  ],
+  "relatedRules": [
+    "terms_sentence",
+    "terms_words",
+    "wordorder",
+    "verbstem",
+    "separable",
+    "modal",
+    "lp4b_trein"
+  ]
+}

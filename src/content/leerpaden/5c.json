@@ -1,0 +1,290 @@
+{
+  "id": "5C",
+  "group": "5",
+  "order": 13,
+  "description": {
+    "en": "Studying — imperative commands, location prepositions, enrolling in a course, and writing a self-introduction."
+  },
+  "rules": [
+    {
+      "id": "lp5c",
+      "order": 1,
+      "tag": "LEERPAD 5C",
+      "title": {
+        "nl": "Studeren",
+        "en": "Studying"
+      },
+      "difficulty": "medium",
+      "shortcut": "Three building blocks: imperative commands (drop -en), location prepositions (in / op / voor / achter / boven / onder / tussen / naast), and the language for enrolling in or describing a course.",
+      "explanation": "Leerpad 5C ties together the imperative form (used everywhere in instructions and signs), location prepositions (which complement the time prepositions from 3A), and the practical scenario of signing up for a course at CVO Scala or a similar Belgian language school. It closes with the email/letter template for introducing yourself to a language-exchange partner.",
+      "patterns": [
+        {
+          "rule": "De imperatief — commands",
+          "examples": [
+            "Drop -en from the infinitive — same form as the ik-stem.",
+            "komen → Kom! · gaan → Ga! · eten → Eet! · drinken → Drink!",
+            "bellen → Bel! · hoesten → Hoest! · luisteren → Luister! · kijken → Kijk!",
+            "studeren → Studeer! ← long-vowel rule: e doubles to ee",
+            "Separable: opstaan → Sta op! · uitgaan → Ga uit! · aandoen → Doe aan!",
+            "Soften in Belgian Dutch: Kom even hier. · Wacht eens. · Kijk maar.",
+            "→ Full rule with formal 'u' form: [[imperative]]"
+          ]
+        },
+        {
+          "rule": "Locatie-preposities — where things ARE",
+          "examples": [
+            "in — in / inside: 'in de kast' (in the cupboard)",
+            "op — on / on top of: 'op de tafel' (on the table)",
+            "voor — in front of: 'voor het huis' (in front of the house)",
+            "achter — behind: 'achter het huis' (behind the house)",
+            "boven — above: 'boven de kast' (above the cupboard) · also 'naar boven' = upstairs",
+            "onder — under: 'onder de tafel' (under the table)",
+            "tussen — between: 'tussen de tafel en de kast' (between the table and the cupboard)",
+            "naast — next to: 'naast het station' (next to the station)",
+            "bij — at / near: 'bij de bakkerij' (at the bakery) · 'bij mij thuis' (at my place)",
+            "naar — to (direction): 'naar het werk' (to work)",
+            "aan — at (along, edge of): 'aan de kust' (at the coast) · 'aan de kassa' (at the till)"
+          ]
+        },
+        {
+          "rule": "Recap — om / op / in for TIME (different rules!)",
+          "examples": [
+            "OM — clock time: om acht uur, om half tien",
+            "OP — specific day or date: op maandag, op 8 september",
+            "IN — period: in het weekend, in de zomer, in 1999",
+            "→ Full time-preposition rule: [[lp3a_prep]]",
+            "↳ Don't confuse with location prepositions above — same word 'op' has different meaning: 'op tafel' (location) vs 'op maandag' (day)."
+          ]
+        },
+        {
+          "rule": "Cursuswoordjes — enrolling in a course",
+          "examples": [
+            "de cursus — the course",
+            "de les / de lessen — the lesson / lessons",
+            "het niveau — the level (niveau vier = level 4)",
+            "volgen — to follow / take (a course): ik volg franse les",
+            "zich inschrijven — to enrol / register: ik wil me inschrijven",
+            "het boek / de boeken — the book / books",
+            "de school / de scholen — the school",
+            "het examen — the exam",
+            "huiswerk maken — to do homework",
+            "studeren — to study",
+            "herhalen — to repeat / revise"
+          ]
+        },
+        {
+          "rule": "Beleefdheid — polite phrasing in a school context",
+          "examples": [
+            "Ik wil graag ___ volgen. — I would like to take ___. ('wil graag' = polite 'would like')",
+            "Excuseer, kan u een beetje luider spreken alstublieft? — Excuse me, can you speak a bit louder please?",
+            "Kan u dat herhalen alstublieft? — Can you repeat that please?",
+            "Wanneer zijn de lessen? — When are the lessons?",
+            "Hoeveel kost de cursus? — How much does the course cost?",
+            "Ik wil me graag inschrijven. — I would like to enrol.",
+            "Kan u uw naam herhalen alstublieft? — Can you repeat your name please? (the receptionist)",
+            "Dat is in orde. — That's all right / in order.",
+            "Kom op tijd. — Come on time."
+          ]
+        }
+      ],
+      "memory": "🧠 Three layers: (1) the imperative is just the ik-stem with attitude — soften it with even/eens/maar in Belgian Dutch. (2) location prepositions answer 'where?' (op de tafel) while time prepositions answer 'when?' (op maandag) — same word, different job. (3) for any school/course interaction, 'wil graag' is the magic polite opener.",
+      "examples": [
+        {
+          "nl": "Studeer hard voor het examen!",
+          "en": "Study hard for the exam! (imperative — long-vowel rule)"
+        },
+        {
+          "nl": "Het boek ligt op de tafel, naast het horloge.",
+          "en": "The book is lying on the table, next to the watch."
+        },
+        {
+          "nl": "Ik wil graag franse les niveau vier volgen. Wanneer zijn de lessen?",
+          "en": "I would like to take French level 4. When are the lessons?"
+        },
+        {
+          "nl": "Kan u een beetje luider spreken, alstublieft?",
+          "en": "Can you speak a bit louder, please?"
+        },
+        {
+          "nl": "De cursus kost honderdvijftien euro en het boek vijfendertig euro.",
+          "en": "The course costs 115 euros and the book 35 euros."
+        },
+        {
+          "nl": "Ik zal donderdag komen betalen bij de start van de cursus.",
+          "en": "I shall come and pay on Thursday at the start of the course."
+        },
+        {
+          "nl": "Kom even hier en luister naar mij.",
+          "en": "Come here for a moment and listen to me. (softened imperatives)"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Goedemorgen, hoe kan ik u helpen?",
+          "en": "Good morning, how can I help you?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik wil graag franse les niveau vier volgen. Wanneer zijn de lessen?",
+          "en": "I would like to take French level 4. When are the lessons?"
+        },
+        {
+          "role": "A",
+          "nl": "De lessen zijn op donderdag van zes tot half tien 's avonds.",
+          "en": "The lessons are on Thursday from six to nine-thirty in the evening."
+        },
+        {
+          "role": "B",
+          "nl": "Dat is goed. Ik wil me graag inschrijven. Hoeveel kost de cursus?",
+          "en": "That's good. I would like to enrol. How much does the course cost?"
+        },
+        {
+          "role": "A",
+          "nl": "De cursus kost honderdvijftien euro en het boek vijfendertig euro.",
+          "en": "The course costs 115 euros and the book 35 euros."
+        },
+        {
+          "role": "B",
+          "nl": "In orde. Ik zal donderdag komen betalen bij de start van de cursus.",
+          "en": "Alright. I shall come and pay on Thursday at the start of the course."
+        },
+        {
+          "role": "A",
+          "nl": "Geen probleem. Maar er zullen veel mensen zijn — kom op tijd, alstublieft.",
+          "en": "No problem. But there will be a lot of people there — come on time, please."
+        },
+        {
+          "role": "B",
+          "nl": "Kan u mijn naam herhalen alstublieft?",
+          "en": "Can you repeat my name please?"
+        },
+        {
+          "role": "A",
+          "nl": "Karim Ragumi — dat klopt?",
+          "en": "Karim Ragumi — is that right?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, dat klopt. Bedankt!",
+          "en": "Yes, that's right. Thanks!"
+        }
+      ],
+      "relatedRules": [
+        "imperative",
+        "wordorder",
+        "lp3a_prep",
+        "inversion"
+      ]
+    },
+    {
+      "id": "lp5c_email",
+      "order": 2,
+      "tag": "LEERPAD 5C · EMAIL",
+      "title": {
+        "nl": "Een mail schrijven",
+        "en": "Writing an email"
+      },
+      "difficulty": "medium",
+      "shortcut": "Standard structure: Dag [name] → introduction → daily routine → free time → closing. Use the V2/inversion patterns from 5A throughout.",
+      "explanation": "A common Belgian-Dutch exam task is writing a short self-introduction email to a language-exchange partner or fellow learner. The structure is predictable and the vocabulary reuses everything you've learned in Leerpad 5: daily activities, days of the week, free time, modals, and inversion when you front a time word.",
+      "patterns": [
+        {
+          "rule": "Email skeleton — opening · body · closing",
+          "examples": [
+            "Opening: 'Dag [name]' or 'Beste [name]' (more formal)",
+            "Self-introduction: 'Ik ben [name]. Ik kom uit [country] en ik leer Nederlands in [school].'",
+            "Daily routine: a paragraph using inversion ('s morgens, om X uur, op X-dag...)",
+            "Free time / hobbies: 'Mijn hobby is ___.' · 'Ik doe graag ___.'",
+            "Closing line: 'Het was fijn om jouw mail te lezen.' · 'Tot later!' · 'Groetjes, [name]'"
+          ]
+        },
+        {
+          "rule": "Useful closing phrases",
+          "examples": [
+            "Het was fijn om jouw mail te lezen. — It was nice to read your email.",
+            "Bedankt voor jouw mail. — Thanks for your email.",
+            "Tot later! — See you later!",
+            "Tot ziens! — Goodbye! (more final)",
+            "Groetjes, — Greetings / Regards (informal)",
+            "Met vriendelijke groeten, — With kind regards (formal)",
+            "Afscheid nemen — to say goodbye"
+          ]
+        },
+        {
+          "rule": "Worked example — Tristan to Lorena",
+          "examples": [
+            "Dag Lorena,",
+            "Ik ben Tristan. Ik kom uit Engeland en ik leer ook Nederlands in CVO Scala. Het is goed dat je graag Nederlands wil oefenen met mij.",
+            "Elke weekdag sta ik op om 7:30. Ik ontbijt samen met mijn partner om 8 uur. Dan ga ik naar het werk in mijn auto. Ik werk ook soms van thuis. Op de middag ga ik een broodje halen bij Foodstore in de stad Roeselare. Ik werk tot half zes 's avonds. Ik kook samen met mijn partner. We relaxen tot elf uur en dan gaan we slapen.",
+            "In het weekend gaan we wandelen. Ik neem graag foto's van de natuur. Ik doe graag fotografie — dat is mijn hobby. Ik poets niet graag het huis in het weekend.",
+            "Het was fijn om jouw mail te lezen.",
+            "Tot later!",
+            "Groetjes, Tristan",
+            "↳ Count the inversions: 'Elke weekdag sta ik...', 'Op de middag ga ik...', 'In het weekend gaan we...' — every paragraph leads with a time. That rhythm is what makes the email sound native."
+          ]
+        }
+      ],
+      "memory": "🧠 The email structure is the same every time: greet → introduce → describe your week → describe your weekend → close. Lead each paragraph with a TIME word (Elke weekdag, In het weekend, Op vrijdag) and inversion does the rest of the work.",
+      "examples": [
+        {
+          "nl": "Dag Lorena,",
+          "en": "Dear Lorena,"
+        },
+        {
+          "nl": "Ik ben Tristan. Ik kom uit Engeland en ik leer Nederlands in CVO Scala.",
+          "en": "I am Tristan. I'm from England and I'm learning Dutch at CVO Scala."
+        },
+        {
+          "nl": "Elke weekdag sta ik op om 7:30 en ontbijt ik samen met mijn partner.",
+          "en": "Every weekday I get up at 7:30 and have breakfast with my partner."
+        },
+        {
+          "nl": "In het weekend gaan wij wandelen. Mijn hobby is fotografie.",
+          "en": "At the weekend we go walking. My hobby is photography."
+        },
+        {
+          "nl": "Tot later! Groetjes, Tristan",
+          "en": "See you later! Regards, Tristan"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Schrijf jij graag mails in het Nederlands?",
+          "en": "Do you like writing emails in Dutch?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik schrijf graag mails. Het is goede oefening voor mijn Nederlands.",
+          "en": "Yes, I like writing emails. It's good practice for my Dutch."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe begin jij een mail?",
+          "en": "How do you begin an email?"
+        },
+        {
+          "role": "B",
+          "nl": "Met 'Dag [naam]' of 'Beste [naam]'. Beste is meer formeel.",
+          "en": "With 'Dag [name]' or 'Beste [name]'. Beste is more formal."
+        },
+        {
+          "role": "A",
+          "nl": "En hoe sluit je af?",
+          "en": "And how do you close?"
+        },
+        {
+          "role": "B",
+          "nl": "Met 'Tot later!' en 'Groetjes, [naam]'. Formeel: 'Met vriendelijke groeten'.",
+          "en": "With 'See you later!' and 'Regards, [name]'. Formal: 'With kind regards'."
+        }
+      ],
+      "relatedRules": [
+        "lp5a",
+        "inversion",
+        "imperative"
+      ]
+    }
+  ]
+}

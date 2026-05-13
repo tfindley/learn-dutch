@@ -1,0 +1,221 @@
+{
+  "kind": "grammar",
+  "id": "terms_sentence",
+  "order": 0.5,
+  "tag": "GLOSSARY · SENTENCE ANATOMY",
+  "title": {
+    "nl": "Zinsbouw",
+    "en": "Sentence Anatomy — A Glossary"
+  },
+  "difficulty": "easy",
+  "shortcut": "A Dutch sentence has slots, and every slot has a name. Once you can label SUBJECT, VERB, OBJECT, INFORMATION, you can read every Dutch grammar rule fluently.",
+  "explanation": "Word-types tell you what each word IS (verb, noun, etc — see the Word Types glossary). Sentence-anatomy tells you what each word DOES in this particular sentence (subject, object, information, etc). The two perspectives sit on top of each other. Belgian-Dutch teachers and textbooks use the sentence-anatomy labels constantly — especially when explaining inversion, separable verbs, and subordinate clauses. Here are the labels you'll hear, with English translations and examples that highlight the parts.",
+  "patterns": [
+    {
+      "rule": "SUBJECT · het onderwerp · het subject",
+      "examples": [
+        "Who or what is DOING the action of the verb? Answers 'who?' or 'what?' before the verb.",
+        "English: 'The dog runs.' — 'the dog' is the subject.",
+        "Dutch: 'De hond loopt.' — 'de hond' is the subject (onderwerp).",
+        "🇳🇱 Two Dutch names: 'onderwerp' (under-thrown — the thing being talked about) is the everyday Dutch term. 'subject' is the Latin term used in formal grammar tables.",
+        "In Dutch the subject is USUALLY at position 1, but inversion moves it AFTER the verb."
+      ]
+    },
+    {
+      "rule": "VERB / CONJUGATED VERB · de persoonsvorm · het verbum",
+      "examples": [
+        "The CONJUGATED verb (changed to match the subject) — the one carrying the tense and person.",
+        "English: 'The dog RUNS.' — 'runs' is the conjugated verb (it changed from 'run' to match 'the dog').",
+        "Dutch: 'De hond LOOPT.' — 'loopt' is the persoonsvorm (changed from 'lopen' to match 'de hond').",
+        "🇳🇱 Two names: 'persoonsvorm' (person-form — the verb shaped to fit the person doing it) and 'verbum' (Latin).",
+        "⚠ The persoonsvorm is what sits at POSITION 2 in every Dutch main clause. The V2 rule is really 'the conjugated verb is the anchor at slot 2'."
+      ]
+    },
+    {
+      "rule": "OBJECT · het lijdend voorwerp · het object",
+      "examples": [
+        "The thing that RECEIVES the action of the verb. Answers 'what?' or 'whom?' after the verb.",
+        "English: 'The dog eats the BONE.' — 'the bone' is the direct object.",
+        "Dutch: 'De hond eet HET BOTJE.' — 'het botje' is the lijdend voorwerp.",
+        "🇳🇱 Literal translation of 'lijdend voorwerp' = 'suffering object' — the thing that the action 'happens to'.",
+        "There's also an INDIRECT OBJECT (meewerkend voorwerp) — the receiver, usually 'to whom?' or 'for whom?': 'I give the bone to the DOG.' = 'Ik geef het botje AAN DE HOND.'"
+      ]
+    },
+    {
+      "rule": "INFORMATION · de informatie · de bepaling",
+      "examples": [
+        "EVERYTHING else in the sentence — time, place, manner, reason. Things that ADD detail but aren't subject, verb, or object.",
+        "English: 'The dog runs FAST IN THE PARK ON SATURDAYS.' — 'fast' (manner), 'in the park' (place), 'on Saturdays' (time) are all information.",
+        "Dutch: 'De hond loopt SNEL IN HET PARK OP ZATERDAGEN.' — same three types of information.",
+        "🇳🇱 Belgian-Dutch teachers casually call all of this 'informatie' (informatie). The formal term is 'bepaling' (modifier/adjunct), but 'informatie' is what you'll hear in class.",
+        "ANY piece of information can be moved to position 1 of the sentence — that's the trigger for INVERSION.",
+        "→ Full inversion rule: [[inversion]]."
+      ]
+    },
+    {
+      "rule": "TIME information — the most common inversion trigger",
+      "examples": [
+        "TIME information answers 'when?' / 'how often?' / 'how long?'.",
+        "Single words: vandaag, morgen, gisteren, nu, soms, altijd, vaak, nooit, vanavond.",
+        "Clock phrases: om acht uur, om kwart voor zes, om half tien.",
+        "Days/dates: op maandag, op 8 september, in januari.",
+        "Periods: in het weekend, in de zomer, deze week.",
+        "Time-of-day: 's morgens, 's middags, 's avonds, 's nachts.",
+        "Frequency: elke dag, elke avond, twee keer per week.",
+        "⚠ Any of these at slot 1 → INVERSION. The most-used trigger by far.",
+        "→ Full inversion rule with worked examples: [[inversion]]."
+      ]
+    },
+    {
+      "rule": "MAIN CLAUSE · de hoofdzin",
+      "examples": [
+        "A complete sentence that can stand on its own.",
+        "English: 'I am going home.' (full sentence, makes sense alone)",
+        "Dutch: 'Ik ga naar huis.' (full sentence)",
+        "The V2 rule applies to MAIN clauses: the verb sits at position 2.",
+        "🇳🇱 Literally 'hoofdzin' = 'head sentence' (the main one)."
+      ]
+    },
+    {
+      "rule": "SUBORDINATE CLAUSE · de bijzin",
+      "examples": [
+        "A clause that DEPENDS on a main clause — usually introduced by a subordinating conjunction (omdat, dat, als, wanneer, terwijl, hoewel).",
+        "English: 'I am going home BECAUSE I AM TIRED.' — 'because I am tired' is the subordinate clause.",
+        "Dutch: 'Ik ga naar huis OMDAT IK MOE BEN.' — 'omdat ik moe ben' is the bijzin.",
+        "⚠ HUGE Dutch rule: in a bijzin, the conjugated verb moves to the END of the clause. 'omdat ik moe BEN' (because I tired AM), 'dat hij niet kan KOMEN' (that he not can COME).",
+        "🇳🇱 'bijzin' = 'beside sentence' (one that sits next to the main one).",
+        "→ Full word-order rules including subclauses: [[wordorder]]."
+      ]
+    },
+    {
+      "rule": "POSITION 1 · POSITION 2 · POSITION 3+",
+      "examples": [
+        "Dutch teachers literally count slots in a main clause:",
+        "  Position 1 = ONE element (subject, time, place, question word, or a subordinate clause).",
+        "  Position 2 = the CONJUGATED VERB. Always. No exceptions in main clauses.",
+        "  Position 3+ = the rest of the sentence — subject (if not at 1), objects, information, infinitives at the end.",
+        "Worked example #1 — default order:",
+        "  Pos 1: Ik    | Pos 2: werk | Pos 3+: vandaag thuis",
+        "  → 'Ik werk vandaag thuis.'",
+        "Worked example #2 — time at slot 1, inverted:",
+        "  Pos 1: Vandaag | Pos 2: werk | Pos 3: ik | Pos 4: thuis",
+        "  → 'Vandaag werk ik thuis.'",
+        "Worked example #3 — question word at slot 1:",
+        "  Pos 1: Wanneer | Pos 2: komt | Pos 3: hij | Pos 4: thuis",
+        "  → 'Wanneer komt hij thuis?'",
+        "Worked example #4 — modal at slot 2, infinitive at the END:",
+        "  Pos 1: Vandaag | Pos 2: wil | Pos 3: ik | Pos 4+: thuis | End: werken",
+        "  → 'Vandaag wil ik thuis werken.'",
+        "→ Inversion in full: [[inversion]]."
+      ]
+    },
+    {
+      "rule": "SEPARABLE VERB · het scheidbaar werkwoord",
+      "examples": [
+        "A verb made of TWO parts: a prefix (op-, uit-, aan-, mee-, thuis-) and a base verb.",
+        "Listed in the dictionary as one word: 'opstaan' (to get up), 'uitgaan' (to go out), 'aandoen' (to put on).",
+        "In a MAIN clause, the two parts SPLIT — the base verb sits at position 2, the prefix goes to the END of the clause.",
+        "  Pos 1: Stefaan | Pos 2: staat | Pos 3: om zeven uur | End: op",
+        "  → 'Stefaan staat om zeven uur op.'",
+        "Under inversion, the split STAYS:",
+        "  Pos 1: Om zeven uur | Pos 2: staat | Pos 3: Stefaan | End: op",
+        "  → 'Om zeven uur staat Stefaan op.'",
+        "→ Full separable-verb rules: [[separable]]."
+      ]
+    },
+    {
+      "rule": "INFINITIVE AT THE END — the modal-verb pattern",
+      "examples": [
+        "When a sentence has TWO verbs (modal + infinitive), they SPLIT across the clause:",
+        "  Conjugated modal → position 2.",
+        "  Infinitive → very end of the clause.",
+        "Example: 'Vandaag wil ik thuis werken.'",
+        "  Pos 1: Vandaag | Pos 2: wil (modal) | Pos 3: ik | Pos 4: thuis | End: werken (infinitive)",
+        "Same with kunnen/moeten/mogen/zullen.",
+        "→ Modal-verb rules: [[modal]]."
+      ]
+    }
+  ],
+  "memory": "🧠 Two glossaries, two perspectives. The Word-Types glossary [[terms_words]] tells you what a word IS (verb, noun, pronoun…). The Sentence-Anatomy glossary tells you what a word DOES in a sentence (subject, object, information…). Master both labels for any single word in a sentence and you can read every Dutch grammar rule fluently. The most important sentence-anatomy concept for Dutch: COUNT TO TWO — what's at position 1, what's at position 2. The conjugated verb is ALWAYS at position 2 in main clauses.",
+  "examples": [
+    {
+      "nl": "Ik werk vandaag thuis.",
+      "en": "→ 'Ik' = subject (pos 1) · 'werk' = verb (pos 2) · 'vandaag' = time info · 'thuis' = place info."
+    },
+    {
+      "nl": "Vandaag werk ik thuis.",
+      "en": "→ 'Vandaag' = time info AT POSITION 1 · 'werk' = verb (pos 2) · 'ik' = subject (pos 3) · 'thuis' = place info. INVERSION."
+    },
+    {
+      "nl": "Om zeven uur staat Stefaan op.",
+      "en": "→ 'Om zeven uur' = time info (pos 1) · 'staat' = verb (pos 2) · 'Stefaan' = subject (pos 3) · 'op' = SEPARABLE PREFIX at the end."
+    },
+    {
+      "nl": "Ik wil graag een boek lezen.",
+      "en": "→ 'Ik' = subject · 'wil' = modal verb (pos 2) · 'graag' = adverb · 'een boek' = direct object · 'lezen' = INFINITIVE at the end."
+    },
+    {
+      "nl": "Ik ga naar huis omdat ik moe ben.",
+      "en": "→ MAIN clause: 'Ik ga naar huis' (verb 'ga' at pos 2). SUB clause: 'omdat ik moe BEN' (verb 'ben' kicked to the END)."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Welk woord is het onderwerp in 'Vandaag werk ik thuis'?",
+      "en": "Which word is the subject in 'Vandaag werk ik thuis'?"
+    },
+    {
+      "role": "B",
+      "nl": "'Ik' is het onderwerp (subject). Het zit aan positie 3 omdat 'vandaag' (informatie) aan positie 1 staat — dat is inversie.",
+      "en": "'Ik' is the subject. It's at position 3 because 'vandaag' (information) is at position 1 — that's inversion."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is een 'persoonsvorm'?",
+      "en": "What is a 'persoonsvorm'?"
+    },
+    {
+      "role": "B",
+      "nl": "De persoonsvorm is de geconjugeerde vorm van het werkwoord — de vorm die past bij het onderwerp. In het Nederlands staat de persoonsvorm altijd op positie 2 in een hoofdzin.",
+      "en": "The persoonsvorm is the conjugated form of the verb — the form that fits the subject. In Dutch, the persoonsvorm always sits at position 2 in a main clause."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen een hoofdzin en een bijzin?",
+      "en": "What is the difference between a 'hoofdzin' and a 'bijzin'?"
+    },
+    {
+      "role": "B",
+      "nl": "Hoofdzin = main clause, kan alleen staan. Bijzin = subordinate clause, hangt aan een hoofdzin. In een bijzin staat het werkwoord aan het EINDE: '...omdat ik moe BEN.'",
+      "en": "Hoofdzin = main clause, can stand alone. Bijzin = subordinate, attaches to a main clause. In a bijzin the verb goes to the END."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is 'informatie' in een Nederlandse zin?",
+      "en": "What is 'informatie' in a Dutch sentence?"
+    },
+    {
+      "role": "B",
+      "nl": "Informatie = everything that isn't subject, verb, or object. Tijd, plaats, manier. ALLE informatie kan op positie 1 staan en dat veroorzaakt inversie.",
+      "en": "Information = everything that isn't subject, verb, or object. Time, place, manner. ANY piece of information can go to position 1, and that causes inversion."
+    },
+    {
+      "role": "A",
+      "nl": "Identificeer de delen in: 'Op zondag wandelen wij in het park.'",
+      "en": "Identify the parts in: 'Op zondag wandelen wij in het park.'"
+    },
+    {
+      "role": "B",
+      "nl": "Pos 1: 'Op zondag' (informatie — tijd). Pos 2: 'wandelen' (persoonsvorm — verbum). Pos 3: 'wij' (onderwerp). Pos 4+: 'in het park' (informatie — plaats). Klassieke inversie.",
+      "en": "Pos 1: 'Op zondag' (time info). Pos 2: 'wandelen' (conjugated verb). Pos 3: 'wij' (subject). Pos 4+: 'in het park' (place info). Classic inversion."
+    }
+  ],
+  "relatedRules": [
+    "terms_words",
+    "inversion",
+    "wordorder",
+    "separable",
+    "modal"
+  ]
+}

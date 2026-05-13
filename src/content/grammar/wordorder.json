@@ -72,5 +72,10 @@
       "nl": "Ik leer Nederlands omdat ik in België woon.",
       "en": "I'm learning Dutch because I live in Belgium."
     }
+  ],
+  "relatedRules": [
+    "terms_sentence",
+    "inversion",
+    "verbstem"
   ]
 }

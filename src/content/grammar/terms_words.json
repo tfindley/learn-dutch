@@ -1,0 +1,273 @@
+{
+  "kind": "grammar",
+  "id": "terms_words",
+  "order": 0,
+  "tag": "GLOSSARY · WORD TYPES",
+  "title": {
+    "nl": "Woordsoorten",
+    "en": "Word Types — A Glossary"
+  },
+  "difficulty": "easy",
+  "shortcut": "Every word in a sentence has a JOB. Knowing the job helps you build sentences correctly — especially when Dutch swaps things around.",
+  "explanation": "If you went through school in an English-speaking country, you probably weren't drilled on grammar terms — they fell out of fashion. But Dutch teachers ALWAYS use these labels (in Dutch), and the Dutch rules reference them constantly. This glossary gives you the English AND Dutch names for each word type, an everyday definition, and concrete examples in both languages. Read it once, refer back whenever a rule talks about a 'verbum' or a 'voornaamwoord' and you've forgotten what it means.",
+  "patterns": [
+    {
+      "rule": "VERB · het werkwoord · het verbum",
+      "examples": [
+        "What it does: describes an ACTION or a STATE. 'What is happening?'",
+        "English: run, eat, sleep, be, become, have, walk, write.",
+        "Dutch: lopen, eten, slapen, zijn, worden, hebben, wandelen, schrijven.",
+        "🇳🇱 Two Dutch names: 'werkwoord' (work-word) is the everyday term. 'verbum' (Latin) is used in formal grammar tables and what your CVO teacher will use.",
+        "Verbs change form depending on the subject ('I work' vs 'he works') and the time ('I work' vs 'I worked'). This changing is called CONJUGATION (vervoeging).",
+        "→ How to form Dutch verb forms: [[verbstem]] (present) and [[verbtenses]] (past)."
+      ]
+    },
+    {
+      "rule": "INFINITIVE · de infinitief · het hele werkwoord",
+      "examples": [
+        "What it is: the BASIC, unchanged form of a verb. The version you look up in a dictionary.",
+        "English: 'to go', 'to study', 'to be' — almost always with 'to' in front.",
+        "Dutch: 'gaan', 'studeren', 'zijn' — one word, NO separate 'to'. Almost always ends in -en.",
+        "🖖 SPLIT INFINITIVE (English-only): when you put an adverb BETWEEN 'to' and the verb. Captain Kirk: 'to boldly go where no man has gone before' — the adverb 'boldly' splits 'to' from 'go'. Older grammar books said this was 'wrong'; modern English is fine with it.",
+        "Why it doesn't apply to Dutch: there's no 'to' to split FROM. 'boldly go' = 'moedig gaan' — two separate words, no splitting issue.",
+        "When you USE the infinitive in Dutch: (a) after a modal verb at the END of the clause: 'Ik moet WERKEN' (b) after the word 'te' (= English 'to'): 'Ik probeer te WERKEN'.",
+        "→ Where the infinitive sits in the sentence: [[wordorder]], [[modal]]."
+      ]
+    },
+    {
+      "rule": "NOUN · het zelfstandig naamwoord · het substantief",
+      "examples": [
+        "What it does: NAMES a person, place, thing, or idea.",
+        "English: man, Brussels, table, freedom, dog, idea.",
+        "Dutch: man, Brussel, tafel, vrijheid, hond, idee.",
+        "🇳🇱 In Dutch, every noun is either a DE-WORD or a HET-WORD. There's no logic — you memorise. 'de tafel' (table), 'het huis' (house). Plurals are ALWAYS 'de'.",
+        "Common vs proper: 'man' (common) vs 'Jan' (proper, capitalised). Same in both languages.",
+        "→ Article-noun pairing rules: [[articles]]. → Plural rules: [[spelling_plural]]."
+      ]
+    },
+    {
+      "rule": "PRONOUN · het voornaamwoord",
+      "examples": [
+        "What it does: STANDS IN for a noun, so you don't have to repeat it. 'Jan is happy. He smiles.' — 'he' replaces 'Jan'.",
+        "Personal pronouns (subject form):",
+        "  English: I, you, he, she, it, we, you (plural), they.",
+        "  Dutch:   ik, jij/je/u, hij, zij/ze, het, wij/we, jullie, zij/ze.",
+        "Possessive pronouns (= 'whose?'):",
+        "  English: my, your, his, her, its, our, their.",
+        "  Dutch:   mijn, jouw, zijn, haar, zijn, ons/onze, hun.",
+        "Demonstrative pronouns (= 'this / that one'): 'this' = dit/deze, 'that' = dat/die.",
+        "Reflexive (= 'myself'): 'I wash myself' = 'Ik was me'. Belgian Dutch 'me/je/zich' = English '-self'.",
+        "→ Why 'jij' is special after a verb: [[inversion]]."
+      ]
+    },
+    {
+      "rule": "ADJECTIVE · het bijvoeglijk naamwoord",
+      "examples": [
+        "What it does: DESCRIBES a noun. 'The RED car.' 'A BIG house.' 'COLD weather.'",
+        "English: red, big, cold, fast, beautiful, easy, Belgian.",
+        "Dutch: rood, groot, koud, snel, mooi, makkelijk, Belgisch.",
+        "🇳🇱 Dutch adjectives sometimes add an -e: 'een rode auto' (a red car) but 'een rood huis' (a red house). The rule depends on de/het and whether 'een' or 'de/het' is in front.",
+        "→ Full ending rules: [[adjectives]]."
+      ]
+    },
+    {
+      "rule": "ADVERB · het bijwoord",
+      "examples": [
+        "What it does: DESCRIBES a verb, adjective, or another adverb. Answers 'how?', 'when?', 'where?', 'how often?'.",
+        "English: quickly, slowly, here, there, today, often, never, very.",
+        "Dutch: snel, langzaam, hier, daar, vandaag, vaak, nooit, heel.",
+        "Adjective vs adverb: in English you add '-ly' ('slow' → 'slowly'). In Dutch the SAME word is used: 'Hij is snel' (He is fast — adjective) / 'Hij rijdt snel' (He drives fast — adverb). No -ly transformation.",
+        "TIME adverbs (vandaag, 's morgens, nu, soms) are the most common triggers of INVERSION in Dutch.",
+        "→ Frequency adverbs: [[woordjes/frequency]]. → Inversion: [[inversion]]."
+      ]
+    },
+    {
+      "rule": "PREPOSITION · het voorzetsel",
+      "examples": [
+        "What it does: shows the RELATIONSHIP between two things — usually position, time, or direction.",
+        "English: in, on, at, under, over, behind, between, with, for, to.",
+        "Dutch: in, op, aan, onder, boven, achter, tussen, met, voor, naar.",
+        "Examples: 'op de tafel' (on the table — position), 'om acht uur' (at eight o'clock — time), 'naar Brussel' (to Brussels — direction).",
+        "⚠ Dutch uses three different prepositions for TIME: 'om' (clock), 'op' (day/date), 'in' (period). English uses 'at', 'on', 'in' similarly but the mapping isn't exact.",
+        "→ Time prepositions: [[lp3a_prep]]. → Location prepositions: [[lp5c]]."
+      ]
+    },
+    {
+      "rule": "ARTICLE · het lidwoord",
+      "examples": [
+        "What it does: a tiny word that goes BEFORE a noun, telling you if it's specific or general.",
+        "Definite article (= 'THE', a specific thing): English 'the'; Dutch 'de' or 'het' depending on the noun.",
+        "Indefinite article (= 'A / AN', a general thing): English 'a/an'; Dutch 'een' (pronounced 'un', not 'een' like the number).",
+        "Examples: 'the table' = de tafel · 'a table' = een tafel · 'the house' = het huis · 'a house' = een huis.",
+        "🇳🇱 The big learner trap: knowing which nouns take 'de' vs 'het'. There's no perfect rule — defaulting to 'de' is right ~75% of the time.",
+        "→ Article rules and the de/het split: [[articles]]."
+      ]
+    },
+    {
+      "rule": "CONJUNCTION · het voegwoord",
+      "examples": [
+        "What it does: GLUES two clauses or words together.",
+        "Coordinating (joining equals): English 'and, but, or, so'; Dutch 'en, maar, of, dus'.",
+        "Subordinating (introducing a dependent clause): English 'because, that, if, when, although'; Dutch 'omdat, dat, als, wanneer, hoewel'.",
+        "⚠ In Dutch, SUBORDINATING conjunctions kick the verb to the END of the clause: 'Ik ga naar huis OMDAT ik moe BEN.' (I go home because I tired AM.)",
+        "→ Subclause word order: [[wordorder]]."
+      ]
+    },
+    {
+      "rule": "MODAL VERB · het modaal werkwoord · het hulpwerkwoord",
+      "examples": [
+        "What it does: a special verb that MODIFIES another verb, adding meaning like 'can', 'must', 'want', 'may'.",
+        "English: can, must, want to, may, shall, will.",
+        "Dutch: kunnen, moeten, willen, mogen, zullen.",
+        "How it behaves: the modal is CONJUGATED (changes form), the other verb stays in its INFINITIVE form, and Dutch sends that infinitive to the END of the clause: 'Ik wil thuis WERKEN.'",
+        "→ Full conjugation and usage: [[modal]]."
+      ]
+    },
+    {
+      "rule": "SYNONYM · het synoniem · ANTONYM · het antoniem",
+      "examples": [
+        "SYNONYM = a word with the SAME (or similar) meaning as another. English 'big' / 'large' are synonyms. Dutch 'groot' / 'fors' are synonyms.",
+        "ANTONYM = a word with the OPPOSITE meaning. English 'big' / 'small'. Dutch 'groot' / 'klein'.",
+        "Belgian-Dutch examples of synonyms (BE vs NL Dutch):",
+        "  'de look' (BE) / 'de knoflook' (NL) = garlic",
+        "  'de confituur' (BE) / 'de jam' (NL) = jam",
+        "  'kuisen' (BE) / 'schoonmaken' (NL) = to clean",
+        "  'dikwijls' (BE preference) / 'vaak' (NL preference) = often",
+        "→ Belgian-vs-NL flagged throughout the woordjes categories."
+      ]
+    },
+    {
+      "rule": "VOWEL · de klinker · CONSONANT · de medeklinker",
+      "examples": [
+        "VOWELS — the 'open' sounds you can sing without closing your mouth.",
+        "  English: a, e, i, o, u (sometimes y).",
+        "  Dutch: a, e, i, o, u + double versions aa, ee, oo, uu (these are the SAME letter, written twice to signal a LONG sound).",
+        "  Special Dutch vowel: 'ij' — pronounced like English 'eye'. Counts as a single vowel.",
+        "CONSONANTS — every letter that isn't a vowel.",
+        "  Dutch has all the English ones plus a soft 'g' (like clearing your throat gently).",
+        "DIPHTHONG · de tweeklank — two vowels glided together: 'ou' in 'mevrouw' [muh-VROW], 'ui' in 'huis'.",
+        "→ Dutch vowel-length rule (short vs long): [[pron_vowels]]. → U/UU/OU specifically: [[pron_u_ou]]."
+      ]
+    },
+    {
+      "rule": "SINGULAR · het enkelvoud · PLURAL · het meervoud",
+      "examples": [
+        "SINGULAR = one of something. 'one cat', 'one book'.",
+        "PLURAL = more than one. 'two cats', 'three books'.",
+        "English plural: usually add -s ('cat → cats'). Dutch plural: usually add -en or -s.",
+        "Dutch examples: 'de kat / de katten', 'het boek / de boeken', 'de fiets / de fietsen'.",
+        "🇳🇱 Special: foreign words and words ending in vowels often take -'s: 'foto / foto's', 'café / café's'.",
+        "→ Full plural-spelling rules: [[spelling_plural]]."
+      ]
+    },
+    {
+      "rule": "TENSE · de tijd (of grammatical time)",
+      "examples": [
+        "TENSE = WHEN something happens — past, present, or future.",
+        "  Present tense · tegenwoordige tijd: 'I work' / 'Ik werk'.",
+        "  Past tense · verleden tijd: 'I worked' / 'Ik heb gewerkt' (perfect) or 'Ik werkte' (simple past).",
+        "  Future · toekomende tijd: 'I will work' / 'Ik zal werken' or just 'Ik werk morgen' (present + time word).",
+        "🇳🇱 Spoken Belgian Dutch overwhelmingly uses the PERFECT TENSE for everything past, even very recent: 'Ik heb gisteren gewerkt' = 'I worked yesterday' (literally: 'I have yesterday worked').",
+        "→ How to form past tense: [[verbtenses]]."
+      ]
+    },
+    {
+      "rule": "IMPERATIVE · de imperatief",
+      "examples": [
+        "A verb form used to give a COMMAND or INSTRUCTION.",
+        "English: 'Come!', 'Stop!', 'Listen.' Same form as the base verb without 'to'.",
+        "Dutch: 'Kom!', 'Stop!', 'Luister!' Drop -en from the infinitive — same form as the ik-stem.",
+        "→ Full rules including separable verbs and the formal 'u' form: [[imperative]]."
+      ]
+    },
+    {
+      "rule": "DIMINUTIVE · het verkleinwoord",
+      "examples": [
+        "A noun made 'smaller' or 'cuter' by adding a suffix.",
+        "English: limited — '-y' / '-ie' ('dog → doggy', 'bird → birdie'). Often childish.",
+        "Dutch: extremely common in everyday speech — adds -je / -tje / -pje / -etje to almost any noun.",
+        "Examples: 'huis → huisje' (little house), 'boek → boekje' (little book), 'kop → kopje' (little cup / cuppa), 'kind → kindje' (little child / kiddo).",
+        "🇳🇱 ALL diminutives are HET-words, regardless of the original noun's gender: 'de tafel' (table, de-word) → 'het tafeltje' (little table, het-word).",
+        "→ Full rules: [[diminutives]]."
+      ]
+    }
+  ],
+  "memory": "🧠 Each word in a sentence has a JOB. The job has a name (verb, noun, pronoun…) and Dutch teachers will always use the Dutch name (werkwoord, naamwoord, voornaamwoord…). Memorise the mapping once and the grammar rules become readable. The two most important pairs for Belgian Dutch class: werkwoord/verbum = verb, voorzetsel = preposition.",
+  "examples": [
+    {
+      "nl": "Het kleine meisje leest een boek.",
+      "en": "The small girl reads a book. → 'Het' = article, 'kleine' = adjective, 'meisje' = noun, 'leest' = verb (conjugated), 'een' = article, 'boek' = noun."
+    },
+    {
+      "nl": "Vandaag werk ik thuis.",
+      "en": "Today I work from home. → 'Vandaag' = adverb (time), 'werk' = verb, 'ik' = pronoun (subject), 'thuis' = adverb (place)."
+    },
+    {
+      "nl": "Ik wil graag franse les volgen.",
+      "en": "I would like to take French class. → 'Ik' = pronoun, 'wil' = modal verb, 'graag' = adverb, 'franse' = adjective, 'les' = noun, 'volgen' = infinitive."
+    },
+    {
+      "nl": "Mijn zus woont in Engeland omdat ze daar werkt.",
+      "en": "My sister lives in England because she works there. → 'Mijn' = possessive pronoun, 'zus' = noun, 'woont' = verb, 'in' = preposition, 'Engeland' = proper noun, 'omdat' = subordinating conjunction, 'ze' = pronoun, 'daar' = adverb (place), 'werkt' = verb (at the end because of 'omdat')."
+    }
+  ],
+  "practice": [
+    {
+      "role": "A",
+      "nl": "Wat is een 'werkwoord'?",
+      "en": "What is a 'werkwoord'?"
+    },
+    {
+      "role": "B",
+      "nl": "Een werkwoord is een VERB — een woord dat een actie of toestand beschrijft. Bijvoorbeeld: lopen, eten, zijn.",
+      "en": "A werkwoord is a VERB — a word describing an action or state. Examples: walk, eat, be."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is een 'voornaamwoord'?",
+      "en": "What is a 'voornaamwoord'?"
+    },
+    {
+      "role": "B",
+      "nl": "Een voornaamwoord is een PRONOUN — vervangt een naamwoord. 'Ik', 'jij', 'hij', 'zij', 'het', 'wij', 'jullie'.",
+      "en": "A voornaamwoord is a PRONOUN — it replaces a noun. 'I', 'you', 'he', 'she', etc."
+    },
+    {
+      "role": "A",
+      "nl": "Wat is het verschil tussen een 'infinitief' en een 'imperatief'?",
+      "en": "What's the difference between an 'infinitief' and an 'imperatief'?"
+    },
+    {
+      "role": "B",
+      "nl": "Infinitief = the basic dictionary form ('werken' / 'to work'). Imperatief = the command form ('Werk!' / 'Work!'). In Dutch the imperatief is just the infinitief minus -en.",
+      "en": "Infinitive = dictionary form. Imperative = command form. Dutch imperative = infinitive minus -en."
+    },
+    {
+      "role": "A",
+      "nl": "Geef een synoniem voor 'dikwijls'.",
+      "en": "Give a synonym for 'dikwijls'."
+    },
+    {
+      "role": "B",
+      "nl": "'Vaak' is een synoniem voor 'dikwijls'. Beide betekenen 'often'.",
+      "en": "'Vaak' is a synonym for 'dikwijls'. Both mean 'often'."
+    },
+    {
+      "role": "A",
+      "nl": "Is 'rood' een werkwoord of een bijvoeglijk naamwoord?",
+      "en": "Is 'rood' a verb or an adjective?"
+    },
+    {
+      "role": "B",
+      "nl": "Een bijvoeglijk naamwoord — een ADJECTIVE. Het beschrijft een zelfstandig naamwoord: 'een rode auto'.",
+      "en": "An adjective. It describes a noun: 'a red car'."
+    }
+  ],
+  "relatedRules": [
+    "terms_sentence",
+    "verbstem",
+    "articles",
+    "modal",
+    "inversion"
+  ]
+}

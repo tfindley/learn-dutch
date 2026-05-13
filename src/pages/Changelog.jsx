@@ -2,6 +2,24 @@ import { Link } from 'react-router-dom';
 
 const CHANGELOG = [
   {
+    version: '2.1.0',
+    date: '2026-05-13',
+    added: [
+      'Leerpad 5 now has full content — three new sections (5A daily activities, 5B free time + modals in practice, 5C studying + imperative + course enrolment)',
+      'New grammar rule: "Inversie · V2 — When Subject and Verb Swap" — the V2/inversion word-order rule with 13 pattern blocks, dedicated TIME-inversion coverage, the kunt→kun / wilt→wil special cases, separable verbs under inversion, and a labelled sentence-anatomy block showing what sits in each position',
+      'New grammar rule: "De imperatief · Commands" — the command form with separable variants and the formal "u" form',
+      'Two new GLOSSARY entries at the top of Grammar Reference: "Word Types" (verb, infinitive — including split infinitives "to boldly go" — noun, pronoun, adjective, adverb, preposition, article, conjunction, modal, synonym/antonym, vowel/consonant, singular/plural, tense, imperative, diminutive) and "Sentence Anatomy" (subject, conjugated verb, object, information, main/subordinate clause, the position-1/2/3+ slot model with worked examples)',
+      'Three new woordjes categories: Days of the Week, Daily Activities, and Free Time',
+      'Added location prepositions (achter / boven / onder / naast) and time-of-day expressions (\'s morgens / \'s ochtends / \'s middags / \'s avonds / \'s nachts / namiddag / vanavond / vanmorgen / vannacht) to the existing categories',
+      'Three new tests: Inversion (10 Q), Imperative (6 Q), Modals in Practice (7 Q)',
+      'Cross-rule "See also" links now span the new content — every leerpad and grammar rule that touches inversion, modals, or imperative now has direct jumps to the relevant glossary entries and rules',
+    ],
+    changed: [
+      'Leerpad 5 group description updated from placeholder to a real summary of the daily-life / inversion focus',
+    ],
+    fixed: [],
+  },
+  {
     version: '2.0.2',
     date: '2026-05-06',
     added: [],

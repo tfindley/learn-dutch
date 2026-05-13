@@ -85,6 +85,7 @@
     }
   ],
   "relatedRules": [
+    "terms_words",
     "verbstem"
   ]
 }

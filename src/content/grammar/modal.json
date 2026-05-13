@@ -78,5 +78,11 @@
       "nl": "Ja, natuurlijk! / Nee, liever niet.",
       "en": "Yes, of course! / No, I'd rather not."
     }
+  ],
+  "relatedRules": [
+    "terms_words",
+    "inversion",
+    "wordorder",
+    "lp5b"
   ]
 }

@@ -73,6 +73,30 @@
       "phonetic": "TUS-sun",
       "en": "between",
       "tip": "Tussen twee en drie uur = between two and three o'clock."
+    },
+    {
+      "nl": "achter",
+      "phonetic": "AKH-tur",
+      "en": "behind",
+      "tip": "Soft 'ch'. 'Achter het huis' = behind the house. Also: 'achter de computer zitten' = sitting at the computer."
+    },
+    {
+      "nl": "boven",
+      "phonetic": "BOH-fun",
+      "en": "above / upstairs",
+      "tip": "'v' → 'f'. 'Boven de tafel' = above the table. 'Naar boven gaan' = to go upstairs."
+    },
+    {
+      "nl": "onder",
+      "phonetic": "ON-dur",
+      "en": "under / below",
+      "tip": "'Onder de tafel' = under the table. Also: 'onder de tien euro' = under ten euros."
+    },
+    {
+      "nl": "naast",
+      "phonetic": "naast",
+      "en": "next to",
+      "tip": "Long 'aa'. 'Naast het station' = next to the station."
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "id": "freetime",
+  "order": 31,
+  "title": {
+    "nl": "Vrije tijd",
+    "en": "Free Time"
+  },
+  "emoji": "🎨",
+  "color": "#a04000",
+  "words": [
+    {
+      "nl": "de vrije tijd",
+      "phonetic": "duh FRAY-uh tayt",
+      "en": "free time / leisure",
+      "tip": "'Wat doe jij in jouw vrije tijd?' = What do you do in your free time?"
+    },
+    {
+      "nl": "uitgaan",
+      "phonetic": "OWT-khaan",
+      "en": "to go out",
+      "tip": "Separable! Ik ga uit met vrienden. Distinguish from 'de uitgang' (the exit)."
+    },
+    {
+      "nl": "naar het café gaan",
+      "phonetic": "naar huht kaf-FAY khaan",
+      "en": "to go to the café",
+      "tip": "Belgian institution. 'Op vrijdag ga ik naar het café met vrienden.'"
+    },
+    {
+      "nl": "spelen",
+      "phonetic": "SPAY-lun",
+      "en": "to play",
+      "tip": "Ik speel = I play. Used for games, instruments, sports needing a verb: 'Ik speel piano / computerspellen / kaarten.'"
+    },
+    {
+      "nl": "computerspellen spelen",
+      "phonetic": "kom-PEW-tur-spel-lun SPAY-lun",
+      "en": "to play video games",
+      "tip": "'Op zondag speel ik graag computerspellen.' Same as 'gamen' but more formal."
+    },
+    {
+      "nl": "gamen",
+      "phonetic": "KHAY-mun",
+      "en": "to play video games (informal)",
+      "tip": "English loanword used naturally in Dutch. 'Ik game op de PlayStation.'"
+    },
+    {
+      "nl": "tekenen",
+      "phonetic": "TAY-kuh-nun",
+      "en": "to draw",
+      "tip": "Ik teken = I draw. 'Tekenles' = drawing lesson. 'Ze tekent op haar iPad.'"
+    },
+    {
+      "nl": "tennissen",
+      "phonetic": "TEN-nis-sun",
+      "en": "to play tennis",
+      "tip": "Sport-as-verb: 'Ik tennis op zaterdag.' No 'spelen' needed — like 'voetballen'."
+    },
+    {
+      "nl": "voetballen",
+      "phonetic": "FOOT-bal-lun",
+      "en": "to play football",
+      "tip": "Sport-as-verb: 'Ik voetbal in het park.' Distinguish from 'het voetbal' (the game itself)."
+    },
+    {
+      "nl": "skiën",
+      "phonetic": "SKEE-un",
+      "en": "to ski",
+      "tip": "The ë signals two syllables: ski-ën. 'In de winter ski ik in Oostenrijk.'"
+    },
+    {
+      "nl": "wandelen",
+      "phonetic": "VAN-duh-lun",
+      "en": "to walk / hike",
+      "tip": "Ik wandel graag in het park. Wandelen ≠ lopen (lopen can also mean 'to run' in Belgian Dutch)."
+    },
+    {
+      "nl": "fietsen",
+      "phonetic": "FEET-sun",
+      "en": "to cycle",
+      "tip": "Ik fiets naar het werk. The bicycle is 'de fiets'."
+    },
+    {
+      "nl": "zwemmen",
+      "phonetic": "ZVEM-mun",
+      "en": "to swim",
+      "tip": "Ik zwem in het zwembad. Double m = short e."
+    },
+    {
+      "nl": "vissen",
+      "phonetic": "FIS-sun",
+      "en": "to fish",
+      "tip": "Ik vis aan het kanaal. Also 'de vis' = the fish."
+    },
+    {
+      "nl": "fotograferen",
+      "phonetic": "foh-toh-khrah-FAY-run",
+      "en": "to take photos",
+      "tip": "Ik fotografeer = I photograph. Or: 'Ik neem foto's' = I take photos. The hobby: 'fotografie'."
+    },
+    {
+      "nl": "luisteren naar muziek",
+      "phonetic": "LOWS-tuh-run naar mew-ZEEK",
+      "en": "to listen to music",
+      "tip": "Luisteren naar = listen to (always with 'naar'). 'Ik luister naar muziek op Spotify.'"
+    },
+    {
+      "nl": "een boek lezen",
+      "phonetic": "uhn book LAY-zun",
+      "en": "to read a book",
+      "tip": "Ik lees een boek (Z→S in 'lees'). 's Avonds lees ik graag."
+    },
+    {
+      "nl": "naar de bioscoop gaan",
+      "phonetic": "naar duh bee-oh-SKOHP khaan",
+      "en": "to go to the cinema",
+      "tip": "De bioscoop = cinema. Belgian alternative: 'naar de cinema gaan'."
+    },
+    {
+      "nl": "op reis gaan",
+      "phonetic": "op rayss khaan",
+      "en": "to go on a trip",
+      "tip": "De reis = the trip / journey. Reizen = to travel. 'Op reis gaan' = idiom."
+    },
+    {
+      "nl": "verhuizen",
+      "phonetic": "fur-HOW-zun",
+      "en": "to move house",
+      "tip": "Ik verhuis volgende maand = I'm moving next month. From 'huis' (house) + ver- prefix."
+    },
+    {
+      "nl": "met pensioen zijn",
+      "phonetic": "met pen-SHOON zayn",
+      "en": "to be retired",
+      "tip": "Het pensioen = the pension / retirement. 'Mijn vader is met pensioen.'"
+    },
+    {
+      "nl": "overleden",
+      "phonetic": "oh-fur-LAY-dun",
+      "en": "deceased / passed away",
+      "tip": "'Hij is overleden.' = He has passed away. Formal — gentler than 'dood' (dead)."
+    },
+    {
+      "nl": "liever",
+      "phonetic": "LEE-fur",
+      "en": "rather / prefer",
+      "tip": "Comparative of 'graag'. 'Ik werk liever van thuis.' = I prefer to work from home."
+    }
+  ]
+}

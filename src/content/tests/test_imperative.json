@@ -1,0 +1,77 @@
+{
+  "id": "test_imperative",
+  "order": 14,
+  "title": "De imperatief · Commands",
+  "subtitle": "Drop -en. Soften with even / eens / maar.",
+  "leerpad": "Grammar",
+  "difficulty": "easy",
+  "emoji": "❗",
+  "questions": [
+    {
+      "q": "What is the imperative of 'komen'?",
+      "options": [
+        "Kom!",
+        "Komt!",
+        "Komen!",
+        "Kome!"
+      ],
+      "answer": 0,
+      "explanation": "Basic rule: drop -en from the infinitive. komen → Kom! Same form as the ik-stem."
+    },
+    {
+      "q": "What is the imperative of 'studeren'?",
+      "options": [
+        "Studer!",
+        "Studeren!",
+        "Studeert!",
+        "Studeer!"
+      ],
+      "answer": 3,
+      "explanation": "Long-vowel rule: the single 'e' in 'stu-de-ren' is in an open syllable (long). When you drop -en to close the syllable, you double to 'ee' to keep the long sound. studeren → Studeer!"
+    },
+    {
+      "q": "Which is the correct imperative of the separable verb 'opstaan'?",
+      "options": [
+        "Opstaan!",
+        "Staat op!",
+        "Sta op!",
+        "Op sta!"
+      ],
+      "answer": 2,
+      "explanation": "Separable verbs split. The main verb form is 'sta' (drop -en) and the prefix 'op' goes to the end: Sta op! Same pattern: uitgaan → Ga uit!, aandoen → Doe aan!"
+    },
+    {
+      "q": "How do you soften an imperative in Belgian Dutch?",
+      "options": [
+        "Always use the modal 'mogen' instead",
+        "Add 'even', 'eens', 'maar' or 'alstublieft'",
+        "Use the infinitive form",
+        "Imperatives can't be softened"
+      ],
+      "answer": 1,
+      "explanation": "Bare imperatives sound abrupt in Belgian Dutch. Adding 'even', 'eens', 'maar' or 'alstublieft' makes them polite without changing the verb. 'Kom even hier.' is much friendlier than 'Kom hier!'"
+    },
+    {
+      "q": "Which form is the FORMAL imperative (with 'u')?",
+      "options": [
+        "Kom binnen.",
+        "Komt u binnen.",
+        "Kom u binnen.",
+        "Komt binnen u."
+      ],
+      "answer": 1,
+      "explanation": "Formal imperative with 'u' uses stem + t: 'Komt u binnen.' This is used for very formal contexts (official forms, polite written requests). For everyday Belgian Dutch, the bare-stem form with 'alstublieft' is more natural."
+    },
+    {
+      "q": "'Vergeet je paraplu niet!' — what makes this an imperative?",
+      "options": [
+        "The exclamation point",
+        "The bare verb stem 'vergeet' (vergeten minus -en)",
+        "The word 'niet'",
+        "Nothing — it's a normal sentence"
+      ],
+      "answer": 1,
+      "explanation": "'Vergeet' is the imperative form of 'vergeten' (basic rule: drop -en). The negation 'niet' goes near the end. Whole sentence: 'Don't forget your umbrella!'"
+    }
+  ]
+}

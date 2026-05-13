@@ -74,6 +74,7 @@
     }
   ],
   "relatedRules": [
+    "terms_words",
     "articles"
   ]
 }

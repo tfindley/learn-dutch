@@ -73,7 +73,10 @@
     }
   ],
   "relatedRules": [
+    "terms_sentence",
     "verbstem",
-    "lp4b_trein"
+    "lp4b_trein",
+    "inversion",
+    "imperative"
   ]
 }

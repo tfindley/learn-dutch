@@ -1,0 +1,126 @@
+{
+  "id": "weekdays",
+  "order": 29,
+  "title": {
+    "nl": "Dagen van de week",
+    "en": "Days of the Week"
+  },
+  "emoji": "📅",
+  "color": "#1f618d",
+  "words": [
+    {
+      "nl": "maandag",
+      "phonetic": "MAAN-dakh",
+      "en": "Monday",
+      "tip": "From 'maan' (moon) — like English. Op maandag werk ik. Soft 'g' at end."
+    },
+    {
+      "nl": "dinsdag",
+      "phonetic": "DINS-dakh",
+      "en": "Tuesday",
+      "tip": "Named after the god Tiw / Dingsus. Op dinsdag heb ik les."
+    },
+    {
+      "nl": "woensdag",
+      "phonetic": "VOONS-dakh",
+      "en": "Wednesday",
+      "tip": "'w' → 'v'. From 'Woden' (Wodan), like English 'Wednesday'."
+    },
+    {
+      "nl": "donderdag",
+      "phonetic": "DON-dur-dakh",
+      "en": "Thursday",
+      "tip": "From 'donder' (thunder) → Thor's day. Op donderdag avond is mijn les."
+    },
+    {
+      "nl": "vrijdag",
+      "phonetic": "FRAY-dakh",
+      "en": "Friday",
+      "tip": "'ij' = 'eye' sound. Op vrijdag ga ik graag uit eten."
+    },
+    {
+      "nl": "zaterdag",
+      "phonetic": "ZAH-tur-dakh",
+      "en": "Saturday",
+      "tip": "From Saturn's day, like English. Op zaterdag winkel ik."
+    },
+    {
+      "nl": "zondag",
+      "phonetic": "ZON-dakh",
+      "en": "Sunday",
+      "tip": "From 'zon' (sun). Op zondag rust ik."
+    },
+    {
+      "nl": "het weekend",
+      "phonetic": "huht VEE-kent",
+      "en": "the weekend",
+      "tip": "het-word. English loanword. In het weekend (not 'op het weekend')."
+    },
+    {
+      "nl": "de werkdag",
+      "phonetic": "duh VERK-dakh",
+      "en": "the working day",
+      "tip": "Werk + dag. Plural: werkdagen. Compare 'feestdag' (public holiday)."
+    },
+    {
+      "nl": "de feestdag",
+      "phonetic": "duh FAYST-dakh",
+      "en": "the public holiday",
+      "tip": "Feest (party / celebration) + dag. Belgian feestdagen include Pasen, Kerstmis, 21 juli."
+    },
+    {
+      "nl": "vandaag",
+      "phonetic": "fan-DAAKH",
+      "en": "today",
+      "tip": "Van + dag. 'Welke dag is het vandaag?' = What day is it today?"
+    },
+    {
+      "nl": "morgen",
+      "phonetic": "MOR-khun",
+      "en": "tomorrow",
+      "tip": "Also 'morning' — context tells you which. 'Morgen ga ik naar Brussel.'"
+    },
+    {
+      "nl": "gisteren",
+      "phonetic": "KHIS-tuh-run",
+      "en": "yesterday",
+      "tip": "Soft 'g'. 'Gisteren was het zondag.' = Yesterday was Sunday."
+    },
+    {
+      "nl": "overmorgen",
+      "phonetic": "OH-fur-mor-khun",
+      "en": "the day after tomorrow",
+      "tip": "Over + morgen. 'Overmorgen is het dinsdag.'"
+    },
+    {
+      "nl": "eergisteren",
+      "phonetic": "AYR-khis-tuh-run",
+      "en": "the day before yesterday",
+      "tip": "Eer (earlier) + gisteren. 'Eergisteren was het vrijdag.'"
+    },
+    {
+      "nl": "elke dag",
+      "phonetic": "EL-kuh dakh",
+      "en": "every day",
+      "tip": "Use with present tense for habits. 'Elke dag fiets ik naar het werk.'"
+    },
+    {
+      "nl": "de volgende dag",
+      "phonetic": "duh FOL-khun-duh dakh",
+      "en": "the next day",
+      "tip": "Volgen = to follow. 'De volgende dag = the day that follows.'"
+    },
+    {
+      "nl": "de vorige dag",
+      "phonetic": "duh FOH-ri-khuh dakh",
+      "en": "the previous day",
+      "tip": "Vorig = previous. 'De vorige dag was zondag.'"
+    },
+    {
+      "nl": "Welke dag komt na maandag?",
+      "phonetic": "VEL-kuh dakh komt nah MAAN-dakh",
+      "en": "Which day comes after Monday?",
+      "tip": "Classic schoolroom question. Answer: 'Dinsdag komt na maandag.' Use 'na' (after) and 'voor' (before)."
+    }
+  ]
+}

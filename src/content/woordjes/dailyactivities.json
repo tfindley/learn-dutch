@@ -1,0 +1,150 @@
+{
+  "id": "dailyactivities",
+  "order": 30,
+  "title": {
+    "nl": "Dagelijkse activiteiten",
+    "en": "Daily Activities"
+  },
+  "emoji": "🌅",
+  "color": "#b9770e",
+  "words": [
+    {
+      "nl": "opstaan",
+      "phonetic": "OP-staan",
+      "en": "to get up",
+      "tip": "Separable! Ik sta op = I get up. 'Op' at the end in main clauses."
+    },
+    {
+      "nl": "ontbijten",
+      "phonetic": "ont-BAY-tun",
+      "en": "to have breakfast",
+      "tip": "Ik ontbijt = I have breakfast. The noun: het ontbijt = breakfast."
+    },
+    {
+      "nl": "een douche nemen",
+      "phonetic": "uhn doosh NAY-mun",
+      "en": "to take a shower",
+      "tip": "French loanword 'douche' [doosh]. Ik neem een douche."
+    },
+    {
+      "nl": "mijn tanden poetsen",
+      "phonetic": "mayn TAN-dun POOT-sun",
+      "en": "to brush my teeth",
+      "tip": "Poetsen = to polish / clean. Belgian Dutch — NL Dutch uses 'tandenpoetsen' as one word. 'Ik poets mijn tanden.'"
+    },
+    {
+      "nl": "kleren aandoen",
+      "phonetic": "KLAY-run AAN-doon",
+      "en": "to put on clothes",
+      "tip": "Separable! Ik doe mijn kleren aan. 'Aan' at the end."
+    },
+    {
+      "nl": "naar het werk gaan",
+      "phonetic": "naar huht verk khaan",
+      "en": "to go to work",
+      "tip": "Ik ga naar het werk. Note 'naar' (direction) not 'aan'."
+    },
+    {
+      "nl": "de bus nemen",
+      "phonetic": "duh bus NAY-mun",
+      "en": "to take the bus",
+      "tip": "Ik neem de bus. Same pattern: 'de trein nemen', 'de tram nemen'."
+    },
+    {
+      "nl": "boodschappen doen",
+      "phonetic": "BOHT-skhap-pun doon",
+      "en": "to do the grocery shopping",
+      "tip": "Ik doe boodschappen. Boodschappen = the groceries (always plural in this idiom)."
+    },
+    {
+      "nl": "winkelen",
+      "phonetic": "VIN-kuh-lun",
+      "en": "to shop / go shopping",
+      "tip": "Ik winkel in de stad. Distinguish from 'boodschappen doen' (groceries specifically)."
+    },
+    {
+      "nl": "koken",
+      "phonetic": "KOH-kun",
+      "en": "to cook",
+      "tip": "Ik kook het avondeten = I cook dinner. Long 'oh'."
+    },
+    {
+      "nl": "eten",
+      "phonetic": "AY-tun",
+      "en": "to eat",
+      "tip": "Ik eet = I eat. Long 'ee'. Also a noun: het eten = the food."
+    },
+    {
+      "nl": "drinken",
+      "phonetic": "DRIN-kun",
+      "en": "to drink",
+      "tip": "Ik drink koffie = I drink coffee."
+    },
+    {
+      "nl": "naar tv kijken",
+      "phonetic": "naar tay-FAY KAY-kun",
+      "en": "to watch TV",
+      "tip": "Kijken naar = to look at / watch. 'Ik kijk naar tv.' Always use 'naar' with kijken."
+    },
+    {
+      "nl": "naar het journaal kijken",
+      "phonetic": "naar huht zhoor-NAAL KAY-kun",
+      "en": "to watch the news",
+      "tip": "French loan 'journaal' [zhoor-NAAL]. 'Mijn buurman kijkt elke avond naar het journaal.'"
+    },
+    {
+      "nl": "lezen",
+      "phonetic": "LAY-zun",
+      "en": "to read",
+      "tip": "Ik lees = I read (Z→S rule). Also a noun: de les = the lesson."
+    },
+    {
+      "nl": "slapen",
+      "phonetic": "SLAH-pun",
+      "en": "to sleep",
+      "tip": "Ik slaap = I sleep (long-vowel rule: aa). 'Welterusten' = sleep well."
+    },
+    {
+      "nl": "thuiskomen",
+      "phonetic": "TOWS-koh-mun",
+      "en": "to come home",
+      "tip": "Separable! Ik kom thuis. 'Om zes uur kom ik thuis.' Thuis = home (location)."
+    },
+    {
+      "nl": "kuisen",
+      "phonetic": "KOW-sun",
+      "en": "to clean",
+      "tip": "Belgian Dutch! NL Dutch uses 'schoonmaken'. Ik kuis het huis."
+    },
+    {
+      "nl": "poetsen",
+      "phonetic": "POOT-sun",
+      "en": "to polish / clean",
+      "tip": "Used for surfaces (table, teeth, shoes). Distinguish from 'kuisen' (general cleaning)."
+    },
+    {
+      "nl": "stofzuigen",
+      "phonetic": "STOF-zow-khun",
+      "en": "to vacuum",
+      "tip": "Stof (dust) + zuigen (to suck). Ik stofzuig de woonkamer."
+    },
+    {
+      "nl": "strijken",
+      "phonetic": "STRAY-kun",
+      "en": "to iron",
+      "tip": "Ik strijk mijn hemden. Also means 'to stroke / spread'."
+    },
+    {
+      "nl": "bakken",
+      "phonetic": "BAK-kun",
+      "en": "to bake / fry",
+      "tip": "Ik bak een ei = I'm frying an egg. De bakker = baker (one who bakes)."
+    },
+    {
+      "nl": "huiswerk maken",
+      "phonetic": "HOWS-verk MAH-kun",
+      "en": "to do homework",
+      "tip": "Ik maak huiswerk = I do homework. 'Maken' (to make), not 'doen'."
+    }
+  ]
+}

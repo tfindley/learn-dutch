@@ -157,8 +157,12 @@
     }
   ],
   "relatedRules": [
+    "terms_sentence",
+    "terms_words",
     "verbtenses",
     "separable",
-    "pron_vowels"
+    "pron_vowels",
+    "inversion",
+    "imperative"
   ]
 }

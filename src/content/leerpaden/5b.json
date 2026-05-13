@@ -1,0 +1,198 @@
+{
+  "id": "5B",
+  "group": "5",
+  "order": 12,
+  "description": {
+    "en": "Free time and modals — what you do for fun, plus modal verbs in practice (kunnen/willen/moeten/mogen)."
+  },
+  "rules": [
+    {
+      "id": "lp5b",
+      "order": 1,
+      "tag": "LEERPAD 5B",
+      "title": {
+        "nl": "Wat doe jij in jouw vrije tijd?",
+        "en": "What do you do in your free time?"
+      },
+      "difficulty": "medium",
+      "shortcut": "Free-time activities + the V1/V2 sentence pattern: modal verb at position 2, infinitive at the END. 'Ik kan goed Nederlands spreken.'",
+      "explanation": "Leerpad 5B builds your free-time vocabulary and drills the modal-verb sentence pattern: a conjugated modal at slot 2 (kan / wil / moet / mag) with the infinitive sent to the end of the clause. This is where modals stop being a grammar table and start being everyday language. Pair them with 'graag' / 'liever' and you can express preference, ability, obligation, and permission in any sentence.",
+      "patterns": [
+        {
+          "rule": "Vrije-tijd activiteiten — free-time vocabulary",
+          "examples": [
+            "uitgaan → ik ga uit (to go out — separable)",
+            "naar het café gaan → ik ga naar het café (a Belgian institution)",
+            "vissen → ik vis (to fish)",
+            "fotograferen → ik fotografeer · foto's nemen → ik neem foto's (to take photos)",
+            "tekenen → ik teken (to draw)",
+            "tennissen → ik tennis · voetballen → ik voetbal · skiën → ik ski",
+            "wandelen → ik wandel · fietsen → ik fiets · zwemmen → ik zwem",
+            "luisteren naar muziek — to listen to music (always with 'naar')",
+            "een boek lezen — to read a book · naar de bioscoop gaan — to go to the cinema",
+            "computerspellen spelen / gamen — to play video games"
+          ]
+        },
+        {
+          "rule": "De vier modale verba — the four core modals",
+          "examples": [
+            "kunnen — can / be able to (CAPACITEIT — capacity)",
+            "willen — want to (AMBITIE — wish/intention)",
+            "moeten — must / have to (OBLIGATIE — obligation)",
+            "mogen — may / be allowed to (PERMISSIE — permission)",
+            "Same verb 'werken' through all four:",
+            "Jan kan werken. — Jan is able to work. (capacity)",
+            "Jan wil werken. — Jan wants to work. (ambition)",
+            "Jan moet werken. — Jan has to work. (obligation)",
+            "Jan mag werken. — Jan is allowed to work. (permission)",
+            "↳ Same English-style modal verb, but the meaning shift is precise. See [[modal]] for the full conjugation table including zullen (will/shall)."
+          ]
+        },
+        {
+          "rule": "V1 + V2 — modal at slot 2, infinitive at the end",
+          "examples": [
+            "Subject [1] · MODAL [2] · informatie · INFINITIVE [end]",
+            "Jan [1] · kan [2] · goed · werken. (Jan can work well.)",
+            "Els [1] · wil [2] · soep · koken. (Els wants to cook soup.)",
+            "Ik [1] · moet [2] · 's morgens · ontbijten. (I have to have breakfast in the morning.)",
+            "Wij [1] · mogen [2] · hier · wachten. (We are allowed to wait here.)",
+            "↳ The infinitive ('werken', 'koken', 'ontbijten', 'wachten') always goes to the END of the clause. Everything else slots in between."
+          ]
+        },
+        {
+          "rule": "Modal + inversion — fronting a time keeps the pattern",
+          "examples": [
+            "'s Morgens moet ik mijn tanden poetsen. (In the morning I have to brush my teeth.)",
+            "Op zondag mag ik lang slapen. (On Sunday I'm allowed to sleep in.)",
+            "Vandaag wil ik thuis werken. (Today I want to work from home.)",
+            "In de winter kunnen wij in Oostenrijk skiën. (In winter we can ski in Austria.)",
+            "Op vrijdag avond willen wij uitgaan met vrienden. (On Friday evening we want to go out with friends.)",
+            "↳ Time fronted → modal at position 2 → subject after the modal → infinitive STILL at the end. The pattern stacks: inversion + V1/V2."
+          ]
+        },
+        {
+          "rule": "Modal + niet/geen — negating a modal sentence",
+          "examples": [
+            "Ik kan niet komen. (I cannot come.) ← niet usually before the infinitive",
+            "Hij wil geen koffie drinken. (He doesn't want to drink any coffee.) ← geen before noun without article",
+            "Wij mogen 's avonds niet uitgaan. (We're not allowed to go out in the evening.) ← niet before the separable verb",
+            "↳ Negation in modal sentences usually slots before the infinitive (or before the negated noun)."
+          ]
+        },
+        {
+          "rule": "Graag + modal — saying what you like to do",
+          "examples": [
+            "Ik werk graag van thuis. (I like working from home.) ← no modal yet",
+            "Ik wil graag van thuis werken. (I would like to work from home.) ← softer, more polite",
+            "Ik kan goed Nederlands spreken. (I can speak Dutch well.)",
+            "Ik wil graag franse les niveau vier volgen. (I would like to take French level 4.) ← classic enrollment opener",
+            "↳ 'wil graag' is the polite Dutch equivalent of 'would like to' in English. Use it whenever you'd say 'I'd like to' in English."
+          ]
+        }
+      ],
+      "memory": "🧠 Modal sentences have THREE moving parts: (1) modal at slot 2 (kan / wil / moet / mag), (2) infinitive at the END, (3) everything else stacked between. Add inversion on top: front a time and the subject slides after the modal — infinitive still at the end. 'Vandaag wil ik thuis werken.'",
+      "examples": [
+        {
+          "nl": "Wat doe jij in jouw vrije tijd?",
+          "en": "What do you do in your free time?"
+        },
+        {
+          "nl": "Ik wandel graag in het park en ik luister naar muziek. Soms speel ik tennis.",
+          "en": "I like to walk in the park and I listen to music. Sometimes I play tennis."
+        },
+        {
+          "nl": "Op zondag wil ik graag computerspellen spelen.",
+          "en": "On Sunday I'd like to play video games."
+        },
+        {
+          "nl": "Ik kan goed koken, maar ik kan niet zo goed bakken.",
+          "en": "I can cook well, but I can't bake very well."
+        },
+        {
+          "nl": "Mijn partner wil graag in de zomer op reis gaan.",
+          "en": "My partner would like to go on a trip in the summer."
+        },
+        {
+          "nl": "'s Morgens moet ik vroeg opstaan voor mijn werk.",
+          "en": "In the morning I have to get up early for work."
+        },
+        {
+          "nl": "Jij mag hier wachten tot de bus komt.",
+          "en": "You are allowed to wait here until the bus comes."
+        },
+        {
+          "nl": "Ik neem graag foto's op reis samen met mijn partner.",
+          "en": "I like to take photos on trips with my partner."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wat doe jij graag in jouw vrije tijd?",
+          "en": "What do you like doing in your free time?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik fotografeer graag en ik ski in de winter. Mijn hobby is fotografie.",
+          "en": "I like photography and I ski in winter. My hobby is photography."
+        },
+        {
+          "role": "A",
+          "nl": "Kan jij goed koken?",
+          "en": "Can you cook well?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik kan goed koken. / Nee, ik kan niet zo goed koken — maar ik wil het wel leren!",
+          "en": "Yes, I can cook well. / No, I can't cook that well — but I do want to learn!"
+        },
+        {
+          "role": "A",
+          "nl": "Wat wil je doen op vrijdag avond?",
+          "en": "What do you want to do on Friday evening?"
+        },
+        {
+          "role": "B",
+          "nl": "Op vrijdag avond wil ik naar het café gaan met vrienden.",
+          "en": "On Friday evening I want to go to the café with friends."
+        },
+        {
+          "role": "A",
+          "nl": "Moet jij vroeg opstaan voor jouw werk?",
+          "en": "Do you have to get up early for your work?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, 's morgens moet ik om half zeven opstaan. Op zondag mag ik lang slapen.",
+          "en": "Yes, in the morning I have to get up at 6:30. On Sunday I'm allowed to sleep in."
+        },
+        {
+          "role": "A",
+          "nl": "Wat wil je liever doen — wandelen of fietsen?",
+          "en": "What would you rather do — walking or cycling?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik wil liever wandelen in het park. Mijn partner fietst liever.",
+          "en": "I'd rather walk in the park. My partner prefers cycling."
+        },
+        {
+          "role": "A",
+          "nl": "Mag ik even storen?",
+          "en": "May I disturb you for a moment?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja natuurlijk, kom binnen!",
+          "en": "Yes of course, come in!"
+        }
+      ],
+      "relatedRules": [
+        "modal",
+        "inversion",
+        "wordorder",
+        "graag"
+      ]
+    }
+  ]
+}

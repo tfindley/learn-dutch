@@ -359,7 +359,8 @@
       "relatedRules": [
         "separable",
         "lp3a",
-        "lp3a_prep"
+        "lp3a_prep",
+        "inversion"
       ]
     }
   ]

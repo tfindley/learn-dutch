@@ -114,6 +114,7 @@
     }
   ],
   "relatedRules": [
+    "terms_words",
     "diminutives"
   ]
 }

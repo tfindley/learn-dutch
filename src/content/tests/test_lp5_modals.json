@@ -1,0 +1,88 @@
+{
+  "id": "test_lp5_modals",
+  "order": 15,
+  "title": "Leerpad 5B · Modals in Practice",
+  "subtitle": "V1 + V2 patterns and modal meanings",
+  "leerpad": "5B",
+  "difficulty": "medium",
+  "emoji": "💪",
+  "questions": [
+    {
+      "q": "'Jan kan werken.' — which meaning does the modal carry?",
+      "options": [
+        "Obligation — Jan has to work",
+        "Capacity — Jan is able to work",
+        "Permission — Jan is allowed to work",
+        "Ambition — Jan wants to work"
+      ],
+      "answer": 1,
+      "explanation": "kunnen = capacity (can / be able to). The four modals each carry a different shade: kunnen = capacity, willen = ambition, moeten = obligation, mogen = permission."
+    },
+    {
+      "q": "Which sentence is correctly formed?",
+      "options": [
+        "Ik kan goed Nederlands spreken.",
+        "Ik kan spreken goed Nederlands.",
+        "Ik kan Nederlands goed spreken te.",
+        "Ik spreken kan Nederlands goed."
+      ],
+      "answer": 0,
+      "explanation": "Modal sentence structure: Subject [1] · MODAL [2] · informatie · INFINITIVE [end]. 'Ik [1] · kan [2] · goed Nederlands · spreken [end].' No 'te' before the infinitive after a modal."
+    },
+    {
+      "q": "'Els wil soep koken.' Now front 'Vandaag'. Which is correct?",
+      "options": [
+        "Vandaag Els wil soep koken.",
+        "Vandaag wil Els soep koken.",
+        "Vandaag wil soep koken Els.",
+        "Vandaag soep wil Els koken."
+      ],
+      "answer": 1,
+      "explanation": "Time fronted → inversion. The modal 'wil' takes slot 2, subject 'Els' moves to slot 3, and the infinitive 'koken' STAYS at the end: 'Vandaag wil Els soep koken.'"
+    },
+    {
+      "q": "Which modal expresses 'I'm allowed to'?",
+      "options": [
+        "moeten",
+        "kunnen",
+        "mogen",
+        "willen"
+      ],
+      "answer": 2,
+      "explanation": "mogen = permission (may / be allowed to). 'Mag ik even storen?' = May I disturb you for a moment? Compare: moeten (must), kunnen (can/able), willen (want)."
+    },
+    {
+      "q": "What's the polite Dutch way to say 'I would like to take French level 4'?",
+      "options": [
+        "Ik wil franse les niveau vier volgen.",
+        "Ik moet franse les niveau vier volgen.",
+        "Ik wil graag franse les niveau vier volgen.",
+        "Kan ik franse les niveau vier volgen?"
+      ],
+      "answer": 2,
+      "explanation": "'wil graag' is the polite Dutch equivalent of 'would like to'. Without 'graag' it just means 'want'. Add 'graag' whenever you'd say 'I'd like to' in English."
+    },
+    {
+      "q": "Where does 'niet' usually go when negating a modal sentence?",
+      "options": [
+        "At the very start of the sentence",
+        "Between the subject and the modal",
+        "Before the infinitive (or before a negated noun)",
+        "At the very end after the infinitive"
+      ],
+      "answer": 2,
+      "explanation": "'Ik kan niet komen.' — niet sits before the infinitive. For negating a noun, use 'geen' before the noun: 'Hij wil geen koffie drinken.'"
+    },
+    {
+      "q": "Which sentence is in the WRONG order?",
+      "options": [
+        "'s Morgens moet ik mijn tanden poetsen.",
+        "Op zondag mag ik lang slapen.",
+        "Wij willen morgen uit eten gaan.",
+        "Ik wil thuis werken vandaag wil."
+      ],
+      "answer": 3,
+      "explanation": "Option 4 has the modal twice and the infinitive in the middle — completely scrambled. Correct: 'Vandaag wil ik thuis werken.' or 'Ik wil vandaag thuis werken.' The infinitive ALWAYS closes the clause."
+    }
+  ]
+}

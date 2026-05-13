@@ -164,7 +164,9 @@
       ],
       "relatedRules": [
         "lp3a_prep",
-        "lp4b_trein"
+        "lp4b_trein",
+        "inversion",
+        "lp5a"
       ]
     },
     {
@@ -326,7 +328,9 @@
       ],
       "relatedRules": [
         "lp3a",
-        "lp4b"
+        "lp4b",
+        "inversion",
+        "lp5c"
       ]
     }
   ]

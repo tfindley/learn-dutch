@@ -1,0 +1,253 @@
+{
+  "id": "5A",
+  "group": "5",
+  "order": 11,
+  "description": {
+    "en": "Daily life — daily activities, days of the week, time of day, and inversion in practice."
+  },
+  "rules": [
+    {
+      "id": "lp5a",
+      "order": 1,
+      "tag": "LEERPAD 5A",
+      "title": {
+        "nl": "Wat doe jij vandaag?",
+        "en": "What are you doing today?"
+      },
+      "difficulty": "medium",
+      "shortcut": "Daily routine vocabulary + 'Wat doe jij…?' as the structural anchor. Almost every reply triggers inversion because Dutch loves to lead with a time word.",
+      "explanation": "Leerpad 5A teaches how to describe a day in Dutch — what you do, when you do it, and in what order. The vocabulary is broad (every action from getting up to brushing teeth), the question 'Wat doe jij vandaag?' is the anchor, and almost every natural answer puts a time at the front of the sentence, triggering inversion. This is the leerpad where the V2 word-order rule starts to feel real.",
+      "patterns": [
+        {
+          "rule": "Dagelijkse activiteiten — daily verbs",
+          "examples": [
+            "opstaan → ik sta op (to get up — separable)",
+            "ontbijten → ik ontbijt (to have breakfast)",
+            "een douche nemen → ik neem een douche (to take a shower)",
+            "mijn tanden poetsen → ik poets mijn tanden (to brush my teeth)",
+            "kleren aandoen → ik doe mijn kleren aan (to put on clothes — separable)",
+            "de bus nemen → ik neem de bus (to take the bus)",
+            "naar het werk gaan → ik ga naar het werk (to go to work)",
+            "boodschappen doen → ik doe boodschappen (to do the groceries)",
+            "koken → ik kook (to cook)",
+            "eten → ik eet (to eat)",
+            "drinken → ik drink (to drink)",
+            "naar tv kijken → ik kijk naar tv (to watch TV — 'naar' is required)",
+            "naar het journaal kijken → ik kijk naar het journaal (to watch the news)",
+            "lezen → ik lees (to read — Z→S rule)",
+            "slapen → ik slaap (to sleep — long-vowel rule)",
+            "thuiskomen → ik kom thuis (to come home — separable)"
+          ]
+        },
+        {
+          "rule": "Schoonmaken — cleaning verbs",
+          "examples": [
+            "kuisen → ik kuis (Belgian Dutch) — to clean (general)",
+            "poetsen → ik poets — to polish / clean a surface (tanden, schoenen, tafel)",
+            "stofzuigen → ik stofzuig — to vacuum (stof = dust)",
+            "strijken → ik strijk — to iron",
+            "bakken → ik bak — to bake / fry (een ei, brood, taart)",
+            "↳ NL Dutch uses 'schoonmaken' for general cleaning; Belgian Dutch prefers 'kuisen'."
+          ]
+        },
+        {
+          "rule": "De dagen van de week — days of the week",
+          "examples": [
+            "maandag — Monday · dinsdag — Tuesday · woensdag — Wednesday",
+            "donderdag — Thursday · vrijdag — Friday",
+            "zaterdag — Saturday · zondag — Sunday",
+            "het weekend = the weekend (use 'in', NOT 'op': 'in het weekend')",
+            "de werkdag = working day · de feestdag = public holiday",
+            "Op + day = on Monday/Tuesday/etc: 'Op maandag werk ik.'",
+            "Welke dag komt na maandag? — Dinsdag komt na maandag.",
+            "Welke dag komt voor maandag? — Zondag komt voor maandag.",
+            "↳ 'na' = after · 'voor' = before"
+          ]
+        },
+        {
+          "rule": "Tijd van de dag — time of day",
+          "examples": [
+            "'s nachts [snakhts] — at night (00:00 – 06:00)",
+            "'s morgens [smor-khuns] — in the morning (06:00 – 12:00)",
+            "'s ochtends [sokh-tuns] — in the (early) morning · synonym of 's morgens",
+            "'s middags [smid-dakhs] — in the afternoon (12:00 – 18:00)",
+            "'s avonds [sah-funts] — in the evening (18:00 – 00:00)",
+            "Het is middag = it is noon · Het is middernacht = it is midnight",
+            "Vanmorgen / Vanochtend = this morning · Vanmiddag = this afternoon",
+            "Vanavond = tonight · Vannacht = tonight (late) / last night",
+            "⚠ Apostrophe BEFORE the s — 's morgens, NOT s'morgens. The 's is a fossilised genitive of old Dutch 'des'."
+          ]
+        },
+        {
+          "rule": "Het uur, het kwartier — clock time recap",
+          "examples": [
+            "het is twee uur — it is two o'clock",
+            "het is kwart over zeven — 7:15",
+            "het is half acht — 7:30 (halfway TO eight!)",
+            "het is kwart voor acht — 7:45",
+            "het is vijf uur 's morgens — 5:00 AM (use the time-of-day suffix for clarity)",
+            "Combining with day: op maandag om half tien = on Monday at 9:30",
+            "→ See [[lp3a]] for the full clock-time rules."
+          ]
+        },
+        {
+          "rule": "Inversie in praktijk — fronting a time triggers inversion",
+          "examples": [
+            "Default: Ik werk vandaag thuis.",
+            "Inverted: Vandaag werk ik thuis. (NOT 'Vandaag ik werk thuis.')",
+            "Default: Mijn buurman kijkt elke avond naar het journaal.",
+            "Inverted: Elke avond kijkt mijn buurman naar het journaal.",
+            "Default: De trein vertrekt om acht uur.",
+            "Inverted: Om acht uur vertrekt de trein.",
+            "'s Morgens drink ik koffie. (NOT ''s Morgens ik drink koffie.')",
+            "In het weekend gaan we wandelen. (weekend is a period → use 'in', then invert)",
+            "Op zaterdag winkelt mijn partner. (op + day → invert)",
+            "↳ Every line above puts a TIME at the front. The verb is always in position 2.",
+            "→ Full rule and special cases: [[inversion]]"
+          ]
+        },
+        {
+          "rule": "De dag van Stefaan — worked example",
+          "examples": [
+            "Every sentence below starts with a time → inversion every time.",
+            "Om zeven uur staat Stefaan op. (separable: op at the end)",
+            "Om kwart over zeven neemt hij een douche.",
+            "Om kwart voor acht ontbijt hij.",
+            "Om acht uur neemt hij de bus.",
+            "Stefaan werkt van 8:30 tot 17:00. (default order — no fronted time)",
+            "Om half zes 's avonds gaat hij naar het zwembad.",
+            "Om half acht 's avonds eet Stefaan.",
+            "Om kwart over acht kijkt hij naar het journaal.",
+            "Om tien uur 's avonds poetst Stefaan zijn tanden.",
+            "Om half elf slaapt hij.",
+            "↳ Try writing your own day this way. It locks in the inversion habit faster than any rule sheet."
+          ]
+        },
+        {
+          "rule": "Liever — saying what you prefer",
+          "examples": [
+            "Ik werk graag van thuis. (I like working from home.)",
+            "Ik werk liever van thuis. (I prefer working from home.) ← 'liever' is the comparative of 'graag'",
+            "Ik eet liever pasta dan rijst. (I prefer pasta to rice.)",
+            "Liever fiets ik dan met de auto te gaan. (I'd rather cycle than go by car.) ← liever fronted → inversion!",
+            "↳ Pair 'liever' with 'dan' (than) for comparisons. Fronted 'liever' triggers inversion."
+          ]
+        }
+      ],
+      "memory": "🧠 Two pillars: (1) the daily-verb wordlist — many separable ('opstaan', 'aandoen', 'thuiskomen'). (2) the V2 reflex — when you start a sentence with vandaag / 's morgens / op maandag / om acht uur, the subject moves AFTER the verb. Practise with Stefaan's day until you stop having to think about it.",
+      "examples": [
+        {
+          "nl": "Wat doe jij vandaag?",
+          "en": "What are you doing today?"
+        },
+        {
+          "nl": "Vandaag werk ik thuis. 's Avonds kook ik samen met mijn partner.",
+          "en": "Today I am working from home. In the evening I cook with my partner."
+        },
+        {
+          "nl": "Om zeven uur sta ik op. Daarna neem ik een douche en ontbijt ik.",
+          "en": "At seven o'clock I get up. Then I take a shower and have breakfast."
+        },
+        {
+          "nl": "Op maandag werk ik en op vrijdag ga ik naar het café met vrienden.",
+          "en": "On Monday I work and on Friday I go to the café with friends."
+        },
+        {
+          "nl": "In het weekend wandelen wij aan de kust.",
+          "en": "At the weekend we walk at the coast."
+        },
+        {
+          "nl": "Welke dag komt na woensdag? — Donderdag komt na woensdag.",
+          "en": "Which day comes after Wednesday? — Thursday comes after Wednesday."
+        },
+        {
+          "nl": "'s Morgens poetst Stefaan zijn tanden voor hij naar het werk gaat.",
+          "en": "In the morning Stefaan brushes his teeth before he goes to work."
+        },
+        {
+          "nl": "Ik kuis liever in de namiddag dan 's morgens.",
+          "en": "I prefer to clean in the late afternoon rather than in the morning."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Wat doe jij vandaag?",
+          "en": "What are you doing today?"
+        },
+        {
+          "role": "B",
+          "nl": "Vandaag werk ik thuis. 's Morgens heb ik vergaderingen en 's middags maak ik mijn werk af.",
+          "en": "Today I'm working from home. In the morning I have meetings and in the afternoon I finish my work."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat sta jij op?",
+          "en": "What time do you get up?"
+        },
+        {
+          "role": "B",
+          "nl": "Om half zeven sta ik op. Daarna neem ik een douche en ontbijt ik samen met mijn partner.",
+          "en": "At 6:30 I get up. Then I take a shower and have breakfast with my partner."
+        },
+        {
+          "role": "A",
+          "nl": "Wat doe jij in het weekend?",
+          "en": "What do you do at the weekend?"
+        },
+        {
+          "role": "B",
+          "nl": "Op zaterdag winkel ik. Op zondag ga ik graag wandelen aan de kust.",
+          "en": "On Saturday I shop. On Sunday I like to walk at the coast."
+        },
+        {
+          "role": "A",
+          "nl": "Welke dag komt na zaterdag?",
+          "en": "Which day comes after Saturday?"
+        },
+        {
+          "role": "B",
+          "nl": "Zondag komt na zaterdag. Zaterdag en zondag zijn samen het weekend.",
+          "en": "Sunday comes after Saturday. Saturday and Sunday together are the weekend."
+        },
+        {
+          "role": "A",
+          "nl": "Wanneer poets jij jouw tanden?",
+          "en": "When do you brush your teeth?"
+        },
+        {
+          "role": "B",
+          "nl": "'s Morgens en 's avonds poets ik mijn tanden. Soms ook 's middags.",
+          "en": "In the morning and in the evening I brush my teeth. Sometimes also in the afternoon."
+        },
+        {
+          "role": "A",
+          "nl": "Wat eet jij 's morgens?",
+          "en": "What do you eat in the mornings?"
+        },
+        {
+          "role": "B",
+          "nl": "'s Morgens eet ik spek en eieren. Ik drink fruitsap en altijd koffie.",
+          "en": "In the mornings I eat bacon and eggs. I drink fruit juice and always coffee."
+        },
+        {
+          "role": "A",
+          "nl": "Hoe laat kom je thuis van het werk?",
+          "en": "What time do you come home from work?"
+        },
+        {
+          "role": "B",
+          "nl": "Om half zes kom ik thuis. Dan kook ik samen met mijn partner en daarna kijken we tv.",
+          "en": "At half past five I come home. Then I cook with my partner and afterwards we watch TV."
+        }
+      ],
+      "relatedRules": [
+        "inversion",
+        "lp3a",
+        "lp3a_prep",
+        "verbstem",
+        "separable"
+      ]
+    }
+  ]
+}

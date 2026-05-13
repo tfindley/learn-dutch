@@ -145,6 +145,60 @@
       "phonetic": "huht buh-KHIN",
       "en": "the beginning",
       "tip": "Soft 'g'. 'In het begin' = in the beginning."
+    },
+    {
+      "nl": "de namiddag",
+      "phonetic": "duh NAH-mid-dakh",
+      "en": "the afternoon (late)",
+      "tip": "Na (after) + middag. The PM half of the afternoon (~14:00-18:00). 'In de namiddag drink ik koffie.'"
+    },
+    {
+      "nl": "'s morgens",
+      "phonetic": "smor-khuns",
+      "en": "in the morning",
+      "tip": "Adverb form — used with verbs. 'apostrophe + s' is an old genitive. ''s Morgens drink ik koffie.'"
+    },
+    {
+      "nl": "'s ochtends",
+      "phonetic": "sokh-tuns",
+      "en": "in the morning (early)",
+      "tip": "Synonym of ''s morgens'. Note apostrophe BEFORE the s, not after: 's ochtends, not s'ochtends."
+    },
+    {
+      "nl": "'s middags",
+      "phonetic": "smid-dakhs",
+      "en": "in the afternoon",
+      "tip": "''s Middags eet ik een boterham.' = In the afternoon I eat a sandwich."
+    },
+    {
+      "nl": "'s avonds",
+      "phonetic": "sah-funts",
+      "en": "in the evening",
+      "tip": "''s Avonds kijken wij naar het journaal.' = In the evening we watch the news."
+    },
+    {
+      "nl": "'s nachts",
+      "phonetic": "snakhts",
+      "en": "at night",
+      "tip": "''s Nachts slaap ik diep.' = At night I sleep deeply. Covers midnight–6am."
+    },
+    {
+      "nl": "vanavond",
+      "phonetic": "fan-AH-font",
+      "en": "tonight / this evening",
+      "tip": "Van + avond. 'Vanavond koken we Mexicaans.' Triggers inversion."
+    },
+    {
+      "nl": "vanmorgen / vanochtend",
+      "phonetic": "fan-MOR-khun / fan-OKH-tunt",
+      "en": "this morning",
+      "tip": "Used for THIS morning specifically. 'Vanmorgen heb ik koffie gedronken.'"
+    },
+    {
+      "nl": "het middernacht",
+      "phonetic": "huht MID-dur-nakht",
+      "en": "midnight",
+      "tip": "Used without article in idioms: 'om middernacht' = at midnight."
     }
   ]
 }

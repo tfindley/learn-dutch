@@ -1,0 +1,121 @@
+{
+  "id": "test_inversion",
+  "order": 13,
+  "title": "Inversie · V2 word order",
+  "subtitle": "Subject jumps over the verb when anything else leads",
+  "leerpad": "Grammar",
+  "difficulty": "hard",
+  "emoji": "🔄",
+  "questions": [
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "Vandaag ik werk thuis.",
+        "Vandaag werk ik thuis.",
+        "Werk vandaag ik thuis.",
+        "Ik vandaag werk thuis."
+      ],
+      "answer": 1,
+      "explanation": "When a time word like 'Vandaag' takes slot 1, the verb MUST be in slot 2 and the subject moves to slot 3: Vandaag [1] · werk [2] · ik [3] · thuis. This is the V2 rule."
+    },
+    {
+      "q": "Fix this sentence: 'Om acht uur de trein vertrekt.'",
+      "options": [
+        "Om acht uur de trein vertrekt.",
+        "De trein om acht uur vertrekt.",
+        "Om acht uur vertrekt de trein.",
+        "Vertrekt om acht uur de trein."
+      ],
+      "answer": 2,
+      "explanation": "'Om acht uur' fills slot 1. The conjugated verb 'vertrekt' MUST be in slot 2. The subject 'de trein' goes to slot 3. Result: 'Om acht uur vertrekt de trein.'"
+    },
+    {
+      "q": "Which jij/je form is correct in a question?",
+      "options": [
+        "Werkt jij vandaag?",
+        "Werk jij vandaag?",
+        "Werken jij vandaag?",
+        "Werk je vandaag werkt?"
+      ],
+      "answer": 1,
+      "explanation": "When 'jij' or 'je' comes AFTER the verb, the -t is dropped. 'Jij werkt' (correct) but 'Werk jij?' (correct — no -t in inversion). Same rule: 'Vandaag werk je thuis.'"
+    },
+    {
+      "q": "'Je kunt oefeningen maken op onze website.' → Front 'Op onze website'. What is the correct inversion?",
+      "options": [
+        "Op onze website je kunt oefeningen maken.",
+        "Op onze website kunt je oefeningen maken.",
+        "Op onze website kun je oefeningen maken.",
+        "Op onze website kun jij oefeningen maken kun."
+      ],
+      "answer": 2,
+      "explanation": "Special form: 'kunt' becomes 'kun' when 'je' follows. So: 'Op onze website kun je oefeningen maken.' Same with 'wilt' → 'wil je'."
+    },
+    {
+      "q": "Which sentence triggers inversion?",
+      "options": [
+        "Ik werk vandaag.",
+        "'s Morgens drink ik koffie.",
+        "Mijn buurman kijkt naar het journaal.",
+        "Stefaan eet om zeven uur."
+      ],
+      "answer": 1,
+      "explanation": "''s Morgens' is a fronted time → triggers inversion. Subject 'ik' moves after the verb 'drink'. The other sentences all have the subject in slot 1, so they're default (non-inverted) order."
+    },
+    {
+      "q": "Separable verb 'opstaan' — which inverted sentence is correct?",
+      "options": [
+        "Om zeven uur staat Stefaan op.",
+        "Om zeven uur opstaat Stefaan.",
+        "Om zeven uur Stefaan staat op.",
+        "Om zeven uur stat Stefaan."
+      ],
+      "answer": 0,
+      "explanation": "Even under inversion, separable verbs SPLIT — 'staat' fills the V2 slot, 'op' stays at the END. The order is: Time [1] · main verb [2] · subject · ... · prefix [end]."
+    },
+    {
+      "q": "'Hij wil thuis werken.' → Front 'Vandaag'. Which is correct?",
+      "options": [
+        "Vandaag hij wil thuis werken.",
+        "Vandaag wil hij thuis werken.",
+        "Vandaag thuis werken wil hij.",
+        "Vandaag werken wil hij thuis."
+      ],
+      "answer": 1,
+      "explanation": "The modal 'wil' moves to slot 2 (V2 rule). The infinitive 'werken' STAYS at the end. Subject 'hij' slots after the modal: 'Vandaag wil hij thuis werken.'"
+    },
+    {
+      "q": "When is the SUBJECT in position 1?",
+      "options": [
+        "When the sentence starts with the subject (default order)",
+        "Whenever the verb has no prefix",
+        "Only in subordinate clauses",
+        "Never — Dutch always inverts"
+      ],
+      "answer": 0,
+      "explanation": "Default Dutch order is Subject + Verb + everything else, just like English. Inversion only kicks in when SOMETHING ELSE (time, place, question word, object) takes slot 1, pushing the subject to slot 3."
+    },
+    {
+      "q": "Why does 'In Brussel mijn zus woont' sound wrong to a Dutch speaker?",
+      "options": [
+        "It's actually correct",
+        "'In Brussel' is the wrong preposition",
+        "The verb must be in slot 2, but here 'woont' is in slot 4",
+        "Dutch doesn't allow place words to start a sentence"
+      ],
+      "answer": 2,
+      "explanation": "V2 rule violation. 'In Brussel' fills slot 1, so the verb 'woont' MUST be in slot 2: 'In Brussel woont mijn zus.' Dutch never lets the verb drift past position 2 in a main clause."
+    },
+    {
+      "q": "Which time expression does NOT trigger inversion when used at the start?",
+      "options": [
+        "Vandaag",
+        "Om acht uur",
+        "In het weekend",
+        "(none — all of them trigger inversion)"
+      ],
+      "answer": 3,
+      "explanation": "ANY non-subject element at slot 1 triggers inversion. Time words (vandaag, 's morgens, om acht uur, in het weekend, op maandag, elke avond, soms…) all behave the same way: subject moves after the verb."
+    }
+  ]
+}
