@@ -51,6 +51,13 @@ permissions:
   contents: read
   packages: write
 
+# Run JavaScript actions (checkout, docker/login) on Node.js 24 instead of the
+# deprecated Node.js 20. Node 24 becomes the runner default on 2026-06-16; this
+# opts in early and silences the deprecation warning. Drop this once every action
+# we use declares `node24` natively.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
 
   build-test-push:
