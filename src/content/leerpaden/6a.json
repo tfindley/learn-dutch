@@ -1,0 +1,273 @@
+{
+  "id": "6A",
+  "group": "6",
+  "order": 14,
+  "description": {
+    "en": "Looking for a home — location prepositions, Belgian housing vocabulary, and describing where you live."
+  },
+  "rules": [
+    {
+      "id": "lp6a",
+      "order": 1,
+      "tag": "LEERPAD 6A",
+      "title": {
+        "nl": "Een woning zoeken",
+        "en": "Looking for a home"
+      },
+      "difficulty": "medium",
+      "shortcut": "Location prepositions answer 'waar?' (in / op / voor / achter / boven / onder / tussen / naast / tegenover / beneden) — pair them with Belgian housing vocabulary to describe and find a place to live.",
+      "explanation": "Leerpad 6A puts the location prepositions to work — the words that answer 'where is it?' — and adds the vocabulary of Belgian housing: types of home (rijhuis, tweewoonst), features (dak, centrale verwarming), and the phrases for describing where you live. It builds directly on the location prepositions introduced in 5C, and the worked example (house, garage, car, dog) is the fastest way to lock them in.",
+      "patterns": [
+        {
+          "rule": "Locatie-preposities — waar staat het?",
+          "examples": [
+            "in [in] — in / inside: 'in de straat' (on / in the street)",
+            "op [op] — on / on top of: 'op het dak' (on the roof)",
+            "voor [fohr] — in front of: 'voor de garage' (in front of the garage)",
+            "achter [AKH-tur] — behind: 'achter het huis' (behind the house)",
+            "boven [BOH-fun] — above / upstairs: 'boven de bomen' (above the trees)",
+            "onder [ON-dur] — under: 'onder de boom' (under the tree)",
+            "tussen [TUS-sun] — between: 'tussen het huis en de garage'",
+            "naast [naast] — next to: 'naast mijn huis' (next to my house)",
+            "tegenover [TAY-khun-oh-fur] — opposite / across from: 'tegenover de school'",
+            "beneden [buh-NAY-dun] — downstairs / below · boven = upstairs",
+            "naar [naar] — towards (direction): 'naar de overkant' (to the other side)",
+            "↳ Pair these with staan / zitten / liggen — Dutch is fussy about which verb 'sits' where."
+          ]
+        },
+        {
+          "rule": "🔍 Waar staat alles? — a worked example",
+          "examples": [
+            "Mijn huis staat in de straat. (My house is on the street.)",
+            "Naast mijn huis staat een garage. (Next to my house is a garage.) ← place fronted → inversion",
+            "Mijn auto staat voor mijn garage. (My car is in front of my garage.)",
+            "Mijn hond zit op mijn auto. (My dog is sitting on my car.)",
+            "Achter mijn huis staan grote bomen. (Behind my house stand big trees.) ← plural subject → 'staan'",
+            "De vogels zitten in de bomen. (The birds are in the trees.)",
+            "Mijn kat zit onder de bomen. (My cat is under the trees.)",
+            "Boven de bomen vliegt een vliegtuig. (Above the trees flies an aeroplane.)",
+            "Ik sta tussen het huis en de garage. (I am standing between the house and the garage.)",
+            "Nu ga ik naar de overkant van de straat. (Now I go to the other side of the street.)",
+            "↳ staan = upright things · zitten = animals & contained things · liggen = things lying flat."
+          ]
+        },
+        {
+          "rule": "De woning — types of home (Belgian Dutch)",
+          "examples": [
+            "de woning [duh VOH-ning] — the dwelling / home (general)",
+            "het huis [huht howss] — the house",
+            "het rijhuis [huht RAY-howss] — terraced house ← Belgian Dutch! ('rijtjeshuis' in NL Dutch)",
+            "de tweewoonst [duh TWAY-vohnst] — semi-detached / house-pair ← Belgian Dutch!",
+            "het appartement [huht ah-par-tuh-MENT] — the flat / apartment",
+            "het platteland [huht PLAH-tuh-lant] — the countryside · 'op het platteland wonen' = to live in the country",
+            "het dak [huht dak] — the roof",
+            "de centrale verwarming [duh sen-TRAH-luh fur-VAR-ming] — central heating",
+            "het openbaar vervoer [huht OH-pun-baar fur-VOOR] — public transport",
+            "de overkant [duh OH-fur-kant] — the other side · 'aan de overkant' = across the street"
+          ]
+        },
+        {
+          "rule": "Handige woordjes — useful extras",
+          "examples": [
+            "vorige [FOH-rikh-uh] — previous · 'vorige week' = last week",
+            "nog steeds [nokh stayts] — still",
+            "allebei [AH-luh-bay] — both (of us / of them)",
+            "links — left · rechts — right · in het midden — in the middle"
+          ]
+        },
+        {
+          "rule": "Waar woon jij? — saying where you live",
+          "examples": [
+            "Ik woon in een rijhuis in Roeselare. (I live in a terraced house in Roeselare.)",
+            "Ik woon graag in mijn huis, samen met mijn partner. (I like living in my house, together with my partner.)",
+            "Wij wonen op het platteland. (We live in the countryside.)",
+            "Het openbaar vervoer is dichtbij. (Public transport is nearby.)",
+            "Mijn buren wonen aan de overkant. (My neighbours live across the street.)"
+          ]
+        }
+      ],
+      "memory": "🧠 Two halves: (1) location prepositions answer 'waar?' — and they almost always come with staan / zitten / liggen (an upright house staat, a sitting cat zit, a flat book ligt). (2) Belgian housing has its own words — een rijhuis (terraced) and een tweewoonst (semi-detached) are pure Belgian Dutch. Front a place word ('Naast mijn huis staat...') and inversion kicks in automatically.",
+      "examples": [
+        {
+          "nl": "Waar woon jij?",
+          "en": "Where do you live?"
+        },
+        {
+          "nl": "Ik woon in een rijhuis in Roeselare, samen met mijn partner.",
+          "en": "I live in a terraced house in Roeselare, together with my partner."
+        },
+        {
+          "nl": "Naast mijn huis staat een garage en mijn auto staat ervoor.",
+          "en": "Next to my house is a garage and my car is in front of it."
+        },
+        {
+          "nl": "Achter het huis staan grote bomen. De vogels zitten in de bomen.",
+          "en": "Behind the house stand big trees. The birds are in the trees."
+        },
+        {
+          "nl": "Wij wonen op het platteland, maar het openbaar vervoer is dichtbij.",
+          "en": "We live in the countryside, but public transport is nearby."
+        },
+        {
+          "nl": "De winkel is aan de overkant van de straat, tegenover de school.",
+          "en": "The shop is on the other side of the street, opposite the school."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Waar woon jij?",
+          "en": "Where do you live?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik woon in een rijhuis in Roeselare. En jij?",
+          "en": "I live in a terraced house in Roeselare. And you?"
+        },
+        {
+          "role": "A",
+          "nl": "Wij wonen in een tweewoonst op het platteland. Het is heel rustig.",
+          "en": "We live in a semi-detached house in the countryside. It's very quiet."
+        },
+        {
+          "role": "B",
+          "nl": "Mooi! Is het openbaar vervoer dichtbij?",
+          "en": "Nice! Is public transport nearby?"
+        },
+        {
+          "role": "A",
+          "nl": "Ja, de bushalte is aan de overkant, tegenover de bakker.",
+          "en": "Yes, the bus stop is across the street, opposite the baker's."
+        },
+        {
+          "role": "B",
+          "nl": "En waar staat jouw auto?",
+          "en": "And where is your car?"
+        },
+        {
+          "role": "A",
+          "nl": "Mijn auto staat voor de garage, naast het huis.",
+          "en": "My car is in front of the garage, next to the house."
+        },
+        {
+          "role": "B",
+          "nl": "Heeft jouw huis een tuin?",
+          "en": "Does your house have a garden?"
+        },
+        {
+          "role": "A",
+          "nl": "Ja, achter het huis. Daar staan grote bomen en onze kat zit graag onder de bomen.",
+          "en": "Yes, behind the house. Big trees stand there and our cat likes to sit under the trees."
+        }
+      ],
+      "relatedRules": [
+        "lp5c",
+        "inversion",
+        "lp3a_prep",
+        "terms_sentence"
+      ],
+      "relatedWoordjes": [
+        "housing",
+        "prepositions",
+        "nouns"
+      ]
+    },
+    {
+      "id": "lp6a_brief",
+      "order": 2,
+      "tag": "LEERPAD 6A · SCHRIJVEN",
+      "title": {
+        "nl": "Jouw woning beschrijven",
+        "en": "Describing your home"
+      },
+      "difficulty": "medium",
+      "shortcut": "A short note: where you live → type of home → how many rooms / who with → one or two details. Front a place word to trigger inversion, and reuse the location prepositions throughout.",
+      "explanation": "A common Belgian-Dutch exam task is to write a few lines describing your home. The structure is predictable: say where you live, what kind of home it is, who you live with, and add a detail or two (rooms, price, light). It reuses the housing vocabulary and the location prepositions from the first rule.",
+      "patterns": [
+        {
+          "rule": "Skelet — structure",
+          "examples": [
+            "Opening: 'Beste,' (neutral) or 'Dag [naam],'",
+            "Where: 'Ik woon in [type woning] in [stad].'",
+            "Who with: 'samen met mijn partner / mijn gezin.'",
+            "Detail: number of rooms, price, a nice feature (light, garden, quiet).",
+            "Closing: 'Groetjes' or 'Tot ziens.'"
+          ]
+        },
+        {
+          "rule": "Voorbeeld — a worked example",
+          "examples": [
+            "Beste,",
+            "Ik woon in een klein rijhuis met zeven kamers, samen met mijn partner.",
+            "Ons huis kost meer dan tweehonderdduizend euro.",
+            "De keuken is mooi en vol licht.",
+            "Achter het huis hebben wij een kleine tuin.",
+            "Groetjes",
+            "↳ Note the corrected number: 'tweehonderdduizend' = two hundred thousand. And 'vol licht' = full of light."
+          ]
+        }
+      ],
+      "memory": "🧠 Same skeleton every time: where → what kind → who with → a detail → close. Lead at least one sentence with a place word ('Achter het huis hebben wij...') so inversion does its job and the text sounds native.",
+      "examples": [
+        {
+          "nl": "Beste, ik woon in een klein rijhuis met zeven kamers, samen met mijn partner.",
+          "en": "Dear (reader), I live in a small terraced house with seven rooms, together with my partner."
+        },
+        {
+          "nl": "Ons huis kost meer dan tweehonderdduizend euro.",
+          "en": "Our house costs more than two hundred thousand euros."
+        },
+        {
+          "nl": "De keuken is mooi en vol licht.",
+          "en": "The kitchen is lovely and full of light."
+        },
+        {
+          "nl": "Achter het huis hebben wij een kleine tuin. Groetjes!",
+          "en": "Behind the house we have a small garden. Greetings!"
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Beschrijf jij eens jouw woning?",
+          "en": "Could you describe your home?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik woon in een klein rijhuis met zeven kamers, samen met mijn partner.",
+          "en": "I live in a small terraced house with seven rooms, together with my partner."
+        },
+        {
+          "role": "A",
+          "nl": "Wat vind jij het mooiste in huis?",
+          "en": "What do you like best in the house?"
+        },
+        {
+          "role": "B",
+          "nl": "De keuken. Ze is mooi en vol licht.",
+          "en": "The kitchen. It's lovely and full of light."
+        },
+        {
+          "role": "A",
+          "nl": "Hebben jullie ook een tuin?",
+          "en": "Do you also have a garden?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, achter het huis hebben wij een kleine tuin. Groetjes!",
+          "en": "Yes, behind the house we have a small garden. Greetings!"
+        }
+      ],
+      "relatedRules": [
+        "lp6a",
+        "lp5c_email",
+        "inversion",
+        "terms_sentence"
+      ],
+      "relatedWoordjes": [
+        "housing",
+        "nouns"
+      ]
+    }
+  ]
+}

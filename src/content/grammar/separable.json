@@ -15,7 +15,10 @@
       "rule": "Main clause: prefix → end",
       "examples": [
         "aankomen → Ik kom morgen aan.",
-        "opbellen → Ik bel je op."
+        "opbellen → Ik bel je op.",
+        "voorschrijven → De dokter schrijft een medicijn voor.",
+        "weggooien → Ik gooi de zakdoek weg.",
+        "aanraken → Raak je gezicht niet aan! (imperative — prefix still goes to the end)"
       ]
     },
     {
@@ -76,6 +79,7 @@
     "terms_sentence",
     "verbstem",
     "lp4b_trein",
+    "lp6b_advies",
     "inversion",
     "imperative"
   ],

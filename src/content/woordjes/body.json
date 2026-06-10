@@ -1,0 +1,108 @@
+{
+  "id": "body",
+  "order": 32,
+  "title": {
+    "nl": "Het lichaam",
+    "en": "The Body"
+  },
+  "emoji": "🧍",
+  "color": "#a93226",
+  "words": [
+    {
+      "nl": "het lichaam",
+      "phonetic": "huht LIKH-aam",
+      "en": "the body",
+      "tip": "Soft 'ch'. Long 'aa' in the second syllable."
+    },
+    {
+      "nl": "het hoofd",
+      "phonetic": "huht hohft",
+      "en": "the head",
+      "tip": "Final 'd' → 't'. 'Ik heb hoofdpijn' = I have a headache."
+    },
+    {
+      "nl": "de vinger",
+      "phonetic": "duh VING-ur",
+      "en": "the finger",
+      "tip": "Plural: de vingers. 'Ik heb mijn vinger gesneden' = I cut my finger."
+    },
+    {
+      "nl": "het oor",
+      "phonetic": "huht ohr",
+      "en": "the ear",
+      "tip": "het-word, but the plural takes 'de': de oren. 'oorontsteking' = ear infection."
+    },
+    {
+      "nl": "het oog",
+      "phonetic": "huht ohkh",
+      "en": "the eye",
+      "tip": "het-word → plural 'de ogen'. Soft 'g'. 'oogontsteking' = eye infection."
+    },
+    {
+      "nl": "de neus",
+      "phonetic": "duh nus",
+      "en": "the nose",
+      "tip": "'eu' = the French 'eu' / German 'ö' sound. 'de neusspray' = nose spray."
+    },
+    {
+      "nl": "de keel",
+      "phonetic": "duh kayl",
+      "en": "the throat",
+      "tip": "Long 'ee' = 'ay'. 'Ik heb keelpijn' = I have a sore throat."
+    },
+    {
+      "nl": "de nek",
+      "phonetic": "duh nek",
+      "en": "the neck",
+      "tip": "Short 'e'. The back/side of the neck (the front is 'de keel')."
+    },
+    {
+      "nl": "de rug",
+      "phonetic": "duh rukh",
+      "en": "the back",
+      "tip": "Short 'u', soft 'g'. 'Mijn rug doet pijn' = my back hurts."
+    },
+    {
+      "nl": "de buik",
+      "phonetic": "duh bowk",
+      "en": "the belly / stomach",
+      "tip": "'ui' vowel — the tricky one. 'buikpijn' = stomach ache."
+    },
+    {
+      "nl": "de arm",
+      "phonetic": "duh arm",
+      "en": "the arm",
+      "tip": "Plural: de armen. Same as English."
+    },
+    {
+      "nl": "het been",
+      "phonetic": "huht bayn",
+      "en": "the leg",
+      "tip": "het-word! Plural takes 'de': de benen. 'been' also means 'bone'."
+    },
+    {
+      "nl": "de voet",
+      "phonetic": "duh foot",
+      "en": "the foot",
+      "tip": "'v' → 'f'. Plural: de voeten. 'te voet' = on foot."
+    },
+    {
+      "nl": "de elleboog",
+      "phonetic": "duh EL-luh-bohkh",
+      "en": "the elbow",
+      "tip": "Soft 'g' at the end. 'Hoest in je elleboog' = cough into your elbow."
+    },
+    {
+      "nl": "de hand",
+      "phonetic": "duh hant",
+      "en": "the hand",
+      "tip": "Final 'd' → 't'. 'Was je handen' = wash your hands."
+    },
+    {
+      "nl": "de tand",
+      "phonetic": "duh tant",
+      "en": "the tooth",
+      "tip": "Final 'd' → 't'. 'tandpijn' = toothache · 'de tandarts' = dentist."
+    }
+  ]
+}

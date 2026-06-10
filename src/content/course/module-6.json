@@ -1,0 +1,44 @@
+{
+  "id": "module-6",
+  "order": 6,
+  "weeks": "25-30",
+  "title": {
+    "nl": "Wonen en gezondheid",
+    "en": "Home and Health"
+  },
+  "subtitle": {
+    "en": "Location prepositions, Belgian housing vocabulary, body parts and symptoms, and the imperatives for health advice."
+  },
+  "leerpadGroup": "6",
+  "milestone": {
+    "en": "Can describe a home and say where things are using location prepositions, talk about types of Belgian housing, explain what's wrong at the doctor's or pharmacy three different ways, and give and follow health-advice imperatives."
+  },
+  "reference": [
+    { "id": "terms_sentence", "priority": "supplementary", "note": "Fronting a place word ('Naast mijn huis staat...') triggers inversion — the position-1/2/3 model explains why." }
+  ],
+  "vocabulary": [
+    { "id": "housing",      "priority": "core" },
+    { "id": "body",         "priority": "core" },
+    { "id": "health",       "priority": "core" },
+    { "id": "prepositions", "priority": "supplementary", "note": "Refresh the location prepositions from Module 5 before LP6A." }
+  ],
+  "grammar": [
+    { "id": "imperative", "priority": "core", "note": "Health advice is all imperatives — Was je handen! Blijf thuis!" },
+    { "id": "separable",  "priority": "core", "note": "Watch 'voorschrijven': the prefix 'voor' jumps to the end of a main clause." },
+    { "id": "inversion",  "priority": "supplementary", "note": "Same V2 rule, now triggered by fronted PLACE words instead of time words." },
+    { "id": "wordorder",  "priority": "supplementary" }
+  ],
+  "uitspraak": [
+    { "id": "pron_special", "priority": "supplementary", "note": "Revisit the soft 'g'/'ch' for words like dokter, koorts, verzorgen." }
+  ],
+  "lessons": [
+    { "id": "lp6a",       "priority": "core" },
+    { "id": "lp6a_brief", "priority": "core" },
+    { "id": "lp6b",       "priority": "core" },
+    { "id": "lp6b_advies","priority": "core" }
+  ],
+  "tests": [
+    { "id": "test_lp6a", "priority": "core" },
+    { "id": "test_lp6b", "priority": "core" }
+  ]
+}

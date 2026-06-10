@@ -83,6 +83,16 @@
         "url": "https://youtube.com/playlist?list=PL5TEE1070vpPIo4COuQ2gAujQk1OmEqdc",
         "title": "Leerpad 5 — full course playlist"
       }
+    },
+    {
+      "id": "6",
+      "order": 6,
+      "title": {
+        "en": "Leerpad 6"
+      },
+      "description": {
+        "en": "Home and health — finding a place to live, describing where things are with location prepositions, and saying what's wrong at the doctor's or the pharmacy."
+      }
     }
   ]
 }

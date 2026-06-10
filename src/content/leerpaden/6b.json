@@ -1,0 +1,275 @@
+{
+  "id": "6B",
+  "group": "6",
+  "order": 15,
+  "description": {
+    "en": "What's wrong? — body parts, symptoms, the doctor and pharmacy, and the imperatives for health advice."
+  },
+  "rules": [
+    {
+      "id": "lp6b",
+      "order": 1,
+      "tag": "LEERPAD 6B",
+      "title": {
+        "nl": "Wat scheelt er?",
+        "en": "What's wrong?"
+      },
+      "difficulty": "medium",
+      "shortcut": "Three ways to say something hurts (ik heb X-pijn · mijn X doet pijn · ik heb pijn aan mijn X), the body parts to plug into them, and the vocabulary of the doctor and the pharmacy.",
+      "explanation": "Leerpad 6B is the doctor's-visit leerpad. You learn the body parts, the three interchangeable ways to say a body part hurts, the common illnesses (koorts, verkouden, de mazelen), and the words you need at the dokter and the apotheek. Watch the articles — 'het been' (leg) and 'het oog' (eye) are het-words even though their plurals take 'de'.",
+      "patterns": [
+        {
+          "rule": "Het lichaam — body parts",
+          "examples": [
+            "de vinger [duh VING-ur] — finger · de vingers — fingers",
+            "het oor [huht ohr] — ear · de oren — ears (het → de in the plural)",
+            "het oog [huht ohkh] — eye · de ogen — eyes",
+            "de neus [duh nus] — nose",
+            "de keel [duh kayl] — throat",
+            "de nek [duh nek] — neck",
+            "de rug [duh rukh] — back",
+            "de buik [duh bowk] — belly / stomach",
+            "de arm [duh arm] — arm · de armen — arms",
+            "het been [huht bayn] — leg ← het-word! · de benen — legs",
+            "de voet [duh foot] — foot · de voeten — feet",
+            "de elleboog [duh EL-luh-bohkh] — elbow",
+            "het hoofd [huht hohft] — head · de tand — tooth (→ tandpijn)",
+            "↳ Several body parts are het-words but switch to 'de' in the plural: het oor → de oren, het oog → de ogen, het been → de benen."
+          ]
+        },
+        {
+          "rule": "Wat scheelt er? — three ways to say it hurts",
+          "examples": [
+            "Wat scheelt er? — What's wrong? (literally: what's the matter?)",
+            "1. ik heb [deel]pijn → ik heb hoofdpijn · buikpijn · keelpijn · rugpijn · tandpijn",
+            "2. mijn [deel] doet pijn → mijn hoofd doet pijn · mijn rug doet pijn",
+            "3. ik heb pijn aan mijn [deel] → ik heb pijn aan mijn rug",
+            "All three are interchangeable: 'ik heb rugpijn' = 'mijn rug doet pijn' = 'ik heb pijn aan mijn rug'.",
+            "Ik heb mijn vinger gesneden. (I've cut my finger.) · Mijn vinger bloedt. (My finger is bleeding.)"
+          ]
+        },
+        {
+          "rule": "Ziektes en symptomen — illnesses & symptoms",
+          "examples": [
+            "de koorts [duh kohrts] — fever · 'Ik heb koorts.' · 'Ik heb 38 graden koorts.'",
+            "ik ben verkouden [vur-KOW-dun] — I have a cold ← 'verkouden' is an adjective, so 'ik BEN verkouden', not 'ik heb'",
+            "ik heb de mazelen [duh MAH-zuh-lun] — I have the measles",
+            "hoesten → ik hoest · 'ik moet (veel) hoesten' — to cough / I have to cough (a lot)",
+            "niezen → ik nies · 'ik moet niezen' — to sneeze / I have to sneeze",
+            "de oorontsteking — ear infection · de oogontsteking — eye infection",
+            "Veel beterschap! — Get well soon!"
+          ]
+        },
+        {
+          "rule": "Bij de dokter en de apotheek — doctor & pharmacy",
+          "examples": [
+            "de dokter [duh DOK-tur] — the doctor",
+            "de tandarts [duh TANT-arts] — the dentist (tand = tooth)",
+            "de dierenarts [duh DEE-run-arts] — the vet (dier = animal)",
+            "de apotheek [duh ah-poh-TAYK] — the pharmacy / chemist's",
+            "het voorschrift [huht FOHR-skhrift] — the prescription · voorschrijven — to prescribe",
+            "het medicijn [huht may-dee-SAYN] — the medicine",
+            "de hoestsiroop [duh HOOST-see-rohp] — the cough syrup",
+            "de neusspray [duh NUS-spray] — the nose spray",
+            "de bijsluiter [duh BAY-slow-tur] — the package leaflet (in the box)",
+            "de handtekening [duh HANT-tay-kuh-ning] — the signature",
+            "de zorg — care · verzorgen — to treat / care for"
+          ]
+        }
+      ],
+      "memory": "🧠 The three pain patterns are interchangeable — learn 'ik heb rugpijn' = 'mijn rug doet pijn' = 'ik heb pijn aan mijn rug' as one block and you can complain about anything. Two article traps: it's 'ik BEN verkouden' (adjective, not 'heb'), and 'het been / het oog / het oor' are het-words that flip to 'de' in the plural (de benen, de ogen, de oren).",
+      "examples": [
+        {
+          "nl": "Wat scheelt er?",
+          "en": "What's wrong?"
+        },
+        {
+          "nl": "Ik heb hoofdpijn en ik ben verkouden.",
+          "en": "I have a headache and I have a cold."
+        },
+        {
+          "nl": "Mijn rug doet pijn. Ik heb al twee dagen rugpijn.",
+          "en": "My back hurts. I've had back pain for two days now."
+        },
+        {
+          "nl": "Ik heb 38 graden koorts en ik moet veel hoesten.",
+          "en": "I have a fever of 38 degrees and I have to cough a lot."
+        },
+        {
+          "nl": "De dokter schrijft een medicijn voor en ik haal het bij de apotheek.",
+          "en": "The doctor prescribes a medicine and I collect it at the pharmacy."
+        },
+        {
+          "nl": "Ik heb mijn vinger gesneden en hij bloedt. Veel beterschap, zegt de dokter.",
+          "en": "I've cut my finger and it's bleeding. Get well soon, says the doctor."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Goedemorgen, wat scheelt er?",
+          "en": "Good morning, what's wrong?"
+        },
+        {
+          "role": "B",
+          "nl": "Ik ben verkouden en ik heb keelpijn. Ik moet ook veel hoesten.",
+          "en": "I have a cold and a sore throat. I also have to cough a lot."
+        },
+        {
+          "role": "A",
+          "nl": "Heeft u koorts?",
+          "en": "Do you have a fever?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja, ik heb 38 graden koorts en mijn hoofd doet pijn.",
+          "en": "Yes, I have a fever of 38 degrees and my head hurts."
+        },
+        {
+          "role": "A",
+          "nl": "Ik schrijf een hoestsiroop voor. Lees de bijsluiter goed.",
+          "en": "I'll prescribe a cough syrup. Read the package leaflet carefully."
+        },
+        {
+          "role": "B",
+          "nl": "Bedankt, dokter. Waar haal ik het medicijn?",
+          "en": "Thank you, doctor. Where do I get the medicine?"
+        },
+        {
+          "role": "A",
+          "nl": "Bij de apotheek aan de overkant. Blijf thuis en rust goed uit.",
+          "en": "At the pharmacy across the street. Stay home and rest well."
+        },
+        {
+          "role": "B",
+          "nl": "Dat doe ik. Tot ziens!",
+          "en": "I will. Goodbye!"
+        },
+        {
+          "role": "A",
+          "nl": "Veel beterschap!",
+          "en": "Get well soon!"
+        }
+      ],
+      "relatedRules": [
+        "lp6b_advies",
+        "imperative",
+        "separable"
+      ],
+      "relatedWoordjes": [
+        "body",
+        "health"
+      ]
+    },
+    {
+      "id": "lp6b_advies",
+      "order": 2,
+      "tag": "LEERPAD 6B · ADVIES",
+      "title": {
+        "nl": "Gezond blijven",
+        "en": "Staying healthy"
+      },
+      "difficulty": "medium",
+      "shortcut": "Health advice is built on imperatives (Was je handen! · Blijf thuis!) and one key separable verb: voorschrijven → 'de dokter schrijft een medicijn voor'.",
+      "explanation": "This rule collects the imperative commands you hear in any health context — hygiene advice, the doctor's instructions — and shows how the prescribing verb 'voorschrijven' splits apart in a main clause. The imperative is just the ik-stem with attitude; soften it in Belgian Dutch with 'eens' (Hoest eens.).",
+      "patterns": [
+        {
+          "rule": "Gezondheidstips — hygiene imperatives",
+          "examples": [
+            "Was je handen regelmatig! — Wash your hands regularly!",
+            "Hoest of nies in je elleboog! — Cough or sneeze into your elbow!",
+            "Gooi gebruikte zakdoekjes weg! — Throw used tissues away! (weggooien — separable: 'weg' to the end)",
+            "Blijf thuis als je ziek bent! — Stay home if you're sick!",
+            "Raak je gezicht niet aan! — Don't touch your face! (aanraken — separable; 'niet' before 'aan')"
+          ]
+        },
+        {
+          "rule": "Adviezen van de dokter — the doctor's instructions",
+          "examples": [
+            "Meet je koorts. — Measure your temperature.",
+            "Blijf thuis met de mazelen. — Stay home with the measles.",
+            "Hoest eens. — Give a cough. ('eens' softens the command — very Belgian)",
+            "Verzorg je vinger. — Treat your finger.",
+            "Ga naar de tandarts. — Go to the dentist.",
+            "Je moet thuisblijven. — You must stay home. (modal + infinitive, not an imperative)",
+            "→ Full imperative rule (incl. the formal 'u' form): [[imperative]]"
+          ]
+        },
+        {
+          "rule": "Voorschrijven — a separable verb at work",
+          "examples": [
+            "voorschrijven (to prescribe) → de prefix 'voor-' detaches in a main clause.",
+            "Zij schrijft een antibioticum voor. (She prescribes an antibiotic.) ← 'voor' jumps to the end",
+            "De dokter schrijft een hoestsiroop voor. (The doctor prescribes a cough syrup.)",
+            "Subclause — stays whole: '...omdat de dokter een medicijn voorschrijft.'",
+            "→ How separable verbs split: [[separable]]"
+          ]
+        }
+      ],
+      "memory": "🧠 Health advice = imperatives. Drop -en from the infinitive (wassen → Was!, blijven → Blijf!) and you have a command; soften it with 'eens' in Belgian Dutch. The one tricky verb is 'voorschrijven' — like every separable verb, the prefix 'voor' flies to the end of a main clause: 'de dokter schrijft een medicijn voor'.",
+      "examples": [
+        {
+          "nl": "Was je handen regelmatig en raak je gezicht niet aan.",
+          "en": "Wash your hands regularly and don't touch your face."
+        },
+        {
+          "nl": "Hoest of nies in je elleboog en gooi gebruikte zakdoekjes weg.",
+          "en": "Cough or sneeze into your elbow and throw used tissues away."
+        },
+        {
+          "nl": "Blijf thuis als je ziek bent. Je moet thuisblijven met koorts.",
+          "en": "Stay home if you're sick. You must stay home with a fever."
+        },
+        {
+          "nl": "De dokter schrijft een medicijn voor.",
+          "en": "The doctor prescribes a medicine."
+        },
+        {
+          "nl": "Meet je koorts en verzorg je vinger goed.",
+          "en": "Measure your temperature and treat your finger well."
+        }
+      ],
+      "practice": [
+        {
+          "role": "A",
+          "nl": "Ik ben ziek. Wat moet ik doen?",
+          "en": "I'm sick. What should I do?"
+        },
+        {
+          "role": "B",
+          "nl": "Blijf thuis en rust uit. Meet eerst je koorts.",
+          "en": "Stay home and rest. First measure your temperature."
+        },
+        {
+          "role": "A",
+          "nl": "En als ik moet hoesten?",
+          "en": "And if I have to cough?"
+        },
+        {
+          "role": "B",
+          "nl": "Hoest of nies in je elleboog en gooi gebruikte zakdoekjes weg.",
+          "en": "Cough or sneeze into your elbow and throw used tissues away."
+        },
+        {
+          "role": "A",
+          "nl": "Moet ik naar de dokter?",
+          "en": "Do I need to go to the doctor?"
+        },
+        {
+          "role": "B",
+          "nl": "Ja. De dokter schrijft misschien een medicijn voor. Veel beterschap!",
+          "en": "Yes. The doctor may prescribe a medicine. Get well soon!"
+        }
+      ],
+      "relatedRules": [
+        "lp6b",
+        "imperative",
+        "separable"
+      ],
+      "relatedWoordjes": [
+        "health",
+        "body"
+      ]
+    }
+  ]
+}

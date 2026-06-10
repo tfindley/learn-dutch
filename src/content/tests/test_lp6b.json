@@ -1,0 +1,88 @@
+{
+  "id": "test_lp6b",
+  "order": 17,
+  "title": "Leerpad 6B · Wat scheelt er?",
+  "subtitle": "Body parts, symptoms, and the doctor's imperatives",
+  "leerpad": "6B",
+  "difficulty": "medium",
+  "emoji": "🤒",
+  "questions": [
+    {
+      "q": "Which is correct for 'I have a cold'?",
+      "options": [
+        "Ik heb verkouden.",
+        "Ik ben verkouden.",
+        "Ik heb de verkouden.",
+        "Ik ben een verkouden."
+      ],
+      "answer": 1,
+      "explanation": "'verkouden' is an adjective, so you say 'ik BEN verkouden' (literally 'I am cold-ish'), not 'ik heb'. Compare 'ik heb koorts' (koorts is a noun → heb)."
+    },
+    {
+      "q": "What is the correct article for 'leg'?",
+      "options": [
+        "de been",
+        "het been",
+        "den been",
+        "either de or het"
+      ],
+      "answer": 1,
+      "explanation": "It's 'het been' — a het-word, even though the plural switches to 'de benen'. The same trap hits het oog → de ogen and het oor → de oren."
+    },
+    {
+      "q": "Which three sentences all mean 'my back hurts'?",
+      "options": [
+        "ik heb rugpijn / mijn rug doet pijn / ik heb pijn aan mijn rug",
+        "ik heb rugpijn / mijn rug is pijn / ik doe rugpijn",
+        "mijn rug pijn / ik ben rugpijn / rug doet mij",
+        "ik heb pijn rug / mijn rug heeft pijn / ik rug pijn"
+      ],
+      "answer": 0,
+      "explanation": "The three interchangeable patterns are: 'ik heb [deel]pijn', 'mijn [deel] doet pijn', and 'ik heb pijn aan mijn [deel]'. All three work for any body part."
+    },
+    {
+      "q": "'voorschrijven' (to prescribe) in a main clause: which is correct?",
+      "options": [
+        "De dokter voorschrijft een medicijn.",
+        "De dokter schrijft voor een medicijn.",
+        "De dokter schrijft een medicijn voor.",
+        "De dokter een medicijn voorschrijft."
+      ],
+      "answer": 2,
+      "explanation": "voorschrijven is separable: in a main clause the prefix 'voor' detaches and jumps to the end — 'De dokter schrijft een medicijn voor.'"
+    },
+    {
+      "q": "Make an imperative from 'wassen': 'Wash your hands!'",
+      "options": [
+        "Wassen je handen!",
+        "Was je handen!",
+        "Je wast je handen!",
+        "Wast je handen!"
+      ],
+      "answer": 1,
+      "explanation": "The imperative drops -en from the infinitive (wassen → was), same as the ik-stem: 'Was je handen!' No subject, no -t ending."
+    },
+    {
+      "q": "Where does 'de dierenarts' work?",
+      "options": [
+        "with teeth (the dentist)",
+        "with animals (the vet)",
+        "at the pharmacy",
+        "with eyes (the optician)"
+      ],
+      "answer": 1,
+      "explanation": "dier (animal) + arts (doctor) = de dierenarts, the vet. de tandarts (tand = tooth) is the dentist; de apotheek is the pharmacy."
+    },
+    {
+      "q": "What do you say to someone who is ill?",
+      "options": [
+        "Veel plezier!",
+        "Veel beterschap!",
+        "Veel geluk!",
+        "Tot ziens!"
+      ],
+      "answer": 1,
+      "explanation": "'Veel beterschap!' = Get well soon! 'Veel plezier' = have fun, 'veel geluk' = good luck, 'tot ziens' = goodbye."
+    }
+  ]
+}

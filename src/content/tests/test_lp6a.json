@@ -1,0 +1,88 @@
+{
+  "id": "test_lp6a",
+  "order": 16,
+  "title": "Leerpad 6A · Een woning zoeken",
+  "subtitle": "Location prepositions and Belgian housing vocabulary",
+  "leerpad": "6A",
+  "difficulty": "medium",
+  "emoji": "🏠",
+  "questions": [
+    {
+      "q": "Which preposition means 'opposite / across from'?",
+      "options": [
+        "tussen",
+        "tegenover",
+        "naast",
+        "onder"
+      ],
+      "answer": 1,
+      "explanation": "tegenover = opposite / across from ('tegenover de school'). tussen = between, naast = next to, onder = under."
+    },
+    {
+      "q": "'Een rijhuis' in Belgian Dutch is…",
+      "options": [
+        "a detached villa",
+        "a terraced house",
+        "a flat / apartment",
+        "a farmhouse"
+      ],
+      "answer": 1,
+      "explanation": "Een rijhuis is a terraced house — a house in a row, sharing both walls. It's the Belgian word; NL Dutch says 'rijtjeshuis'."
+    },
+    {
+      "q": "Complete: 'Achter mijn huis ___ grote bomen.' (plural subject)",
+      "options": [
+        "staat",
+        "staan",
+        "sta",
+        "zit"
+      ],
+      "answer": 1,
+      "explanation": "The subject 'grote bomen' is plural, so the verb is 'staan'. Trees stand upright → staan (not zitten or liggen). 'Achter mijn huis staan grote bomen.'"
+    },
+    {
+      "q": "Front the place word: turn 'Een garage staat naast mijn huis.' into a natural inverted sentence.",
+      "options": [
+        "Naast mijn huis een garage staat.",
+        "Naast mijn huis staat een garage.",
+        "Naast mijn huis staat garage een.",
+        "Staat naast mijn huis een garage."
+      ],
+      "answer": 1,
+      "explanation": "When a place phrase is fronted, the verb takes position 2 and the subject follows it: 'Naast mijn huis [1] staat [2] een garage [3].' This is the same V2/inversion rule as with fronted time words."
+    },
+    {
+      "q": "Which verb fits an animal that is 'sitting' somewhere, e.g. 'Mijn kat ___ onder de boom'?",
+      "options": [
+        "staat",
+        "ligt",
+        "zit",
+        "loopt"
+      ],
+      "answer": 2,
+      "explanation": "Dutch uses zitten for animals and contained things ('Mijn kat zit onder de boom'). staan = upright, liggen = lying flat."
+    },
+    {
+      "q": "What does 'aan de overkant' mean?",
+      "options": [
+        "upstairs",
+        "in the countryside",
+        "on the other side / across the street",
+        "next to the garage"
+      ],
+      "answer": 2,
+      "explanation": "de overkant = the other side, so 'aan de overkant' = across the street / on the other side. 'op het platteland' = in the countryside, 'boven / naar boven' = upstairs."
+    },
+    {
+      "q": "Which sentence correctly says 'We live in the countryside'?",
+      "options": [
+        "Wij wonen in het platteland.",
+        "Wij wonen op het platteland.",
+        "Wij wonen aan het platteland.",
+        "Wij wonen naar het platteland."
+      ],
+      "answer": 1,
+      "explanation": "It's 'op het platteland' — Dutch uses 'op' for living in the countryside, not 'in'. 'Wij wonen op het platteland.'"
+    }
+  ]
+}

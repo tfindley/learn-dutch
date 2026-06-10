@@ -1,0 +1,96 @@
+{
+  "id": "housing",
+  "order": 34,
+  "title": {
+    "nl": "Wonen",
+    "en": "Housing"
+  },
+  "emoji": "🏠",
+  "color": "#b9770e",
+  "words": [
+    {
+      "nl": "de woning",
+      "phonetic": "duh VOH-ning",
+      "en": "the dwelling / home",
+      "tip": "The general word for a place to live. 'Een woning zoeken' = to look for a home."
+    },
+    {
+      "nl": "het huis",
+      "phonetic": "huht howss",
+      "en": "the house",
+      "tip": "'ui' vowel. 'Naar huis' = home (direction). 'thuis' = at home."
+    },
+    {
+      "nl": "het rijhuis",
+      "phonetic": "huht RAY-howss",
+      "en": "the terraced house",
+      "tip": "Belgian Dutch! In NL Dutch it's 'rijtjeshuis'. A house in a row, sharing both walls."
+    },
+    {
+      "nl": "de tweewoonst",
+      "phonetic": "duh TWAY-vohnst",
+      "en": "the semi-detached house",
+      "tip": "Belgian Dutch! Two houses joined as a pair (a 'house-pair'). NL: 'twee-onder-een-kap'."
+    },
+    {
+      "nl": "het appartement",
+      "phonetic": "huht ah-par-tuh-MENT",
+      "en": "the flat / apartment",
+      "tip": "French origin, stress on the last syllable."
+    },
+    {
+      "nl": "het platteland",
+      "phonetic": "huht PLAH-tuh-lant",
+      "en": "the countryside",
+      "tip": "'Op het platteland wonen' = to live in the countryside (use 'op', not 'in')."
+    },
+    {
+      "nl": "het dak",
+      "phonetic": "huht dak",
+      "en": "the roof",
+      "tip": "Short 'a'. Plural: de daken. 'op het dak' = on the roof."
+    },
+    {
+      "nl": "de centrale verwarming",
+      "phonetic": "duh sen-TRAH-luh fur-VAR-ming",
+      "en": "central heating",
+      "tip": "Verwarmen = to heat. A selling point when house-hunting!"
+    },
+    {
+      "nl": "het openbaar vervoer",
+      "phonetic": "huht OH-pun-baar fur-VOOR",
+      "en": "public transport",
+      "tip": "Openbaar = public. 'Met het openbaar vervoer' = by public transport."
+    },
+    {
+      "nl": "de overkant",
+      "phonetic": "duh OH-fur-kant",
+      "en": "the other side",
+      "tip": "'Aan de overkant' = across the street / on the other side."
+    },
+    {
+      "nl": "de kamer",
+      "phonetic": "duh KAH-mur",
+      "en": "the room",
+      "tip": "Plural: de kamers. 'een huis met zeven kamers' = a house with seven rooms."
+    },
+    {
+      "nl": "de keuken",
+      "phonetic": "duh KUH-kun",
+      "en": "the kitchen",
+      "tip": "'eu' vowel. 'De keuken is vol licht' = the kitchen is full of light."
+    },
+    {
+      "nl": "de garage",
+      "phonetic": "duh khah-RAH-zhuh",
+      "en": "the garage",
+      "tip": "French origin — soft 'g' like the 's' in 'measure'. 'voor de garage' = in front of the garage."
+    },
+    {
+      "nl": "de tuin",
+      "phonetic": "duh town",
+      "en": "the garden",
+      "tip": "'ui' vowel. 'Achter het huis is een tuin' = behind the house is a garden."
+    }
+  ]
+}

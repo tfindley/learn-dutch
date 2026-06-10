@@ -1,0 +1,120 @@
+{
+  "id": "health",
+  "order": 33,
+  "title": {
+    "nl": "Bij de dokter",
+    "en": "Health & Illness"
+  },
+  "emoji": "🤒",
+  "color": "#1f8a70",
+  "words": [
+    {
+      "nl": "Wat scheelt er?",
+      "phonetic": "vat SKHAYLT ur",
+      "en": "What's wrong?",
+      "tip": "The standard opener at the doctor's. Literally 'what's the matter?'"
+    },
+    {
+      "nl": "de pijn",
+      "phonetic": "duh payn",
+      "en": "the pain",
+      "tip": "'ij' = 'eye'. Combine: hoofdpijn, buikpijn, keelpijn, rugpijn, tandpijn."
+    },
+    {
+      "nl": "de koorts",
+      "phonetic": "duh kohrts",
+      "en": "the fever",
+      "tip": "'Ik heb koorts' = I have a fever. 'Ik heb 38 graden koorts.'"
+    },
+    {
+      "nl": "verkouden",
+      "phonetic": "vur-KOW-dun",
+      "en": "having a cold",
+      "tip": "An adjective! Say 'ik BEN verkouden', not 'ik heb'. 'au/ou' = 'ow'."
+    },
+    {
+      "nl": "hoesten",
+      "phonetic": "HOOS-tun",
+      "en": "to cough",
+      "tip": "ik hoest · 'ik moet veel hoesten' = I have to cough a lot."
+    },
+    {
+      "nl": "niezen",
+      "phonetic": "NEE-zun",
+      "en": "to sneeze",
+      "tip": "ik nies · 'ik moet niezen' = I have to sneeze. Z → soft 's' at the start."
+    },
+    {
+      "nl": "de mazelen",
+      "phonetic": "duh MAH-zuh-lun",
+      "en": "the measles",
+      "tip": "Always plural. 'Ik heb de mazelen' = I have the measles."
+    },
+    {
+      "nl": "de dokter",
+      "phonetic": "duh DOK-tur",
+      "en": "the doctor",
+      "tip": "Also 'de huisarts' = the GP / family doctor."
+    },
+    {
+      "nl": "de tandarts",
+      "phonetic": "duh TANT-arts",
+      "en": "the dentist",
+      "tip": "Tand (tooth) + arts (doctor). 'Ga naar de tandarts' = go to the dentist."
+    },
+    {
+      "nl": "de dierenarts",
+      "phonetic": "duh DEE-run-arts",
+      "en": "the vet",
+      "tip": "Dier (animal) + arts (doctor). For your dog or cat, not for you!"
+    },
+    {
+      "nl": "de apotheek",
+      "phonetic": "duh ah-poh-TAYK",
+      "en": "the pharmacy / chemist's",
+      "tip": "Stress on the last syllable. Where you collect your medicine."
+    },
+    {
+      "nl": "het voorschrift",
+      "phonetic": "huht FOHR-skhrift",
+      "en": "the prescription",
+      "tip": "Verb: 'voorschrijven' (separable) → 'de dokter schrijft een medicijn voor'."
+    },
+    {
+      "nl": "het medicijn",
+      "phonetic": "huht may-dee-SAYN",
+      "en": "the medicine",
+      "tip": "Stress on the last syllable. Plural: de medicijnen."
+    },
+    {
+      "nl": "de hoestsiroop",
+      "phonetic": "duh HOOST-see-rohp",
+      "en": "the cough syrup",
+      "tip": "Hoest (cough) + siroop (syrup). Long 'oo' = 'oh'."
+    },
+    {
+      "nl": "de neusspray",
+      "phonetic": "duh NUS-spray",
+      "en": "the nose spray",
+      "tip": "Neus (nose) + spray (borrowed from English)."
+    },
+    {
+      "nl": "de bijsluiter",
+      "phonetic": "duh BAY-slow-tur",
+      "en": "the package leaflet",
+      "tip": "The instruction leaflet inside a medicine box. 'Lees de bijsluiter' = read the leaflet."
+    },
+    {
+      "nl": "de handtekening",
+      "phonetic": "duh HANT-tay-kuh-ning",
+      "en": "the signature",
+      "tip": "Hand + tekening (drawing). 'Zet je handtekening' = put your signature."
+    },
+    {
+      "nl": "Veel beterschap!",
+      "phonetic": "fayl BAY-tur-skhap",
+      "en": "Get well soon!",
+      "tip": "The standard thing to say to someone who's ill."
+    }
+  ]
+}
